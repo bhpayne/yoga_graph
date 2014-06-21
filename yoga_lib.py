@@ -3,6 +3,8 @@ import networkx as nx
 import matplotlib.pyplot as plt
 import subprocess
 import time
+import os
+import fnmatch
 
 def plot_graph_nodes(DG):
 	#nx.draw_random(DG)
@@ -31,10 +33,21 @@ def launch_picture(picturename,delay,viewer):
 	print("picture = "+picturename)
 	viewer = subprocess.Popen([viewer, picturename])
 	time.sleep(delay)
-	viewer.terminate()
-	viewer.kill()
+# 	viewer.terminate()
+# 	viewer.kill()
 	# better:
 	# osascript -e 'tell application "Preview" to quit'
+	
+# https://docs.python.org/2/library/fnmatch.html
+def find_picture(current_indx,delay,viewer):
+	for filename in os.listdir('.'):
+		list_of_files=[]
+		if fnmatch.fnmatch(filename, str(current_indx)+'__*'):
+			list_of_files.append(filename)
+		if (len(list_of_files)>0):
+			picturename=random.choice(list_of_files)
+			launch_picture(picturename,delay,viewer)
+
 
 def random_flow(DG,entry_point_indx,max_poses,field_val,delay,viewer):
 	print("number of poses: "+str(max_poses))
@@ -44,9 +57,7 @@ def random_flow(DG,entry_point_indx,max_poses,field_val,delay,viewer):
 	pose_count=1
 	while(pose_count<max_poses):
 # 		print(DG.node[current_indx])	
-		if (DG.node[current_indx]["picture"] != ""):
-			picturename=DG.node[current_indx]["picture"]
-			launch_picture(picturename,delay,viewer)
+		find_picture(current_indx,delay,viewer)
 
 		print("choices:")
 		choices=DG.successors(current_indx)

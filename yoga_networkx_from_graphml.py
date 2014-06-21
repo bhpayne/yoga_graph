@@ -5,6 +5,8 @@ import yoga_lib as ylib
 import yoga_db as ydb
 
 viewer='/Applications/Preview.app/Contents/MacOS/Preview'
+#viewer='/Applications/Firefox.app/Contents/MacOS/firefox'
+#viewer='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
 
 # initialize graph
 DG=nx.DiGraph()
