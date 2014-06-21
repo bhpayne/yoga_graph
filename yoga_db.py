@@ -1,12 +1,24 @@
+#!/usr/bin/env python
+"""
+Ben Payne
+ben.is.located@gmail.com
 
-# http://www.yogajournal.com/poses/finder/browse_categories
-# http://www.theyogaposes.com/
-# http://www.joythruyoga.com/list-of-yoga-poses.html
-# https://en.wikipedia.org/wiki/List_of_asanas
-# https://yoga.com/poses
+Yoga graph
 
-# http://www.frangallo.com/wp-content/uploads/2014/01/dharma-mittra.jpg
-# http://yoganonymous.com/wp-content/uploads/2013/05/DM-BW-Forearm-Balance-Backbend-618x396.jpg
+This is a set of functions called by the main YogaGraph program
+
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. 
+To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.
+"""
+
+"""
+reference sites:
+http://www.yogajournal.com/poses/finder/browse_categories
+http://www.theyogaposes.com/
+http://www.joythruyoga.com/list-of-yoga-poses.html
+https://en.wikipedia.org/wiki/List_of_asanas
+https://yoga.com/poses
+"""
 
 def pose_properties(DG):
 	DG.add_node(0,english_name="table top")
@@ -21,7 +33,7 @@ def pose_properties(DG):
 	DG.add_node(1,english_name="cow")
 	DG.node[1]["two_sided"]=False
 	DG.node[1]["description"]="on all fours; pull chest to floor and head up"
-	DG.node[1]["yogajournalurl"]=""
+	DG.node[1]["yogajournalurl"]="http://www.yogajournal.com/poses/2467"
 	DG.node[1]["hindi_name"]="marjaryasana"
 	#DG.node[1]["picture"]=""
 	DG.node[1]["asanas_608_page"]="373"
@@ -30,7 +42,7 @@ def pose_properties(DG):
 	DG.add_node(2,english_name="cat")
 	DG.node[2]["two_sided"]=False
 	DG.node[2]["description"]="on all fours; pull chest to ceiling and head down"
-	DG.node[2]["yogajournalurl"]=""
+	DG.node[2]["yogajournalurl"]="http://www.yogajournal.com/poses/2468"
 	DG.node[2]["hindi_name"]="marjaryasana"
 	#DG.node[2]["picture"]=""
 	DG.node[2]["asanas_608_page"]="372"
@@ -39,7 +51,7 @@ def pose_properties(DG):
 	DG.add_node(3,english_name="child's pose")
 	DG.node[3]["two_sided"]=False
 	DG.node[3]["description"]="arms stretched above head, face to ground. On shins"
-	DG.node[3]["yogajournalurl"]=""
+	DG.node[3]["yogajournalurl"]="http://www.yogajournal.com/poses/475"
 	DG.node[3]["hindi_name"]=""
 	#DG.node[3]["picture"]=""
 	DG.node[3]["asanas_608_page"]=""
@@ -57,7 +69,7 @@ def pose_properties(DG):
 	DG.add_node(5,english_name="dolphin")
 	DG.node[5]["two_sided"]=False
 	DG.node[5]["description"]="feet and forearms on floor"
-	DG.node[5]["yogajournalurl"]=""
+	DG.node[5]["yogajournalurl"]="http://www.yogajournal.com/poses/2462"
 	DG.node[5]["hindi_name"]=""
 	#DG.node[5]["picture"]=""
 	DG.node[5]["asanas_608_page"]=""
@@ -75,7 +87,7 @@ def pose_properties(DG):
 	DG.add_node(7,english_name="bow pose")
 	DG.node[7]["two_sided"]=False
 	DG.node[7]["description"]=""
-	DG.node[7]["yogajournalurl"]=""
+	DG.node[7]["yogajournalurl"]="http://www.yogajournal.com/poses/875"
 	DG.node[7]["hindi_name"]=""
 	#DG.node[7]["picture"]=""
 	DG.node[7]["asanas_608_page"]=""
@@ -111,7 +123,7 @@ def pose_properties(DG):
 	DG.add_node(11,english_name="plow pose")
 	DG.node[11]["two_sided"]=False
 	DG.node[11]["description"]=""
-	DG.node[11]["yogajournalurl"]=""
+	DG.node[11]["yogajournalurl"]="http://www.yogajournal.com/poses/479"
 	DG.node[11]["hindi_name"]=""
 	#DG.node[11]["picture"]=""
 	DG.node[11]["asanas_608_page"]=""
@@ -129,7 +141,7 @@ def pose_properties(DG):
 	DG.add_node(13,english_name="plank")
 	DG.node[13]["two_sided"]=False
 	DG.node[13]["description"]=""
-	DG.node[13]["yogajournalurl"]=""
+	DG.node[13]["yogajournalurl"]="http://www.yogajournal.com/poses/470"
 	DG.node[13]["hindi_name"]=""
 	#DG.node[13]["picture"]=""
 	DG.node[13]["asanas_608_page"]=""
@@ -269,7 +281,7 @@ def pose_properties(DG):
 	DG.add_node(32,english_name="happy baby; rock side to side")
 	DG.node[32]["two_sided"]=False
 	DG.node[32]["description"]="on back, feet up"
-	DG.node[32]["yogajournalurl"]=""
+	DG.node[32]["yogajournalurl"]="http://www.yogajournal.com/poses/2497"
 	DG.node[32]["hindi_name"]=""
 	#DG.node[32]["picture"]=""
 
@@ -390,7 +402,7 @@ def pose_properties(DG):
 	DG.add_node(47,english_name="upward dog")
 	DG.node[47]["two_sided"]=False
 	DG.node[47]["description"]=""
-	DG.node[47]["yogajournalurl"]=""
+	DG.node[47]["yogajournalurl"]="http://www.yogajournal.com/poses/474"
 	DG.node[47]["hindi_name"]=""
 	#DG.node[47]["picture"]=""
 	DG.node[47]["asanas_608_page"]=""
@@ -417,7 +429,7 @@ def pose_properties(DG):
 	DG.add_node(50,english_name="full lotus")
 	DG.node[50]["two_sided"]=True
 	DG.node[50]["description"]=""
-	DG.node[50]["yogajournalurl"]=""
+	DG.node[50]["yogajournalurl"]="http://www.yogajournal.com/poses/488"
 	DG.node[50]["hindi_name"]="padmasana"
 	#DG.node[50]["picture"]=""
 	DG.node[50]["asanas_608_page"]="626"

@@ -1,3 +1,16 @@
+#!/usr/bin/env python
+"""
+Ben Payne
+ben.is.located@gmail.com
+
+Yoga graph
+
+This is a library called by the main YogaGraph program
+
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. 
+To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.
+"""
+
 import random
 import networkx as nx
 import matplotlib.pyplot as plt
