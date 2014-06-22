@@ -682,7 +682,7 @@ def pose_properties(DG):
 	DG.node[73]["asanas_608_page"]=""
 	DG.node[73]["asanas_608_english"]=""	
 
-	DG.add_node(74,english_name="tripod head stand; legs extended out")
+	DG.add_node(74,english_name="tripod head stand, legs extended out, arms at 90deg")
 	DG.node[74]["two_sided"]=False
 	DG.node[74]["description"]="arms at 90deg"
 	DG.node[74]["yogajournalurl"]=""
@@ -808,7 +808,7 @@ def pose_properties(DG):
 	DG.node[87]["asanas_608_page"]=""
 	DG.node[87]["asanas_608_english"]=""	
 
-	DG.add_node(88,english_name="scorpin")
+	DG.add_node(88,english_name="scorpion")
 	DG.node[88]["two_sided"]=False
 	DG.node[88]["description"]=""
 	DG.node[88]["yogajournalurl"]=""
@@ -817,7 +817,7 @@ def pose_properties(DG):
 	DG.node[88]["asanas_608_page"]=""
 	DG.node[88]["asanas_608_english"]=""	
 
-	DG.add_node(89,english_name="")
+	DG.add_node(89,english_name="bird of paradise, bent forward, leg to side")
 	DG.node[89]["two_sided"]=False
 	DG.node[89]["description"]=""
 	DG.node[89]["yogajournalurl"]=""
@@ -826,14 +826,14 @@ def pose_properties(DG):
 	DG.node[89]["asanas_608_page"]=""
 	DG.node[89]["asanas_608_english"]=""	
 
-# 	DG.add_node(9,english_name="")
-# 	DG.node[9]["two_sided"]=False
-# 	DG.node[9]["description"]=""
-# 	DG.node[9]["yogajournalurl"]=""
-# 	DG.node[9]["hindi_name"]=""
-# 	DG.node[9]["comment"]=""
-# 	DG.node[9]["asanas_608_page"]=""
-# 	DG.node[9]["asanas_608_english"]=""	
+	DG.add_node(90,english_name="tripod head stand, legs straight, arms straight")
+	DG.node[90]["two_sided"]=False
+	DG.node[90]["description"]=""
+	DG.node[90]["yogajournalurl"]=""
+	DG.node[90]["hindi_name"]=""
+	DG.node[90]["comment"]=""
+	DG.node[90]["asanas_608_page"]=""
+	DG.node[90]["asanas_608_english"]=""	
 
 # 	DG.add_node(9,english_name="")
 # 	DG.node[9]["two_sided"]=False
@@ -1166,7 +1166,7 @@ def pose_transitions(DG):
 	DG.add_weighted_edges_from([(57,69,1)])   # 57 = bent over wide legs, parallel feet; 69 = tripod head stand, legs bent, arms at 90deg
 
 	DG.add_weighted_edges_from([(58,69,1)])   # 58 = tripod head stand, legs extended straight up, arms at 90deg; 69 = tripod head stand, legs bent, arms at 90deg
-	DG.add_weighted_edges_from([(58,74,1)])   # 58 = tripod head stand, legs extended straight up, arms at 90deg; 74 = tripod head stand; legs extended out
+	DG.add_weighted_edges_from([(58,74,1)])   # 58 = tripod head stand, legs extended straight up, arms at 90deg; 74 = tripod head stand, legs extended out, arms at 90deg
 	DG.add_weighted_edges_from([(58,75,1)])   # 58 = tripod head stand, legs extended straight up, arms at 90deg; 75 = no-handed head stand
 
 	DG.add_weighted_edges_from([(59,3,1)])   # 59 = arms to side; 3 = child's pose
@@ -1187,10 +1187,10 @@ def pose_transitions(DG):
 	DG.add_weighted_edges_from([(64,65,1)])   # 64 = bind; 65 = bird of paradise
 
 	DG.add_weighted_edges_from([(65,64,1)])   # 65 = bird of paradise; 64 = bind
-	DG.add_weighted_edges_from([(65,66,1)])   # 65 = bird of paradise; 66 = funky bird of paradise
 	DG.add_weighted_edges_from([(65,67,1)])   # 65 = bird of paradise; 67 = standing bend bound twist
+	DG.add_weighted_edges_from([(65,89,1)])   # 65 = bird of paradise; 89 = bird of paradise, bent forward, leg to side
 
-	DG.add_weighted_edges_from([(66,65,1)])   # 66 = funky bird of paradise; 65 = bird of paradise
+	DG.add_weighted_edges_from([(66,67,1)])   # 66 = funky bird of paradise; 67 = standing bend bound twist
 
 	DG.add_weighted_edges_from([(67,65,1)])   # 67 = standing bend bound twist; 65 = bird of paradise
 	DG.add_weighted_edges_from([(67,68,1)])   # 67 = standing bend bound twist; 68 = standing bend, legs apart
@@ -1204,6 +1204,7 @@ def pose_transitions(DG):
 	DG.add_weighted_edges_from([(69,54,1)])   # 69 = tripod head stand, legs bent, arms at 90deg; 54 = 
 	DG.add_weighted_edges_from([(69,57,1)])   # 69 = tripod head stand, legs bent, arms at 90deg; 57 = 
 	DG.add_weighted_edges_from([(69,58,1)])   # 69 = tripod head stand, legs bent, arms at 90deg; 58 = tripod head stand, legs extended straight up, arms at 90deg
+	DG.add_weighted_edges_from([(69,86,1)])   # 69 = tripod head stand, legs bent, arms at 90deg; 86 = tripod head stand, legs bent, arms straight
 
 	DG.add_weighted_edges_from([(70,40,1)])   # 70 = floating elephant trunk; one leg over arm; 40 = rock bent leg
 	DG.add_weighted_edges_from([(70,71,1)])   # 70 = floating elephant trunk; one leg over arm; 71 = eight angle pose
@@ -1214,7 +1215,7 @@ def pose_transitions(DG):
 
 	DG.add_weighted_edges_from([(73,4,1)])   # 73 = peddle feet; 4 = downward dog
 
-	DG.add_weighted_edges_from([(74,58,1)])   # 74 = tripod head stand; legs extended out; 58 = tripod head stand, legs extended straight up, arms at 90deg
+	DG.add_weighted_edges_from([(74,58,1)])   # 74 = tripod head stand, legs extended out, arms at 90deg; 58 = tripod head stand, legs extended straight up, arms at 90deg
 
 	DG.add_weighted_edges_from([(75,58,1)])   # 75 = no-handed head stand; 58 = tripod head stand, legs extended straight up, arms at 90deg
 
@@ -1239,8 +1240,15 @@ def pose_transitions(DG):
 
 	DG.add_weighted_edges_from([(85,13,1)])  # 85 = forearm plank; 13 = plank
 
+	DG.add_weighted_edges_from([(86,69,1)])   # 86 = tripod head stand, legs bent, arms straight; 69 = tripod head stand, legs bent, arms at 90deg
+	DG.add_weighted_edges_from([(86,90,1)])   # 86 = tripod head stand, legs bent, arms straight; 90 = tripod head stand, legs straight, arms straight
 
 	DG.add_weighted_edges_from([(87,20,1)])   # 87 = standing back bend; 20 = stand straight (mountain)
 
+# 	DG.add_weighted_edges_from([(88,,1)])   # 88 = scorpion ; 
+
+	DG.add_weighted_edges_from([(89,65,1)])   # 89 = bird of paradise, bent forward, leg to side; 65 = bird of paradise
+
+	DG.add_weighted_edges_from([(90,86,1)])   # 90 = tripod head stand, legs straight, arms straight; 86 = tripod head stand, legs bent, arms straight
 	
 	return DG

@@ -11,13 +11,13 @@ This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 Inte
 To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.
 """
 
-import random
-import networkx as nx
-import matplotlib.pyplot as plt
-import subprocess
-import time
+import networkx as nx # graph format
+import matplotlib.pyplot as plt # for plotting graph
+import random # for selecting next pose
+import subprocess # launch picture viewer 
+import time # for delaying next pose
 import os
-import fnmatch
+import fnmatch # for matching file name of pictures
 
 def plot_graph_nodes(DG):
 	#nx.draw_random(DG)
@@ -46,21 +46,27 @@ def launch_picture(picturename,delay,viewer):
 	print("picture = "+picturename)
 	viewer = subprocess.Popen([viewer, picturename])
 	time.sleep(delay)
-# 	viewer.terminate()
-# 	viewer.kill()
-	# better:
-	# osascript -e 'tell application "Preview" to quit'
+	viewer.terminate()
+	viewer.kill()
+	# better?
+# 	osascript -e 'tell application "Preview" to quit'
 	
 # https://docs.python.org/2/library/fnmatch.html
 def find_picture(current_indx,delay,viewer):
-	for filename in os.listdir('.'):
-		list_of_files=[]
+	list_of_files=[]
+	for filename in os.listdir('pose_pictures'):
+# 		print(filename)
 		if fnmatch.fnmatch(filename, str(current_indx)+'__*'):
+			print(filename)
 			list_of_files.append(filename)
-		if (len(list_of_files)>0):
-			picturename=random.choice(list_of_files)
-			launch_picture(picturename,delay,viewer)
-
+# 	print(list_of_files)
+	if (len(list_of_files)>0):
+		foundpic=True
+		picturename=random.choice(list_of_files)
+	else:
+		foundpic=False
+		picturename=""
+	return foundpic,picturename
 
 def random_flow(DG,entry_point_indx,max_poses,field_val,delay,viewer):
 	print("number of poses: "+str(max_poses))
@@ -69,9 +75,16 @@ def random_flow(DG,entry_point_indx,max_poses,field_val,delay,viewer):
 	current_indx = entry_point_indx
 	pose_count=1
 	while(pose_count<max_poses):
-# 		print(DG.node[current_indx])	
-		find_picture(current_indx,delay,viewer)
+# 		print(DG.node[current_indx])
 
+		# display current pose picture
+# 		print("finding pictures")
+		[foundpicture,picturename]=find_picture(current_indx,delay,viewer)
+# 		print("pic="+picturename)
+		if foundpicture:
+			launch_picture(picturename,delay,viewer)
+
+		# list next pose choices
 		print("choices:")
 		choices=DG.successors(current_indx)
 		#print(choices)
