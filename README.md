@@ -43,12 +43,23 @@ The networkx package makes working with graphs straight forward
 tasks
 =====
 
+install yaml on my macbook air
+
 Include more poses
 Include more transitions
+Include difficulty rankings for transitions
 Verify existing graph entries
 
-Include difficulty rankings for transitions
+document flows from various styles
+
+output different graph formats (i.e., for Yed, GraphML)
+
+save history to file -- pickle
+read in previous flow -- pickle
+replay previous flow
 
 Mac: Preview doesn't display the image
+
+graph: two sided paths (symmetry_history)
 
 

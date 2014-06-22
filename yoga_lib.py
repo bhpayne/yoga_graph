@@ -5,7 +5,8 @@ ben.is.located@gmail.com
 
 Yoga graph
 
-This is a library called by the main YogaGraph program
+This is a library of functions used by the main YogaGraph program
+This file contains no graph data
 
 This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. 
 To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.
@@ -18,13 +19,27 @@ import subprocess # launch picture viewer
 import time # for delaying next pose
 import os
 import fnmatch # for matching file name of pictures
+import yaml # used to read "config.input"
+
+
+def get_inputs(config_filename):
+	# https://yaml-online-parser.appspot.com/
+	input_stream=file(config_filename,'r')
+	input_data=yaml.load(input_stream)
+	viewer=input_data["viewer"]
+	directory_containing_pictures=input_data["directory_containing_pictures"]
+	entry_point_index=input_data["entry_point_index"]
+	max_poses=input_data["max_poses"]
+	delay=input_data["delay"]
+	field_value=input_data["field_value"]
+	return viewer,directory_containing_pictures,entry_point_index,max_poses,delay,field_value
 
 def plot_graph_nodes(DG):
 	#nx.draw_random(DG)
 	nx.draw_spring(DG)
 	plt.show()
 
-def plot_graph_with_label(DG,label_str):
+def plot_graph_with_labels(DG,label_str):
 	labels={}
 	for node_indx in DG.nodes():
 		labels[node_indx] = DG.node[node_indx][label_str]
@@ -35,7 +50,7 @@ def plot_graph_with_label(DG,label_str):
 	nx.draw_networkx_nodes(DG,pos)
 	nx.draw_networkx_edges(DG,pos,width=1)
 
-	plt.show()
+	plt.show() # matplotlib
 
 def list_cycles(DG):
 	print("cycles")
@@ -70,12 +85,17 @@ def find_picture(current_indx,delay,viewer):
 
 def random_flow(DG,entry_point_indx,max_poses,field_val,delay,viewer):
 	print("number of poses: "+str(max_poses))
+	pose_history=[] # all the poses
+	symmetry_history=[] # left-right cycle
 	print("entry point: ")
 	print(str(entry_point_indx)+" = "+DG.node[entry_point_indx][field_val])
 	current_indx = entry_point_indx
+
 	pose_count=1
 	while(pose_count<max_poses):
 # 		print(DG.node[current_indx])
+		pose_history.append[current_indx]
+		symmetry_history.append[current_indx]
 
 		# display current pose picture
 # 		print("finding pictures")
@@ -96,7 +116,10 @@ def random_flow(DG,entry_point_indx,max_poses,field_val,delay,viewer):
 		new_indx=random.choice(DG.successors(current_indx))
 		print("next move:")
 		print(str(new_indx)+" = "+DG.node[new_indx][field_val])
+		print(DG.node[new_indx][hindi_name])
+		print(DG.node[new_indx][description])
 		
 		current_indx=new_indx
 		pose_count = pose_count+1
 
+	return pose_history

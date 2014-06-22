@@ -5,7 +5,9 @@ ben.is.located@gmail.com
 
 Yoga graph
 
-This is a set of functions called by the main YogaGraph program
+This file contains two functions called by the main YogaGraph program:
+-pose_properties: contains information about the pose
+-pose_transitions: set of edges on the graph
 
 This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. 
 To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.

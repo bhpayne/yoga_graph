@@ -11,28 +11,17 @@ This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 Inte
 To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.
 """
 
+import networkx as nx # format for directed graph
+import yoga_db as ydb # nodes and edges of graph
+import yoga_lib as ylib # library of functions for acting on graph
 
-import random
-import networkx as nx
-import matplotlib.pyplot as plt
-import yoga_lib as ylib
-import yoga_db as ydb
+DG=nx.DiGraph() # initialize directed graph using networkx
+DG=ydb.pose_properties(DG) # load node properties
+DG=ydb.pose_transitions(DG) # load edges
 
-viewer='/Applications/Preview.app/Contents/MacOS/Preview'
-#viewer='/Applications/Firefox.app/Contents/MacOS/firefox'
-#viewer='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
+# ylib.plot_graph_nodes(DG) # generate visual graph using networkx
+# ylib.plot_graph_with_labels(DG,'english_name') # generate visual graph, plot using matplotlib
 
-# initialize graph
-DG=nx.DiGraph()
+[viewer,directory_containing_pictures,entry_point_index,max_poses,delay,field_value]=ylib.get_inputs("config.input")
 
-DG=ydb.pose_properties(DG)
-DG=ydb.pose_transitions(DG)
-
-# create visual graph
-#yl.plot_graph_with_label(DG,'english_name')
-
-entry_point_index=4
-max_poses=4
-delay=3 # seconds
-field_val='english_name'
-ylib.random_flow(DG,entry_point_index,max_poses,field_val,delay,viewer)
+pose_history=ylib.random_flow(DG,entry_point_index,max_poses,field_val,delay,viewer)
