@@ -174,7 +174,7 @@ def pose_properties(DG):
 
 	DG.add_node(17,english_name="standing bend")
 	DG.node[17]["two_sided"]=False
-	DG.node[17]["description"]=""
+	DG.node[17]["description"]="legs together, face to knees"
 	DG.node[17]["yogajournalurl"]=""
 	DG.node[17]["hindi_name"]=""
 	#DG.node[17]["picture"]=""
@@ -500,7 +500,7 @@ def pose_properties(DG):
 
 	DG.add_node(58,english_name="tripod head stand; legs extended straight up")
 	DG.node[58]["two_sided"]=False
-	DG.node[58]["description"]=""
+	DG.node[58]["description"]="arms at 90deg"
 	DG.node[58]["yogajournalurl"]=""
 	DG.node[58]["hindi_name"]=""
 	#DG.node[58]["picture"]=""
@@ -599,7 +599,7 @@ def pose_properties(DG):
 
 	DG.add_node(69,english_name="tripod head stand; legs bent")
 	DG.node[69]["two_sided"]=False
-	DG.node[69]["description"]=""
+	DG.node[69]["description"]="arms at 90deg"
 	DG.node[69]["yogajournalurl"]=""
 	DG.node[69]["hindi_name"]=""
 	#DG.node[69]["picture"]=""
@@ -644,14 +644,14 @@ def pose_properties(DG):
 
 	DG.add_node(74,english_name="tripod head stand; legs extended out")
 	DG.node[74]["two_sided"]=False
-	DG.node[74]["description"]=""
+	DG.node[74]["description"]="arms at 90deg"
 	DG.node[74]["yogajournalurl"]=""
 	DG.node[74]["hindi_name"]=""
 	#DG.node[74]["picture"]=""
 	DG.node[74]["asanas_608_page"]=""
 	DG.node[74]["asanas_608_english"]=""	
 
-	DG.add_node(75,english_name="no-handed headstand")
+	DG.add_node(75,english_name="no-handed head stand")
 	DG.node[75]["two_sided"]=False
 	DG.node[75]["description"]=""
 	DG.node[75]["yogajournalurl"]=""
@@ -750,7 +750,7 @@ def pose_properties(DG):
 	DG.node[85]["asanas_608_page"]=""
 	DG.node[85]["asanas_608_english"]=""	
 
-	DG.add_node(86,english_name="")
+	DG.add_node(86,english_name="tripod head stand; legs bent; arms straight")
 	DG.node[86]["two_sided"]=False
 	DG.node[86]["description"]=""
 	DG.node[86]["yogajournalurl"]=""
@@ -759,14 +759,14 @@ def pose_properties(DG):
 	DG.node[86]["asanas_608_page"]=""
 	DG.node[86]["asanas_608_english"]=""	
 
-# 	DG.add_node(8,english_name="")
-# 	DG.node[8]["two_sided"]=False
-# 	DG.node[8]["description"]=""
-# 	DG.node[8]["yogajournalurl"]=""
-# 	DG.node[8]["hindi_name"]=""
-# 	#DG.node[8]["picture"]=""
-# 	DG.node[8]["asanas_608_page"]=""
-# 	DG.node[8]["asanas_608_english"]=""	
+	DG.add_node(87,english_name="")
+	DG.node[87]["two_sided"]=False
+	DG.node[87]["description"]=""
+	DG.node[87]["yogajournalurl"]=""
+	DG.node[87]["hindi_name"]=""
+	#DG.node[87]["picture"]=""
+	DG.node[87]["asanas_608_page"]=""
+	DG.node[87]["asanas_608_english"]=""	
 
 # 	DG.add_node(8,english_name="")
 # 	DG.node[8]["two_sided"]=False
@@ -898,32 +898,32 @@ def pose_transitions(DG):
 
 	DG.add_weighted_edges_from([(20,17,1)])   # 20 = stand straight (mountain); 17 = standing bend
 	DG.add_weighted_edges_from([(20,21,1)])   # 20 = stand straight (mountain); 21 = happy camper
-	DG.add_weighted_edges_from([(20,23,1)])   # 20 = stand straight (mountain); 23 = 
-	DG.add_weighted_edges_from([(20,24,1)])   # 20 = stand straight (mountain); 24 = 
-	DG.add_weighted_edges_from([(20,27,1)])   # 20 = stand straight (mountain); 27 = 
+	DG.add_weighted_edges_from([(20,23,1)])   # 20 = stand straight (mountain); 23 = warrior 3
+	DG.add_weighted_edges_from([(20,24,1)])   # 20 = stand straight (mountain); 24 = warrior 1
+	DG.add_weighted_edges_from([(20,27,1)])   # 20 = stand straight (mountain); 27 = chair
 	DG.add_weighted_edges_from([(20,28,1)])   # 20 = stand straight (mountain); 28 = wheel
-	DG.add_weighted_edges_from([(20,46,1)])   # 20 = stand straight (mountain); 46 = 
+	DG.add_weighted_edges_from([(20,46,1)])   # 20 = stand straight (mountain); 46 = standing, legs apart
 
 	DG.add_weighted_edges_from([(21,20,1)])   # 21 = happy camper; 20 = stand straight (mountain)
-	DG.add_weighted_edges_from([(21,27,1)])   # 21 = happy camper; 27 = 
+	DG.add_weighted_edges_from([(21,27,1)])   # 21 = happy camper; 27 = chair
 	DG.add_weighted_edges_from([(21,72,1)])   # 21 = happy camper; 72 = 
 
-	DG.add_weighted_edges_from([(22,23,1)])   # 22 = tree pose; 23 = 
+	DG.add_weighted_edges_from([(22,23,1)])   # 22 = tree pose; 23 = warrior 3
 
 	DG.add_weighted_edges_from([(23,20,1)])   # 23 = warrior 3; 20 = stand straight (mountain)
-	DG.add_weighted_edges_from([(23,22,1)])   # 23 = warrior 3; 22 = 
-	DG.add_weighted_edges_from([(23,24,1)])   # 23 = warrior 3; 24 = 
-	DG.add_weighted_edges_from([(23,25,1)])   # 23 = warrior 3; 25 = 
-	DG.add_weighted_edges_from([(23,26,1)])   # 23 = warrior 3; 26 = 
+	DG.add_weighted_edges_from([(23,22,1)])   # 23 = warrior 3; 22 = tree pose
+	DG.add_weighted_edges_from([(23,24,1)])   # 23 = warrior 3; 24 = warrior 1
+	DG.add_weighted_edges_from([(23,25,1)])   # 23 = warrior 3; 25 = dancer pose
+	DG.add_weighted_edges_from([(23,26,1)])   # 23 = warrior 3; 26 = standing splits
 	DG.add_weighted_edges_from([(23,48,1)])   # 23 = warrior 3; 48 = one leg forward with knee bent
 
 	DG.add_weighted_edges_from([(24,20,1)])   # 24 = warrior 1; 20 = stand straight (mountain)
-	DG.add_weighted_edges_from([(24,23,1)])   # 24 = warrior 1; 23 = 
+	DG.add_weighted_edges_from([(24,23,1)])   # 24 = warrior 1; 23 = warrior 3
 	DG.add_weighted_edges_from([(24,29,1)])   # 24 = warrior 1; 29 = warrior 2
 
-	DG.add_weighted_edges_from([(25,23,1)])   # 25 = dancer pose; 23 = 
+	DG.add_weighted_edges_from([(25,23,1)])   # 25 = dancer pose; 23 = warrior 3
 
-	DG.add_weighted_edges_from([(26,23,1)])   # 26 = standing splits; 23 = 
+	DG.add_weighted_edges_from([(26,23,1)])   # 26 = standing splits; 23 = warrior 3
 
 	DG.add_weighted_edges_from([(27,20,1)])   # 27 = chair; 20 = stand straight (mountain)
 	DG.add_weighted_edges_from([(27,21,1)])   # 27 = chair; 21 = happy camper
@@ -932,7 +932,7 @@ def pose_transitions(DG):
 	DG.add_weighted_edges_from([(28,20,1)])   # 28 = wheel; 20 = stand straight (mountain)
 	DG.add_weighted_edges_from([(28,31,1)])   # 28 = wheel; 31 = corpse
 
-	DG.add_weighted_edges_from([(29,24,1)])   # 29 = warrior 2; 24 = 
+	DG.add_weighted_edges_from([(29,24,1)])   # 29 = warrior 2; 24 = warrior 1
 	DG.add_weighted_edges_from([(29,30,1)])   # 29 = warrior 2; 30 = 
 	DG.add_weighted_edges_from([(29,56,1)])   # 29 = warrior 2; 56 = 
 	DG.add_weighted_edges_from([(29,60,1)])   # 29 = warrior 2; 60 = 
@@ -950,13 +950,13 @@ def pose_transitions(DG):
 	DG.add_weighted_edges_from([(32,31,1)])   # 32 = happy baby; 31 = corpse
 
 	DG.add_weighted_edges_from([(33,34,1)])   # 33 = on back, knees bent, feet on ground; 34 = on back, knees bent, feet in air
-	DG.add_weighted_edges_from([(33,35,1)])   # 33 = on back, knees bent, feet on ground; 35 = 
+	DG.add_weighted_edges_from([(33,35,1)])   # 33 = on back, knees bent, feet on ground; 35 = knees to one side, head to other
 
 	DG.add_weighted_edges_from([(34,31,1)])   # 34 = on back, knees bent, feet in air; 31 = corpse
-	DG.add_weighted_edges_from([(34,33,1)])   # 34 = on back, knees bent, feet in air; 33 = 
-	DG.add_weighted_edges_from([(34,35,1)])   # 34 = on back, knees bent, feet in air; 35 = 
+	DG.add_weighted_edges_from([(34,33,1)])   # 34 = on back, knees bent, feet in air; 33 = on back, knees bent, feet on ground
+	DG.add_weighted_edges_from([(34,35,1)])   # 34 = on back, knees bent, feet in air; 35 = knees to one side, head to other
 
-	DG.add_weighted_edges_from([(35,33,1)])   # 35 = knees to one side, head to other; 33 = 
+	DG.add_weighted_edges_from([(35,33,1)])   # 35 = knees to one side, head to other; 33 = on back, knees bent, feet on ground
 	DG.add_weighted_edges_from([(35,34,1)])   # 35 = knees to one side, head to other; 34 = on back, knees bent, feet in air
 
 	DG.add_weighted_edges_from([(36,31,1)])   # 36 = staff; 31 = corpse
@@ -1006,7 +1006,7 @@ def pose_transitions(DG):
 	DG.add_weighted_edges_from([(47,15,1)])   # 47 = upward dog; 15 = low pushup
 
 	DG.add_weighted_edges_from([(48,13,1)])   # 48 = one leg forward with knee bent; 13 = plank
-	DG.add_weighted_edges_from([(48,23,1)])   # 48 = one leg forward with knee bent; 23 = 
+	DG.add_weighted_edges_from([(48,23,1)])   # 48 = one leg forward with knee bent; 23 = warrior 3
 
 	DG.add_weighted_edges_from([(49,36,1)])   # 49 = half lotus; 36 = staff
 	DG.add_weighted_edges_from([(49,50,1)])   # 49 = half lotus; 50 = full lotus
@@ -1035,7 +1035,7 @@ def pose_transitions(DG):
 
 	DG.add_weighted_edges_from([(58,69,1)])   # 58 = tripod head stand; legs extended straight up; 69 = tripod head stand; legs bent
 	DG.add_weighted_edges_from([(58,74,1)])   # 58 = tripod head stand; legs extended straight up; 74 = tripod head stand; legs extended out
-	DG.add_weighted_edges_from([(58,75,1)])   # 58 = tripod head stand; legs extended straight up; 75 = no-handed headstand
+	DG.add_weighted_edges_from([(58,75,1)])   # 58 = tripod head stand; legs extended straight up; 75 = no-handed head stand
 
 	DG.add_weighted_edges_from([(59,3,1)])   # 59 = arms to side; 3 = child's pose
 
@@ -1065,7 +1065,7 @@ def pose_transitions(DG):
 
 	DG.add_weighted_edges_from([(68,4,1)])   # 68 = standing bend, legs apart; 4 = downward dog
 	DG.add_weighted_edges_from([(68,17,1)])  # 68 = standing bend, legs apart; 17 = standing bend
-	DG.add_weighted_edges_from([(68,46,1)])  # 68 = standing bend, legs apart; 46 = 
+	DG.add_weighted_edges_from([(68,46,1)])  # 68 = standing bend, legs apart; 46 = standing, legs apart
 	DG.add_weighted_edges_from([(68,67,1)])  # 68 = standing bend, legs apart; 67 = standing bend bound twist
 
 	DG.add_weighted_edges_from([(69,45,1)])   # 69 = tripod head stand; legs bent; 45 = squat, knees wide
@@ -1084,7 +1084,7 @@ def pose_transitions(DG):
 
 	DG.add_weighted_edges_from([(74,58,1)])   # 74 = tripod head stand; legs extended out; 58 = tripod head stand; legs extended straight up
 
-	DG.add_weighted_edges_from([(75,58,1)])   # 75 = no-handed headstand; 58 = tripod head stand; legs extended straight up
+	DG.add_weighted_edges_from([(75,58,1)])   # 75 = no-handed head stand; 58 = tripod head stand; legs extended straight up
 
 	DG.add_weighted_edges_from([(76,4,1)])   # 76 = inverted tripod; 4 = downward dog
 
