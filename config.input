@@ -11,7 +11,7 @@ entry_point_index: 4
 
 max_poses: 100
 
-delay: 20
+delay: 3
 # in seconds
 
 field_value: english_name

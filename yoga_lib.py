@@ -18,9 +18,27 @@ import random # for selecting next pose
 import subprocess # launch picture viewer 
 import time # for delaying next pose
 import os
+import signal # for keyboard input with timeout
 import fnmatch # for matching file name of pictures
 import yaml # used to read "config.input"
 
+
+# def interrupted(signum, frame):
+# 	"called when read times out"
+# 	print 'interrupted!'
+# 	signal.signal(signal.SIGALRM, interrupted)
+
+def input(delay,signal):
+	try:
+		print 'You have '+str(delay)+' seconds to type in your stuff...'
+		foo = raw_input()
+		return foo
+	except:
+		# timeout
+		print("timeout reached")
+		signal.alarm(0)
+		foo = "none"
+		return foo
 
 def get_inputs(config_filename):
 	# https://yaml-online-parser.appspot.com/
@@ -83,6 +101,21 @@ def find_picture(current_indx,delay,viewer):
 		picturename=""
 	return foundpic,picturename
 
+# http://stackoverflow.com/questions/3471461/raw-input-and-timeout
+# http://stackoverflow.com/questions/1335507/keyboard-input-with-timeout-in-python
+def get_user_feedback(delay,difficulty):
+	user_feedback_speed = raw_input('Currently '+str(delay)+' seconds. faster/slower? [f/s]: ')
+	if (user_feedback_speed=="f"):
+		delay=delay-1
+	elif (user_feedback_speed=="s"):
+		delay=delay+1
+	user_feedback_difficulty = raw_input('Current max difficulty '+str(difficulty)+'. harder/easier? [h/e]: ')
+	if (user_feedback_difficulty=="h"):
+		difficulty=difficulty+1
+	elif (user_feedback_difficulty=="e"):
+		difficulty=difficulty-1
+	return delay,difficulty
+
 def random_flow(DG,entry_point_indx,max_poses,field_val,delay,viewer):
 	print("number of poses: "+str(max_poses))
 	pose_history=[] # all the poses
@@ -102,7 +135,14 @@ def random_flow(DG,entry_point_indx,max_poses,field_val,delay,viewer):
 		[foundpicture,picturename]=find_picture(current_indx,delay,viewer)
 # 		print("pic="+picturename)
 		print("\a")
-		
+# 		difficulty=1
+# 		[delay,difficulty]=get_user_feedback(delay,difficulty)
+		# set alarm
+# 		signal.alarm(delay)
+# 		s = input(delay,signal)
+		# disable the alarm after success
+# 		signal.alarm(0)
+# 		print 'You typed', s
 		time.sleep(delay)
 # 		if foundpicture:
 # 			launch_picture(picturename,delay,viewer)

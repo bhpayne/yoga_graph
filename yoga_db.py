@@ -117,19 +117,19 @@ def pose_properties(DG):
 	DG.node[10]["two_sided"]=False
 	DG.node[10]["description"]=""
 	DG.node[10]["yogajournalurl"]=""
-	DG.node[10]["hindi_name"]=""
+	DG.node[10]["hindi_name"]="Sarvangasana"
 	DG.node[10]["comment"]=""
-	DG.node[10]["asanas_608_page"]=""
-	DG.node[10]["asanas_608_english"]=""	
+	DG.node[10]["asanas_608_page"]="226"
+	DG.node[10]["asanas_608_english"]="Shoulder Stand Pose"	
 
 	DG.add_node(11,english_name="plow pose")
 	DG.node[11]["two_sided"]=False
 	DG.node[11]["description"]=""
 	DG.node[11]["yogajournalurl"]="http://www.yogajournal.com/poses/479"
-	DG.node[11]["hindi_name"]=""
+	DG.node[11]["hindi_name"]="Halasana"
 	DG.node[11]["comment"]=""
-	DG.node[11]["asanas_608_page"]=""
-	DG.node[11]["asanas_608_english"]=""	
+	DG.node[11]["asanas_608_page"]="249"
+	DG.node[11]["asanas_608_english"]="Plough pose (variation)"	
 
 	DG.add_node(12,english_name="ear pressure pose")
 	DG.node[12]["two_sided"]=False
@@ -544,10 +544,10 @@ def pose_properties(DG):
 	DG.node[58]["two_sided"]=False
 	DG.node[58]["description"]="arms at 90deg"
 	DG.node[58]["yogajournalurl"]=""
-	DG.node[58]["hindi_name"]=""
+	DG.node[58]["hindi_name"]="Salamba-Shirshasana"
 	DG.node[58]["comment"]=""
-	DG.node[58]["asanas_608_page"]=""
-	DG.node[58]["asanas_608_english"]=""	
+	DG.node[58]["asanas_608_page"]="181"
+	DG.node[58]["asanas_608_english"]="Supported Head Stand Pose"	
 
 	DG.add_node(59,english_name="arms to side")
 	DG.node[59]["two_sided"]=True
@@ -706,10 +706,10 @@ def pose_properties(DG):
 	DG.node[76]["two_sided"]=False
 	DG.node[76]["description"]=""
 	DG.node[76]["yogajournalurl"]=""
-	DG.node[76]["hindi_name"]=""
+	DG.node[76]["hindi_name"]="Niralamba-Shirshasana"
 	DG.node[76]["comment"]=""
-	DG.node[76]["asanas_608_page"]=""
-	DG.node[76]["asanas_608_english"]=""	
+	DG.node[76]["asanas_608_page"]="197"
+	DG.node[76]["asanas_608_english"]="Hands-free Head Stand Pose (Variation)"	
 
 	DG.add_node(77,english_name="seated wide-leg")
 	DG.node[77]["two_sided"]=False
