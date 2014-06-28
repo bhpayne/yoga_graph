@@ -1,6 +1,7 @@
 # configuration file for yoga_graph.py
 # Ben Payne <ben.is.located@gmail.com>
 
+use_viewer: False
 viewer:    /Applications/Preview.app/Contents/MacOS/Preview
 # viewer='/Applications/Firefox.app/Contents/MacOS/firefox'
 # viewer='/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome'
@@ -11,7 +12,7 @@ entry_point_index: 4
 
 max_poses: 100
 
-delay: 3
+delay: 20
 # in seconds
 
 field_value: english_name

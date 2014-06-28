@@ -22,11 +22,11 @@ import signal # for keyboard input with timeout
 import fnmatch # for matching file name of pictures
 import yaml # used to read "config.input"
 
-
-# def interrupted(signum, frame):
-# 	"called when read times out"
-# 	print 'interrupted!'
-# 	signal.signal(signal.SIGALRM, interrupted)
+"""
+def interrupted(signum, frame):
+	"called when read times out"
+	print 'interrupted!'
+	signal.signal(signal.SIGALRM, interrupted)
 
 def input(delay,signal):
 	try:
@@ -39,18 +39,20 @@ def input(delay,signal):
 		signal.alarm(0)
 		foo = "none"
 		return foo
+"""
 
 def get_inputs(config_filename):
 	# https://yaml-online-parser.appspot.com/
 	input_stream=file(config_filename,'r')
 	input_data=yaml.load(input_stream)
 	viewer=input_data["viewer"]
+	use_viewer=input_data["use_viewer"]
 	directory_containing_pictures=input_data["directory_containing_pictures"]
 	entry_point_index=input_data["entry_point_index"]
 	max_poses=input_data["max_poses"]
 	delay=input_data["delay"]
 	field_value=input_data["field_value"]
-	return viewer,directory_containing_pictures,entry_point_index,max_poses,delay,field_value
+	return viewer,use_viewer,directory_containing_pictures,entry_point_index,max_poses,delay,field_value
 
 def plot_graph_nodes(DG):
 	#nx.draw_random(DG)
@@ -116,11 +118,14 @@ def get_user_feedback(delay,difficulty):
 		difficulty=difficulty-1
 	return delay,difficulty
 
-def random_flow(DG,entry_point_indx,max_poses,field_val,delay,viewer):
-	print("number of poses: "+str(max_poses))
+def random_flow(DG,entry_point_indx,max_poses,field_val,delay,viewer,use_viewer):
 	pose_history=[] # all the poses
 	symmetry_history=[] # left-right cycle
-	print("entry point: ")
+	print("number of poses: "+str(max_poses))
+	print("delay: "+str(delay)+" seconds")
+	if (use_viewer): print("launching pictures")
+	else: print("not launching pictures")
+	print("\nentry point: ")
 	print(str(entry_point_indx)+" = "+DG.node[entry_point_indx][field_val])
 	current_indx = entry_point_indx
 
@@ -131,31 +136,37 @@ def random_flow(DG,entry_point_indx,max_poses,field_val,delay,viewer):
 		symmetry_history.append(current_indx)
 
 		# display current pose picture
-# 		print("finding pictures")
-		[foundpicture,picturename]=find_picture(current_indx,delay,viewer)
-# 		print("pic="+picturename)
-		print("\a")
+		if (use_viewer):
+			print("finding pictures")
+			[foundpicture,picturename]=find_picture(current_indx,delay,viewer)
+			print("pic="+picturename)
+			if foundpicture:
+				launch_picture(picturename,delay,viewer)
+
+		print("\a") # audible tone
 # 		difficulty=1
 # 		[delay,difficulty]=get_user_feedback(delay,difficulty)
+		"""
 		# set alarm
-# 		signal.alarm(delay)
-# 		s = input(delay,signal)
+		signal.alarm(delay)
+		s = input(delay,signal)
 		# disable the alarm after success
-# 		signal.alarm(0)
-# 		print 'You typed', s
+		signal.alarm(0)
+		print 'You typed', s
+		"""
 		time.sleep(delay)
-# 		if foundpicture:
-# 			launch_picture(picturename,delay,viewer)
 
 		# list next pose choices
 # 		print("choices:")
 		choices=DG.successors(current_indx)
 		#print(choices)
-# 		for pose_indx in choices:
-# 			if (DG.node[pose_indx]["two_sided"]==False):
-# 				print("   "+str(pose_indx)+" = "+DG.node[pose_indx][field_val])
-# 			else:
-# 				print("   "+str(pose_indx)+" = "+DG.node[pose_indx][field_val]+", left side")
+		"""
+		for pose_indx in choices:
+			if (DG.node[pose_indx]["two_sided"]==False):
+				print("   "+str(pose_indx)+" = "+DG.node[pose_indx][field_val])
+			else:
+				print("   "+str(pose_indx)+" = "+DG.node[pose_indx][field_val]+", left side")
+		"""
 		new_indx=random.choice(DG.successors(current_indx))
 		print("\nnext move:")
 		print(str(new_indx)+" = "+DG.node[new_indx][field_val])

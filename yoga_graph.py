@@ -22,11 +22,11 @@ DG=ydb.pose_transitions(DG) # load edges
 # ylib.plot_graph_nodes(DG) # generate visual graph using networkx
 # ylib.plot_graph_with_labels(DG,'english_name') # generate visual graph, plot using matplotlib
 
-[viewer,directory_containing_pictures,entry_point_index,max_poses,delay,field_value]=ylib.get_inputs("config.input")
+[viewer,use_viewer,directory_containing_pictures,entry_point_index,max_poses,delay,field_value]=ylib.get_inputs("config.input")
 
 # print(viewer)
 # print(directory_containing_pictures)
 # print(entry_point_index)
 # print(max_poses)
 
-pose_history=ylib.random_flow(DG,entry_point_index,max_poses,field_value,delay,viewer)
+pose_history=ylib.random_flow(DG,entry_point_index,max_poses,field_value,delay,viewer,use_viewer)
