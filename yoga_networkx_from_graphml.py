@@ -24,4 +24,9 @@ DG=ydb.pose_transitions(DG) # load edges
 
 [viewer,directory_containing_pictures,entry_point_index,max_poses,delay,field_value]=ylib.get_inputs("config.input")
 
-pose_history=ylib.random_flow(DG,entry_point_index,max_poses,field_val,delay,viewer)
+# print(viewer)
+# print(directory_containing_pictures)
+# print(entry_point_index)
+# print(max_poses)
+
+pose_history=ylib.random_flow(DG,entry_point_index,max_poses,field_value,delay,viewer)

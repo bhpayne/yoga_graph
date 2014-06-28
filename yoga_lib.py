@@ -57,9 +57,9 @@ def list_cycles(DG):
 	print(nx.simple_cycles(DG))
 	print(nx.cycle_basis(DG,0)) # not implemented for directed graphs
 
-def launch_picture(picturename,delay,viewer):
+def launch_picture(picturename,delay,viewer_name):
 	print("picture = "+picturename)
-	viewer = subprocess.Popen([viewer, picturename])
+	viewer = subprocess.Popen([viewer_name, picturename])
 	time.sleep(delay)
 	viewer.terminate()
 	viewer.kill()
@@ -72,7 +72,7 @@ def find_picture(current_indx,delay,viewer):
 	for filename in os.listdir('pose_pictures'):
 # 		print(filename)
 		if fnmatch.fnmatch(filename, str(current_indx)+'__*'):
-			print(filename)
+# 			print(filename)
 			list_of_files.append(filename)
 # 	print(list_of_files)
 	if (len(list_of_files)>0):
@@ -94,30 +94,35 @@ def random_flow(DG,entry_point_indx,max_poses,field_val,delay,viewer):
 	pose_count=1
 	while(pose_count<max_poses):
 # 		print(DG.node[current_indx])
-		pose_history.append[current_indx]
-		symmetry_history.append[current_indx]
+		pose_history.append(current_indx)
+		symmetry_history.append(current_indx)
 
 		# display current pose picture
 # 		print("finding pictures")
 		[foundpicture,picturename]=find_picture(current_indx,delay,viewer)
 # 		print("pic="+picturename)
-		if foundpicture:
-			launch_picture(picturename,delay,viewer)
+		print("\a")
+		
+		time.sleep(delay)
+# 		if foundpicture:
+# 			launch_picture(picturename,delay,viewer)
 
 		# list next pose choices
-		print("choices:")
+# 		print("choices:")
 		choices=DG.successors(current_indx)
 		#print(choices)
-		for pose_indx in choices:
-			if (DG.node[pose_indx]["two_sided"]==False):
-				print("   "+str(pose_indx)+" = "+DG.node[pose_indx][field_val])
-			else:
-				print("   "+str(pose_indx)+" = "+DG.node[pose_indx][field_val]+", left side")
+# 		for pose_indx in choices:
+# 			if (DG.node[pose_indx]["two_sided"]==False):
+# 				print("   "+str(pose_indx)+" = "+DG.node[pose_indx][field_val])
+# 			else:
+# 				print("   "+str(pose_indx)+" = "+DG.node[pose_indx][field_val]+", left side")
 		new_indx=random.choice(DG.successors(current_indx))
-		print("next move:")
+		print("\nnext move:")
 		print(str(new_indx)+" = "+DG.node[new_indx][field_val])
-		print(DG.node[new_indx][hindi_name])
-		print(DG.node[new_indx][description])
+		if (DG.node[new_indx]["hindi_name"] != ""):
+			print(DG.node[new_indx]["hindi_name"])
+		if (DG.node[new_indx]["description"] != ""):
+			print(DG.node[new_indx]["description"])
 		
 		current_indx=new_indx
 		pose_count = pose_count+1

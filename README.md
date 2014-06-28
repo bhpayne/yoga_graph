@@ -3,6 +3,14 @@ yoga_graph
 
 tl;dr: graph of yoga poses and transition
 
+installation
+============
+
+sudo pip install pyyaml
+
+introduction
+============
+
 All styles of yoga feature poses and transitions between poses.
 A style is often differentiated by the poses practiced, the speed of transition, and the length of holding the pose.
 
@@ -42,8 +50,6 @@ The networkx package makes working with graphs straight forward
 
 tasks
 =====
-
-install yaml on my macbook air
 
 Include more poses
 Include more transitions

@@ -9,9 +9,9 @@ directory_containing_pictures: pose_pictures
 
 entry_point_index: 4
 
-max_poses: 4
+max_poses: 100
 
-delay: 3 
+delay: 20
 # in seconds
 
 field_value: english_name
