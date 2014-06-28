@@ -179,3 +179,7 @@ def random_flow(DG,entry_point_indx,max_poses,field_val,delay,viewer,use_viewer)
 		pose_count = pose_count+1
 
 	return pose_history
+
+def produce_graphml(DG,filename):
+	nx.write_graphml(DG,filename)
+	

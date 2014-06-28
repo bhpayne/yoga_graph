@@ -29,4 +29,7 @@ DG=ydb.pose_transitions(DG) # load edges
 # print(entry_point_index)
 # print(max_poses)
 
-pose_history=ylib.random_flow(DG,entry_point_index,max_poses,field_value,delay,viewer,use_viewer)
+# pose_history=ylib.random_flow(DG,entry_point_index,max_poses,field_value,delay,viewer,use_viewer)
+
+filename="20140627.graphml"
+nx.write_graphml(DG,filename)

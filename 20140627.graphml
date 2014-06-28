@@ -1,0 +1,1566 @@
+<?xml version="1.0" encoding="utf-8"?><graphml xmlns="http://graphml.graphdrawing.org/xmlns" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://graphml.graphdrawing.org/xmlns http://graphml.graphdrawing.org/xmlns/1.0/graphml.xsd">
+  <key attr.name="weight" attr.type="int" for="edge" id="d8" />
+  <key attr.name="asanas_608_english" attr.type="string" for="node" id="d7" />
+  <key attr.name="english_name" attr.type="string" for="node" id="d6" />
+  <key attr.name="hindi_name" attr.type="string" for="node" id="d5" />
+  <key attr.name="yogajournalurl" attr.type="string" for="node" id="d4" />
+  <key attr.name="two_sided" attr.type="boolean" for="node" id="d3" />
+  <key attr.name="asanas_608_page" attr.type="string" for="node" id="d2" />
+  <key attr.name="description" attr.type="string" for="node" id="d1" />
+  <key attr.name="comment" attr.type="string" for="node" id="d0" />
+  <graph edgedefault="directed">
+    <node id="0">
+      <data key="d0" />
+      <data key="d1">on all fours; hands, knees, and feet are shoulder width apart</data>
+      <data key="d2" />
+      <data key="d3">False</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">table top</data>
+      <data key="d7" />
+    </node>
+    <node id="1">
+      <data key="d0" />
+      <data key="d1">on all fours, pull chest to floor and head up</data>
+      <data key="d2" />
+      <data key="d3">False</data>
+      <data key="d4">http://www.yogajournal.com/poses/2467</data>
+      <data key="d5">marjaryasana</data>
+      <data key="d6">cow</data>
+      <data key="d7" />
+    </node>
+    <node id="2">
+      <data key="d0" />
+      <data key="d1">on all fours, pull chest to ceiling and head down</data>
+      <data key="d2" />
+      <data key="d3">False</data>
+      <data key="d4">http://www.yogajournal.com/poses/2468</data>
+      <data key="d5">marjaryasana</data>
+      <data key="d6">cat</data>
+      <data key="d7" />
+    </node>
+    <node id="3">
+      <data key="d0" />
+      <data key="d1">arms stretched above head, face to ground. On shins</data>
+      <data key="d2" />
+      <data key="d3">False</data>
+      <data key="d4">http://www.yogajournal.com/poses/475</data>
+      <data key="d5" />
+      <data key="d6">child's pose</data>
+      <data key="d7" />
+    </node>
+    <node id="4">
+      <data key="d1">feet and hands on floor, both shoulder width apart</data>
+      <data key="d2" />
+      <data key="d3">False</data>
+      <data key="d4">http://www.yogajournal.com/poses/491</data>
+      <data key="d5">Adho Mukha Svanasana</data>
+      <data key="d6">downward dog</data>
+      <data key="d7" />
+    </node>
+    <node id="5">
+      <data key="d0" />
+      <data key="d1">feet and forearms on floor</data>
+      <data key="d2" />
+      <data key="d3">False</data>
+      <data key="d4">http://www.yogajournal.com/poses/2462</data>
+      <data key="d5" />
+      <data key="d6">dolphin</data>
+      <data key="d7" />
+    </node>
+    <node id="6">
+      <data key="d0" />
+      <data key="d1">whole body in contact with ground, arms by side</data>
+      <data key="d2" />
+      <data key="d3">False</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">lay on stomach</data>
+      <data key="d7" />
+    </node>
+    <node id="7">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">False</data>
+      <data key="d4">http://www.yogajournal.com/poses/875</data>
+      <data key="d5" />
+      <data key="d6">bow pose</data>
+      <data key="d7" />
+    </node>
+    <node id="8">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">True</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">laying on back, one leg extended up</data>
+      <data key="d7" />
+    </node>
+    <node id="9">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">False</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">lying on back, both legs extended up</data>
+      <data key="d7" />
+    </node>
+    <node id="10">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">226</data>
+      <data key="d3">False</data>
+      <data key="d4" />
+      <data key="d5">Sarvangasana</data>
+      <data key="d6">supported shoulder stand</data>
+      <data key="d7">Shoulder Stand Pose</data>
+    </node>
+    <node id="11">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">249</data>
+      <data key="d3">False</data>
+      <data key="d4">http://www.yogajournal.com/poses/479</data>
+      <data key="d5">Halasana</data>
+      <data key="d6">plow pose</data>
+      <data key="d7">Plough pose (variation)</data>
+    </node>
+    <node id="12">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">False</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">ear pressure pose</data>
+      <data key="d7" />
+    </node>
+    <node id="13">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">False</data>
+      <data key="d4">http://www.yogajournal.com/poses/470</data>
+      <data key="d5" />
+      <data key="d6">plank</data>
+      <data key="d7" />
+    </node>
+    <node id="14">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">True</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">wild thing</data>
+      <data key="d7" />
+    </node>
+    <node id="15">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">False</data>
+      <data key="d4" />
+      <data key="d5">chaturanga</data>
+      <data key="d6">low pushup</data>
+      <data key="d7" />
+    </node>
+    <node id="16">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d3">True</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">side plank</data>
+    </node>
+    <node id="17">
+      <data key="d0" />
+      <data key="d1">legs together, face to knees</data>
+      <data key="d3">False</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">standing bend, legs together</data>
+    </node>
+    <node id="18">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d3">True</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">down dog, one leg raised</data>
+    </node>
+    <node id="19">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d3">True</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">flipped dog</data>
+    </node>
+    <node id="20">
+      <data key="d0" />
+      <data key="d1">legs together, hands at side</data>
+      <data key="d3">False</data>
+      <data key="d4">http://www.yogajournal.com/poses/492</data>
+      <data key="d5">Tadasana</data>
+      <data key="d6">stand straight (mountain)</data>
+    </node>
+    <node id="21">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d3">True</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">happy camper</data>
+    </node>
+    <node id="22">
+      <data key="d0" />
+      <data key="d1">arms up and straight, one leg bent with foot to thigh</data>
+      <data key="d3">True</data>
+      <data key="d4">http://www.yogajournal.com/poses/496</data>
+      <data key="d5">Vrksasana</data>
+      <data key="d6">tree pose</data>
+    </node>
+    <node id="23">
+      <data key="d0" />
+      <data key="d1">bent forward on one leg, arms extended forward</data>
+      <data key="d3">True</data>
+      <data key="d4">http://www.yogajournal.com/poses/941</data>
+      <data key="d5">Virabhadrasana III</data>
+      <data key="d6">warrior 3</data>
+    </node>
+    <node id="24">
+      <data key="d0" />
+      <data key="d1">arms up</data>
+      <data key="d3">True</data>
+      <data key="d4">http://www.yogajournal.com/poses/1708</data>
+      <data key="d5">Virabhadrasana I</data>
+      <data key="d6">warrior 1</data>
+    </node>
+    <node id="25">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d3">True</data>
+      <data key="d4">http://www.yogajournal.com/poses/936</data>
+      <data key="d5">Natarajasana</data>
+      <data key="d6">dancer pose</data>
+    </node>
+    <node id="26">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d3">True</data>
+      <data key="d4">http://www.yogajournal.com/poses/2499</data>
+      <data key="d5">Urdhva Prasarita Eka Padasana</data>
+      <data key="d6">standing splits</data>
+    </node>
+    <node id="27">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d3">False</data>
+      <data key="d4">http://www.yogajournal.com/poses/493</data>
+      <data key="d5">Utkatasana</data>
+      <data key="d6">chair pose</data>
+    </node>
+    <node id="28">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d3">False</data>
+      <data key="d4">http://www.yogajournal.com/poses/473</data>
+      <data key="d5">Urdhva Dhanurasana</data>
+      <data key="d6">wheel pose</data>
+    </node>
+    <node id="29">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d3">True</data>
+      <data key="d4">http://www.yogajournal.com/poses/495</data>
+      <data key="d5">Virabhadrasana II</data>
+      <data key="d6">warrior 2</data>
+    </node>
+    <node id="30">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d3">True</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">peaceful warrior</data>
+    </node>
+    <node id="31">
+      <data key="d0" />
+      <data key="d1">laying on back</data>
+      <data key="d3">False</data>
+      <data key="d4" />
+      <data key="d5">shabasana</data>
+      <data key="d6">corpse pose</data>
+    </node>
+    <node id="32">
+      <data key="d0" />
+      <data key="d1">on back, feet up</data>
+      <data key="d3">False</data>
+      <data key="d4">http://www.yogajournal.com/poses/2497</data>
+      <data key="d5" />
+      <data key="d6">happy baby, rock side to side</data>
+    </node>
+    <node id="33">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d3">False</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">on back, knees bent, feet on ground</data>
+    </node>
+    <node id="34">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d3">False</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">on back, knees bent, feet in air</data>
+    </node>
+    <node id="35">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d3">True</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">knees to one side, head to other</data>
+    </node>
+    <node id="36">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">278</data>
+      <data key="d3">False</data>
+      <data key="d4" />
+      <data key="d5">paschimatanasana</data>
+      <data key="d6">staff pose</data>
+      <data key="d7">back stretch pose (preparation)</data>
+    </node>
+    <node id="37">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d3">True</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">pigeon pose</data>
+    </node>
+    <node id="38">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d3">True</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">one leg straight, one leg in</data>
+    </node>
+    <node id="39">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d3">True</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">compass pose</data>
+    </node>
+    <node id="40">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">True</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">rock bent leg</data>
+      <data key="d7" />
+    </node>
+    <node id="41">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">False</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">kneeling on shins</data>
+      <data key="d7" />
+    </node>
+    <node id="42">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">False</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">standing on shins</data>
+      <data key="d7" />
+    </node>
+    <node id="43">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">False</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">camel pose</data>
+      <data key="d7" />
+    </node>
+    <node id="44">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">False</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">crow</data>
+      <data key="d7" />
+    </node>
+    <node id="45">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">False</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">squat, knees wide</data>
+      <data key="d7" />
+    </node>
+    <node id="46">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">False</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">standing, legs apart</data>
+      <data key="d7" />
+    </node>
+    <node id="47">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">False</data>
+      <data key="d4">http://www.yogajournal.com/poses/474</data>
+      <data key="d5" />
+      <data key="d6">upward dog</data>
+      <data key="d7" />
+    </node>
+    <node id="48">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">False</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">one leg forward with knee bent</data>
+      <data key="d7" />
+    </node>
+    <node id="49">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">624</data>
+      <data key="d3">True</data>
+      <data key="d4" />
+      <data key="d5">siddhasana</data>
+      <data key="d6">half lotus</data>
+      <data key="d7">accomplished pose</data>
+    </node>
+    <node id="50">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">626</data>
+      <data key="d3">True</data>
+      <data key="d4">http://www.yogajournal.com/poses/488</data>
+      <data key="d5">padmasana</data>
+      <data key="d6">full lotus</data>
+      <data key="d7">lotus pose</data>
+    </node>
+    <node id="51">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">243</data>
+      <data key="d3">True</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">embryo pose</data>
+      <data key="d7">upward lotus pose</data>
+    </node>
+    <node id="52">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">True</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">flying lotus</data>
+      <data key="d7" />
+    </node>
+    <node id="53">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">False</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">floating staff pose</data>
+      <data key="d7" />
+    </node>
+    <node id="54">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">False</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">crane</data>
+      <data key="d7" />
+    </node>
+    <node id="55">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">True</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">one-legged crane</data>
+      <data key="d7" />
+    </node>
+    <node id="56">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">False</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">wide legs, feet parallel</data>
+      <data key="d7" />
+    </node>
+    <node id="57">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">False</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">bent over wide legs, parallel feet</data>
+      <data key="d7" />
+    </node>
+    <node id="58">
+      <data key="d0" />
+      <data key="d1">arms at 90deg</data>
+      <data key="d2">181</data>
+      <data key="d3">False</data>
+      <data key="d4" />
+      <data key="d5">Salamba-Shirshasana</data>
+      <data key="d6">tripod head stand, legs extended straight up, arms at 90deg</data>
+      <data key="d7">Supported Head Stand Pose</data>
+    </node>
+    <node id="59">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">True</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">arms to side</data>
+      <data key="d7" />
+    </node>
+    <node id="60">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">True</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">both legs straight, front foot point forward, back foot flat at 45deg</data>
+      <data key="d7" />
+    </node>
+    <node id="61">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">True</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">hinged forward at hips</data>
+      <data key="d7" />
+    </node>
+    <node id="62">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">True</data>
+      <data key="d4" />
+      <data key="d5">Parivrtta Trikonasana</data>
+      <data key="d6">revolved triangle pose</data>
+      <data key="d7" />
+    </node>
+    <node id="63">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">True</data>
+      <data key="d4">http://www.yogajournal.com/poses/749</data>
+      <data key="d5">Utthita Parsvakonasana</data>
+      <data key="d6">extended side angle pose</data>
+      <data key="d7" />
+    </node>
+    <node id="64">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">True</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">bind</data>
+      <data key="d7" />
+    </node>
+    <node id="65">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">True</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">bird of paradise</data>
+      <data key="d7" />
+    </node>
+    <node id="66">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">True</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">funky bird of paradise</data>
+      <data key="d7" />
+    </node>
+    <node id="67">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">True</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">standing bend bound twist</data>
+      <data key="d7" />
+    </node>
+    <node id="68">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">False</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">standing bend, legs apart</data>
+      <data key="d7" />
+    </node>
+    <node id="69">
+      <data key="d0" />
+      <data key="d1">arms at 90deg</data>
+      <data key="d2" />
+      <data key="d3">False</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">tripod head stand, legs bent, arms at 90deg</data>
+      <data key="d7" />
+    </node>
+    <node id="70">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">True</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">floating elephant trunk; one leg over arm</data>
+      <data key="d7" />
+    </node>
+    <node id="71">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">True</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">eight angle pose</data>
+      <data key="d7" />
+    </node>
+    <node id="72">
+      <data key="d0" />
+      <data key="d1">shin on back triceps</data>
+      <data key="d2" />
+      <data key="d3">True</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">flying pigeon</data>
+      <data key="d7" />
+    </node>
+    <node id="73">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">True</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">peddle feet</data>
+      <data key="d7" />
+    </node>
+    <node id="74">
+      <data key="d0" />
+      <data key="d1">arms at 90deg</data>
+      <data key="d2" />
+      <data key="d3">False</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">tripod head stand, legs extended out, arms at 90deg</data>
+      <data key="d7" />
+    </node>
+    <node id="75">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">False</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">no-handed head stand</data>
+      <data key="d7" />
+    </node>
+    <node id="76">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2">197</data>
+      <data key="d3">False</data>
+      <data key="d4" />
+      <data key="d5">Niralamba-Shirshasana</data>
+      <data key="d6">inverted tripod</data>
+      <data key="d7">Hands-free Head Stand Pose (Variation)</data>
+    </node>
+    <node id="77">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">False</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">seated wide-leg</data>
+      <data key="d7" />
+    </node>
+    <node id="78">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">False</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">seated wide-leg, floating</data>
+      <data key="d7" />
+    </node>
+    <node id="79">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">False</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">seated wide-leg, flying</data>
+      <data key="d7" />
+    </node>
+    <node id="80">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">True</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">all fours, one arm extended</data>
+      <data key="d7" />
+    </node>
+    <node id="81">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">True</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">all fours, one leg extended</data>
+      <data key="d7" />
+    </node>
+    <node id="82">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">True</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">all fours, one arm extended, oppposite leg extended</data>
+      <data key="d7" />
+    </node>
+    <node id="83">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">True</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">all fours, one arm extended, same side leg extended</data>
+      <data key="d7" />
+    </node>
+    <node id="84">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">True</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">all fours, hips to one side</data>
+      <data key="d7" />
+    </node>
+    <node id="85">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">False</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">forearm plank</data>
+      <data key="d7" />
+    </node>
+    <node id="86">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">False</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">tripod head stand, legs bent, arms straight</data>
+      <data key="d7" />
+    </node>
+    <node id="87">
+      <data key="d0" />
+      <data key="d1">feet together</data>
+      <data key="d2" />
+      <data key="d3">False</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">standing back bend</data>
+      <data key="d7" />
+    </node>
+    <node id="88">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">False</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">scorpion</data>
+      <data key="d7" />
+    </node>
+    <node id="89">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">False</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">bird of paradise, bent forward, leg to side</data>
+      <data key="d7" />
+    </node>
+    <node id="90">
+      <data key="d0" />
+      <data key="d1" />
+      <data key="d2" />
+      <data key="d3">False</data>
+      <data key="d4" />
+      <data key="d5" />
+      <data key="d6">tripod head stand, legs straight, arms straight</data>
+      <data key="d7" />
+    </node>
+    <edge source="0" target="1">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="0" target="2">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="0" target="3">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="0" target="4">
+      <data key="d8">2</data>
+    </edge>
+    <edge source="0" target="6">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="0" target="13">
+      <data key="d8">2</data>
+    </edge>
+    <edge source="0" target="80">
+      <data key="d8">2</data>
+    </edge>
+    <edge source="0" target="81">
+      <data key="d8">2</data>
+    </edge>
+    <edge source="0" target="82">
+      <data key="d8">3</data>
+    </edge>
+    <edge source="0" target="83">
+      <data key="d8">4</data>
+    </edge>
+    <edge source="0" target="84">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="1" target="0">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="1" target="4">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="2" target="0">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="2" target="4">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="3" target="0">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="3" target="4">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="3" target="5">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="3" target="6">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="3" target="41">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="3" target="42">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="3" target="59">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="4" target="0">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="4" target="1">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="4" target="2">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="4" target="3">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="4" target="68">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="4" target="73">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="4" target="76">
+      <data key="d8">5</data>
+    </edge>
+    <edge source="4" target="13">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="4" target="47">
+      <data key="d8">2</data>
+    </edge>
+    <edge source="4" target="17">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="4" target="18">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="5" target="3">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="5" target="4">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="5" target="85">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="5" target="6">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="6" target="0">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="6" target="3">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="6" target="5">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="6" target="7">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="7" target="6">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="8" target="9">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="8" target="31">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="9" target="8">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="9" target="32">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="9" target="10">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="9" target="31">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="10" target="9">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="10" target="11">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="10" target="12">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="11" target="10">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="11" target="12">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="12" target="10">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="12" target="11">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="13" target="0">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="13" target="48">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="13" target="4">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="13" target="37">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="13" target="44">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="13" target="14">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="13" target="15">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="13" target="16">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="13" target="85">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="14" target="13">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="14" target="37">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="15" target="44">
+      <data key="d8">4</data>
+    </edge>
+    <edge source="15" target="13">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="15" target="47">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="16" target="13">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="17" target="68">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="17" target="20">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="17" target="4">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="18" target="19">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="18" target="4">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="19" target="18">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="19" target="28">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="20" target="23">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="20" target="46">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="20" target="17">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="20" target="21">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="20" target="87">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="20" target="24">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="20" target="27">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="21" target="72">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="21" target="27">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="21" target="20">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="22" target="20">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="22" target="21">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="22" target="23">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="23" target="48">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="23" target="20">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="23" target="22">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="23" target="24">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="23" target="25">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="23" target="26">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="24" target="20">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="24" target="29">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="24" target="23">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="25" target="23">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="26" target="23">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="27" target="20">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="27" target="21">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="28" target="19">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="28" target="20">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="28" target="31">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="29" target="24">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="29" target="56">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="29" target="60">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="29" target="30">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="30" target="29">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="31" target="32">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="31" target="34">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="31" target="36">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="31" target="8">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="31" target="9">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="31" target="45">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="32" target="9">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="32" target="31">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="33" target="34">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="33" target="35">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="34" target="33">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="34" target="35">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="34" target="31">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="35" target="33">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="35" target="34">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="36" target="49">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="36" target="53">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="36" target="45">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="36" target="38">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="36" target="31">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="37" target="13">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="37" target="14">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="38" target="40">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="38" target="36">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="38" target="39">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="39" target="40">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="39" target="38">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="40" target="70">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="40" target="38">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="40" target="39">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="41" target="42">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="41" target="3">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="42" target="41">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="42" target="3">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="42" target="43">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="43" target="42">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="44" target="45">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="44" target="15">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="45" target="36">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="45" target="69">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="45" target="44">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="45" target="46">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="45" target="54">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="45" target="31">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="46" target="68">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="46" target="20">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="46" target="45">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="47" target="4">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="47" target="15">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="48" target="13">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="48" target="23">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="49" target="50">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="49" target="36">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="50" target="49">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="50" target="51">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="50" target="52">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="51" target="50">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="52" target="50">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="53" target="36">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="54" target="45">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="54" target="69">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="54" target="55">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="55" target="54">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="56" target="57">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="56" target="29">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="57" target="56">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="57" target="69">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="58" target="74">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="58" target="75">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="58" target="69">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="59" target="3">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="60" target="63">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="60" target="29">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="60" target="61">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="61" target="60">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="61" target="62">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="62" target="61">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="63" target="64">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="63" target="60">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="64" target="65">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="64" target="63">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="65" target="64">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="65" target="89">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="65" target="67">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="66" target="67">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="67" target="65">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="67" target="68">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="68" target="17">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="68" target="67">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="68" target="4">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="68" target="46">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="69" target="57">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="69" target="58">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="69" target="86">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="69" target="45">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="69" target="54">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="70" target="40">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="70" target="71">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="71" target="70">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="72" target="21">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="73" target="4">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="74" target="58">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="75" target="58">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="76" target="4">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="77" target="78">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="77" target="79">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="78" target="77">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="79" target="77">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="80" target="0">
+      <data key="d8">2</data>
+    </edge>
+    <edge source="81" target="0">
+      <data key="d8">2</data>
+    </edge>
+    <edge source="82" target="0">
+      <data key="d8">3</data>
+    </edge>
+    <edge source="83" target="0">
+      <data key="d8">4</data>
+    </edge>
+    <edge source="84" target="0">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="85" target="13">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="86" target="90">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="86" target="69">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="87" target="20">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="89" target="65">
+      <data key="d8">1</data>
+    </edge>
+    <edge source="90" target="86">
+      <data key="d8">1</data>
+    </edge>
+  </graph>
+</graphml>
