@@ -837,23 +837,23 @@ def pose_properties(DG):
 	DG.node[90]["asanas_608_page"]=""
 	DG.node[90]["asanas_608_english"]=""	
 
-# 	DG.add_node(9,english_name="")
-# 	DG.node[9]["two_sided"]=False
-# 	DG.node[9]["description"]=""
-# 	DG.node[9]["yogajournalurl"]=""
-# 	DG.node[9]["hindi_name"]=""
-# 	DG.node[9]["comment"]=""
-# 	DG.node[9]["asanas_608_page"]=""
-# 	DG.node[9]["asanas_608_english"]=""	
+	DG.add_node(91,english_name="butterfly")
+	DG.node[91]["two_sided"]=False
+	DG.node[91]["description"]=""
+	DG.node[91]["yogajournalurl"]=""
+	DG.node[91]["hindi_name"]=""
+	DG.node[91]["comment"]=""
+	DG.node[91]["asanas_608_page"]=""
+	DG.node[91]["asanas_608_english"]=""	
 
-# 	DG.add_node(9,english_name="")
-# 	DG.node[9]["two_sided"]=False
-# 	DG.node[9]["description"]=""
-# 	DG.node[9]["yogajournalurl"]=""
-# 	DG.node[9]["hindi_name"]=""
-# 	DG.node[9]["comment"]=""
-# 	DG.node[9]["asanas_608_page"]=""
-# 	DG.node[9]["asanas_608_english"]=""	
+	DG.add_node(92,english_name="hurdler")
+	DG.node[92]["two_sided"]=False
+	DG.node[92]["description"]=""
+	DG.node[92]["yogajournalurl"]=""
+	DG.node[92]["hindi_name"]=""
+	DG.node[92]["comment"]=""
+	DG.node[92]["asanas_608_page"]=""
+	DG.node[92]["asanas_608_english"]=""	
 
 # 	DG.add_node(9,english_name="")
 # 	DG.node[9]["two_sided"]=False
@@ -1252,5 +1252,10 @@ def pose_transitions(DG):
 	DG.add_weighted_edges_from([(89,65,1)])   # 89 = bird of paradise, bent forward, leg to side; 65 = bird of paradise
 
 	DG.add_weighted_edges_from([(90,86,1)])   # 90 = tripod head stand, legs straight, arms straight; 86 = tripod head stand, legs bent, arms straight
+
+#	DG.add_weighted_edges_from([(91,,1)])   # 91 = butterfly
+
+#	DG.add_weighted_edges_from([(92,,1)])  # 92 = hurdler
+
 	
 	return DG
