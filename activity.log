@@ -1,3 +1,12 @@
+20140629
+
+Perhaps instead of calling the image reader in the OS, use tkinter and imagetk
+http://effbot.org/imagingbook/imagetk.htm
+http://stackoverflow.com/questions/17005961/displaying-images-with-tkinter
+http://code.activestate.com/recipes/521918-pil-and-tkinter-to-display-images/
+
+I cannot find how to install imagetk
+
 20140620
 
 import subprocess
