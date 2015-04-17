@@ -4,7 +4,7 @@
 <!-- http://stackoverflow.com/questions/23986466/d3-force-layout-linking-nodes-by-name-instead-of-index -->
 <!DOCTYPE html>
 <body>
-<script src="../d3/d3.v3.min.js"></script>
+<script src="d3/d3.v3.min.js"></script>
 <script>
 
 var w = 900,
@@ -90,7 +90,7 @@ var force = d3.layout.force()
 
     //TEXT
     node.append("text")
-      .text(function(d, i) { return d.label; })
+      .text(function(d, i) { return d.name; })
     .attr("x",    function(d, i) { return circleWidth + 5; })
       .attr("y",            function(d, i) { if (i>0) { return circleWidth - 10 }    else { return 8 } })
       .attr("font-family",  "Bree Serif")
@@ -99,7 +99,7 @@ var force = d3.layout.force()
       .attr("text-anchor",  function(d, i) { if (i>0) { return  "beginning"; }      else { return "end" } })
 
 
-///*
+/*
       node.append("image")
 //      .attr("xlink:href", "https://github.com/favicon.ico")
 //      .attr("xlink:href", "http://upload.wikimedia.org/wikipedia/commons/0/01/MaverickEyes_Favicon_Image.gif")
