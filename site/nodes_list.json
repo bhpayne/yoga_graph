@@ -1,9 +1,9 @@
 {"nodes":[
-  {"uniq_id": "0", "name": "tabletop"},
+  {"uniq_id": "0", "name": "table top"},
   {"uniq_id": "1", "name": "cow"},
   {"uniq_id": "2", "name": "cat"},
   {"uniq_id": "3", "name": "dolphin"},
-  {"uniq_id": "4", "name": "downdog"}
+  {"uniq_id": "4", "name": "downward dog"}
 ],
      "links":[    {"source": "0", "target": "1"},
                   {"source": "1", "target": "2"},
