@@ -69,6 +69,13 @@ for this_indx in range(len(DG)):
 		f.write("\t</P>\n\t<HR>\n")		
 
 		
-	f.write("\t</TD>\n</TR>\n</table>\n</BODY>\n</HTML>")
+	f.write("\t</TD>\n</TR>\n</table>\n")
+	f.write("\t<a href=\"http://bhpayne.github.io/yoga_graph/site/\">http://bhpayne.github.io/yoga_graph/site/</a><BR>\n")
+	f.write("\t<P>&nbsp;</P>\n")
+	f.write("\t<P>&nbsp;</P>\n")
+	f.write("\t<P>&nbsp;</P>\n")
+	f.write("<center>Ben Payne<BR>\n")
+	f.write("ben.is.located AT gmail</center>\n")
+	f.write("</BODY>\n</HTML>")
 	f.close()
 
