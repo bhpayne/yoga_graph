@@ -37,14 +37,14 @@ for this_indx in range(len(DG)):
 	f = open(write_to_path+str(this_indx)+".html","w")
 	f.write("<HTML>\n<HEAD>\n")
 	f.write("<TITLE>yoga graph: "+dic_for_this_node['english_name']+"</TITLE>")
-	f.write("</head>\n<BODY>\n\n<table border=\"1\" width=\"100%\">\n")
+	f.write("</head>\n<BODY>\n\n<table border=\"1\" style='table-layout:fixed;width:100%'>\n")
 	f.write("<TR width=\"50%\">\n\t<TD>Current pose: <font size=\""+large_font_size+"\">"+dic_for_this_node['english_name']+"</font> </TD>\n")
 	f.write("\t<TD>Adjacent poses: \n")
 	list_of_edges_for_this_node=DG[this_indx].keys()
 	for neighbor_indx in list_of_edges_for_this_node:
 		dic_for_adjacent_node=DG.nodes(data=True)[neighbor_indx][1]
-		f.write("\t\t<a href=\""+str(neighbor_indx)+".html\">"+dic_for_adjacent_node['english_name']+"</a> | \n")		
-	f.write("\t</TD>\n</TR>\n<TR>\n")
+		f.write("<a href=\""+str(neighbor_indx)+".html\">"+dic_for_adjacent_node['english_name']+"</a> | \n")		
+	f.write("\n\t</TD>\n</TR>\n<TR>\n")
 	f.write("\t<TD valign=\"top\">\n")
 	if (dic_for_this_node['yogajournal_picture'] != ""):
 		f.write("\t<a href=\""+dic_for_this_node['yogajournalurl']+"\">\n")
