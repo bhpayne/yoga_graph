@@ -47,7 +47,7 @@ for this_indx in range(len(DG)):
 #		f.write("\timage source: <a href=\""+dic_for_this_node['yogajournal_picture']+"\">"+dic_for_this_node['yogajournal_picture']+"</a><BR>\n")
 		f.write("\t<font size=\""+small_font_size+"\">source:  <a href=\""+dic_for_this_node['yogajournalurl']+"\">Yoga Journal</a></font><BR>\n")
 	if (dic_for_this_node['Dharma Mittra picture URL'] != ""):
-		f.write("\t<img src=\""+dic_for_this_node['Dharma Mittra picture URL']+"\" width=\""+image_width+"\"><BR>\n")
+		f.write("\t<BR>\n\t<img src=\""+dic_for_this_node['Dharma Mittra picture URL']+"\" width=\""+image_width+"\"><BR>\n")
 #		f.write("\timage source: <a href=\""+dic_for_this_node['Dharma Mittra picture URL']+"\">"+dic_for_this_node['Dharma Mittra picture URL']+"</a><BR>\n")
 		f.write("\t<font size=\""+small_font_size+"\">source:  <a href=\"http://www.dharmayogacenter.com/resources/yoga-poses/view-all-yoga-poses-by-category/\">dharmayogacenter.com</a></font><BR>\n")
 	f.write("\n\t</TD>\n\t<TD>\n")
@@ -63,7 +63,7 @@ for this_indx in range(len(DG)):
 			f.write("\t<font size=\""+small_font_size+"\">source:  <a href=\""+dic_for_adjacent_node['yogajournalurl']+"\">Yoga Journal</a></font><BR>\n")
 		if (dic_for_adjacent_node['Dharma Mittra picture URL'] != ""):
 			f.write("\t<a href=\""+str(neighbor_indx)+".html\">\n")
-			f.write("\t<img src=\""+dic_for_adjacent_node['Dharma Mittra picture URL']+"\" width=\""+image_width+"\"></a><BR>\n")
+			f.write("\t<BR>\n\t<img src=\""+dic_for_adjacent_node['Dharma Mittra picture URL']+"\" width=\""+image_width+"\"></a><BR>\n")
 #			f.write("\timage source: <a href=\""+dic_for_adjacent_node['Dharma Mittra picture URL']+"\">"+dic_for_adjacent_node['Dharma Mittra picture URL']+"</a><BR>\n")
 			f.write("\t<font size=\""+small_font_size+"\">source:  <a href=\"http://www.dharmayogacenter.com/resources/yoga-poses/view-all-yoga-poses-by-category/\">dharmayogacenter.com</a></font><BR>\n")
 		f.write("\t</P>\n\t<HR>\n")		
