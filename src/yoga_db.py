@@ -190,10 +190,10 @@ def pose_properties(DG):
     DG.add_node(11, english_name="plow pose")
     DG.nodes[11]["two_sided"] = False
     DG.nodes[11]["description"] = ""
-    DG.nodes[11]["yogajournalurl"] = "http://www.yogajournal.com/poses/479"
+    DG.nodes[11]["yogajournalurl"] = "https://www.yogajournal.com/poses/types/inversions/plow-pose/"
     DG.nodes[11][
         "yogajournal_picture"
-    ] = ""
+    ] = "https://www.yogajournal.com/wp-content/uploads/2021/04/plow-pose.jpg?crop=535:301&width=1070&enable=upscale"
     DG.nodes[11]["hindi_name"] = "Halasana"
     DG.nodes[11]["comment"] = ""
     DG.nodes[11]["Dharma Mittra picture URL"] = ""
@@ -217,7 +217,7 @@ def pose_properties(DG):
     DG.nodes[13]["yogajournalurl"] = "http://www.yogajournal.com/pose/plank-pose/"
     DG.nodes[13][
         "yogajournal_picture"
-    ] = ""
+    ] = "https://www.yogajournal.com/wp-content/uploads/2017/04/3editplankhp2_292_37428_cmyk.jpg?crop=535:301&width=1070&enable=upscale"
     DG.nodes[13]["hindi_name"] = ""
     DG.nodes[13]["comment"] = ""
     DG.nodes[13][
@@ -243,10 +243,10 @@ def pose_properties(DG):
     DG.nodes[15]["description"] = ""
     DG.nodes[15][
         "yogajournalurl"
-    ] = "http://www.yogajournal.com/pose/four-limbed-staff-pose/"
+    ] = "https://www.yogajournal.com/poses/types/strength/four-limbed-staff-pose/"
     DG.nodes[15][
         "yogajournal_picture"
-    ] = ""
+    ] = "https://www.yogajournal.com/wp-content/uploads/2007/08/edit3chaturangahp2_292_37434_cmyk.jpg?crop=535:301&width=1070&enable=upscale"
     DG.nodes[15]["comment"] = ""
     DG.nodes[15]["Dharma Mittra picture URL"] = ""
     DG.nodes[15]["asanas 608 page"] = ""
@@ -1224,6 +1224,116 @@ def pose_properties(DG):
     DG.nodes[99]["Dharma Mittra picture URL"]=""
     DG.nodes[99]["asanas 608 page"]=""
     DG.nodes[99]["asanas 608 english name"]=""
+
+    DG.add_node(100,english_name="forearm wheel pose")
+    DG.nodes[100]["two_sided"]=False
+    DG.nodes[100]["description"]=""
+    DG.nodes[100]["yogajournalurl"]=""
+    DG.nodes[100]["yogajournal_picture"]=""
+    DG.nodes[100]["hindi_name"]=""
+    DG.nodes[100]["comment"]=""
+    DG.nodes[100]["Dharma Mittra picture URL"]=""
+    DG.nodes[100]["asanas 608 page"]=""
+    DG.nodes[100]["asanas 608 english name"]=""
+
+    DG.add_node(101,english_name="")
+    DG.nodes[101]["two_sided"]=False
+    DG.nodes[101]["description"]=""
+    DG.nodes[101]["yogajournalurl"]=""
+    DG.nodes[101]["yogajournal_picture"]=""
+    DG.nodes[101]["hindi_name"]=""
+    DG.nodes[101]["comment"]=""
+    DG.nodes[101]["Dharma Mittra picture URL"]=""
+    DG.nodes[101]["asanas 608 page"]=""
+    DG.nodes[101]["asanas 608 english name"]=""
+
+    DG.add_node(102,english_name="")
+    DG.nodes[102]["two_sided"]=False
+    DG.nodes[102]["description"]=""
+    DG.nodes[102]["yogajournalurl"]=""
+    DG.nodes[102]["yogajournal_picture"]=""
+    DG.nodes[102]["hindi_name"]=""
+    DG.nodes[102]["comment"]=""
+    DG.nodes[102]["Dharma Mittra picture URL"]=""
+    DG.nodes[102]["asanas 608 page"]=""
+    DG.nodes[102]["asanas 608 english name"]=""
+
+    DG.add_node(103,english_name="")
+    DG.nodes[103]["two_sided"]=False
+    DG.nodes[103]["description"]=""
+    DG.nodes[103]["yogajournalurl"]=""
+    DG.nodes[103]["yogajournal_picture"]=""
+    DG.nodes[103]["hindi_name"]=""
+    DG.nodes[103]["comment"]=""
+    DG.nodes[103]["Dharma Mittra picture URL"]=""
+    DG.nodes[103]["asanas 608 page"]=""
+    DG.nodes[103]["asanas 608 english name"]=""
+
+    DG.add_node(104,english_name="")
+    DG.nodes[104]["two_sided"]=False
+    DG.nodes[104]["description"]=""
+    DG.nodes[104]["yogajournalurl"]=""
+    DG.nodes[104]["yogajournal_picture"]=""
+    DG.nodes[104]["hindi_name"]=""
+    DG.nodes[104]["comment"]=""
+    DG.nodes[104]["Dharma Mittra picture URL"]=""
+    DG.nodes[104]["asanas 608 page"]=""
+    DG.nodes[104]["asanas 608 english name"]=""
+
+    DG.add_node(105,english_name="")
+    DG.nodes[105]["two_sided"]=False
+    DG.nodes[105]["description"]=""
+    DG.nodes[105]["yogajournalurl"]=""
+    DG.nodes[105]["yogajournal_picture"]=""
+    DG.nodes[105]["hindi_name"]=""
+    DG.nodes[105]["comment"]=""
+    DG.nodes[105]["Dharma Mittra picture URL"]=""
+    DG.nodes[105]["asanas 608 page"]=""
+    DG.nodes[105]["asanas 608 english name"]=""
+
+    DG.add_node(106,english_name="")
+    DG.nodes[106]["two_sided"]=False
+    DG.nodes[106]["description"]=""
+    DG.nodes[106]["yogajournalurl"]=""
+    DG.nodes[106]["yogajournal_picture"]=""
+    DG.nodes[106]["hindi_name"]=""
+    DG.nodes[106]["comment"]=""
+    DG.nodes[106]["Dharma Mittra picture URL"]=""
+    DG.nodes[106]["asanas 608 page"]=""
+    DG.nodes[106]["asanas 608 english name"]=""
+
+    DG.add_node(107,english_name="")
+    DG.nodes[107]["two_sided"]=False
+    DG.nodes[107]["description"]=""
+    DG.nodes[107]["yogajournalurl"]=""
+    DG.nodes[107]["yogajournal_picture"]=""
+    DG.nodes[107]["hindi_name"]=""
+    DG.nodes[107]["comment"]=""
+    DG.nodes[107]["Dharma Mittra picture URL"]=""
+    DG.nodes[107]["asanas 608 page"]=""
+    DG.nodes[107]["asanas 608 english name"]=""
+
+    DG.add_node(108,english_name="")
+    DG.nodes[108]["two_sided"]=False
+    DG.nodes[108]["description"]=""
+    DG.nodes[108]["yogajournalurl"]=""
+    DG.nodes[108]["yogajournal_picture"]=""
+    DG.nodes[108]["hindi_name"]=""
+    DG.nodes[108]["comment"]=""
+    DG.nodes[108]["Dharma Mittra picture URL"]=""
+    DG.nodes[108]["asanas 608 page"]=""
+    DG.nodes[108]["asanas 608 english name"]=""
+
+    DG.add_node(109,english_name="")
+    DG.nodes[109]["two_sided"]=False
+    DG.nodes[109]["description"]=""
+    DG.nodes[109]["yogajournalurl"]=""
+    DG.nodes[109]["yogajournal_picture"]=""
+    DG.nodes[109]["hindi_name"]=""
+    DG.nodes[109]["comment"]=""
+    DG.nodes[109]["Dharma Mittra picture URL"]=""
+    DG.nodes[109]["asanas 608 page"]=""
+    DG.nodes[109]["asanas 608 english name"]=""
 
 
     return DG
