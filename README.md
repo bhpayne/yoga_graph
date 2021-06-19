@@ -3,10 +3,7 @@ yoga_graph
 
 tl;dr: graph of yoga poses and transition
 
-installation
-============
-
-sudo pip install pyyaml
+This software is used to generate the website https://bhpayne.github.io/yoga_graph/
 
 introduction
 ============
@@ -19,9 +16,9 @@ The poses from all styles of yoga form the superset contained in the database (y
 
 jargon
 ======
-A pose is any body position held for a length of time. A pose is a node on the graph
-A transition is a body movement between poses. A transition is an edge on the graph
-A flow is a sequence of poses and transitions.  
+* A _pose_ is any body position held for a length of time. A pose is a node on the graph
+* A _transition_ is a body movement between poses. A transition is an edge on the graph
+* A _flow_ is a sequence of poses and transitions.  
 
 Relative Difficulty
 ===================
