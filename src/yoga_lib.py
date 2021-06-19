@@ -46,8 +46,9 @@ def get_inputs(config_filename):
     """
     # https://yaml-online-parser.appspot.com/
     """
-    input_stream = file(config_filename, "r")
-    input_data = yaml.load(input_stream)
+    with open(config_filename, "r") as file_handle:
+        input_data = yaml.load(file_handle)
+
     viewer = input_data["viewer"]
     use_viewer = input_data["use_viewer"]
     directory_containing_pictures = input_data["directory_containing_pictures"]
@@ -78,7 +79,7 @@ def plot_graph_with_labels(DG, label_str):
     """ """
     labels = {}
     for node_indx in DG.nodes():
-        labels[node_indx] = DG.node[node_indx][label_str]
+        labels[node_indx] = DG.nodes[node_indx][label_str]
 
     pos = nx.spring_layout(DG)  # other choices are circular, random, shell, spectral
 
@@ -154,12 +155,12 @@ def random_flow(DG, entry_point_indx, max_poses, field_val, delay, viewer, use_v
     else:
         print("not launching pictures")
     print("\nentry point: ")
-    print(str(entry_point_indx) + " = " + DG.node[entry_point_indx][field_val])
+    print(str(entry_point_indx) + " = " + DG.nodes[entry_point_indx][field_val])
     current_indx = entry_point_indx
 
     pose_count = 1
     while pose_count < max_poses:
-        #         print(DG.node[current_indx])
+        #         print(DG.nodes[current_indx])
         pose_history.append(current_indx)
         symmetry_history.append(current_indx)
 
@@ -190,18 +191,18 @@ def random_flow(DG, entry_point_indx, max_poses, field_val, delay, viewer, use_v
         # print(choices)
         """
         for pose_indx in choices:
-            if (DG.node[pose_indx]["two_sided"]==False):
-                print("   "+str(pose_indx)+" = "+DG.node[pose_indx][field_val])
+            if (DG.nodes[pose_indx]["two_sided"]==False):
+                print("   "+str(pose_indx)+" = "+DG.nodes[pose_indx][field_val])
             else:
-                print("   "+str(pose_indx)+" = "+DG.node[pose_indx][field_val]+", left side")
+                print("   "+str(pose_indx)+" = "+DG.nodes[pose_indx][field_val]+", left side")
         """
-        new_indx = random.choice(DG.successors(current_indx))
+        new_indx = random.choice(list(DG.successors(current_indx)))
         print("\nnext move:")
-        print(str(new_indx) + " = " + DG.node[new_indx][field_val])
-        if DG.node[new_indx]["hindi_name"] != "":
-            print(DG.node[new_indx]["hindi_name"])
-        if DG.node[new_indx]["description"] != "":
-            print(DG.node[new_indx]["description"])
+        print(str(new_indx) + " = " + DG.nodes[new_indx][field_val])
+        if DG.nodes[new_indx]["hindi_name"] != "":
+            print(DG.nodes[new_indx]["hindi_name"])
+        if DG.nodes[new_indx]["description"] != "":
+            print(DG.nodes[new_indx]["description"])
 
         current_indx = new_indx
         pose_count = pose_count + 1

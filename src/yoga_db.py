@@ -45,1164 +45,1164 @@ def pose_properties(DG):
     Graph nodes
     """
     DG.add_node(0, english_name="table top")
-    DG.node[0]["two_sided"] = False
-    DG.node[0][
+    DG.nodes[0]["two_sided"] = False
+    DG.nodes[0][
         "description"
     ] = "on all fours; hands, knees, and feet are shoulder width apart"
-    DG.node[0]["yogajournalurl"] = ""
-    DG.node[0]["yogajournal_picture"] = ""
-    DG.node[0]["hindi_name"] = ""
-    DG.node[0]["comment"] = ""
-    DG.node[0]["Dharma Mittra picture URL"] = ""
-    DG.node[0]["asanas 608 page"] = ""
-    DG.node[0]["asanas 608 english name"] = ""
+    DG.nodes[0]["yogajournalurl"] = ""
+    DG.nodes[0]["yogajournal_picture"] = ""
+    DG.nodes[0]["hindi_name"] = ""
+    DG.nodes[0]["comment"] = ""
+    DG.nodes[0]["Dharma Mittra picture URL"] = ""
+    DG.nodes[0]["asanas 608 page"] = ""
+    DG.nodes[0]["asanas 608 english name"] = ""
 
     DG.add_node(1, english_name="cow")
-    DG.node[1]["two_sided"] = False
-    DG.node[1]["description"] = "on all fours, pull chest to floor and head up"
-    DG.node[1]["yogajournalurl"] = "http://www.yogajournal.com/poses/2467"
-    DG.node[1][
+    DG.nodes[1]["two_sided"] = False
+    DG.nodes[1]["description"] = "on all fours, pull chest to floor and head up"
+    DG.nodes[1]["yogajournalurl"] = "http://www.yogajournal.com/poses/2467"
+    DG.nodes[1][
         "yogajournal_picture"
     ] = "http://media.yogajournal.com/wp-content/uploads/CowPose.jpg"
-    DG.node[1]["hindi_name"] = "marjaryasana"
-    DG.node[1]["comment"] = ""
-    DG.node[1][
+    DG.nodes[1]["hindi_name"] = "marjaryasana"
+    DG.nodes[1]["comment"] = ""
+    DG.nodes[1][
         "Dharma Mittra picture URL"
     ] = "http://www.dharmayogacenter.com/wp-content/gallery/asana-reference/marjaryasana2.jpg"
-    DG.node[1]["asanas_608_page"] = "373"
-    DG.node[1]["asanas_608_english"] = "cat stretch pose B"
+    DG.nodes[1]["asanas_608_page"] = "373"
+    DG.nodes[1]["asanas_608_english"] = "cat stretch pose B"
 
     DG.add_node(2, english_name="cat")
-    DG.node[2]["two_sided"] = False
-    DG.node[2]["description"] = "on all fours, pull chest to ceiling and head down"
-    DG.node[2]["yogajournalurl"] = "http://www.yogajournal.com/poses/2468"
-    DG.node[2][
+    DG.nodes[2]["two_sided"] = False
+    DG.nodes[2]["description"] = "on all fours, pull chest to ceiling and head down"
+    DG.nodes[2]["yogajournalurl"] = "http://www.yogajournal.com/poses/2468"
+    DG.nodes[2][
         "yogajournal_picture"
     ] = "http://media.yogajournal.com/wp-content/uploads/252_hp_move_03_4501.jpg"
-    DG.node[2]["hindi_name"] = "marjaryasana"
-    DG.node[2]["comment"] = ""
-    DG.node[2][
+    DG.nodes[2]["hindi_name"] = "marjaryasana"
+    DG.nodes[2]["comment"] = ""
+    DG.nodes[2][
         "Dharma Mittra picture URL"
     ] = "http://www.dharmayogacenter.com/wp-content/gallery/asana-reference/marjaryasana1.jpg"
-    DG.node[2]["asanas_608_page"] = "372"
-    DG.node[2]["asanas_608_english"] = "cat stretch pose A"
+    DG.nodes[2]["asanas_608_page"] = "372"
+    DG.nodes[2]["asanas_608_english"] = "cat stretch pose A"
 
     DG.add_node(3, english_name="child's pose")
-    DG.node[3]["two_sided"] = False
-    DG.node[3]["description"] = "arms stretched above head, face to ground. On shins"
-    DG.node[3]["yogajournalurl"] = "http://www.yogajournal.com/poses/475"
-    DG.node[3][
+    DG.nodes[3]["two_sided"] = False
+    DG.nodes[3]["description"] = "arms stretched above head, face to ground. On shins"
+    DG.nodes[3]["yogajournalurl"] = "http://www.yogajournal.com/poses/475"
+    DG.nodes[3][
         "yogajournal_picture"
     ] = "http://media.yogajournal.com/wp-content/uploads/266_hp_side06_4501.jpg"
-    DG.node[3]["hindi_name"] = ""
-    DG.node[3]["comment"] = ""
-    DG.node[3]["Dharma Mittra picture URL"] = ""
-    DG.node[3]["asanas 608 page"] = ""
-    DG.node[3]["asanas 608 english name"] = ""
+    DG.nodes[3]["hindi_name"] = ""
+    DG.nodes[3]["comment"] = ""
+    DG.nodes[3]["Dharma Mittra picture URL"] = ""
+    DG.nodes[3]["asanas 608 page"] = ""
+    DG.nodes[3]["asanas 608 english name"] = ""
 
     DG.add_node(4, english_name="downward dog")
-    DG.node[4]["two_sided"] = False
-    DG.node[4]["yogajournalurl"] = "http://www.yogajournal.com/poses/491"
-    #     DG.node[4]["yogajournalurl"]="http://www.yogajournal.com/pose/downward-facing-dog/"
-    DG.node[4][
+    DG.nodes[4]["two_sided"] = False
+    DG.nodes[4]["yogajournalurl"] = "http://www.yogajournal.com/poses/491"
+    #     DG.nodes[4]["yogajournalurl"]="http://www.yogajournal.com/pose/downward-facing-dog/"
+    DG.nodes[4][
         "yogajournal_picture"
     ] = "http://media.yogajournal.com/wp-content/uploads/266_hp_side12_450.jpg"
-    DG.node[4]["hindi_name"] = "Adho Mukha Svanasana"
-    DG.node[4]["Dharma Mittra picture URL"] = ""
-    DG.node[4]["description"] = "feet and hands on floor, both shoulder width apart"
-    DG.node[4]["asanas_608_page"] = ""
-    DG.node[4]["asanas_608_english"] = ""
+    DG.nodes[4]["hindi_name"] = "Adho Mukha Svanasana"
+    DG.nodes[4]["Dharma Mittra picture URL"] = ""
+    DG.nodes[4]["description"] = "feet and hands on floor, both shoulder width apart"
+    DG.nodes[4]["asanas_608_page"] = ""
+    DG.nodes[4]["asanas_608_english"] = ""
 
     DG.add_node(5, english_name="dolphin")
-    DG.node[5]["two_sided"] = False
-    DG.node[5]["description"] = "feet and forearms on floor"
-    DG.node[5]["yogajournalurl"] = "http://www.yogajournal.com/poses/2462"
-    DG.node[5][
+    DG.nodes[5]["two_sided"] = False
+    DG.nodes[5]["description"] = "feet and forearms on floor"
+    DG.nodes[5]["yogajournalurl"] = "http://www.yogajournal.com/poses/2462"
+    DG.nodes[5][
         "yogajournal_picture"
     ] = "http://media.yogajournal.com/wp-content/uploads/newMATY_3_0056_FNL.jpg"
-    DG.node[5]["hindi_name"] = ""
-    DG.node[5]["comment"] = ""
-    DG.node[5]["Dharma Mittra picture URL"] = ""
-    DG.node[5]["asanas 608 page"] = ""
-    DG.node[5]["asanas 608 english name"] = ""
+    DG.nodes[5]["hindi_name"] = ""
+    DG.nodes[5]["comment"] = ""
+    DG.nodes[5]["Dharma Mittra picture URL"] = ""
+    DG.nodes[5]["asanas 608 page"] = ""
+    DG.nodes[5]["asanas 608 english name"] = ""
 
     DG.add_node(6, english_name="lay on stomach")
-    DG.node[6]["two_sided"] = False
-    DG.node[6]["description"] = "whole body in contact with ground, arms by side"
-    DG.node[6]["yogajournalurl"] = ""
-    DG.node[6]["yogajournal_picture"] = ""
-    DG.node[6]["hindi_name"] = "Makarasana"
-    DG.node[6]["comment"] = ""
-    DG.node[6]["Dharma Mittra picture URL"] = ""
-    DG.node[6]["asanas 608 page"] = ""
-    DG.node[6]["asanas 608 english name"] = ""
+    DG.nodes[6]["two_sided"] = False
+    DG.nodes[6]["description"] = "whole body in contact with ground, arms by side"
+    DG.nodes[6]["yogajournalurl"] = ""
+    DG.nodes[6]["yogajournal_picture"] = ""
+    DG.nodes[6]["hindi_name"] = "Makarasana"
+    DG.nodes[6]["comment"] = ""
+    DG.nodes[6]["Dharma Mittra picture URL"] = ""
+    DG.nodes[6]["asanas 608 page"] = ""
+    DG.nodes[6]["asanas 608 english name"] = ""
 
     DG.add_node(7, english_name="bow pose")
-    DG.node[7]["two_sided"] = False
-    DG.node[7]["description"] = ""
-    DG.node[7]["yogajournalurl"] = "http://www.yogajournal.com/poses/875"
-    DG.node[7][
+    DG.nodes[7]["two_sided"] = False
+    DG.nodes[7]["description"] = ""
+    DG.nodes[7]["yogajournalurl"] = "http://www.yogajournal.com/poses/875"
+    DG.nodes[7][
         "yogajournal_picture"
     ] = "http://media.yogajournal.com/wp-content/uploads/HP_260_10_FNL_4501.jpg"
-    DG.node[7]["hindi_name"] = ""
-    DG.node[7]["comment"] = ""
-    DG.node[7]["Dharma Mittra picture URL"] = ""
-    DG.node[7]["asanas 608 page"] = ""
-    DG.node[7]["asanas 608 english name"] = ""
+    DG.nodes[7]["hindi_name"] = ""
+    DG.nodes[7]["comment"] = ""
+    DG.nodes[7]["Dharma Mittra picture URL"] = ""
+    DG.nodes[7]["asanas 608 page"] = ""
+    DG.nodes[7]["asanas 608 english name"] = ""
 
     DG.add_node(8, english_name="laying on back, one leg extended up")
-    DG.node[8]["two_sided"] = True
-    DG.node[8]["description"] = ""
-    DG.node[8]["yogajournalurl"] = ""
-    DG.node[8]["yogajournal_picture"] = ""
-    DG.node[8]["hindi_name"] = ""
-    DG.node[8]["comment"] = ""
-    DG.node[8]["Dharma Mittra picture URL"] = ""
-    DG.node[8]["asanas 608 page"] = ""
-    DG.node[8]["asanas 608 english name"] = ""
+    DG.nodes[8]["two_sided"] = True
+    DG.nodes[8]["description"] = ""
+    DG.nodes[8]["yogajournalurl"] = ""
+    DG.nodes[8]["yogajournal_picture"] = ""
+    DG.nodes[8]["hindi_name"] = ""
+    DG.nodes[8]["comment"] = ""
+    DG.nodes[8]["Dharma Mittra picture URL"] = ""
+    DG.nodes[8]["asanas 608 page"] = ""
+    DG.nodes[8]["asanas 608 english name"] = ""
 
     DG.add_node(9, english_name="lying on back, both legs extended up")
-    DG.node[9]["two_sided"] = False
-    DG.node[9]["description"] = ""
-    DG.node[9]["yogajournalurl"] = ""
-    DG.node[9]["yogajournal_picture"] = ""
-    DG.node[9]["hindi_name"] = ""
-    DG.node[9]["comment"] = ""
-    DG.node[9]["Dharma Mittra picture URL"] = ""
-    DG.node[9]["asanas 608 page"] = ""
-    DG.node[9]["asanas 608 english name"] = ""
+    DG.nodes[9]["two_sided"] = False
+    DG.nodes[9]["description"] = ""
+    DG.nodes[9]["yogajournalurl"] = ""
+    DG.nodes[9]["yogajournal_picture"] = ""
+    DG.nodes[9]["hindi_name"] = ""
+    DG.nodes[9]["comment"] = ""
+    DG.nodes[9]["Dharma Mittra picture URL"] = ""
+    DG.nodes[9]["asanas 608 page"] = ""
+    DG.nodes[9]["asanas 608 english name"] = ""
 
     DG.add_node(10, english_name="supported shoulder stand")
-    DG.node[10]["two_sided"] = False
-    DG.node[10]["description"] = ""
-    DG.node[10]["yogajournalurl"] = ""
-    DG.node[10]["yogajournal_picture"] = ""
-    DG.node[10]["hindi_name"] = "Sarvangasana"
-    DG.node[10]["comment"] = ""
-    DG.node[10]["Dharma Mittra picture URL"] = ""
-    DG.node[10]["asanas_608_page"] = "226"
-    DG.node[10]["asanas_608_english"] = "Shoulder Stand Pose"
+    DG.nodes[10]["two_sided"] = False
+    DG.nodes[10]["description"] = ""
+    DG.nodes[10]["yogajournalurl"] = ""
+    DG.nodes[10]["yogajournal_picture"] = ""
+    DG.nodes[10]["hindi_name"] = "Sarvangasana"
+    DG.nodes[10]["comment"] = ""
+    DG.nodes[10]["Dharma Mittra picture URL"] = ""
+    DG.nodes[10]["asanas_608_page"] = "226"
+    DG.nodes[10]["asanas_608_english"] = "Shoulder Stand Pose"
 
     DG.add_node(11, english_name="plow pose")
-    DG.node[11]["two_sided"] = False
-    DG.node[11]["description"] = ""
-    DG.node[11]["yogajournalurl"] = "http://www.yogajournal.com/poses/479"
-    DG.node[11][
+    DG.nodes[11]["two_sided"] = False
+    DG.nodes[11]["description"] = ""
+    DG.nodes[11]["yogajournalurl"] = "http://www.yogajournal.com/poses/479"
+    DG.nodes[11][
         "yogajournal_picture"
     ] = "http://media.yogajournal.com/wp-content/uploads/plowpose.jpg"
-    DG.node[11]["hindi_name"] = "Halasana"
-    DG.node[11]["comment"] = ""
-    DG.node[11]["Dharma Mittra picture URL"] = ""
-    DG.node[11]["asanas_608_page"] = "249"
-    DG.node[11]["asanas_608_english"] = "Plough pose (variation)"
+    DG.nodes[11]["hindi_name"] = "Halasana"
+    DG.nodes[11]["comment"] = ""
+    DG.nodes[11]["Dharma Mittra picture URL"] = ""
+    DG.nodes[11]["asanas_608_page"] = "249"
+    DG.nodes[11]["asanas_608_english"] = "Plough pose (variation)"
 
     DG.add_node(12, english_name="ear pressure pose")
-    DG.node[12]["two_sided"] = False
-    DG.node[12]["description"] = ""
-    DG.node[12]["yogajournalurl"] = ""
-    DG.node[12]["yogajournal_picture"] = ""
-    DG.node[12]["hindi_name"] = ""
-    DG.node[12]["comment"] = ""
-    DG.node[12]["Dharma Mittra picture URL"] = ""
-    DG.node[12]["asanas 608 page"] = ""
-    DG.node[12]["asanas 608 english name"] = ""
+    DG.nodes[12]["two_sided"] = False
+    DG.nodes[12]["description"] = ""
+    DG.nodes[12]["yogajournalurl"] = ""
+    DG.nodes[12]["yogajournal_picture"] = ""
+    DG.nodes[12]["hindi_name"] = ""
+    DG.nodes[12]["comment"] = ""
+    DG.nodes[12]["Dharma Mittra picture URL"] = ""
+    DG.nodes[12]["asanas 608 page"] = ""
+    DG.nodes[12]["asanas 608 english name"] = ""
 
     DG.add_node(13, english_name="plank")
-    DG.node[13]["two_sided"] = False
-    DG.node[13]["description"] = ""
-    #     DG.node[13]["yogajournalurl"]="http://www.yogajournal.com/poses/470"
-    DG.node[13]["yogajournalurl"] = "http://www.yogajournal.com/pose/plank-pose/"
-    DG.node[13][
+    DG.nodes[13]["two_sided"] = False
+    DG.nodes[13]["description"] = ""
+    #     DG.nodes[13]["yogajournalurl"]="http://www.yogajournal.com/poses/470"
+    DG.nodes[13]["yogajournalurl"] = "http://www.yogajournal.com/pose/plank-pose/"
+    DG.nodes[13][
         "yogajournal_picture"
     ] = "http://media.yogajournal.com/wp-content/uploads/244_hp_01_450.jpg"
-    DG.node[13]["hindi_name"] = ""
-    DG.node[13]["comment"] = ""
-    DG.node[13][
+    DG.nodes[13]["hindi_name"] = ""
+    DG.nodes[13]["comment"] = ""
+    DG.nodes[13][
         "Dharma Mittra picture URL"
     ] = "http://www.dharmayogacenter.com/wp-content/gallery/asana-reference/chaturanga-dandasana.jpg"
-    DG.node[13]["asanas 608 page"] = ""
-    DG.node[13]["asanas 608 english name"] = ""
+    DG.nodes[13]["asanas 608 page"] = ""
+    DG.nodes[13]["asanas 608 english name"] = ""
 
     DG.add_node(14, english_name="wild thing")
-    DG.node[14]["two_sided"] = True
-    DG.node[14]["description"] = ""
-    DG.node[14]["yogajournalurl"] = ""
-    DG.node[14]["yogajournal_picture"] = ""
-    DG.node[14]["hindi_name"] = ""
-    DG.node[14]["comment"] = ""
-    DG.node[14]["Dharma Mittra picture URL"] = ""
-    DG.node[14]["asanas 608 page"] = ""
-    DG.node[14]["asanas 608 english name"] = ""
+    DG.nodes[14]["two_sided"] = True
+    DG.nodes[14]["description"] = ""
+    DG.nodes[14]["yogajournalurl"] = ""
+    DG.nodes[14]["yogajournal_picture"] = ""
+    DG.nodes[14]["hindi_name"] = ""
+    DG.nodes[14]["comment"] = ""
+    DG.nodes[14]["Dharma Mittra picture URL"] = ""
+    DG.nodes[14]["asanas 608 page"] = ""
+    DG.nodes[14]["asanas 608 english name"] = ""
 
     DG.add_node(15, english_name="low pushup")
-    DG.node[15]["two_sided"] = False
-    DG.node[15]["hindi_name"] = "chaturanga"
-    DG.node[15]["description"] = ""
-    DG.node[15][
+    DG.nodes[15]["two_sided"] = False
+    DG.nodes[15]["hindi_name"] = "chaturanga"
+    DG.nodes[15]["description"] = ""
+    DG.nodes[15][
         "yogajournalurl"
     ] = "http://www.yogajournal.com/pose/four-limbed-staff-pose/"
-    DG.node[15][
+    DG.nodes[15][
         "yogajournal_picture"
     ] = "http://media.yogajournal.com/wp-content/uploads/chaturangafourlimbedstaff.jpg"
-    DG.node[15]["comment"] = ""
-    DG.node[15]["Dharma Mittra picture URL"] = ""
-    DG.node[15]["asanas 608 page"] = ""
-    DG.node[15]["asanas 608 english name"] = ""
+    DG.nodes[15]["comment"] = ""
+    DG.nodes[15]["Dharma Mittra picture URL"] = ""
+    DG.nodes[15]["asanas 608 page"] = ""
+    DG.nodes[15]["asanas 608 english name"] = ""
 
     DG.add_node(16, english_name="side plank")
-    DG.node[16]["two_sided"] = True
-    DG.node[16]["description"] = ""
-    DG.node[16]["yogajournalurl"] = "http://www.yogajournal.com/pose/side-plank-pose/"
-    DG.node[16][
+    DG.nodes[16]["two_sided"] = True
+    DG.nodes[16]["description"] = ""
+    DG.nodes[16]["yogajournalurl"] = "http://www.yogajournal.com/pose/side-plank-pose/"
+    DG.nodes[16][
         "yogajournal_picture"
     ] = "http://media.yogajournal.com/wp-content/uploads/SidePlankPose.jpg"
-    DG.node[16]["hindi_name"] = ""
-    DG.node[16]["comment"] = ""
-    DG.node[16]["Dharma Mittra picture URL"] = ""
-    DG.node[16]["asanas 608 page"] = ""
-    DG.node[16]["asanas 608 english name"] = ""
+    DG.nodes[16]["hindi_name"] = ""
+    DG.nodes[16]["comment"] = ""
+    DG.nodes[16]["Dharma Mittra picture URL"] = ""
+    DG.nodes[16]["asanas 608 page"] = ""
+    DG.nodes[16]["asanas 608 english name"] = ""
 
     DG.add_node(17, english_name="standing bend, legs together")
-    DG.node[17]["two_sided"] = False
-    DG.node[17]["description"] = "legs together, face to knees"
-    DG.node[17]["yogajournalurl"] = ""
-    DG.node[17]["yogajournal_picture"] = ""
-    DG.node[17]["hindi_name"] = ""
-    DG.node[17]["comment"] = ""
-    DG.node[17]["Dharma Mittra picture URL"] = ""
-    DG.node[17]["asanas 608 page"] = ""
-    DG.node[17]["asanas 608 english name"] = ""
+    DG.nodes[17]["two_sided"] = False
+    DG.nodes[17]["description"] = "legs together, face to knees"
+    DG.nodes[17]["yogajournalurl"] = ""
+    DG.nodes[17]["yogajournal_picture"] = ""
+    DG.nodes[17]["hindi_name"] = ""
+    DG.nodes[17]["comment"] = ""
+    DG.nodes[17]["Dharma Mittra picture URL"] = ""
+    DG.nodes[17]["asanas 608 page"] = ""
+    DG.nodes[17]["asanas 608 english name"] = ""
 
     DG.add_node(18, english_name="down dog, one leg raised")
-    DG.node[18]["two_sided"] = True
-    DG.node[18]["description"] = ""
-    DG.node[18][
+    DG.nodes[18]["two_sided"] = True
+    DG.nodes[18]["description"] = ""
+    DG.nodes[18][
         "yogajournalurl"
     ] = "http://www.yogajournal.com/article/beginners/one-legged-downward-facing-dog/"
-    DG.node[18][
+    DG.nodes[18][
         "yogajournal_picture"
     ] = "http://media.yogajournal.com/wp-content/uploads/bas_234_opener_Sized2.jpg"
-    DG.node[18]["hindi_name"] = ""
-    DG.node[18]["comment"] = ""
-    DG.node[18]["Dharma Mittra picture URL"] = ""
-    DG.node[18]["asanas 608 page"] = ""
-    DG.node[18]["asanas 608 english name"] = ""
+    DG.nodes[18]["hindi_name"] = ""
+    DG.nodes[18]["comment"] = ""
+    DG.nodes[18]["Dharma Mittra picture URL"] = ""
+    DG.nodes[18]["asanas 608 page"] = ""
+    DG.nodes[18]["asanas 608 english name"] = ""
 
     DG.add_node(19, english_name="flipped dog")
-    DG.node[19]["two_sided"] = True
-    DG.node[19]["description"] = ""
-    DG.node[19]["yogajournalurl"] = ""
-    DG.node[19]["yogajournal_picture"] = ""
-    DG.node[19]["hindi_name"] = ""
-    DG.node[19]["comment"] = ""
-    DG.node[19]["Dharma Mittra picture URL"] = ""
-    DG.node[19]["asanas 608 page"] = ""
-    DG.node[19]["asanas 608 english name"] = ""
+    DG.nodes[19]["two_sided"] = True
+    DG.nodes[19]["description"] = ""
+    DG.nodes[19]["yogajournalurl"] = ""
+    DG.nodes[19]["yogajournal_picture"] = ""
+    DG.nodes[19]["hindi_name"] = ""
+    DG.nodes[19]["comment"] = ""
+    DG.nodes[19]["Dharma Mittra picture URL"] = ""
+    DG.nodes[19]["asanas 608 page"] = ""
+    DG.nodes[19]["asanas 608 english name"] = ""
 
     DG.add_node(20, english_name="stand straight (mountain)")
-    DG.node[20]["two_sided"] = False
-    DG.node[20]["yogajournalurl"] = "http://www.yogajournal.com/poses/492"
-    DG.node[20][
+    DG.nodes[20]["two_sided"] = False
+    DG.nodes[20]["yogajournalurl"] = "http://www.yogajournal.com/poses/492"
+    DG.nodes[20][
         "yogajournal_picture"
     ] = "http://media.yogajournal.com/wp-content/uploads/pract-well_trail_268_02_FNLTadasana.jpg"
-    DG.node[20]["hindi_name"] = "Tadasana"
-    DG.node[20]["description"] = "legs together, hands at side"
-    DG.node[20]["comment"] = ""
-    DG.node[20]["Dharma Mittra picture URL"] = ""
-    DG.node[20]["asanas 608 page"] = ""
-    DG.node[20]["asanas 608 english name"] = ""
+    DG.nodes[20]["hindi_name"] = "Tadasana"
+    DG.nodes[20]["description"] = "legs together, hands at side"
+    DG.nodes[20]["comment"] = ""
+    DG.nodes[20]["Dharma Mittra picture URL"] = ""
+    DG.nodes[20]["asanas 608 page"] = ""
+    DG.nodes[20]["asanas 608 english name"] = ""
 
     DG.add_node(21, english_name="happy camper")
-    DG.node[21]["two_sided"] = True
-    DG.node[21]["description"] = ""
-    DG.node[21]["yogajournalurl"] = ""
-    DG.node[21]["yogajournal_picture"] = ""
-    DG.node[21]["hindi_name"] = ""
-    DG.node[21]["comment"] = ""
-    DG.node[21]["Dharma Mittra picture URL"] = ""
-    DG.node[21]["asanas 608 page"] = ""
-    DG.node[21]["asanas 608 english name"] = ""
+    DG.nodes[21]["two_sided"] = True
+    DG.nodes[21]["description"] = ""
+    DG.nodes[21]["yogajournalurl"] = ""
+    DG.nodes[21]["yogajournal_picture"] = ""
+    DG.nodes[21]["hindi_name"] = ""
+    DG.nodes[21]["comment"] = ""
+    DG.nodes[21]["Dharma Mittra picture URL"] = ""
+    DG.nodes[21]["asanas 608 page"] = ""
+    DG.nodes[21]["asanas 608 english name"] = ""
 
     DG.add_node(22, english_name="tree pose")
-    DG.node[22]["two_sided"] = True
-    DG.node[22]["description"] = "arms up and straight, one leg bent with foot to thigh"
-    DG.node[22]["yogajournalurl"] = "http://www.yogajournal.com/poses/496"
-    DG.node[22][
+    DG.nodes[22]["two_sided"] = True
+    DG.nodes[22]["description"] = "arms up and straight, one leg bent with foot to thigh"
+    DG.nodes[22]["yogajournalurl"] = "http://www.yogajournal.com/poses/496"
+    DG.nodes[22][
         "yogajournal_picture"
     ] = "http://media.yogajournal.com/wp-content/uploads/yogapedia_270_01_450x450.jpg"
-    DG.node[22]["hindi_name"] = "Vrksasana"
-    DG.node[22]["comment"] = ""
-    DG.node[22]["Dharma Mittra picture URL"] = ""
-    DG.node[22]["asanas 608 page"] = ""
-    DG.node[22]["asanas 608 english name"] = ""
+    DG.nodes[22]["hindi_name"] = "Vrksasana"
+    DG.nodes[22]["comment"] = ""
+    DG.nodes[22]["Dharma Mittra picture URL"] = ""
+    DG.nodes[22]["asanas 608 page"] = ""
+    DG.nodes[22]["asanas 608 english name"] = ""
 
     DG.add_node(23, english_name="warrior 3")
-    DG.node[23]["two_sided"] = True
-    DG.node[23]["description"] = "bent forward on one leg, arms extended forward"
-    DG.node[23]["yogajournalurl"] = "http://www.yogajournal.com/poses/941"
-    DG.node[23]["hindi_name"] = "Virabhadrasana III"
-    DG.node[23][
+    DG.nodes[23]["two_sided"] = True
+    DG.nodes[23]["description"] = "bent forward on one leg, arms extended forward"
+    DG.nodes[23]["yogajournalurl"] = "http://www.yogajournal.com/poses/941"
+    DG.nodes[23]["hindi_name"] = "Virabhadrasana III"
+    DG.nodes[23][
         "yogajournal_picture"
     ] = "http://media.yogajournal.com/wp-content/uploads/246_hp_13_450.jpg"
-    DG.node[23]["comment"] = ""
-    DG.node[23]["Dharma Mittra picture URL"] = ""
-    DG.node[23]["asanas 608 page"] = ""
-    DG.node[23]["asanas 608 english name"] = ""
+    DG.nodes[23]["comment"] = ""
+    DG.nodes[23]["Dharma Mittra picture URL"] = ""
+    DG.nodes[23]["asanas 608 page"] = ""
+    DG.nodes[23]["asanas 608 english name"] = ""
 
     DG.add_node(24, english_name="warrior 1")
-    DG.node[24]["two_sided"] = True
-    DG.node[24]["description"] = "arms up"
-    DG.node[24]["yogajournalurl"] = "http://www.yogajournal.com/poses/1708"
-    DG.node[24]["yogajournal_picture"] = ""
-    DG.node[24]["hindi_name"] = "Virabhadrasana I"
-    DG.node[24]["comment"] = ""
-    DG.node[24]["Dharma Mittra picture URL"] = ""
-    DG.node[24]["asanas 608 page"] = ""
-    DG.node[24]["asanas 608 english name"] = ""
+    DG.nodes[24]["two_sided"] = True
+    DG.nodes[24]["description"] = "arms up"
+    DG.nodes[24]["yogajournalurl"] = "http://www.yogajournal.com/poses/1708"
+    DG.nodes[24]["yogajournal_picture"] = ""
+    DG.nodes[24]["hindi_name"] = "Virabhadrasana I"
+    DG.nodes[24]["comment"] = ""
+    DG.nodes[24]["Dharma Mittra picture URL"] = ""
+    DG.nodes[24]["asanas 608 page"] = ""
+    DG.nodes[24]["asanas 608 english name"] = ""
 
     DG.add_node(25, english_name="dancer pose")
-    DG.node[25]["two_sided"] = True
-    DG.node[25]["description"] = ""
-    DG.node[25]["yogajournalurl"] = "http://www.yogajournal.com/poses/936"
-    DG.node[25]["yogajournal_picture"] = ""
-    DG.node[25]["hindi_name"] = "Natarajasana"
-    DG.node[25]["comment"] = ""
-    DG.node[25]["Dharma Mittra picture URL"] = ""
-    DG.node[25]["asanas 608 page"] = ""
-    DG.node[25]["asanas 608 english name"] = ""
+    DG.nodes[25]["two_sided"] = True
+    DG.nodes[25]["description"] = ""
+    DG.nodes[25]["yogajournalurl"] = "http://www.yogajournal.com/poses/936"
+    DG.nodes[25]["yogajournal_picture"] = ""
+    DG.nodes[25]["hindi_name"] = "Natarajasana"
+    DG.nodes[25]["comment"] = ""
+    DG.nodes[25]["Dharma Mittra picture URL"] = ""
+    DG.nodes[25]["asanas 608 page"] = ""
+    DG.nodes[25]["asanas 608 english name"] = ""
 
     DG.add_node(26, english_name="standing splits")
-    DG.node[26]["two_sided"] = True
-    DG.node[26]["description"] = ""
-    DG.node[26]["yogajournalurl"] = "http://www.yogajournal.com/poses/2499"
-    DG.node[26]["yogajournal_picture"] = ""
-    DG.node[26]["hindi_name"] = "Urdhva Prasarita Eka Padasana"
-    DG.node[26]["comment"] = ""
-    DG.node[26]["Dharma Mittra picture URL"] = ""
-    DG.node[26]["asanas 608 page"] = ""
-    DG.node[26]["asanas 608 english name"] = ""
+    DG.nodes[26]["two_sided"] = True
+    DG.nodes[26]["description"] = ""
+    DG.nodes[26]["yogajournalurl"] = "http://www.yogajournal.com/poses/2499"
+    DG.nodes[26]["yogajournal_picture"] = ""
+    DG.nodes[26]["hindi_name"] = "Urdhva Prasarita Eka Padasana"
+    DG.nodes[26]["comment"] = ""
+    DG.nodes[26]["Dharma Mittra picture URL"] = ""
+    DG.nodes[26]["asanas 608 page"] = ""
+    DG.nodes[26]["asanas 608 english name"] = ""
 
     DG.add_node(27, english_name="chair pose")
-    DG.node[27]["two_sided"] = False
-    DG.node[27]["description"] = ""
-    DG.node[27]["yogajournalurl"] = "http://www.yogajournal.com/poses/493"
-    DG.node[27][
+    DG.nodes[27]["two_sided"] = False
+    DG.nodes[27]["description"] = ""
+    DG.nodes[27]["yogajournalurl"] = "http://www.yogajournal.com/poses/493"
+    DG.nodes[27][
         "yogajournal_picture"
     ] = "http://media.yogajournal.com/wp-content/uploads/HP_269_FNL_81135.jpg"
-    DG.node[27]["hindi_name"] = "Utkatasana"
-    DG.node[27]["comment"] = ""
-    DG.node[27]["Dharma Mittra picture URL"] = ""
-    DG.node[27]["asanas 608 page"] = ""
-    DG.node[27]["asanas 608 english name"] = ""
+    DG.nodes[27]["hindi_name"] = "Utkatasana"
+    DG.nodes[27]["comment"] = ""
+    DG.nodes[27]["Dharma Mittra picture URL"] = ""
+    DG.nodes[27]["asanas 608 page"] = ""
+    DG.nodes[27]["asanas 608 english name"] = ""
 
     DG.add_node(28, english_name="wheel pose")
-    DG.node[28]["two_sided"] = False
-    DG.node[28]["description"] = ""
-    DG.node[28]["yogajournalurl"] = "http://www.yogajournal.com/poses/473"
-    DG.node[28][
+    DG.nodes[28]["two_sided"] = False
+    DG.nodes[28]["description"] = ""
+    DG.nodes[28]["yogajournalurl"] = "http://www.yogajournal.com/poses/473"
+    DG.nodes[28][
         "yogajournal_picture"
     ] = "http://media.yogajournal.com/wp-content/uploads/258_HP_11_fnl_450.jpg"
-    DG.node[28]["hindi_name"] = "Urdhva Dhanurasana"
-    DG.node[28]["comment"] = ""
-    DG.node[28][
+    DG.nodes[28]["hindi_name"] = "Urdhva Dhanurasana"
+    DG.nodes[28]["comment"] = ""
+    DG.nodes[28][
         "Dharma Mittra picture URL"
     ] = "http://www.dharmayogacenter.com/wp-content/gallery/asana-reference/urdhva-dhamurasana3.jpg"
-    DG.node[28]["asanas 608 page"] = ""
-    DG.node[28]["asanas 608 english name"] = ""
+    DG.nodes[28]["asanas 608 page"] = ""
+    DG.nodes[28]["asanas 608 english name"] = ""
 
     DG.add_node(29, english_name="warrior 2")
-    DG.node[29]["two_sided"] = True
-    DG.node[29]["description"] = "arms out"
-    DG.node[29]["yogajournalurl"] = "http://www.yogajournal.com/poses/495"
-    DG.node[29][
+    DG.nodes[29]["two_sided"] = True
+    DG.nodes[29]["description"] = "arms out"
+    DG.nodes[29]["yogajournalurl"] = "http://www.yogajournal.com/poses/495"
+    DG.nodes[29][
         "yogajournal_picture"
     ] = "http://www.yogajournal.com/pose/warrior-ii-pose/"
-    DG.node[29]["hindi_name"] = "Virabhadrasana II"
-    DG.node[29]["comment"] = ""
-    DG.node[29]["Dharma Mittra picture URL"] = ""
-    DG.node[29]["asanas 608 page"] = ""
-    DG.node[29]["asanas 608 english name"] = ""
+    DG.nodes[29]["hindi_name"] = "Virabhadrasana II"
+    DG.nodes[29]["comment"] = ""
+    DG.nodes[29]["Dharma Mittra picture URL"] = ""
+    DG.nodes[29]["asanas 608 page"] = ""
+    DG.nodes[29]["asanas 608 english name"] = ""
 
     DG.add_node(30, english_name="peaceful warrior")
-    DG.node[30]["two_sided"] = True
-    DG.node[30]["description"] = ""
-    DG.node[30]["yogajournalurl"] = ""
-    DG.node[30]["yogajournal_picture"] = ""
-    DG.node[30]["hindi_name"] = ""
-    DG.node[30]["comment"] = ""
-    DG.node[30]["Dharma Mittra picture URL"] = ""
-    DG.node[30]["asanas 608 page"] = ""
-    DG.node[30]["asanas 608 english name"] = ""
+    DG.nodes[30]["two_sided"] = True
+    DG.nodes[30]["description"] = ""
+    DG.nodes[30]["yogajournalurl"] = ""
+    DG.nodes[30]["yogajournal_picture"] = ""
+    DG.nodes[30]["hindi_name"] = ""
+    DG.nodes[30]["comment"] = ""
+    DG.nodes[30]["Dharma Mittra picture URL"] = ""
+    DG.nodes[30]["asanas 608 page"] = ""
+    DG.nodes[30]["asanas 608 english name"] = ""
 
     DG.add_node(31, english_name="corpse pose")
-    DG.node[31]["two_sided"] = False
-    DG.node[31]["description"] = "laying on back"
-    DG.node[31]["yogajournalurl"] = "http://www.yogajournal.com/pose/corpse-pose/"
-    DG.node[31][
+    DG.nodes[31]["two_sided"] = False
+    DG.nodes[31]["description"] = "laying on back"
+    DG.nodes[31]["yogajournalurl"] = "http://www.yogajournal.com/pose/corpse-pose/"
+    DG.nodes[31][
         "yogajournal_picture"
     ] = "http://media.yogajournal.com/wp-content/uploads/CorpsePoseYoga.jpg"
-    DG.node[31]["hindi_name"] = "shabasana"
-    DG.node[31]["comment"] = ""
-    DG.node[31]["Dharma Mittra picture URL"] = ""
-    DG.node[31]["asanas 608 page"] = ""
-    DG.node[31]["asanas 608 english name"] = ""
+    DG.nodes[31]["hindi_name"] = "shabasana"
+    DG.nodes[31]["comment"] = ""
+    DG.nodes[31]["Dharma Mittra picture URL"] = ""
+    DG.nodes[31]["asanas 608 page"] = ""
+    DG.nodes[31]["asanas 608 english name"] = ""
 
     DG.add_node(32, english_name="happy baby, rock side to side")
-    DG.node[32]["two_sided"] = False
-    DG.node[32]["description"] = "on back, feet up"
-    DG.node[32]["yogajournalurl"] = "http://www.yogajournal.com/poses/2497"
-    DG.node[32][
+    DG.nodes[32]["two_sided"] = False
+    DG.nodes[32]["description"] = "on back, feet up"
+    DG.nodes[32]["yogajournalurl"] = "http://www.yogajournal.com/poses/2497"
+    DG.nodes[32][
         "yogajournal_picture"
     ] = "http://media.yogajournal.com/wp-content/uploads/249_hp_groove_16_450.jpg"
-    DG.node[32]["hindi_name"] = ""
-    DG.node[32]["comment"] = ""
-    DG.node[32]["Dharma Mittra picture URL"] = ""
-    DG.node[32]["asanas 608 page"] = ""
-    DG.node[32]["asanas 608 english name"] = ""
+    DG.nodes[32]["hindi_name"] = ""
+    DG.nodes[32]["comment"] = ""
+    DG.nodes[32]["Dharma Mittra picture URL"] = ""
+    DG.nodes[32]["asanas 608 page"] = ""
+    DG.nodes[32]["asanas 608 english name"] = ""
 
     DG.add_node(33, english_name="on back, knees bent, feet on ground")
-    DG.node[33]["two_sided"] = False
-    DG.node[33]["description"] = ""
-    DG.node[33]["yogajournalurl"] = ""
-    DG.node[33]["yogajournal_picture"] = ""
-    DG.node[33]["hindi_name"] = ""
-    DG.node[33]["comment"] = ""
-    DG.node[33]["Dharma Mittra picture URL"] = ""
-    DG.node[33]["asanas 608 page"] = ""
-    DG.node[33]["asanas 608 english name"] = ""
+    DG.nodes[33]["two_sided"] = False
+    DG.nodes[33]["description"] = ""
+    DG.nodes[33]["yogajournalurl"] = ""
+    DG.nodes[33]["yogajournal_picture"] = ""
+    DG.nodes[33]["hindi_name"] = ""
+    DG.nodes[33]["comment"] = ""
+    DG.nodes[33]["Dharma Mittra picture URL"] = ""
+    DG.nodes[33]["asanas 608 page"] = ""
+    DG.nodes[33]["asanas 608 english name"] = ""
 
     DG.add_node(34, english_name="on back, knees bent, feet in air")
-    DG.node[34]["two_sided"] = False
-    DG.node[34]["description"] = ""
-    DG.node[34]["yogajournalurl"] = ""
-    DG.node[34]["yogajournal_picture"] = ""
-    DG.node[34]["hindi_name"] = ""
-    DG.node[34]["comment"] = ""
-    DG.node[34]["Dharma Mittra picture URL"] = ""
-    DG.node[34]["asanas 608 page"] = ""
-    DG.node[34]["asanas 608 english name"] = ""
+    DG.nodes[34]["two_sided"] = False
+    DG.nodes[34]["description"] = ""
+    DG.nodes[34]["yogajournalurl"] = ""
+    DG.nodes[34]["yogajournal_picture"] = ""
+    DG.nodes[34]["hindi_name"] = ""
+    DG.nodes[34]["comment"] = ""
+    DG.nodes[34]["Dharma Mittra picture URL"] = ""
+    DG.nodes[34]["asanas 608 page"] = ""
+    DG.nodes[34]["asanas 608 english name"] = ""
 
     DG.add_node(35, english_name="knees to one side, head to other")
-    DG.node[35]["two_sided"] = True
-    DG.node[35]["description"] = ""
-    DG.node[35]["yogajournalurl"] = ""
-    DG.node[35]["yogajournal_picture"] = ""
-    DG.node[35]["hindi_name"] = ""
-    DG.node[35]["comment"] = ""
-    DG.node[35]["Dharma Mittra picture URL"] = ""
-    DG.node[35]["asanas 608 page"] = ""
-    DG.node[35]["asanas 608 english name"] = ""
+    DG.nodes[35]["two_sided"] = True
+    DG.nodes[35]["description"] = ""
+    DG.nodes[35]["yogajournalurl"] = ""
+    DG.nodes[35]["yogajournal_picture"] = ""
+    DG.nodes[35]["hindi_name"] = ""
+    DG.nodes[35]["comment"] = ""
+    DG.nodes[35]["Dharma Mittra picture URL"] = ""
+    DG.nodes[35]["asanas 608 page"] = ""
+    DG.nodes[35]["asanas 608 english name"] = ""
 
     DG.add_node(36, english_name="staff pose")
-    DG.node[36]["two_sided"] = False
-    DG.node[36]["description"] = ""
-    DG.node[36]["yogajournalurl"] = ""
-    DG.node[36]["yogajournal_picture"] = ""
-    DG.node[36]["hindi_name"] = "paschimatanasana"
-    DG.node[36]["comment"] = ""
-    DG.node[36]["Dharma Mittra picture URL"] = ""
-    DG.node[36]["asanas_608_page"] = "278"
-    DG.node[36]["asanas_608_english"] = "back stretch pose (preparation)"
+    DG.nodes[36]["two_sided"] = False
+    DG.nodes[36]["description"] = ""
+    DG.nodes[36]["yogajournalurl"] = ""
+    DG.nodes[36]["yogajournal_picture"] = ""
+    DG.nodes[36]["hindi_name"] = "paschimatanasana"
+    DG.nodes[36]["comment"] = ""
+    DG.nodes[36]["Dharma Mittra picture URL"] = ""
+    DG.nodes[36]["asanas_608_page"] = "278"
+    DG.nodes[36]["asanas_608_english"] = "back stretch pose (preparation)"
 
     DG.add_node(37, english_name="pigeon pose")
-    DG.node[37]["two_sided"] = True
-    DG.node[37]["description"] = ""
-    DG.node[37]["yogajournalurl"] = ""
-    DG.node[37]["yogajournal_picture"] = ""
-    DG.node[37]["hindi_name"] = ""
-    DG.node[37]["comment"] = ""
-    DG.node[37]["Dharma Mittra picture URL"] = ""
+    DG.nodes[37]["two_sided"] = True
+    DG.nodes[37]["description"] = ""
+    DG.nodes[37]["yogajournalurl"] = ""
+    DG.nodes[37]["yogajournal_picture"] = ""
+    DG.nodes[37]["hindi_name"] = ""
+    DG.nodes[37]["comment"] = ""
+    DG.nodes[37]["Dharma Mittra picture URL"] = ""
 
     DG.add_node(38, english_name="one leg straight, one leg in")
-    DG.node[38]["two_sided"] = True
-    DG.node[38]["description"] = ""
-    DG.node[38]["yogajournalurl"] = ""
-    DG.node[38]["yogajournal_picture"] = ""
-    DG.node[38]["hindi_name"] = ""
-    DG.node[38]["comment"] = ""
-    DG.node[38]["Dharma Mittra picture URL"] = ""
+    DG.nodes[38]["two_sided"] = True
+    DG.nodes[38]["description"] = ""
+    DG.nodes[38]["yogajournalurl"] = ""
+    DG.nodes[38]["yogajournal_picture"] = ""
+    DG.nodes[38]["hindi_name"] = ""
+    DG.nodes[38]["comment"] = ""
+    DG.nodes[38]["Dharma Mittra picture URL"] = ""
 
     DG.add_node(39, english_name="compass pose")
-    DG.node[39]["two_sided"] = True
-    DG.node[39]["description"] = ""
-    DG.node[39]["yogajournalurl"] = ""
-    DG.node[39]["yogajournal_picture"] = ""
-    DG.node[39]["hindi_name"] = ""
-    DG.node[39]["comment"] = ""
-    DG.node[39]["Dharma Mittra picture URL"] = ""
+    DG.nodes[39]["two_sided"] = True
+    DG.nodes[39]["description"] = ""
+    DG.nodes[39]["yogajournalurl"] = ""
+    DG.nodes[39]["yogajournal_picture"] = ""
+    DG.nodes[39]["hindi_name"] = ""
+    DG.nodes[39]["comment"] = ""
+    DG.nodes[39]["Dharma Mittra picture URL"] = ""
 
     DG.add_node(40, english_name="rock bent leg")
-    DG.node[40]["two_sided"] = True
-    DG.node[40]["description"] = ""
-    DG.node[40]["yogajournalurl"] = ""
-    DG.node[40]["yogajournal_picture"] = ""
-    DG.node[40]["hindi_name"] = ""
-    DG.node[40]["comment"] = ""
-    DG.node[40]["Dharma Mittra picture URL"] = ""
-    DG.node[40]["asanas 608 page"] = ""
-    DG.node[40]["asanas 608 english name"] = ""
+    DG.nodes[40]["two_sided"] = True
+    DG.nodes[40]["description"] = ""
+    DG.nodes[40]["yogajournalurl"] = ""
+    DG.nodes[40]["yogajournal_picture"] = ""
+    DG.nodes[40]["hindi_name"] = ""
+    DG.nodes[40]["comment"] = ""
+    DG.nodes[40]["Dharma Mittra picture URL"] = ""
+    DG.nodes[40]["asanas 608 page"] = ""
+    DG.nodes[40]["asanas 608 english name"] = ""
 
     DG.add_node(41, english_name="kneeling on shins")
-    DG.node[41]["two_sided"] = False
-    DG.node[41]["description"] = ""
-    DG.node[41]["yogajournalurl"] = ""
-    DG.node[41]["yogajournal_picture"] = ""
-    DG.node[41]["hindi_name"] = ""
-    DG.node[41]["comment"] = ""
-    DG.node[41]["Dharma Mittra picture URL"] = ""
-    DG.node[41]["asanas 608 page"] = ""
-    DG.node[41]["asanas 608 english name"] = ""
+    DG.nodes[41]["two_sided"] = False
+    DG.nodes[41]["description"] = ""
+    DG.nodes[41]["yogajournalurl"] = ""
+    DG.nodes[41]["yogajournal_picture"] = ""
+    DG.nodes[41]["hindi_name"] = ""
+    DG.nodes[41]["comment"] = ""
+    DG.nodes[41]["Dharma Mittra picture URL"] = ""
+    DG.nodes[41]["asanas 608 page"] = ""
+    DG.nodes[41]["asanas 608 english name"] = ""
 
     DG.add_node(42, english_name="standing on shins")
-    DG.node[42]["two_sided"] = False
-    DG.node[42]["description"] = ""
-    DG.node[42]["yogajournalurl"] = ""
-    DG.node[42]["yogajournal_picture"] = ""
-    DG.node[42]["hindi_name"] = ""
-    DG.node[42]["comment"] = ""
-    DG.node[42]["Dharma Mittra picture URL"] = ""
-    DG.node[42]["asanas 608 page"] = ""
-    DG.node[42]["asanas 608 english name"] = ""
+    DG.nodes[42]["two_sided"] = False
+    DG.nodes[42]["description"] = ""
+    DG.nodes[42]["yogajournalurl"] = ""
+    DG.nodes[42]["yogajournal_picture"] = ""
+    DG.nodes[42]["hindi_name"] = ""
+    DG.nodes[42]["comment"] = ""
+    DG.nodes[42]["Dharma Mittra picture URL"] = ""
+    DG.nodes[42]["asanas 608 page"] = ""
+    DG.nodes[42]["asanas 608 english name"] = ""
 
     DG.add_node(43, english_name="camel pose")
-    DG.node[43]["two_sided"] = False
-    DG.node[43]["description"] = ""
-    DG.node[43]["yogajournalurl"] = "http://www.yogajournal.com/pose/camel-pose/"
-    DG.node[43][
+    DG.nodes[43]["two_sided"] = False
+    DG.nodes[43]["description"] = ""
+    DG.nodes[43]["yogajournalurl"] = "http://www.yogajournal.com/pose/camel-pose/"
+    DG.nodes[43][
         "yogajournal_picture"
     ] = "http://media.yogajournal.com/wp-content/uploads/258_HP_10_fnl_4501.jpg"
-    DG.node[43]["hindi_name"] = ""
-    DG.node[43]["comment"] = ""
-    DG.node[43]["Dharma Mittra picture URL"] = ""
-    DG.node[43]["asanas 608 page"] = ""
-    DG.node[43]["asanas 608 english name"] = ""
+    DG.nodes[43]["hindi_name"] = ""
+    DG.nodes[43]["comment"] = ""
+    DG.nodes[43]["Dharma Mittra picture URL"] = ""
+    DG.nodes[43]["asanas 608 page"] = ""
+    DG.nodes[43]["asanas 608 english name"] = ""
 
     DG.add_node(44, english_name="crow")
-    DG.node[44]["two_sided"] = False
-    DG.node[44]["description"] = ""
-    DG.node[44]["yogajournalurl"] = "http://www.yogajournal.com/pose/crane-pose/"
-    DG.node[44][
+    DG.nodes[44]["two_sided"] = False
+    DG.nodes[44]["description"] = ""
+    DG.nodes[44]["yogajournalurl"] = "http://www.yogajournal.com/pose/crane-pose/"
+    DG.nodes[44][
         "yogajournal_picture"
     ] = "http://media.yogajournal.com/wp-content/uploads/Crane-Crow-Pose1.jpg"
-    DG.node[44]["hindi_name"] = ""
-    DG.node[44]["comment"] = ""
-    DG.node[44]["Dharma Mittra picture URL"] = ""
-    DG.node[44]["asanas 608 page"] = ""
-    DG.node[44]["asanas 608 english name"] = ""
+    DG.nodes[44]["hindi_name"] = ""
+    DG.nodes[44]["comment"] = ""
+    DG.nodes[44]["Dharma Mittra picture URL"] = ""
+    DG.nodes[44]["asanas 608 page"] = ""
+    DG.nodes[44]["asanas 608 english name"] = ""
 
     DG.add_node(45, english_name="squat, knees wide")
-    DG.node[45]["two_sided"] = False
-    DG.node[45]["description"] = ""
-    DG.node[45]["yogajournalurl"] = ""
-    DG.node[45]["yogajournal_picture"] = ""
-    DG.node[45]["hindi_name"] = ""
-    DG.node[45]["comment"] = ""
-    DG.node[45]["Dharma Mittra picture URL"] = ""
-    DG.node[45]["asanas 608 page"] = ""
-    DG.node[45]["asanas 608 english name"] = ""
+    DG.nodes[45]["two_sided"] = False
+    DG.nodes[45]["description"] = ""
+    DG.nodes[45]["yogajournalurl"] = ""
+    DG.nodes[45]["yogajournal_picture"] = ""
+    DG.nodes[45]["hindi_name"] = ""
+    DG.nodes[45]["comment"] = ""
+    DG.nodes[45]["Dharma Mittra picture URL"] = ""
+    DG.nodes[45]["asanas 608 page"] = ""
+    DG.nodes[45]["asanas 608 english name"] = ""
 
     DG.add_node(46, english_name="standing, legs apart")
-    DG.node[46]["two_sided"] = False
-    DG.node[46]["description"] = ""
-    DG.node[46]["yogajournalurl"] = ""
-    DG.node[46]["yogajournal_picture"] = ""
-    DG.node[46]["hindi_name"] = ""
-    DG.node[46]["comment"] = ""
-    DG.node[46]["Dharma Mittra picture URL"] = ""
-    DG.node[46]["asanas 608 page"] = ""
-    DG.node[46]["asanas 608 english name"] = ""
+    DG.nodes[46]["two_sided"] = False
+    DG.nodes[46]["description"] = ""
+    DG.nodes[46]["yogajournalurl"] = ""
+    DG.nodes[46]["yogajournal_picture"] = ""
+    DG.nodes[46]["hindi_name"] = ""
+    DG.nodes[46]["comment"] = ""
+    DG.nodes[46]["Dharma Mittra picture URL"] = ""
+    DG.nodes[46]["asanas 608 page"] = ""
+    DG.nodes[46]["asanas 608 english name"] = ""
 
     DG.add_node(47, english_name="upward dog")
-    DG.node[47]["two_sided"] = False
-    DG.node[47]["description"] = ""
-    DG.node[47]["yogajournalurl"] = "http://www.yogajournal.com/poses/474"
-    DG.node[47][
+    DG.nodes[47]["two_sided"] = False
+    DG.nodes[47]["description"] = ""
+    DG.nodes[47]["yogajournalurl"] = "http://www.yogajournal.com/poses/474"
+    DG.nodes[47][
         "yogajournal_picture"
     ] = "http://media.yogajournal.com/wp-content/uploads/230_hp_07_fnl_450.jpg"
-    DG.node[47]["hindi_name"] = ""
-    DG.node[47]["comment"] = ""
-    DG.node[47][
+    DG.nodes[47]["hindi_name"] = ""
+    DG.nodes[47]["comment"] = ""
+    DG.nodes[47][
         "Dharma Mittra picture URL"
     ] = "http://www.dharmayogacenter.com/wp-content/gallery/asana-reference/urdhva-mukha-svanasana.jpg"
-    DG.node[47]["asanas 608 page"] = ""
-    DG.node[47]["asanas 608 english name"] = ""
+    DG.nodes[47]["asanas 608 page"] = ""
+    DG.nodes[47]["asanas 608 english name"] = ""
 
     DG.add_node(48, english_name="one leg forward with knee bent")
-    DG.node[48]["two_sided"] = False
-    DG.node[48]["description"] = ""
-    DG.node[48]["yogajournalurl"] = ""
-    DG.node[48]["yogajournal_picture"] = ""
-    DG.node[48]["hindi_name"] = ""
-    DG.node[48]["comment"] = ""
-    DG.node[48]["Dharma Mittra picture URL"] = ""
-    DG.node[48]["asanas 608 page"] = ""
-    DG.node[48]["asanas 608 english name"] = ""
+    DG.nodes[48]["two_sided"] = False
+    DG.nodes[48]["description"] = ""
+    DG.nodes[48]["yogajournalurl"] = ""
+    DG.nodes[48]["yogajournal_picture"] = ""
+    DG.nodes[48]["hindi_name"] = ""
+    DG.nodes[48]["comment"] = ""
+    DG.nodes[48]["Dharma Mittra picture URL"] = ""
+    DG.nodes[48]["asanas 608 page"] = ""
+    DG.nodes[48]["asanas 608 english name"] = ""
 
     DG.add_node(49, english_name="half lotus")
-    DG.node[49]["two_sided"] = True
-    DG.node[49]["description"] = ""
-    DG.node[49]["yogajournalurl"] = "http://www.yogajournal.com/pose/fire-log-pose/"
-    DG.node[49][
+    DG.nodes[49]["two_sided"] = True
+    DG.nodes[49]["description"] = ""
+    DG.nodes[49]["yogajournalurl"] = "http://www.yogajournal.com/pose/fire-log-pose/"
+    DG.nodes[49][
         "yogajournal_picture"
     ] = "http://media.yogajournal.com/wp-content/uploads/firelogpose.jpg"
-    DG.node[49]["hindi_name"] = "siddhasana"
-    DG.node[49]["comment"] = ""
-    DG.node[49][
+    DG.nodes[49]["hindi_name"] = "siddhasana"
+    DG.nodes[49]["comment"] = ""
+    DG.nodes[49][
         "Dharma Mittra picture URL"
     ] = "http://www.dharmayogacenter.com/wp-content/gallery/asana-reference/virasana3.jpg"
-    DG.node[49]["asanas_608_page"] = "624"
-    DG.node[49]["asanas_608_english"] = "accomplished pose"
+    DG.nodes[49]["asanas_608_page"] = "624"
+    DG.nodes[49]["asanas_608_english"] = "accomplished pose"
 
     DG.add_node(50, english_name="full lotus")
-    DG.node[50]["two_sided"] = True
-    DG.node[50]["description"] = ""
-    DG.node[50]["yogajournalurl"] = "http://www.yogajournal.com/poses/488"
-    DG.node[50][
+    DG.nodes[50]["two_sided"] = True
+    DG.nodes[50]["description"] = ""
+    DG.nodes[50]["yogajournalurl"] = "http://www.yogajournal.com/poses/488"
+    DG.nodes[50][
         "yogajournal_picture"
     ] = "http://media.yogajournal.com/wp-content/uploads/lotuspose.jpg"
-    DG.node[50]["hindi_name"] = "padmasana"
-    DG.node[50]["comment"] = ""
-    DG.node[50]["Dharma Mittra picture URL"] = ""
-    DG.node[50]["asanas_608_page"] = "626"
-    DG.node[50]["asanas_608_english"] = "lotus pose"
+    DG.nodes[50]["hindi_name"] = "padmasana"
+    DG.nodes[50]["comment"] = ""
+    DG.nodes[50]["Dharma Mittra picture URL"] = ""
+    DG.nodes[50]["asanas_608_page"] = "626"
+    DG.nodes[50]["asanas_608_english"] = "lotus pose"
 
     DG.add_node(51, english_name="embryo pose")
-    DG.node[51]["two_sided"] = True
-    DG.node[51]["description"] = ""
-    DG.node[51]["yogajournalurl"] = ""
-    DG.node[51]["yogajournal_picture"] = ""
-    DG.node[51]["hindi_name"] = ""
-    DG.node[51]["comment"] = ""
-    DG.node[51]["Dharma Mittra picture URL"] = ""
-    DG.node[51]["asanas_608_page"] = "243"
-    DG.node[51]["asanas_608_english"] = "upward lotus pose"
+    DG.nodes[51]["two_sided"] = True
+    DG.nodes[51]["description"] = ""
+    DG.nodes[51]["yogajournalurl"] = ""
+    DG.nodes[51]["yogajournal_picture"] = ""
+    DG.nodes[51]["hindi_name"] = ""
+    DG.nodes[51]["comment"] = ""
+    DG.nodes[51]["Dharma Mittra picture URL"] = ""
+    DG.nodes[51]["asanas_608_page"] = "243"
+    DG.nodes[51]["asanas_608_english"] = "upward lotus pose"
 
     DG.add_node(52, english_name="flying lotus")
-    DG.node[52]["two_sided"] = True
-    DG.node[52]["description"] = ""
-    DG.node[52]["yogajournalurl"] = ""
-    DG.node[52]["yogajournal_picture"] = ""
-    DG.node[52]["hindi_name"] = ""
-    DG.node[52]["comment"] = ""
-    DG.node[52]["Dharma Mittra picture URL"] = ""
-    DG.node[52]["asanas 608 page"] = ""
-    DG.node[52]["asanas 608 english name"] = ""
+    DG.nodes[52]["two_sided"] = True
+    DG.nodes[52]["description"] = ""
+    DG.nodes[52]["yogajournalurl"] = ""
+    DG.nodes[52]["yogajournal_picture"] = ""
+    DG.nodes[52]["hindi_name"] = ""
+    DG.nodes[52]["comment"] = ""
+    DG.nodes[52]["Dharma Mittra picture URL"] = ""
+    DG.nodes[52]["asanas 608 page"] = ""
+    DG.nodes[52]["asanas 608 english name"] = ""
 
     DG.add_node(53, english_name="floating staff pose")
-    DG.node[53]["two_sided"] = False
-    DG.node[53]["description"] = ""
-    DG.node[53]["yogajournalurl"] = ""
-    DG.node[53]["yogajournal_picture"] = ""
-    DG.node[53]["hindi_name"] = ""
-    DG.node[53]["comment"] = ""
-    DG.node[53]["Dharma Mittra picture URL"] = ""
-    DG.node[53]["asanas 608 page"] = ""
-    DG.node[53]["asanas 608 english name"] = ""
+    DG.nodes[53]["two_sided"] = False
+    DG.nodes[53]["description"] = ""
+    DG.nodes[53]["yogajournalurl"] = ""
+    DG.nodes[53]["yogajournal_picture"] = ""
+    DG.nodes[53]["hindi_name"] = ""
+    DG.nodes[53]["comment"] = ""
+    DG.nodes[53]["Dharma Mittra picture URL"] = ""
+    DG.nodes[53]["asanas 608 page"] = ""
+    DG.nodes[53]["asanas 608 english name"] = ""
 
     DG.add_node(54, english_name="crane")
-    DG.node[54]["two_sided"] = False
-    DG.node[54]["description"] = ""
-    DG.node[54]["yogajournalurl"] = ""
-    DG.node[54]["yogajournal_picture"] = ""
-    DG.node[54]["hindi_name"] = ""
-    DG.node[54]["comment"] = ""
-    DG.node[54]["Dharma Mittra picture URL"] = ""
-    DG.node[54]["asanas 608 page"] = ""
-    DG.node[54]["asanas 608 english name"] = ""
+    DG.nodes[54]["two_sided"] = False
+    DG.nodes[54]["description"] = ""
+    DG.nodes[54]["yogajournalurl"] = ""
+    DG.nodes[54]["yogajournal_picture"] = ""
+    DG.nodes[54]["hindi_name"] = ""
+    DG.nodes[54]["comment"] = ""
+    DG.nodes[54]["Dharma Mittra picture URL"] = ""
+    DG.nodes[54]["asanas 608 page"] = ""
+    DG.nodes[54]["asanas 608 english name"] = ""
 
     DG.add_node(55, english_name="one-legged crane")
-    DG.node[55]["two_sided"] = True
-    DG.node[55]["description"] = ""
-    DG.node[55]["yogajournalurl"] = ""
-    DG.node[55]["yogajournal_picture"] = ""
-    DG.node[55]["hindi_name"] = ""
-    DG.node[55]["comment"] = ""
-    DG.node[55]["Dharma Mittra picture URL"] = ""
-    DG.node[55]["asanas 608 page"] = ""
-    DG.node[55]["asanas 608 english name"] = ""
+    DG.nodes[55]["two_sided"] = True
+    DG.nodes[55]["description"] = ""
+    DG.nodes[55]["yogajournalurl"] = ""
+    DG.nodes[55]["yogajournal_picture"] = ""
+    DG.nodes[55]["hindi_name"] = ""
+    DG.nodes[55]["comment"] = ""
+    DG.nodes[55]["Dharma Mittra picture URL"] = ""
+    DG.nodes[55]["asanas 608 page"] = ""
+    DG.nodes[55]["asanas 608 english name"] = ""
 
     DG.add_node(56, english_name="wide legs, feet parallel")
-    DG.node[56]["two_sided"] = False
-    DG.node[56]["description"] = ""
-    DG.node[56]["yogajournalurl"] = ""
-    DG.node[56]["yogajournal_picture"] = ""
-    DG.node[56]["hindi_name"] = ""
-    DG.node[56]["comment"] = ""
-    DG.node[56]["Dharma Mittra picture URL"] = ""
-    DG.node[56]["asanas 608 page"] = ""
-    DG.node[56]["asanas 608 english name"] = ""
+    DG.nodes[56]["two_sided"] = False
+    DG.nodes[56]["description"] = ""
+    DG.nodes[56]["yogajournalurl"] = ""
+    DG.nodes[56]["yogajournal_picture"] = ""
+    DG.nodes[56]["hindi_name"] = ""
+    DG.nodes[56]["comment"] = ""
+    DG.nodes[56]["Dharma Mittra picture URL"] = ""
+    DG.nodes[56]["asanas 608 page"] = ""
+    DG.nodes[56]["asanas 608 english name"] = ""
 
     DG.add_node(57, english_name="bent over wide legs, parallel feet")
-    DG.node[57]["two_sided"] = False
-    DG.node[57]["description"] = ""
-    DG.node[57]["yogajournalurl"] = ""
-    DG.node[57]["yogajournal_picture"] = ""
-    DG.node[57]["hindi_name"] = ""
-    DG.node[57]["comment"] = ""
-    DG.node[57]["Dharma Mittra picture URL"] = ""
-    DG.node[57]["asanas 608 page"] = ""
-    DG.node[57]["asanas 608 english name"] = ""
+    DG.nodes[57]["two_sided"] = False
+    DG.nodes[57]["description"] = ""
+    DG.nodes[57]["yogajournalurl"] = ""
+    DG.nodes[57]["yogajournal_picture"] = ""
+    DG.nodes[57]["hindi_name"] = ""
+    DG.nodes[57]["comment"] = ""
+    DG.nodes[57]["Dharma Mittra picture URL"] = ""
+    DG.nodes[57]["asanas 608 page"] = ""
+    DG.nodes[57]["asanas 608 english name"] = ""
 
     DG.add_node(
         58, english_name="tripod head stand, legs extended straight up, arms at 90deg"
     )
-    DG.node[58]["two_sided"] = False
-    DG.node[58]["description"] = "arms at 90deg"
-    DG.node[58]["yogajournalurl"] = ""
-    DG.node[58]["yogajournal_picture"] = ""
-    DG.node[58]["hindi_name"] = "Salamba-Shirshasana"
-    DG.node[58]["comment"] = ""
-    DG.node[58]["Dharma Mittra picture URL"] = ""
-    DG.node[58]["asanas_608_page"] = "181"
-    DG.node[58]["asanas_608_english"] = "Supported Head Stand Pose"
+    DG.nodes[58]["two_sided"] = False
+    DG.nodes[58]["description"] = "arms at 90deg"
+    DG.nodes[58]["yogajournalurl"] = ""
+    DG.nodes[58]["yogajournal_picture"] = ""
+    DG.nodes[58]["hindi_name"] = "Salamba-Shirshasana"
+    DG.nodes[58]["comment"] = ""
+    DG.nodes[58]["Dharma Mittra picture URL"] = ""
+    DG.nodes[58]["asanas_608_page"] = "181"
+    DG.nodes[58]["asanas_608_english"] = "Supported Head Stand Pose"
 
     DG.add_node(59, english_name="arms to side")
-    DG.node[59]["two_sided"] = True
-    DG.node[59]["description"] = ""
-    DG.node[59]["yogajournalurl"] = ""
-    DG.node[59]["yogajournal_picture"] = ""
-    DG.node[59]["hindi_name"] = ""
-    DG.node[59]["comment"] = ""
-    DG.node[59]["Dharma Mittra picture URL"] = ""
-    DG.node[59]["asanas 608 page"] = ""
-    DG.node[59]["asanas 608 english name"] = ""
+    DG.nodes[59]["two_sided"] = True
+    DG.nodes[59]["description"] = ""
+    DG.nodes[59]["yogajournalurl"] = ""
+    DG.nodes[59]["yogajournal_picture"] = ""
+    DG.nodes[59]["hindi_name"] = ""
+    DG.nodes[59]["comment"] = ""
+    DG.nodes[59]["Dharma Mittra picture URL"] = ""
+    DG.nodes[59]["asanas 608 page"] = ""
+    DG.nodes[59]["asanas 608 english name"] = ""
 
     DG.add_node(
         60,
         english_name="both legs straight, front foot point forward, back foot flat at 45deg",
     )
-    DG.node[60]["two_sided"] = True
-    DG.node[60]["description"] = ""
-    DG.node[60]["yogajournalurl"] = ""
-    DG.node[60]["yogajournal_picture"] = ""
-    DG.node[60]["hindi_name"] = ""
-    DG.node[60]["comment"] = ""
-    DG.node[60]["Dharma Mittra picture URL"] = ""
-    DG.node[60]["asanas 608 page"] = ""
-    DG.node[60]["asanas 608 english name"] = ""
+    DG.nodes[60]["two_sided"] = True
+    DG.nodes[60]["description"] = ""
+    DG.nodes[60]["yogajournalurl"] = ""
+    DG.nodes[60]["yogajournal_picture"] = ""
+    DG.nodes[60]["hindi_name"] = ""
+    DG.nodes[60]["comment"] = ""
+    DG.nodes[60]["Dharma Mittra picture URL"] = ""
+    DG.nodes[60]["asanas 608 page"] = ""
+    DG.nodes[60]["asanas 608 english name"] = ""
 
     DG.add_node(61, english_name="standing hinged forward at hips")
-    DG.node[61]["two_sided"] = True
-    DG.node[61]["description"] = ""
-    DG.node[61]["yogajournalurl"] = ""
-    DG.node[61]["yogajournal_picture"] = ""
-    DG.node[61]["hindi_name"] = ""
-    DG.node[61]["comment"] = ""
-    DG.node[61][
+    DG.nodes[61]["two_sided"] = True
+    DG.nodes[61]["description"] = ""
+    DG.nodes[61]["yogajournalurl"] = ""
+    DG.nodes[61]["yogajournal_picture"] = ""
+    DG.nodes[61]["hindi_name"] = ""
+    DG.nodes[61]["comment"] = ""
+    DG.nodes[61][
         "Dharma Mittra picture URL"
     ] = "http://www.dharmayogacenter.com/wp-content/gallery/asana-reference/uttanasana.jpg"
-    DG.node[61]["asanas 608 page"] = ""
-    DG.node[61]["asanas 608 english name"] = ""
+    DG.nodes[61]["asanas 608 page"] = ""
+    DG.nodes[61]["asanas 608 english name"] = ""
 
     DG.add_node(62, english_name="revolved triangle pose")
-    DG.node[62]["hindi_name"] = "Parivrtta Trikonasana"
-    DG.node[62]["two_sided"] = True
-    DG.node[62]["description"] = ""
-    DG.node[62]["yogajournalurl"] = ""
-    DG.node[62]["yogajournal_picture"] = ""
-    DG.node[62]["comment"] = ""
-    DG.node[62]["Dharma Mittra picture URL"] = ""
-    DG.node[62]["asanas 608 page"] = ""
-    DG.node[62]["asanas 608 english name"] = ""
+    DG.nodes[62]["hindi_name"] = "Parivrtta Trikonasana"
+    DG.nodes[62]["two_sided"] = True
+    DG.nodes[62]["description"] = ""
+    DG.nodes[62]["yogajournalurl"] = ""
+    DG.nodes[62]["yogajournal_picture"] = ""
+    DG.nodes[62]["comment"] = ""
+    DG.nodes[62]["Dharma Mittra picture URL"] = ""
+    DG.nodes[62]["asanas 608 page"] = ""
+    DG.nodes[62]["asanas 608 english name"] = ""
 
     DG.add_node(63, english_name="extended side angle pose")
-    DG.node[63]["two_sided"] = True
-    DG.node[63]["yogajournalurl"] = "http://www.yogajournal.com/poses/749"
-    DG.node[63][
+    DG.nodes[63]["two_sided"] = True
+    DG.nodes[63]["yogajournalurl"] = "http://www.yogajournal.com/poses/749"
+    DG.nodes[63][
         "yogajournal_picture"
     ] = "http://media.yogajournal.com/wp-content/uploads/extendedsideanglepose.jpg"
-    DG.node[63]["hindi_name"] = "Utthita Parsvakonasana"
-    DG.node[63]["comment"] = ""
-    DG.node[63]["Dharma Mittra picture URL"] = ""
-    DG.node[63]["description"] = ""
-    DG.node[63]["asanas_608_page"] = ""
-    DG.node[63]["asanas_608_english"] = ""
+    DG.nodes[63]["hindi_name"] = "Utthita Parsvakonasana"
+    DG.nodes[63]["comment"] = ""
+    DG.nodes[63]["Dharma Mittra picture URL"] = ""
+    DG.nodes[63]["description"] = ""
+    DG.nodes[63]["asanas_608_page"] = ""
+    DG.nodes[63]["asanas_608_english"] = ""
 
     DG.add_node(64, english_name="bind")
-    DG.node[64]["two_sided"] = True
-    DG.node[64]["description"] = ""
-    DG.node[64]["yogajournalurl"] = ""
-    DG.node[64]["yogajournal_picture"] = ""
-    DG.node[64]["hindi_name"] = ""
-    DG.node[64]["comment"] = ""
-    DG.node[64]["Dharma Mittra picture URL"] = ""
-    DG.node[64]["asanas 608 page"] = ""
-    DG.node[64]["asanas 608 english name"] = ""
+    DG.nodes[64]["two_sided"] = True
+    DG.nodes[64]["description"] = ""
+    DG.nodes[64]["yogajournalurl"] = ""
+    DG.nodes[64]["yogajournal_picture"] = ""
+    DG.nodes[64]["hindi_name"] = ""
+    DG.nodes[64]["comment"] = ""
+    DG.nodes[64]["Dharma Mittra picture URL"] = ""
+    DG.nodes[64]["asanas 608 page"] = ""
+    DG.nodes[64]["asanas 608 english name"] = ""
 
     DG.add_node(65, english_name="bird of paradise")
-    DG.node[65]["two_sided"] = True
-    DG.node[65]["description"] = ""
-    DG.node[65]["yogajournalurl"] = ""
-    DG.node[65]["yogajournal_picture"] = ""
-    DG.node[65]["hindi_name"] = ""
-    DG.node[65]["comment"] = ""
-    DG.node[65]["Dharma Mittra picture URL"] = ""
-    DG.node[65]["asanas 608 page"] = ""
-    DG.node[65]["asanas 608 english name"] = ""
+    DG.nodes[65]["two_sided"] = True
+    DG.nodes[65]["description"] = ""
+    DG.nodes[65]["yogajournalurl"] = ""
+    DG.nodes[65]["yogajournal_picture"] = ""
+    DG.nodes[65]["hindi_name"] = ""
+    DG.nodes[65]["comment"] = ""
+    DG.nodes[65]["Dharma Mittra picture URL"] = ""
+    DG.nodes[65]["asanas 608 page"] = ""
+    DG.nodes[65]["asanas 608 english name"] = ""
 
     DG.add_node(66, english_name="funky bird of paradise")
-    DG.node[66]["two_sided"] = True
-    DG.node[66]["description"] = ""
-    DG.node[66]["yogajournalurl"] = ""
-    DG.node[66]["yogajournal_picture"] = ""
-    DG.node[66]["hindi_name"] = ""
-    DG.node[66]["comment"] = ""
-    DG.node[66]["Dharma Mittra picture URL"] = ""
-    DG.node[66]["asanas 608 page"] = ""
-    DG.node[66]["asanas 608 english name"] = ""
+    DG.nodes[66]["two_sided"] = True
+    DG.nodes[66]["description"] = ""
+    DG.nodes[66]["yogajournalurl"] = ""
+    DG.nodes[66]["yogajournal_picture"] = ""
+    DG.nodes[66]["hindi_name"] = ""
+    DG.nodes[66]["comment"] = ""
+    DG.nodes[66]["Dharma Mittra picture URL"] = ""
+    DG.nodes[66]["asanas 608 page"] = ""
+    DG.nodes[66]["asanas 608 english name"] = ""
 
     DG.add_node(67, english_name="standing bend bound twist")
-    DG.node[67]["two_sided"] = True
-    DG.node[67]["description"] = ""
-    DG.node[67]["yogajournalurl"] = ""
-    DG.node[67]["yogajournal_picture"] = ""
-    DG.node[67]["hindi_name"] = ""
-    DG.node[67]["comment"] = ""
-    DG.node[67]["Dharma Mittra picture URL"] = ""
-    DG.node[67]["asanas 608 page"] = ""
-    DG.node[67]["asanas 608 english name"] = ""
+    DG.nodes[67]["two_sided"] = True
+    DG.nodes[67]["description"] = ""
+    DG.nodes[67]["yogajournalurl"] = ""
+    DG.nodes[67]["yogajournal_picture"] = ""
+    DG.nodes[67]["hindi_name"] = ""
+    DG.nodes[67]["comment"] = ""
+    DG.nodes[67]["Dharma Mittra picture URL"] = ""
+    DG.nodes[67]["asanas 608 page"] = ""
+    DG.nodes[67]["asanas 608 english name"] = ""
 
     DG.add_node(68, english_name="standing bend, legs apart")
-    DG.node[68]["two_sided"] = False
-    DG.node[68]["description"] = ""
-    DG.node[68]["yogajournalurl"] = ""
-    DG.node[68]["yogajournal_picture"] = ""
-    DG.node[68]["hindi_name"] = ""
-    DG.node[68]["comment"] = ""
-    DG.node[68]["Dharma Mittra picture URL"] = ""
-    DG.node[68]["asanas 608 page"] = ""
-    DG.node[68]["asanas 608 english name"] = ""
+    DG.nodes[68]["two_sided"] = False
+    DG.nodes[68]["description"] = ""
+    DG.nodes[68]["yogajournalurl"] = ""
+    DG.nodes[68]["yogajournal_picture"] = ""
+    DG.nodes[68]["hindi_name"] = ""
+    DG.nodes[68]["comment"] = ""
+    DG.nodes[68]["Dharma Mittra picture URL"] = ""
+    DG.nodes[68]["asanas 608 page"] = ""
+    DG.nodes[68]["asanas 608 english name"] = ""
 
     DG.add_node(69, english_name="tripod head stand, legs bent, arms at 90deg")
-    DG.node[69]["two_sided"] = False
-    DG.node[69]["description"] = "arms at 90deg"
-    DG.node[69]["yogajournalurl"] = ""
-    DG.node[69]["yogajournal_picture"] = ""
-    DG.node[69]["hindi_name"] = ""
-    DG.node[69]["comment"] = ""
-    DG.node[69]["Dharma Mittra picture URL"] = ""
-    DG.node[69]["asanas 608 page"] = ""
-    DG.node[69]["asanas 608 english name"] = ""
+    DG.nodes[69]["two_sided"] = False
+    DG.nodes[69]["description"] = "arms at 90deg"
+    DG.nodes[69]["yogajournalurl"] = ""
+    DG.nodes[69]["yogajournal_picture"] = ""
+    DG.nodes[69]["hindi_name"] = ""
+    DG.nodes[69]["comment"] = ""
+    DG.nodes[69]["Dharma Mittra picture URL"] = ""
+    DG.nodes[69]["asanas 608 page"] = ""
+    DG.nodes[69]["asanas 608 english name"] = ""
 
     DG.add_node(70, english_name="floating elephant trunk; one leg over arm")
-    DG.node[70]["two_sided"] = True
-    DG.node[70]["description"] = ""
-    DG.node[70]["yogajournalurl"] = ""
-    DG.node[70]["yogajournal_picture"] = ""
-    DG.node[70]["hindi_name"] = ""
-    DG.node[70]["comment"] = ""
-    DG.node[70]["Dharma Mittra picture URL"] = ""
-    DG.node[70]["asanas 608 page"] = ""
-    DG.node[70]["asanas 608 english name"] = ""
+    DG.nodes[70]["two_sided"] = True
+    DG.nodes[70]["description"] = ""
+    DG.nodes[70]["yogajournalurl"] = ""
+    DG.nodes[70]["yogajournal_picture"] = ""
+    DG.nodes[70]["hindi_name"] = ""
+    DG.nodes[70]["comment"] = ""
+    DG.nodes[70]["Dharma Mittra picture URL"] = ""
+    DG.nodes[70]["asanas 608 page"] = ""
+    DG.nodes[70]["asanas 608 english name"] = ""
 
     DG.add_node(71, english_name="eight angle pose")
-    DG.node[71]["two_sided"] = True
-    DG.node[71]["description"] = ""
-    DG.node[71]["yogajournalurl"] = ""
-    DG.node[71]["yogajournal_picture"] = ""
-    DG.node[71]["hindi_name"] = ""
-    DG.node[71]["comment"] = ""
-    DG.node[71]["Dharma Mittra picture URL"] = ""
-    DG.node[71]["asanas 608 page"] = ""
-    DG.node[71]["asanas 608 english name"] = ""
+    DG.nodes[71]["two_sided"] = True
+    DG.nodes[71]["description"] = ""
+    DG.nodes[71]["yogajournalurl"] = ""
+    DG.nodes[71]["yogajournal_picture"] = ""
+    DG.nodes[71]["hindi_name"] = ""
+    DG.nodes[71]["comment"] = ""
+    DG.nodes[71]["Dharma Mittra picture URL"] = ""
+    DG.nodes[71]["asanas 608 page"] = ""
+    DG.nodes[71]["asanas 608 english name"] = ""
 
     DG.add_node(72, english_name="flying pigeon")
-    DG.node[72]["two_sided"] = True
-    DG.node[72]["description"] = "shin on back triceps"
-    DG.node[72]["yogajournalurl"] = ""
-    DG.node[72]["yogajournal_picture"] = ""
-    DG.node[72]["hindi_name"] = ""
-    DG.node[72]["comment"] = ""
-    DG.node[72]["Dharma Mittra picture URL"] = ""
-    DG.node[72]["asanas 608 page"] = ""
-    DG.node[72]["asanas 608 english name"] = ""
+    DG.nodes[72]["two_sided"] = True
+    DG.nodes[72]["description"] = "shin on back triceps"
+    DG.nodes[72]["yogajournalurl"] = ""
+    DG.nodes[72]["yogajournal_picture"] = ""
+    DG.nodes[72]["hindi_name"] = ""
+    DG.nodes[72]["comment"] = ""
+    DG.nodes[72]["Dharma Mittra picture URL"] = ""
+    DG.nodes[72]["asanas 608 page"] = ""
+    DG.nodes[72]["asanas 608 english name"] = ""
 
     DG.add_node(73, english_name="peddle feet")
-    DG.node[73]["two_sided"] = True
-    DG.node[73]["description"] = ""
-    DG.node[73]["yogajournalurl"] = ""
-    DG.node[73]["yogajournal_picture"] = ""
-    DG.node[73]["hindi_name"] = ""
-    DG.node[73]["comment"] = ""
-    DG.node[73]["Dharma Mittra picture URL"] = ""
-    DG.node[73]["asanas 608 page"] = ""
-    DG.node[73]["asanas 608 english name"] = ""
+    DG.nodes[73]["two_sided"] = True
+    DG.nodes[73]["description"] = ""
+    DG.nodes[73]["yogajournalurl"] = ""
+    DG.nodes[73]["yogajournal_picture"] = ""
+    DG.nodes[73]["hindi_name"] = ""
+    DG.nodes[73]["comment"] = ""
+    DG.nodes[73]["Dharma Mittra picture URL"] = ""
+    DG.nodes[73]["asanas 608 page"] = ""
+    DG.nodes[73]["asanas 608 english name"] = ""
 
     DG.add_node(74, english_name="tripod head stand, legs extended out, arms at 90deg")
-    DG.node[74]["two_sided"] = False
-    DG.node[74]["description"] = "arms at 90deg"
-    DG.node[74]["yogajournalurl"] = ""
-    DG.node[74]["yogajournal_picture"] = ""
-    DG.node[74]["hindi_name"] = ""
-    DG.node[74]["comment"] = ""
-    DG.node[74]["Dharma Mittra picture URL"] = ""
-    DG.node[74]["asanas 608 page"] = ""
-    DG.node[74]["asanas 608 english name"] = ""
+    DG.nodes[74]["two_sided"] = False
+    DG.nodes[74]["description"] = "arms at 90deg"
+    DG.nodes[74]["yogajournalurl"] = ""
+    DG.nodes[74]["yogajournal_picture"] = ""
+    DG.nodes[74]["hindi_name"] = ""
+    DG.nodes[74]["comment"] = ""
+    DG.nodes[74]["Dharma Mittra picture URL"] = ""
+    DG.nodes[74]["asanas 608 page"] = ""
+    DG.nodes[74]["asanas 608 english name"] = ""
 
     DG.add_node(75, english_name="no-handed head stand")
-    DG.node[75]["two_sided"] = False
-    DG.node[75]["description"] = ""
-    DG.node[75]["yogajournalurl"] = ""
-    DG.node[75]["yogajournal_picture"] = ""
-    DG.node[75]["hindi_name"] = ""
-    DG.node[75]["comment"] = ""
-    DG.node[75]["Dharma Mittra picture URL"] = ""
-    DG.node[75]["asanas 608 page"] = ""
-    DG.node[75]["asanas 608 english name"] = ""
+    DG.nodes[75]["two_sided"] = False
+    DG.nodes[75]["description"] = ""
+    DG.nodes[75]["yogajournalurl"] = ""
+    DG.nodes[75]["yogajournal_picture"] = ""
+    DG.nodes[75]["hindi_name"] = ""
+    DG.nodes[75]["comment"] = ""
+    DG.nodes[75]["Dharma Mittra picture URL"] = ""
+    DG.nodes[75]["asanas 608 page"] = ""
+    DG.nodes[75]["asanas 608 english name"] = ""
 
     DG.add_node(76, english_name="inverted tripod")
-    DG.node[76]["two_sided"] = False
-    DG.node[76]["description"] = ""
-    DG.node[76]["yogajournalurl"] = ""
-    DG.node[76]["yogajournal_picture"] = ""
-    DG.node[76]["hindi_name"] = "Niralamba-Shirshasana"
-    DG.node[76]["comment"] = ""
-    DG.node[76]["Dharma Mittra picture URL"] = ""
-    DG.node[76]["asanas_608_page"] = "197"
-    DG.node[76]["asanas_608_english"] = "Hands-free Head Stand Pose (Variation)"
+    DG.nodes[76]["two_sided"] = False
+    DG.nodes[76]["description"] = ""
+    DG.nodes[76]["yogajournalurl"] = ""
+    DG.nodes[76]["yogajournal_picture"] = ""
+    DG.nodes[76]["hindi_name"] = "Niralamba-Shirshasana"
+    DG.nodes[76]["comment"] = ""
+    DG.nodes[76]["Dharma Mittra picture URL"] = ""
+    DG.nodes[76]["asanas_608_page"] = "197"
+    DG.nodes[76]["asanas_608_english"] = "Hands-free Head Stand Pose (Variation)"
 
     DG.add_node(77, english_name="seated wide-leg")
-    DG.node[77]["two_sided"] = False
-    DG.node[77]["description"] = ""
-    DG.node[77]["yogajournalurl"] = ""
-    DG.node[77]["yogajournal_picture"] = ""
-    DG.node[77]["hindi_name"] = ""
-    DG.node[77]["comment"] = ""
-    DG.node[77]["Dharma Mittra picture URL"] = ""
-    DG.node[77]["asanas 608 page"] = ""
-    DG.node[77]["asanas 608 english name"] = ""
+    DG.nodes[77]["two_sided"] = False
+    DG.nodes[77]["description"] = ""
+    DG.nodes[77]["yogajournalurl"] = ""
+    DG.nodes[77]["yogajournal_picture"] = ""
+    DG.nodes[77]["hindi_name"] = ""
+    DG.nodes[77]["comment"] = ""
+    DG.nodes[77]["Dharma Mittra picture URL"] = ""
+    DG.nodes[77]["asanas 608 page"] = ""
+    DG.nodes[77]["asanas 608 english name"] = ""
 
     DG.add_node(78, english_name="seated wide-leg, floating")
-    DG.node[78]["two_sided"] = False
-    DG.node[78]["description"] = ""
-    DG.node[78]["yogajournalurl"] = ""
-    DG.node[78]["yogajournal_picture"] = ""
-    DG.node[78]["hindi_name"] = ""
-    DG.node[78]["comment"] = ""
-    DG.node[78]["Dharma Mittra picture URL"] = ""
-    DG.node[78]["asanas 608 page"] = ""
-    DG.node[78]["asanas 608 english name"] = ""
+    DG.nodes[78]["two_sided"] = False
+    DG.nodes[78]["description"] = ""
+    DG.nodes[78]["yogajournalurl"] = ""
+    DG.nodes[78]["yogajournal_picture"] = ""
+    DG.nodes[78]["hindi_name"] = ""
+    DG.nodes[78]["comment"] = ""
+    DG.nodes[78]["Dharma Mittra picture URL"] = ""
+    DG.nodes[78]["asanas 608 page"] = ""
+    DG.nodes[78]["asanas 608 english name"] = ""
 
     DG.add_node(79, english_name="seated wide-leg, flying")
-    DG.node[79]["two_sided"] = False
-    DG.node[79]["description"] = ""
-    DG.node[79]["yogajournalurl"] = ""
-    DG.node[79]["yogajournal_picture"] = ""
-    DG.node[79]["hindi_name"] = ""
-    DG.node[79]["comment"] = ""
-    DG.node[79]["Dharma Mittra picture URL"] = ""
-    DG.node[79]["asanas 608 page"] = ""
-    DG.node[79]["asanas 608 english name"] = ""
+    DG.nodes[79]["two_sided"] = False
+    DG.nodes[79]["description"] = ""
+    DG.nodes[79]["yogajournalurl"] = ""
+    DG.nodes[79]["yogajournal_picture"] = ""
+    DG.nodes[79]["hindi_name"] = ""
+    DG.nodes[79]["comment"] = ""
+    DG.nodes[79]["Dharma Mittra picture URL"] = ""
+    DG.nodes[79]["asanas 608 page"] = ""
+    DG.nodes[79]["asanas 608 english name"] = ""
 
     DG.add_node(80, english_name="all fours, one arm extended")
-    DG.node[80]["two_sided"] = True
-    DG.node[80]["description"] = ""
-    DG.node[80]["yogajournalurl"] = ""
-    DG.node[80]["yogajournal_picture"] = ""
-    DG.node[80]["hindi_name"] = ""
-    DG.node[80]["comment"] = ""
-    DG.node[80]["Dharma Mittra picture URL"] = ""
-    DG.node[80]["asanas 608 page"] = ""
-    DG.node[80]["asanas 608 english name"] = ""
+    DG.nodes[80]["two_sided"] = True
+    DG.nodes[80]["description"] = ""
+    DG.nodes[80]["yogajournalurl"] = ""
+    DG.nodes[80]["yogajournal_picture"] = ""
+    DG.nodes[80]["hindi_name"] = ""
+    DG.nodes[80]["comment"] = ""
+    DG.nodes[80]["Dharma Mittra picture URL"] = ""
+    DG.nodes[80]["asanas 608 page"] = ""
+    DG.nodes[80]["asanas 608 english name"] = ""
 
     DG.add_node(81, english_name="all fours, one leg extended")
-    DG.node[81]["two_sided"] = True
-    DG.node[81]["description"] = ""
-    DG.node[81]["yogajournalurl"] = ""
-    DG.node[81]["yogajournal_picture"] = ""
-    DG.node[81]["hindi_name"] = ""
-    DG.node[81]["comment"] = ""
-    DG.node[81]["Dharma Mittra picture URL"] = ""
-    DG.node[81]["asanas 608 page"] = ""
-    DG.node[81]["asanas 608 english name"] = ""
+    DG.nodes[81]["two_sided"] = True
+    DG.nodes[81]["description"] = ""
+    DG.nodes[81]["yogajournalurl"] = ""
+    DG.nodes[81]["yogajournal_picture"] = ""
+    DG.nodes[81]["hindi_name"] = ""
+    DG.nodes[81]["comment"] = ""
+    DG.nodes[81]["Dharma Mittra picture URL"] = ""
+    DG.nodes[81]["asanas 608 page"] = ""
+    DG.nodes[81]["asanas 608 english name"] = ""
 
     DG.add_node(82, english_name="all fours, one arm extended, oppposite leg extended")
-    DG.node[82]["two_sided"] = True
-    DG.node[82]["description"] = ""
-    DG.node[82]["yogajournalurl"] = ""
-    DG.node[82]["yogajournal_picture"] = ""
-    DG.node[82]["hindi_name"] = ""
-    DG.node[82]["comment"] = ""
-    DG.node[82]["Dharma Mittra picture URL"] = ""
-    DG.node[82]["asanas 608 page"] = ""
-    DG.node[82]["asanas 608 english name"] = ""
+    DG.nodes[82]["two_sided"] = True
+    DG.nodes[82]["description"] = ""
+    DG.nodes[82]["yogajournalurl"] = ""
+    DG.nodes[82]["yogajournal_picture"] = ""
+    DG.nodes[82]["hindi_name"] = ""
+    DG.nodes[82]["comment"] = ""
+    DG.nodes[82]["Dharma Mittra picture URL"] = ""
+    DG.nodes[82]["asanas 608 page"] = ""
+    DG.nodes[82]["asanas 608 english name"] = ""
 
     DG.add_node(83, english_name="all fours, one arm extended, same side leg extended")
-    DG.node[83]["two_sided"] = True
-    DG.node[83]["description"] = ""
-    DG.node[83]["yogajournalurl"] = ""
-    DG.node[83]["yogajournal_picture"] = ""
-    DG.node[83]["hindi_name"] = ""
-    DG.node[83]["comment"] = ""
-    DG.node[83]["Dharma Mittra picture URL"] = ""
-    DG.node[83]["asanas 608 page"] = ""
-    DG.node[83]["asanas 608 english name"] = ""
+    DG.nodes[83]["two_sided"] = True
+    DG.nodes[83]["description"] = ""
+    DG.nodes[83]["yogajournalurl"] = ""
+    DG.nodes[83]["yogajournal_picture"] = ""
+    DG.nodes[83]["hindi_name"] = ""
+    DG.nodes[83]["comment"] = ""
+    DG.nodes[83]["Dharma Mittra picture URL"] = ""
+    DG.nodes[83]["asanas 608 page"] = ""
+    DG.nodes[83]["asanas 608 english name"] = ""
 
     DG.add_node(84, english_name="all fours, hips to one side")
-    DG.node[84]["two_sided"] = True
-    DG.node[84]["description"] = ""
-    DG.node[84]["yogajournalurl"] = ""
-    DG.node[84]["yogajournal_picture"] = ""
-    DG.node[84]["hindi_name"] = ""
-    DG.node[84]["comment"] = ""
-    DG.node[84]["Dharma Mittra picture URL"] = ""
-    DG.node[84]["asanas 608 page"] = ""
-    DG.node[84]["asanas 608 english name"] = ""
+    DG.nodes[84]["two_sided"] = True
+    DG.nodes[84]["description"] = ""
+    DG.nodes[84]["yogajournalurl"] = ""
+    DG.nodes[84]["yogajournal_picture"] = ""
+    DG.nodes[84]["hindi_name"] = ""
+    DG.nodes[84]["comment"] = ""
+    DG.nodes[84]["Dharma Mittra picture URL"] = ""
+    DG.nodes[84]["asanas 608 page"] = ""
+    DG.nodes[84]["asanas 608 english name"] = ""
 
     DG.add_node(85, english_name="forearm plank")
-    DG.node[85]["two_sided"] = False
-    DG.node[85]["description"] = ""
-    DG.node[85]["yogajournalurl"] = ""
-    DG.node[85]["yogajournal_picture"] = ""
-    DG.node[85]["hindi_name"] = ""
-    DG.node[85]["comment"] = ""
-    DG.node[85]["Dharma Mittra picture URL"] = ""
-    DG.node[85]["asanas 608 page"] = ""
-    DG.node[85]["asanas 608 english name"] = ""
+    DG.nodes[85]["two_sided"] = False
+    DG.nodes[85]["description"] = ""
+    DG.nodes[85]["yogajournalurl"] = ""
+    DG.nodes[85]["yogajournal_picture"] = ""
+    DG.nodes[85]["hindi_name"] = ""
+    DG.nodes[85]["comment"] = ""
+    DG.nodes[85]["Dharma Mittra picture URL"] = ""
+    DG.nodes[85]["asanas 608 page"] = ""
+    DG.nodes[85]["asanas 608 english name"] = ""
 
     DG.add_node(86, english_name="tripod head stand, legs bent, arms straight")
-    DG.node[86]["two_sided"] = False
-    DG.node[86]["description"] = ""
-    DG.node[86]["yogajournalurl"] = ""
-    DG.node[86]["yogajournal_picture"] = ""
-    DG.node[86]["hindi_name"] = ""
-    DG.node[86]["comment"] = ""
-    DG.node[86]["Dharma Mittra picture URL"] = ""
-    DG.node[86]["asanas 608 page"] = ""
-    DG.node[86]["asanas 608 english name"] = ""
+    DG.nodes[86]["two_sided"] = False
+    DG.nodes[86]["description"] = ""
+    DG.nodes[86]["yogajournalurl"] = ""
+    DG.nodes[86]["yogajournal_picture"] = ""
+    DG.nodes[86]["hindi_name"] = ""
+    DG.nodes[86]["comment"] = ""
+    DG.nodes[86]["Dharma Mittra picture URL"] = ""
+    DG.nodes[86]["asanas 608 page"] = ""
+    DG.nodes[86]["asanas 608 english name"] = ""
 
     DG.add_node(87, english_name="standing back bend")
-    DG.node[87]["two_sided"] = False
-    DG.node[87]["description"] = "feet together"
-    DG.node[87]["yogajournalurl"] = ""
-    DG.node[87]["yogajournal_picture"] = ""
-    DG.node[87]["hindi_name"] = ""
-    DG.node[87]["comment"] = ""
-    DG.node[87]["Dharma Mittra picture URL"] = ""
-    DG.node[87]["asanas 608 page"] = ""
-    DG.node[87]["asanas 608 english name"] = ""
+    DG.nodes[87]["two_sided"] = False
+    DG.nodes[87]["description"] = "feet together"
+    DG.nodes[87]["yogajournalurl"] = ""
+    DG.nodes[87]["yogajournal_picture"] = ""
+    DG.nodes[87]["hindi_name"] = ""
+    DG.nodes[87]["comment"] = ""
+    DG.nodes[87]["Dharma Mittra picture URL"] = ""
+    DG.nodes[87]["asanas 608 page"] = ""
+    DG.nodes[87]["asanas 608 english name"] = ""
 
     DG.add_node(88, english_name="scorpion")
-    DG.node[88]["two_sided"] = False
-    DG.node[88]["description"] = ""
-    DG.node[88]["yogajournalurl"] = ""
-    DG.node[88]["yogajournal_picture"] = ""
-    DG.node[88]["hindi_name"] = ""
-    DG.node[88]["comment"] = ""
-    DG.node[88]["Dharma Mittra picture URL"] = ""
-    DG.node[88]["asanas 608 page"] = ""
-    DG.node[88]["asanas 608 english name"] = ""
+    DG.nodes[88]["two_sided"] = False
+    DG.nodes[88]["description"] = ""
+    DG.nodes[88]["yogajournalurl"] = ""
+    DG.nodes[88]["yogajournal_picture"] = ""
+    DG.nodes[88]["hindi_name"] = ""
+    DG.nodes[88]["comment"] = ""
+    DG.nodes[88]["Dharma Mittra picture URL"] = ""
+    DG.nodes[88]["asanas 608 page"] = ""
+    DG.nodes[88]["asanas 608 english name"] = ""
 
     DG.add_node(89, english_name="bird of paradise, bent forward, leg to side")
-    DG.node[89]["two_sided"] = False
-    DG.node[89]["description"] = ""
-    DG.node[89]["yogajournalurl"] = ""
-    DG.node[89]["yogajournal_picture"] = ""
-    DG.node[89]["hindi_name"] = ""
-    DG.node[89]["comment"] = ""
-    DG.node[89]["Dharma Mittra picture URL"] = ""
-    DG.node[89]["asanas 608 page"] = ""
-    DG.node[89]["asanas 608 english name"] = ""
+    DG.nodes[89]["two_sided"] = False
+    DG.nodes[89]["description"] = ""
+    DG.nodes[89]["yogajournalurl"] = ""
+    DG.nodes[89]["yogajournal_picture"] = ""
+    DG.nodes[89]["hindi_name"] = ""
+    DG.nodes[89]["comment"] = ""
+    DG.nodes[89]["Dharma Mittra picture URL"] = ""
+    DG.nodes[89]["asanas 608 page"] = ""
+    DG.nodes[89]["asanas 608 english name"] = ""
 
     DG.add_node(90, english_name="tripod head stand, legs straight, arms straight")
-    DG.node[90]["two_sided"] = False
-    DG.node[90]["description"] = ""
-    DG.node[90]["yogajournalurl"] = ""
-    DG.node[90]["yogajournal_picture"] = ""
-    DG.node[90]["hindi_name"] = ""
-    DG.node[90]["comment"] = ""
-    DG.node[90]["Dharma Mittra picture URL"] = ""
-    DG.node[90]["asanas 608 page"] = ""
-    DG.node[90]["asanas 608 english name"] = ""
+    DG.nodes[90]["two_sided"] = False
+    DG.nodes[90]["description"] = ""
+    DG.nodes[90]["yogajournalurl"] = ""
+    DG.nodes[90]["yogajournal_picture"] = ""
+    DG.nodes[90]["hindi_name"] = ""
+    DG.nodes[90]["comment"] = ""
+    DG.nodes[90]["Dharma Mittra picture URL"] = ""
+    DG.nodes[90]["asanas 608 page"] = ""
+    DG.nodes[90]["asanas 608 english name"] = ""
 
     DG.add_node(91, english_name="butterfly")
-    DG.node[91]["two_sided"] = False
-    DG.node[91]["description"] = ""
-    DG.node[91]["yogajournalurl"] = ""
-    DG.node[91]["yogajournal_picture"] = ""
-    DG.node[91]["hindi_name"] = ""
-    DG.node[91]["comment"] = ""
-    DG.node[91]["Dharma Mittra picture URL"] = ""
-    DG.node[91]["asanas 608 page"] = ""
-    DG.node[91]["asanas 608 english name"] = ""
+    DG.nodes[91]["two_sided"] = False
+    DG.nodes[91]["description"] = ""
+    DG.nodes[91]["yogajournalurl"] = ""
+    DG.nodes[91]["yogajournal_picture"] = ""
+    DG.nodes[91]["hindi_name"] = ""
+    DG.nodes[91]["comment"] = ""
+    DG.nodes[91]["Dharma Mittra picture URL"] = ""
+    DG.nodes[91]["asanas 608 page"] = ""
+    DG.nodes[91]["asanas 608 english name"] = ""
 
     DG.add_node(92, english_name="hurdler")
-    DG.node[92]["two_sided"] = False
-    DG.node[92]["description"] = ""
-    DG.node[92]["yogajournalurl"] = ""
-    DG.node[92]["yogajournal_picture"] = ""
-    DG.node[92]["hindi_name"] = ""
-    DG.node[92]["comment"] = ""
-    DG.node[92]["Dharma Mittra picture URL"] = ""
-    DG.node[92]["asanas 608 page"] = ""
-    DG.node[92]["asanas 608 english name"] = ""
+    DG.nodes[92]["two_sided"] = False
+    DG.nodes[92]["description"] = ""
+    DG.nodes[92]["yogajournalurl"] = ""
+    DG.nodes[92]["yogajournal_picture"] = ""
+    DG.nodes[92]["hindi_name"] = ""
+    DG.nodes[92]["comment"] = ""
+    DG.nodes[92]["Dharma Mittra picture URL"] = ""
+    DG.nodes[92]["asanas 608 page"] = ""
+    DG.nodes[92]["asanas 608 english name"] = ""
 
     DG.add_node(93, english_name="bridge")
-    DG.node[93]["two_sided"] = False
-    DG.node[93]["description"] = ""
-    DG.node[93]["yogajournalurl"] = "http://www.yogajournal.com/pose/bridge-pose/"
-    DG.node[93][
+    DG.nodes[93]["two_sided"] = False
+    DG.nodes[93]["description"] = ""
+    DG.nodes[93]["yogajournalurl"] = "http://www.yogajournal.com/pose/bridge-pose/"
+    DG.nodes[93][
         "yogajournal_picture"
     ] = "http://media.yogajournal.com/wp-content/uploads/257_HP_13_fnl_4502.jpg"
-    DG.node[93]["hindi_name"] = ""
-    DG.node[93]["comment"] = ""
-    DG.node[93]["Dharma Mittra picture URL"] = ""
-    DG.node[93]["asanas 608 page"] = ""
-    DG.node[93]["asanas 608 english name"] = ""
+    DG.nodes[93]["hindi_name"] = ""
+    DG.nodes[93]["comment"] = ""
+    DG.nodes[93]["Dharma Mittra picture URL"] = ""
+    DG.nodes[93]["asanas 608 page"] = ""
+    DG.nodes[93]["asanas 608 english name"] = ""
 
     DG.add_node(94, english_name="standing eagle")
-    DG.node[94]["two_sided"] = False
-    DG.node[94]["description"] = ""
-    DG.node[94]["yogajournalurl"] = "http://www.yogajournal.com/pose/eagle-pose/"
-    DG.node[94][
+    DG.nodes[94]["two_sided"] = False
+    DG.nodes[94]["description"] = ""
+    DG.nodes[94]["yogajournalurl"] = "http://www.yogajournal.com/pose/eagle-pose/"
+    DG.nodes[94][
         "yogajournal_picture"
     ] = "http://media.yogajournal.com/wp-content/uploads/pract-well_trail_268_04_Eagle.jpg"
-    DG.node[94]["hindi_name"] = ""
-    DG.node[94]["comment"] = ""
-    DG.node[94]["Dharma Mittra picture URL"] = ""
-    DG.node[94]["asanas 608 page"] = ""
-    DG.node[94]["asanas 608 english name"] = ""
+    DG.nodes[94]["hindi_name"] = ""
+    DG.nodes[94]["comment"] = ""
+    DG.nodes[94]["Dharma Mittra picture URL"] = ""
+    DG.nodes[94]["asanas 608 page"] = ""
+    DG.nodes[94]["asanas 608 english name"] = ""
 
     DG.add_node(95, english_name="seated forward fold")
-    DG.node[95]["two_sided"] = False
-    DG.node[95]["description"] = ""
-    DG.node[95][
+    DG.nodes[95]["two_sided"] = False
+    DG.nodes[95]["description"] = ""
+    DG.nodes[95][
         "yogajournalurl"
     ] = "http://www.yogajournal.com/pose/seated-forward-bend/"
-    DG.node[95][
+    DG.nodes[95][
         "yogajournal_picture"
     ] = "http://media.yogajournal.com/wp-content/uploads/257_HP_12_fnl_4501.jpg"
-    DG.node[95]["hindi_name"] = ""
-    DG.node[95]["comment"] = ""
-    DG.node[95]["Dharma Mittra picture URL"] = ""
-    DG.node[95]["asanas 608 page"] = ""
-    DG.node[95]["asanas 608 english name"] = ""
+    DG.nodes[95]["hindi_name"] = ""
+    DG.nodes[95]["comment"] = ""
+    DG.nodes[95]["Dharma Mittra picture URL"] = ""
+    DG.nodes[95]["asanas 608 page"] = ""
+    DG.nodes[95]["asanas 608 english name"] = ""
 
     return DG
 
 
 """
     DG.add_node(9,english_name="")
-    DG.node[9]["two_sided"]=False
-    DG.node[9]["description"]=""
-    DG.node[9]["yogajournalurl"]=""
-    DG.node[9]["yogajournal_picture"]=""
-    DG.node[9]["hindi_name"]=""
-    DG.node[9]["comment"]=""
-    DG.node[9]["Dharma Mittra picture URL"]=""
-    DG.node[9]["asanas 608 page"]=""
-    DG.node[9]["asanas 608 english name"]=""
+    DG.nodes[9]["two_sided"]=False
+    DG.nodes[9]["description"]=""
+    DG.nodes[9]["yogajournalurl"]=""
+    DG.nodes[9]["yogajournal_picture"]=""
+    DG.nodes[9]["hindi_name"]=""
+    DG.nodes[9]["comment"]=""
+    DG.nodes[9]["Dharma Mittra picture URL"]=""
+    DG.nodes[9]["asanas 608 page"]=""
+    DG.nodes[9]["asanas 608 english name"]=""
 
     DG.add_node(9,english_name="")
-    DG.node[9]["two_sided"]=False
-    DG.node[9]["description"]=""
-    DG.node[9]["yogajournalurl"]=""
-    DG.node[9]["yogajournal_picture"]=""
-    DG.node[9]["hindi_name"]=""
-    DG.node[9]["comment"]=""
-    DG.node[9]["Dharma Mittra picture URL"]=""
-    DG.node[9]["asanas 608 page"]=""
-    DG.node[9]["asanas 608 english name"]=""
+    DG.nodes[9]["two_sided"]=False
+    DG.nodes[9]["description"]=""
+    DG.nodes[9]["yogajournalurl"]=""
+    DG.nodes[9]["yogajournal_picture"]=""
+    DG.nodes[9]["hindi_name"]=""
+    DG.nodes[9]["comment"]=""
+    DG.nodes[9]["Dharma Mittra picture URL"]=""
+    DG.nodes[9]["asanas 608 page"]=""
+    DG.nodes[9]["asanas 608 english name"]=""
 """
 
 

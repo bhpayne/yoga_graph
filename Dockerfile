@@ -12,4 +12,9 @@ RUN apt update && apt -y upgrade && apt -y install \
     python3-dev \
     python3-pip
 
-RUN pip3 install black networkx
+RUN pip3 install black networkx matplotlib pyyaml
+# pip3 freeze reports
+# black==21.6b0
+# networkx==2.5.1
+# matplotlib==3.3.4
+# PyYAML==5.4.1

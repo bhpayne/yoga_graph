@@ -32,7 +32,7 @@ write_to_path = "../site/generated_pages/"
 # DG[0]
 
 for this_indx in range(len(DG)):
-    dic_for_this_node = DG.nodes(data=True)[this_indx][1]
+    dic_for_this_node = DG.nodes(data=True)[this_indx]
     print("index: " + str(this_indx) + "; " + dic_for_this_node["english_name"])
     f = open(write_to_path + str(this_indx) + ".html", "w")
     f.write("<HTML>\n<HEAD>\n")
@@ -50,7 +50,7 @@ for this_indx in range(len(DG)):
     f.write("\t<TD>Adjacent poses: \n")
     list_of_edges_for_this_node = DG[this_indx].keys()
     for neighbor_indx in list_of_edges_for_this_node:
-        dic_for_adjacent_node = DG.nodes(data=True)[neighbor_indx][1]
+        dic_for_adjacent_node = DG.nodes(data=True)[neighbor_indx]
         f.write(
             '<a href="'
             + str(neighbor_indx)
@@ -94,7 +94,7 @@ for this_indx in range(len(DG)):
     f.write("\n\t</TD>\n\t<TD>\n")
     list_of_edges_for_this_node = DG[this_indx].keys()
     for neighbor_indx in list_of_edges_for_this_node:
-        dic_for_adjacent_node = DG.nodes(data=True)[neighbor_indx][1]
+        dic_for_adjacent_node = DG.nodes(data=True)[neighbor_indx]
         f.write("\t<P>\n")
         f.write(
             '\t<font size="'
