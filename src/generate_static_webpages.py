@@ -11,6 +11,7 @@ This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 Inte
 To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.
 """
 
+import glob
 import networkx as nx  # format for directed graph
 import yoga_db as ydb  # nodes and edges of graph
 import yoga_lib as ylib  # library of functions for acting on graph
@@ -41,6 +42,8 @@ for this_indx in range(len(DG)):
         f.write(
             "</head>\n<BODY>\n\n<table border=\"1\" style='table-layout:fixed;width:100%'>\n"
         )
+
+        # upper left corner -- just the pose name
         f.write(
             '<TR width="50%">\n\t<TD>Current pose: <font size="'
             + large_font_size
@@ -63,8 +66,16 @@ for this_indx in range(len(DG)):
                 + dic_for_adjacent_node["english_name"]
                 + "</a> | \n"
             )
-        f.write("\n\t</TD>\n</TR>\n<TR>\n")
+        f.write("\n\t</TD>\n</TR>\n")
+
+        # lower row
+        f.write("<TR>\n")
+        # lower left quadrant
         f.write('\t<TD valign="top">\n')
+
+        glob.glob("../site/pose_pictures/*.jpg")
+        glob.glob("../site/pose_pictures/*.png")
+
         if dic_for_this_node["yogajournal_picture"] != "":
             f.write('\t<a href="' + dic_for_this_node["yogajournalurl"] + '">\n')
             f.write(

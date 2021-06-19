@@ -1236,7 +1236,7 @@ def pose_properties(DG):
     DG.nodes[100]["asanas 608 page"]=""
     DG.nodes[100]["asanas 608 english name"]=""
 
-    DG.add_node(101,english_name="")
+    DG.add_node(101,english_name="handstand")
     DG.nodes[101]["two_sided"]=False
     DG.nodes[101]["description"]=""
     DG.nodes[101]["yogajournalurl"]=""
