@@ -1,6 +1,10 @@
 # 2021-06-19
 
-Was asked yesterday about this project. Refreshed the code base, applying software development practices I've learned in the past 5 years.
+Was asked yesterday about this project.
+* Refreshed the code base, applying software development practices I've learned in the past 5 years.
+* removed unlicensed images
+* added open-source free images; included citations
+
 
 # 20160824
 

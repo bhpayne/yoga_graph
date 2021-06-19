@@ -9,12 +9,12 @@ This file contains two functions called by the main YogaGraph program:
 -pose_properties: contains information about the pose
 -pose_transitions: set of edges on the graph
 
-This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. 
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.
 To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.
 """
 
 """
-On individual pages per pose, YogaJournal lists some of the 
+On individual pages per pose, YogaJournal lists some of the
 'Preparatory Poses' and 'Follow-up Poses'
 This graph is intended as a more full enumeration of that graph
 
@@ -41,6 +41,9 @@ https://yoga.com/poses
 
 
 def pose_properties(DG):
+    """
+    Graph nodes
+    """
     DG.add_node(0, english_name="table top")
     DG.node[0]["two_sided"] = False
     DG.node[0][
@@ -100,7 +103,7 @@ def pose_properties(DG):
     DG.add_node(4, english_name="downward dog")
     DG.node[4]["two_sided"] = False
     DG.node[4]["yogajournalurl"] = "http://www.yogajournal.com/poses/491"
-    # 	DG.node[4]["yogajournalurl"]="http://www.yogajournal.com/pose/downward-facing-dog/"
+    #     DG.node[4]["yogajournalurl"]="http://www.yogajournal.com/pose/downward-facing-dog/"
     DG.node[4][
         "yogajournal_picture"
     ] = "http://media.yogajournal.com/wp-content/uploads/266_hp_side12_450.jpg"
@@ -207,7 +210,7 @@ def pose_properties(DG):
     DG.add_node(13, english_name="plank")
     DG.node[13]["two_sided"] = False
     DG.node[13]["description"] = ""
-    # 	DG.node[13]["yogajournalurl"]="http://www.yogajournal.com/poses/470"
+    #     DG.node[13]["yogajournalurl"]="http://www.yogajournal.com/poses/470"
     DG.node[13]["yogajournalurl"] = "http://www.yogajournal.com/pose/plank-pose/"
     DG.node[13][
         "yogajournal_picture"
@@ -1179,31 +1182,34 @@ def pose_properties(DG):
 
 
 """
-	DG.add_node(9,english_name="")
-	DG.node[9]["two_sided"]=False
-	DG.node[9]["description"]=""
-	DG.node[9]["yogajournalurl"]=""
-	DG.node[9]["yogajournal_picture"]=""
-	DG.node[9]["hindi_name"]=""
-	DG.node[9]["comment"]=""
-	DG.node[9]["Dharma Mittra picture URL"]=""
-	DG.node[9]["asanas 608 page"]=""
-	DG.node[9]["asanas 608 english name"]=""	
+    DG.add_node(9,english_name="")
+    DG.node[9]["two_sided"]=False
+    DG.node[9]["description"]=""
+    DG.node[9]["yogajournalurl"]=""
+    DG.node[9]["yogajournal_picture"]=""
+    DG.node[9]["hindi_name"]=""
+    DG.node[9]["comment"]=""
+    DG.node[9]["Dharma Mittra picture URL"]=""
+    DG.node[9]["asanas 608 page"]=""
+    DG.node[9]["asanas 608 english name"]=""
 
-	DG.add_node(9,english_name="")
-	DG.node[9]["two_sided"]=False
-	DG.node[9]["description"]=""
-	DG.node[9]["yogajournalurl"]=""
-	DG.node[9]["yogajournal_picture"]=""
-	DG.node[9]["hindi_name"]=""
-	DG.node[9]["comment"]=""
-	DG.node[9]["Dharma Mittra picture URL"]=""
-	DG.node[9]["asanas 608 page"]=""
-	DG.node[9]["asanas 608 english name"]=""	
+    DG.add_node(9,english_name="")
+    DG.node[9]["two_sided"]=False
+    DG.node[9]["description"]=""
+    DG.node[9]["yogajournalurl"]=""
+    DG.node[9]["yogajournal_picture"]=""
+    DG.node[9]["hindi_name"]=""
+    DG.node[9]["comment"]=""
+    DG.node[9]["Dharma Mittra picture URL"]=""
+    DG.node[9]["asanas 608 page"]=""
+    DG.node[9]["asanas 608 english name"]=""
 """
 
 
 def pose_transitions(DG):
+    """
+    graph edges
+    """
     DG.add_weighted_edges_from([(0, 2, 1)])  # 0 = all fours; 2 = cat
     DG.add_weighted_edges_from([(0, 1, 1)])  # 0 = all fours; 1 = cow
     DG.add_weighted_edges_from([(0, 3, 1)])  # 0 = all fours; 3 = child's pose
@@ -1742,7 +1748,7 @@ def pose_transitions(DG):
         [(87, 20, 1)]
     )  # 87 = standing back bend; 20 = stand straight (mountain)
 
-    # 	DG.add_weighted_edges_from([(88,,1)])   # 88 = scorpion ;
+    #     DG.add_weighted_edges_from([(88,,1)])   # 88 = scorpion ;
 
     DG.add_weighted_edges_from(
         [(89, 65, 1)]
@@ -1752,8 +1758,8 @@ def pose_transitions(DG):
         [(90, 86, 1)]
     )  # 90 = tripod head stand, legs straight, arms straight; 86 = tripod head stand, legs bent, arms straight
 
-    # 	DG.add_weighted_edges_from([(91,,1)])   # 91 = butterfly
+    #     DG.add_weighted_edges_from([(91,,1)])   # 91 = butterfly
 
-    # 	DG.add_weighted_edges_from([(92,,1)])  # 92 = hurdler
+    #     DG.add_weighted_edges_from([(92,,1)])  # 92 = hurdler
 
     return DG

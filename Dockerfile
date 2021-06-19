@@ -12,4 +12,4 @@ RUN apt update && apt -y upgrade && apt -y install \
     python3-dev \
     python3-pip
 
-RUN pip3 install black 
+RUN pip3 install black networkx

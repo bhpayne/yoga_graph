@@ -5,9 +5,9 @@ ben.is.located@gmail.com
 
 Yoga graph
 
-Use: 
+Use:
 
-This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. 
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License.
 To view a copy of this license, visit http://creativecommons.org/licenses/by-sa/4.0/.
 """
 
@@ -69,7 +69,7 @@ for this_indx in range(len(DG)):
             + image_width
             + '"></a><BR>\n'
         )
-        # 		f.write("\timage source: <a href=\""+dic_for_this_node['yogajournal_picture']+"\">"+dic_for_this_node['yogajournal_picture']+"</a><BR>\n")
+        # f.write("\timage source: <a href=\""+dic_for_this_node['yogajournal_picture']+"\">"+dic_for_this_node['yogajournal_picture']+"</a><BR>\n")
         f.write(
             '\t<font size="'
             + small_font_size
@@ -85,7 +85,7 @@ for this_indx in range(len(DG)):
             + image_width
             + '"><BR>\n'
         )
-        # 		f.write("\timage source: <a href=\""+dic_for_this_node['Dharma Mittra picture URL']+"\">"+dic_for_this_node['Dharma Mittra picture URL']+"</a><BR>\n")
+        # f.write("\timage source: <a href=\""+dic_for_this_node['Dharma Mittra picture URL']+"\">"+dic_for_this_node['Dharma Mittra picture URL']+"</a><BR>\n")
         f.write(
             '\t<font size="'
             + small_font_size
@@ -114,7 +114,7 @@ for this_indx in range(len(DG)):
                 + image_width
                 + '"></a><BR>\n'
             )
-            # 			f.write("\timage source: <a href=\""+dic_for_adjacent_node['yogajournal_picture']+"\">"+dic_for_adjacent_node['yogajournal_picture']+"</a><BR>\n")
+            # f.write("\timage source: <a href=\""+dic_for_adjacent_node['yogajournal_picture']+"\">"+dic_for_adjacent_node['yogajournal_picture']+"</a><BR>\n")
             f.write(
                 '\t<font size="'
                 + small_font_size
@@ -131,7 +131,7 @@ for this_indx in range(len(DG)):
                 + image_width
                 + '"></a><BR>\n'
             )
-            # 			f.write("\timage source: <a href=\""+dic_for_adjacent_node['Dharma Mittra picture URL']+"\">"+dic_for_adjacent_node['Dharma Mittra picture URL']+"</a><BR>\n")
+            # f.write("\timage source: <a href=\""+dic_for_adjacent_node['Dharma Mittra picture URL']+"\">"+dic_for_adjacent_node['Dharma Mittra picture URL']+"</a><BR>\n")
             f.write(
                 '\t<font size="'
                 + small_font_size
