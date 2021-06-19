@@ -51,21 +51,16 @@ The networkx package makes working with graphs straight forward
 tasks
 =====
 
-Include more poses
-Include more transitions
-Include difficulty rankings for transitions
-Verify existing graph entries
-
-document flows from various styles
-
-output different graph formats (i.e., for Yed, GraphML)
-
-save history to file -- pickle
-read in previous flow -- pickle
-replay previous flow
-
-Mac: Preview doesn't display the image
-
-graph: two sided paths (symmetry_history)
-
-
+- [ ] Include more poses
+- [ ] Include more transitions
+- [ ] Include difficulty rankings for transitions
+- [ ] Verify existing graph entries
+- [ ] document flows from various styles
+- [ ] output different graph formats (i.e., for Yed, GraphML)
+- [ ] save history to file -- pickle
+- [ ] read in previous flow -- pickle
+- [ ] replay previous flow
+- [ ] graph: two sided paths (symmetry_history)
+- [ ] is this similar to 
+* <https://itunes.apple.com/us/app/down-dog-app-new-yoga-practice/id983693694>
+* <http://seattleyoganews.com/down-dog-app-yoga/>
