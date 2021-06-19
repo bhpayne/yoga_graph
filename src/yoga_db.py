@@ -33,8 +33,7 @@ https://www.yogajournal.com/poses/anatomy/knees/
 https://www.yogajournal.com/poses/types/
 
 
-http://www.dharmayogacenter.com/resources/yoga-poses/yoga-poses-alphabetical/
-http://www.dharmayogacenter.com/resources/yoga-poses/view-all-yoga-poses-by-category/
+https://www.dharmayogacenter.com/resources/yoga-poses/
 
 https://en.wikipedia.org/wiki/List_of_asanas
 
@@ -73,7 +72,7 @@ def pose_properties(DG):
     DG.nodes[1]["comment"] = ""
     DG.nodes[1][
         "Dharma Mittra picture URL"
-    ] = "http://www.dharmayogacenter.com/wp-content/gallery/asana-reference/marjaryasana2.jpg"
+    ] = ""
     DG.nodes[1]["asanas_608_page"] = "373"
     DG.nodes[1]["asanas_608_english"] = "cat stretch pose B"
 
@@ -88,7 +87,7 @@ def pose_properties(DG):
     DG.nodes[2]["comment"] = ""
     DG.nodes[2][
         "Dharma Mittra picture URL"
-    ] = "http://www.dharmayogacenter.com/wp-content/gallery/asana-reference/marjaryasana1.jpg"
+    ] = ""
     DG.nodes[2]["asanas_608_page"] = "372"
     DG.nodes[2]["asanas_608_english"] = "cat stretch pose A"
 
@@ -215,7 +214,6 @@ def pose_properties(DG):
     DG.add_node(13, english_name="plank")
     DG.nodes[13]["two_sided"] = False
     DG.nodes[13]["description"] = ""
-    #     DG.nodes[13]["yogajournalurl"]="http://www.yogajournal.com/poses/470"
     DG.nodes[13]["yogajournalurl"] = "http://www.yogajournal.com/pose/plank-pose/"
     DG.nodes[13][
         "yogajournal_picture"
@@ -224,7 +222,7 @@ def pose_properties(DG):
     DG.nodes[13]["comment"] = ""
     DG.nodes[13][
         "Dharma Mittra picture URL"
-    ] = "http://www.dharmayogacenter.com/wp-content/gallery/asana-reference/chaturanga-dandasana.jpg"
+    ] = ""
     DG.nodes[13]["asanas 608 page"] = ""
     DG.nodes[13]["asanas 608 english name"] = ""
 
@@ -411,7 +409,7 @@ def pose_properties(DG):
     DG.nodes[28]["comment"] = ""
     DG.nodes[28][
         "Dharma Mittra picture URL"
-    ] = "http://www.dharmayogacenter.com/wp-content/gallery/asana-reference/urdhva-dhamurasana3.jpg"
+    ] = ""
     DG.nodes[28]["asanas 608 page"] = ""
     DG.nodes[28]["asanas 608 english name"] = ""
 
@@ -628,7 +626,7 @@ def pose_properties(DG):
     DG.nodes[47]["comment"] = ""
     DG.nodes[47][
         "Dharma Mittra picture URL"
-    ] = "http://www.dharmayogacenter.com/wp-content/gallery/asana-reference/urdhva-mukha-svanasana.jpg"
+    ] = ""
     DG.nodes[47]["asanas 608 page"] = ""
     DG.nodes[47]["asanas 608 english name"] = ""
 
@@ -654,7 +652,7 @@ def pose_properties(DG):
     DG.nodes[49]["comment"] = ""
     DG.nodes[49][
         "Dharma Mittra picture URL"
-    ] = "http://www.dharmayogacenter.com/wp-content/gallery/asana-reference/virasana3.jpg"
+    ] = ""
     DG.nodes[49]["asanas_608_page"] = "624"
     DG.nodes[49]["asanas_608_english"] = "accomplished pose"
 
@@ -795,7 +793,7 @@ def pose_properties(DG):
     DG.nodes[61]["comment"] = ""
     DG.nodes[61][
         "Dharma Mittra picture URL"
-    ] = "http://www.dharmayogacenter.com/wp-content/gallery/asana-reference/uttanasana.jpg"
+    ] = ""
     DG.nodes[61]["asanas 608 page"] = ""
     DG.nodes[61]["asanas 608 english name"] = ""
 
