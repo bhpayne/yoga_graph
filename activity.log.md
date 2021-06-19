@@ -1,8 +1,12 @@
-20160824
+# 2021-06-19
+
+Was asked yesterday about this project. Refreshed the code base, applying software development practices I've learned in the past 5 years.
+
+# 20160824
 
 started work on a web version
 
-20140629
+# 20140629
 
 Perhaps instead of calling the image reader in the OS, use tkinter and imagetk
 http://effbot.org/imagingbook/imagetk.htm
@@ -11,22 +15,25 @@ http://code.activestate.com/recipes/521918-pil-and-tkinter-to-display-images/
 
 I cannot find how to install imagetk
 
-20140620
+# 20140620
 
+```
 import subprocess
 import time
 # http://stackoverflow.com/questions/13327759/how-to-display-and-close-image-in-python
 p = subprocess.Popen(["open", "39__trishia_compass.png"])
 time.sleep(2)
 p.kill()
+```
 
-
+```
 import subprocess
 import time
 filename="39__trishia_compass.png"
 retcode = subprocess.call("open " + filename, shell=True)
+```
 
-
+```
 #http://stackoverflow.com/questions/6725099/how-can-i-close-an-image-shown-to-the-user-with-the-python-imaging-library
 import subprocess
 import time
@@ -35,28 +42,34 @@ viewer = subprocess.Popen(['/Applications/Preview.app/Contents/MacOS/Preview', f
 time.sleep(2)
 viewer.terminate()
 viewer.kill()
+```
 
-20140620
+# 20140620
 
 Summary: installed Pillow to open images
 Outcome: PIL (now Pillow) is for altering images; "show()" is a debugging tool with no corresponding "close()"
 Action: Don't use PIL (or Pillow) for just viewing images
-
+```
 sudo easy_install pip
 sudo pip install Pillow
+```
 
+```
 # http://www.pythonforbeginners.com/gui/how-to-use-pillow
 python
 from PIL import Image
 f = Image.open("39__trishia_compass.png").show()
+```
 
-
+```
 from PIL import Image
 fp = open("39__trishia_compass.png", "rb")
 im = Image.open(fp) # open from file object
 #im.load() # make sure PIL has read the data
 fp.close()
+```
 
+```
 from PIL import Image
 import time
 # http://stackoverflow.com/questions/3135328/how-to-close-an-image
@@ -68,10 +81,11 @@ def do_post_processing(filename):
 do_post_processing("39__trishia_compass.png")
 time.sleep(3) # delays for 5 seconds
 do_post_processing("Dharma_Mittra.jpg")
+```
 
-20140531
+# 20140531
 
-Inspired by 
+Inspired by
 http://cytoscapeweb.cytoscape.org/demos
 
 http://wiki.cytoscape.org/Cytoscape_3/UserManual
