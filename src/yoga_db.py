@@ -99,10 +99,10 @@ def pose_properties(DG):
     DG.add_node(3, english_name="child's pose")
     DG.nodes[3]["two_sided"] = False
     DG.nodes[3]["description"] = "arms stretched above head, face to ground. On shins"
-    DG.nodes[3]["yogajournalurl"] = "http://www.yogajournal.com/poses/475"
+    DG.nodes[3]["yogajournalurl"] = "https://www.yogajournal.com/poses/child-s-pose/"
     DG.nodes[3][
         "yogajournal_picture"
-    ] = ""
+    ] = "https://www.yogajournal.com/wp-content/uploads/2007/08/3yp_287_6604_gn_bjk.jpg?crop=535:301&width=1070&enable=upscale"
     DG.nodes[3]["hindi_name"] = "Balasana"
     DG.nodes[3]["comment"] = ""
     DG.nodes[3]["Dharma Mittra picture URL"] = ""
@@ -191,8 +191,8 @@ def pose_properties(DG):
     DG.add_node(10, english_name="supported shoulder stand")
     DG.nodes[10]["two_sided"] = False
     DG.nodes[10]["description"] = ""
-    DG.nodes[10]["yogajournalurl"] = ""
-    DG.nodes[10]["yogajournal_picture"] = ""
+    DG.nodes[10]["yogajournalurl"] = "https://www.yogajournal.com/poses/supported-shoulderstand/"
+    DG.nodes[10]["yogajournal_picture"] = "https://www.yogajournal.com/wp-content/uploads/2007/08/2anatomy_284_05_fnl.jpg?crop=535:301&width=1070&enable=upscale"
     DG.nodes[10]["hindi_name"] = "Sarvangasana"
     DG.nodes[10]["comment"] = ""
     DG.nodes[10]["Dharma Mittra picture URL"] = ""
@@ -380,8 +380,8 @@ def pose_properties(DG):
     DG.add_node(24, english_name="warrior 1")
     DG.nodes[24]["two_sided"] = True
     DG.nodes[24]["description"] = "arms up"
-    DG.nodes[24]["yogajournalurl"] = "http://www.yogajournal.com/poses/1708"
-    DG.nodes[24]["yogajournal_picture"] = ""
+    DG.nodes[24]["yogajournalurl"] = "https://www.yogajournal.com/poses/warrior-i-pose/"
+    DG.nodes[24]["yogajournal_picture"] = "https://www.yogajournal.com/wp-content/uploads/2017/04/warrior-i-carrie-owerko.jpg?crop=535:301&width=1070&enable=upscale"
     DG.nodes[24]["hindi_name"] = "Virabhadrasana I"
     DG.nodes[24]["comment"] = ""
     DG.nodes[24]["Dharma Mittra picture URL"] = ""
@@ -446,10 +446,10 @@ def pose_properties(DG):
     DG.add_node(29, english_name="warrior 2")
     DG.nodes[29]["two_sided"] = True
     DG.nodes[29]["description"] = "arms out"
-    DG.nodes[29]["yogajournalurl"] = "http://www.yogajournal.com/poses/495"
+    DG.nodes[29]["yogajournalurl"] = "https://www.yogajournal.com/poses/warrior-ii-pose/"
     DG.nodes[29][
         "yogajournal_picture"
-    ] = "http://www.yogajournal.com/pose/warrior-ii-pose/"
+    ] = "https://www.yogajournal.com/wp-content/uploads/2007/08/32hp_291_1870_gn_bjk.jpg?crop=535:301&width=1070&enable=upscale"
     DG.nodes[29]["hindi_name"] = "Virabhadrasana II"
     DG.nodes[29]["comment"] = ""
     DG.nodes[29]["Dharma Mittra picture URL"] = ""
@@ -645,12 +645,12 @@ def pose_properties(DG):
     DG.nodes[44]["asanas 608 page"] = ""
     DG.nodes[44]["asanas 608 english name"] = ""
 
-    DG.add_node(45, english_name="squat, knees wide")
+    DG.add_node(45, english_name="squat, knees wide OR garland")
     DG.nodes[45]["two_sided"] = False
     DG.nodes[45]["description"] = ""
-    DG.nodes[45]["yogajournalurl"] = ""
+    DG.nodes[45]["yogajournalurl"] = "https://www.yogajournal.com/poses/types/standing/garland-pose/"
     DG.nodes[45]["yogajournal_picture"] = ""
-    DG.nodes[45]["hindi_name"] = ""
+    DG.nodes[45]["hindi_name"] = "Upavesasana"
     DG.nodes[45]["comment"] = ""
     DG.nodes[45]["Dharma Mittra picture URL"] = ""
     DG.nodes[45]["wikipedia"] = ""
@@ -700,10 +700,10 @@ def pose_properties(DG):
     DG.add_node(49, english_name="half lotus OR accomplished")
     DG.nodes[49]["two_sided"] = True
     DG.nodes[49]["description"] = ""
-    DG.nodes[49]["yogajournalurl"] = "http://www.yogajournal.com/pose/fire-log-pose/"
+    DG.nodes[49]["yogajournalurl"] = "https://www.yogajournal.com/poses/fire-log-pose/"
     DG.nodes[49][
         "yogajournal_picture"
-    ] = ""
+    ] = "https://www.yogajournal.com/wp-content/uploads/2007/08/fire-log-pose-agnistambhasana.jpg?crop=535:301&width=1070&enable=upscale"
     DG.nodes[49]["hindi_name"] = "siddhasana"
     DG.nodes[49]["comment"] = ""
     DG.nodes[49][
@@ -739,12 +739,12 @@ def pose_properties(DG):
     DG.nodes[51]["asanas_608_page"] = "243"
     DG.nodes[51]["asanas_608_english"] = "upward lotus pose"
 
-    DG.add_node(52, english_name="flying lotus")
+    DG.add_node(52, english_name="flying lotus OR Lotus peacock")
     DG.nodes[52]["two_sided"] = True
-    DG.nodes[52]["description"] = ""
+    DG.nodes[52]["description"] = "only hands on ground"
     DG.nodes[52]["yogajournalurl"] = ""
     DG.nodes[52]["yogajournal_picture"] = ""
-    DG.nodes[52]["hindi_name"] = ""
+    DG.nodes[52]["hindi_name"] = "Padma Mayurasana"
     DG.nodes[52]["comment"] = ""
     DG.nodes[52]["Dharma Mittra picture URL"] = ""
     DG.nodes[52]["wikipedia"] = ""
@@ -787,7 +787,7 @@ def pose_properties(DG):
     DG.nodes[55]["asanas 608 page"] = ""
     DG.nodes[55]["asanas 608 english name"] = ""
 
-    DG.add_node(56, english_name="standing wide legs, feet parallel")
+    DG.add_node(56, english_name="standing wide legs, feet parallel, torso upright")
     DG.nodes[56]["two_sided"] = False
     DG.nodes[56]["description"] = ""
     DG.nodes[56]["yogajournalurl"] = ""
@@ -799,15 +799,15 @@ def pose_properties(DG):
     DG.nodes[56]["asanas 608 page"] = ""
     DG.nodes[56]["asanas 608 english name"] = ""
 
-    DG.add_node(57, english_name="standing wide legs, bent over, parallel feet")
+    DG.add_node(57, english_name="standing wide legs, torso bent over, parallel feet")
     DG.nodes[57]["two_sided"] = False
     DG.nodes[57]["description"] = ""
-    DG.nodes[57]["yogajournalurl"] = ""
-    DG.nodes[57]["yogajournal_picture"] = ""
-    DG.nodes[57]["hindi_name"] = ""
+    DG.nodes[57]["yogajournalurl"] = "https://www.yogajournal.com/poses/wide-legged-forward-bend/"
+    DG.nodes[57]["yogajournal_picture"] = "https://www.yogajournal.com/wp-content/uploads/2007/08/3hp_289_6573_bjk.jpg?crop=535:301&width=1070&enable=upscale"
+    DG.nodes[57]["hindi_name"] = "Prasarita Padottanasana I"
     DG.nodes[57]["comment"] = ""
     DG.nodes[57]["Dharma Mittra picture URL"] = ""
-    DG.nodes[57]["wikipedia"] = ""
+    DG.nodes[57]["wikipedia"] = "https://en.wikipedia.org/wiki/Prasarita_Padottanasana"
     DG.nodes[57]["asanas 608 page"] = ""
     DG.nodes[57]["asanas 608 english name"] = ""
 
@@ -1324,8 +1324,8 @@ def pose_properties(DG):
     DG.add_node(99,english_name="standing forward fold with straight back")
     DG.nodes[99]["two_sided"]=False
     DG.nodes[99]["description"]=""
-    DG.nodes[99]["yogajournalurl"]=""
-    DG.nodes[99]["yogajournal_picture"]=""
+    DG.nodes[99]["yogajournalurl"]="https://www.yogajournal.com/poses/standing-half-forward-bend/"
+    DG.nodes[99]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2008/02/2hp_281_0176_bjk.jpg?crop=535:301&width=1070&enable=upscale"
     DG.nodes[99]["hindi_name"]=""
     DG.nodes[99]["counter asana"] = None
     DG.nodes[99]["comment"]=""
@@ -1348,8 +1348,8 @@ def pose_properties(DG):
     DG.add_node(101,english_name="handstand, legs straight")
     DG.nodes[101]["two_sided"]=False
     DG.nodes[101]["description"]=""
-    DG.nodes[101]["yogajournalurl"]=""
-    DG.nodes[101]["yogajournal_picture"]=""
+    DG.nodes[101]["yogajournalurl"]="https://www.yogajournal.com/poses/types/handstand/"
+    DG.nodes[101]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/201506-yjmag-handstand-final.jpg?crop=535:301&width=1070&enable=upscale"
     DG.nodes[101]["hindi_name"]="Adho Mukha Vrikshasana"
     DG.nodes[101]["counter asana"] = None
     DG.nodes[101]["comment"]=""
@@ -1361,8 +1361,8 @@ def pose_properties(DG):
     DG.add_node(102,english_name="extended triangle")
     DG.nodes[102]["two_sided"]=True
     DG.nodes[102]["description"]=""
-    DG.nodes[102]["yogajournalurl"]=""
-    DG.nodes[102]["yogajournal_picture"]=""
+    DG.nodes[102]["yogajournalurl"]="https://www.yogajournal.com/poses/extended-triangle-pose/"
+    DG.nodes[102]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/2yp_285_1643_prf.jpg?crop=535:301&width=1070&enable=upscale"
     DG.nodes[102]["hindi_name"]="Trikonasana"
     DG.nodes[102]["counter asana"] = None
     DG.nodes[102]["comment"]=""
@@ -1374,8 +1374,8 @@ def pose_properties(DG):
     DG.add_node(103,english_name="half moon")
     DG.nodes[103]["two_sided"]=True
     DG.nodes[103]["description"]=""
-    DG.nodes[103]["yogajournalurl"]=""
-    DG.nodes[103]["yogajournal_picture"]=""
+    DG.nodes[103]["yogajournalurl"]="https://www.yogajournal.com/poses/types/balancing/half-moon-pose-3/"
+    DG.nodes[103]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/2hp_291_1860_gn_bjk.jpg?crop=535:301&width=1070&enable=upscale"
     DG.nodes[103]["hindi_name"]="Ardha chandrasana"
     DG.nodes[103]["counter asana"] = None
     DG.nodes[103]["comment"]=""
@@ -1387,8 +1387,8 @@ def pose_properties(DG):
     DG.add_node(104,english_name="Standing Big Toe Hold")
     DG.nodes[104]["two_sided"]=True
     DG.nodes[104]["description"]=""
-    DG.nodes[104]["yogajournalurl"]=""
-    DG.nodes[104]["yogajournal_picture"]=""
+    DG.nodes[104]["yogajournalurl"]="https://www.yogajournal.com/poses/extended-hand-to-big-toe-pose/"
+    DG.nodes[104]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/2yp_285_1542_prf.jpg?crop=535:301&width=1070&enable=upscale"
     DG.nodes[104]["hindi_name"]="Utthita Padangusthasana"
     DG.nodes[104]["counter asana"] = None
     DG.nodes[104]["comment"]=""
@@ -1397,11 +1397,11 @@ def pose_properties(DG):
     DG.nodes[104]["asanas 608 page"]=""
     DG.nodes[104]["asanas 608 english name"]=""
 
-    DG.add_node(105,english_name="Crescent Moon")
+    DG.add_node(105,english_name="Crescent Moon OR low lunge")
     DG.nodes[105]["two_sided"]=False
     DG.nodes[105]["description"]=""
-    DG.nodes[105]["yogajournalurl"]=""
-    DG.nodes[105]["yogajournal_picture"]=""
+    DG.nodes[105]["yogajournalurl"]="https://www.yogajournal.com/poses/types/standing/low-lunge/"
+    DG.nodes[105]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2008/05/3yp_287_6671_gn_bjk.jpg?crop=535:301&width=1070&enable=upscale"
     DG.nodes[105]["hindi_name"]=""
     DG.nodes[105]["counter asana"] = None
     DG.nodes[105]["comment"]=""
@@ -1556,8 +1556,8 @@ def pose_properties(DG):
     DG.add_node(117,english_name="Eka Pada Koundinyasana I")
     DG.nodes[117]["two_sided"]=True
     DG.nodes[117]["description"]="lower leg on arm"
-    DG.nodes[117]["yogajournalurl"]=""
-    DG.nodes[117]["yogajournal_picture"]=""
+    DG.nodes[117]["yogajournalurl"]="https://www.yogajournal.com/poses/pose-dedicated-to-the-sage-koundinya-i/"
+    DG.nodes[117]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/nov-14-yogapedia-eka-pada-koundinyasana-1.jpg?crop=535:301&width=1070&enable=upscale"
     DG.nodes[117]["hindi_name"]="Eka Pada Koundinyasana I"
     DG.nodes[117]["counter asana"] = None
     DG.nodes[117]["comment"]=""
@@ -1621,9 +1621,9 @@ def pose_properties(DG):
     DG.add_node(122,english_name="Raised Lotus pose")
     DG.nodes[122]["two_sided"]=False
     DG.nodes[122]["description"]=""
-    DG.nodes[122]["yogajournalurl"]=""
-    DG.nodes[122]["yogajournal_picture"]=""
-    DG.nodes[122]["hindi_name"]=""
+    DG.nodes[122]["yogajournalurl"]="https://www.yogajournal.com/poses/scale-pose/"
+    DG.nodes[122]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/scale-pose.jpg?crop=535:301&width=1070&enable=upscale"
+    DG.nodes[122]["hindi_name"]="Tolasana"
     DG.nodes[122]["counter asana"] = None
     DG.nodes[122]["comment"]=""
     DG.nodes[122]["Dharma Mittra picture URL"]=""
@@ -1644,11 +1644,11 @@ def pose_properties(DG):
     DG.nodes[123]["asanas 608 page"]=""
     DG.nodes[123]["asanas 608 english name"]=""
 
-    DG.add_node(124,english_name="forearm stand, legs straight up")
+    DG.add_node(124,english_name="forearm headstand, legs straight up")
     DG.nodes[124]["two_sided"]=False
     DG.nodes[124]["description"]=""
-    DG.nodes[124]["yogajournalurl"]=""
-    DG.nodes[124]["yogajournal_picture"]=""
+    DG.nodes[124]["yogajournalurl"]="https://www.yogajournal.com/poses/supported-headstand/"
+    DG.nodes[124]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/rina_headstand-2.jpg?crop=535:301&width=1070&enable=upscale"
     DG.nodes[124]["hindi_name"]="Shirshasana"
     DG.nodes[124]["counter asana"] = None
     DG.nodes[124]["comment"]=""
@@ -1660,8 +1660,8 @@ def pose_properties(DG):
     DG.add_node(125,english_name="legs up the wall pose")
     DG.nodes[125]["two_sided"]=False
     DG.nodes[125]["description"]="commonly a fully supported pose using a wall and sometimes a pile of blankets."
-    DG.nodes[125]["yogajournalurl"]=""
-    DG.nodes[125]["yogajournal_picture"]=""
+    DG.nodes[125]["yogajournalurl"]="https://www.yogajournal.com/poses/legs-up-the-wall-pose-2/"
+    DG.nodes[125]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/leah-cullis-performs-legs-up-the-wall-pose.jpg?crop=535:301&width=1070&enable=upscale"
     DG.nodes[125]["hindi_name"]=""
     DG.nodes[125]["counter asana"] = None
     DG.nodes[125]["comment"]=""
@@ -1725,8 +1725,8 @@ def pose_properties(DG):
     DG.add_node(130,english_name="Feathered Peacock Pose, legs straight")
     DG.nodes[130]["two_sided"]=False
     DG.nodes[130]["description"]="forearm balance similar to Vrischikasana, but the legs are straight, stretched up over the head, with the back less extremely arched"
-    DG.nodes[130]["yogajournalurl"]=""
-    DG.nodes[130]["yogajournal_picture"]=""
+    DG.nodes[130]["yogajournalurl"]="https://www.yogajournal.com/poses/feathered-peacock-pose/"
+    DG.nodes[130]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/forearm-balance-clio-manuelian.jpg?crop=535:301&width=1070&enable=upscale"
     DG.nodes[130]["hindi_name"]="Pincha Mayurasana"
     DG.nodes[130]["counter asana"] = None
     DG.nodes[130]["comment"]=""
@@ -1856,8 +1856,8 @@ def pose_properties(DG):
     DG.add_node(140,english_name="pose of the sage Marichi")
     DG.nodes[140]["two_sided"]=False
     DG.nodes[140]["description"]="one leg is stretched out straight ahead of the body, the other is bent with the sole of the foot on the floor and the knee up beside the body. The body is twisted towards the side with the straight leg, and the arms are clasped behind the back and around the raised knee. The body may then lean forwards until the nose and chin touch the straight leg"
-    DG.nodes[140]["yogajournalurl"]=""
-    DG.nodes[140]["yogajournal_picture"]=""
+    DG.nodes[140]["yogajournalurl"]="https://www.yogajournal.com/poses/marichi-s-pose/"
+    DG.nodes[140]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/anat_276_01_fnl-marichyasana.jpg?crop=535:301&width=1070&enable=upscale"
     DG.nodes[140]["hindi_name"]="Marichyasana"
     DG.nodes[140]["counter asana"] = None
     DG.nodes[140]["comment"]=""
@@ -1895,8 +1895,8 @@ def pose_properties(DG):
     DG.add_node(143,english_name="noose")
     DG.nodes[143]["two_sided"]=True
     DG.nodes[143]["description"]=""
-    DG.nodes[143]["yogajournalurl"]=""
-    DG.nodes[143]["yogajournal_picture"]=""
+    DG.nodes[143]["yogajournalurl"]="https://www.yogajournal.com/poses/noose-pose/"
+    DG.nodes[143]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/noose-pose-pasasana.jpg?crop=535:301&width=1070&enable=upscale"
     DG.nodes[143]["hindi_name"]="Pasasana"
     DG.nodes[143]["counter asana"] = None
     DG.nodes[143]["comment"]=""
@@ -1908,8 +1908,8 @@ def pose_properties(DG):
     DG.add_node(144,english_name="easy")
     DG.nodes[144]["two_sided"]=True
     DG.nodes[144]["description"]=""
-    DG.nodes[144]["yogajournalurl"]=""
-    DG.nodes[144]["yogajournal_picture"]=""
+    DG.nodes[144]["yogajournalurl"]="https://www.yogajournal.com/poses/types/seated-twists/easy-pose-3/"
+    DG.nodes[144]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/2hp_286_0507_bjk.jpg?crop=535:301&width=1070&enable=upscale"
     DG.nodes[144]["hindi_name"]="Sukhasana"
     DG.nodes[144]["counter asana"] = None
     DG.nodes[144]["comment"]=""
@@ -2165,12 +2165,12 @@ def pose_properties(DG):
     DG.nodes[163]["asanas 608 page"]=""
     DG.nodes[163]["asanas 608 english name"]=""
 
-    DG.add_node(164,english_name="")
+    DG.add_node(164,english_name="gate")
     DG.nodes[164]["two_sided"]=False
     DG.nodes[164]["description"]=""
-    DG.nodes[164]["yogajournalurl"]=""
-    DG.nodes[164]["yogajournal_picture"]=""
-    DG.nodes[164]["hindi_name"]=""
+    DG.nodes[164]["yogajournalurl"]="https://www.yogajournal.com/poses/gate-pose-2/"
+    DG.nodes[164]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/3hp_288_03_bjk2.jpg?crop=535:301&width=1070&enable=upscale"
+    DG.nodes[164]["hindi_name"]="Parighasana"
     DG.nodes[164]["counter asana"] = None
     DG.nodes[164]["comment"]=""
     DG.nodes[164]["Dharma Mittra picture URL"]=""
@@ -2178,11 +2178,11 @@ def pose_properties(DG):
     DG.nodes[164]["asanas 608 page"]=""
     DG.nodes[164]["asanas 608 english name"]=""
 
-    DG.add_node(165,english_name="")
+    DG.add_node(165,english_name="high lunge")
     DG.nodes[165]["two_sided"]=False
     DG.nodes[165]["description"]=""
-    DG.nodes[165]["yogajournalurl"]=""
-    DG.nodes[165]["yogajournal_picture"]=""
+    DG.nodes[165]["yogajournalurl"]="https://www.yogajournal.com/poses/high-lunge-variation/"
+    DG.nodes[165]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2008/04/3hp_288_07_bjk2.jpg?crop=535:301&width=1070&enable=upscale"
     DG.nodes[165]["hindi_name"]=""
     DG.nodes[165]["counter asana"] = None
     DG.nodes[165]["comment"]=""
@@ -2191,37 +2191,37 @@ def pose_properties(DG):
     DG.nodes[165]["asanas 608 page"]=""
     DG.nodes[165]["asanas 608 english name"]=""
 
-    DG.add_node(166,english_name="")
+    DG.add_node(166,english_name="lord of the dance")
     DG.nodes[166]["two_sided"]=False
     DG.nodes[166]["description"]=""
-    DG.nodes[166]["yogajournalurl"]=""
-    DG.nodes[166]["yogajournal_picture"]=""
-    DG.nodes[166]["hindi_name"]=""
+    DG.nodes[166]["yogajournalurl"]="https://www.yogajournal.com/poses/types/backbends/lord-of-the-dance-pose/"
+    DG.nodes[166]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/3enneagram_289_1454_bjk.jpg?crop=535:301&width=1070&enable=upscale"
+    DG.nodes[166]["hindi_name"]="Nataraja"
     DG.nodes[166]["counter asana"] = None
-    DG.nodes[166]["comment"]=""
+    DG.nodes[166]["comment"]="YogaJournal seems to be making fun of its audience with the introduction, 'want to, like, connect with cosmic energy?'"
     DG.nodes[166]["Dharma Mittra picture URL"]=""
     DG.nodes[166]["wikipedia"] = ""
     DG.nodes[166]["asanas 608 page"]=""
     DG.nodes[166]["asanas 608 english name"]=""
 
-    DG.add_node(167,english_name="")
+    DG.add_node(167,english_name="side stretch")
     DG.nodes[167]["two_sided"]=False
     DG.nodes[167]["description"]=""
-    DG.nodes[167]["yogajournalurl"]=""
-    DG.nodes[167]["yogajournal_picture"]=""
-    DG.nodes[167]["hindi_name"]=""
+    DG.nodes[167]["yogajournalurl"]="https://www.yogajournal.com/poses/types/intense-side-stretch-pose/"
+    DG.nodes[167]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/ccd04294.jpg?crop=535:301&width=1070&enable=upscale"
+    DG.nodes[167]["hindi_name"]="Parsvottanasana"
     DG.nodes[167]["counter asana"] = None
     DG.nodes[167]["comment"]=""
     DG.nodes[167]["Dharma Mittra picture URL"]=""
-    DG.nodes[167]["wikipedia"] = ""
+    DG.nodes[167]["wikipedia"] = "https://en.wikipedia.org/wiki/Parshvottanasana"
     DG.nodes[167]["asanas 608 page"]=""
     DG.nodes[167]["asanas 608 english name"]=""
 
-    DG.add_node(168,english_name="")
+    DG.add_node(168,english_name="revolved side angle")
     DG.nodes[168]["two_sided"]=False
     DG.nodes[168]["description"]=""
-    DG.nodes[168]["yogajournalurl"]=""
-    DG.nodes[168]["yogajournal_picture"]=""
+    DG.nodes[168]["yogajournalurl"]="https://www.yogajournal.com/poses/types/twists/revolved-side-angle-pose/"
+    DG.nodes[168]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/revolved-side-angle-pose.jpg?crop=535:301&width=1070&enable=upscale"
     DG.nodes[168]["hindi_name"]=""
     DG.nodes[168]["counter asana"] = None
     DG.nodes[168]["comment"]=""
@@ -2230,16 +2230,16 @@ def pose_properties(DG):
     DG.nodes[168]["asanas 608 page"]=""
     DG.nodes[168]["asanas 608 english name"]=""
 
-    DG.add_node(169,english_name="")
+    DG.add_node(169,english_name="heron")
     DG.nodes[169]["two_sided"]=False
     DG.nodes[169]["description"]=""
-    DG.nodes[169]["yogajournalurl"]=""
-    DG.nodes[169]["yogajournal_picture"]=""
-    DG.nodes[169]["hindi_name"]=""
+    DG.nodes[169]["yogajournalurl"]="https://www.yogajournal.com/poses/heron-pose/"
+    DG.nodes[169]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/heron-pose-instructions.jpg?crop=535:301&width=1070&enable=upscale"
+    DG.nodes[169]["hindi_name"]="Krounchasana"
     DG.nodes[169]["counter asana"] = None
     DG.nodes[169]["comment"]=""
     DG.nodes[169]["Dharma Mittra picture URL"]=""
-    DG.nodes[169]["wikipedia"] = ""
+    DG.nodes[169]["wikipedia"] = "https://en.wikipedia.org/wiki/Kraunchasana"
     DG.nodes[169]["asanas 608 page"]=""
     DG.nodes[169]["asanas 608 english name"]=""
 
@@ -2826,6 +2826,7 @@ def pose_transitions(DG):
     )  # 4 = downward dog; 68 = standing bend, legs apart
     DG.add_weighted_edges_from([(4, 73, 1)])  # 4 = downward dog; 73 = peddle feet
     DG.add_weighted_edges_from([(4, 76, 5)])  # 4 = downward dog; 76 = inverted tripod
+    DG.add_weighted_edges_from([(4, 160, 5)])  # 4 = downward dog; 76 = inverted tripod
 
     DG.add_weighted_edges_from([(5, 3, 1)])  # 5 = dolphin; 3 = child's pose
     DG.add_weighted_edges_from([(5, 4, 1)])  # 5 = dolphin; 4 = downward dog
@@ -3429,7 +3430,7 @@ def pose_transitions(DG):
     DG.add_weighted_edges_from([(159,124,1)]) # 159 = ;
     DG.add_weighted_edges_from([(159,153,1)]) # 159 = ;
     DG.add_weighted_edges_from([(159,158,1)]) # 159 = ;
-    #DG.add_weighted_edges_from([(160,,1)]) # 160 = ;
+    DG.add_weighted_edges_from([(160,4,1)]) # 160 = ;
     #DG.add_weighted_edges_from([(161,,1)]) # 161 = ;
     #DG.add_weighted_edges_from([(162,,1)]) # 162 = ;
     #DG.add_weighted_edges_from([(163,,1)]) # 163 = ;
