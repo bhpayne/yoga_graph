@@ -73,8 +73,13 @@ for this_indx in range(len(DG)):
         # lower left quadrant
         f.write('\t<TD valign="top">\n')
 
-        glob.glob("../site/pose_pictures/*.jpg")
-        glob.glob("../site/pose_pictures/*.png")
+        list_all_images = []
+        list_all_images += glob.glob("../site/pose_pictures/*.jpg")
+        list_all_images += glob.glob("../site/pose_pictures/*.png")
+        for img in list_all_images:
+            filename = img.split("/")[-1]
+            if filename.startswith(str(this_indx)+"__"):
+                f.write("<img src=\""+img.replace("/site","")+"\" width=\""+image_width+"\"><BR/>\n")
 
         if dic_for_this_node["yogajournal_picture"] != "":
             f.write('\t<a href="' + dic_for_this_node["yogajournalurl"] + '">\n')

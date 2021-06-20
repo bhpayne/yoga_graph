@@ -18,7 +18,7 @@ imgL = []
 
 def get_next_image(event=None):
     fname = images.next()
-    print fname
+    print(fname)
     fhandle = open(fname)
     img = ImageTk.PhotoImage(file=fhandle)
     fhandle.close()
