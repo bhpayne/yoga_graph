@@ -269,7 +269,7 @@ def pose_properties(DG):
     DG.nodes[15]["asanas 608 page"] = ""
     DG.nodes[15]["asanas 608 english name"] = ""
 
-    DG.add_node(16, english_name="side plank")
+    DG.add_node(16, english_name="side plank, straight arm support, straight legs")
     DG.nodes[16]["two_sided"] = True
     DG.nodes[16]["description"] = ""
     DG.nodes[16]["yogajournalurl"] = "https://www.yogajournal.com/poses/side-plank-pose/"
@@ -1346,7 +1346,7 @@ def pose_properties(DG):
     DG.nodes[100]["asanas 608 page"]=""
     DG.nodes[100]["asanas 608 english name"]=""
 
-    DG.add_node(101,english_name="handstand")
+    DG.add_node(101,english_name="handstand, legs straight")
     DG.nodes[101]["two_sided"]=False
     DG.nodes[101]["description"]=""
     DG.nodes[101]["yogajournalurl"]=""
@@ -1632,7 +1632,7 @@ def pose_properties(DG):
     DG.nodes[122]["asanas 608 page"]=""
     DG.nodes[122]["asanas 608 english name"]=""
 
-    DG.add_node(123,english_name="one arm handstand")
+    DG.add_node(123,english_name="one arm handstand, legs straight")
     DG.nodes[123]["two_sided"]=False
     DG.nodes[123]["description"]=""
     DG.nodes[123]["yogajournalurl"]=""
@@ -2062,8 +2062,8 @@ def pose_properties(DG):
     DG.nodes[155]["asanas 608 page"]=""
     DG.nodes[155]["asanas 608 english name"]=""
 
-    DG.add_node(156,english_name="")
-    DG.nodes[156]["two_sided"]=False
+    DG.add_node(156,english_name="hand stand, legs in eagle")
+    DG.nodes[156]["two_sided"]=True
     DG.nodes[156]["description"]=""
     DG.nodes[156]["yogajournalurl"]=""
     DG.nodes[156]["yogajournal_picture"]=""
@@ -2075,7 +2075,7 @@ def pose_properties(DG):
     DG.nodes[156]["asanas 608 page"]=""
     DG.nodes[156]["asanas 608 english name"]=""
 
-    DG.add_node(157,english_name="")
+    DG.add_node(157,english_name="hand stand, legs in lotus")
     DG.nodes[157]["two_sided"]=False
     DG.nodes[157]["description"]=""
     DG.nodes[157]["yogajournalurl"]=""
@@ -2088,7 +2088,7 @@ def pose_properties(DG):
     DG.nodes[157]["asanas 608 page"]=""
     DG.nodes[157]["asanas 608 english name"]=""
 
-    DG.add_node(158,english_name="")
+    DG.add_node(158,english_name="forearm stand, legs in side splits")
     DG.nodes[158]["two_sided"]=False
     DG.nodes[158]["description"]=""
     DG.nodes[158]["yogajournalurl"]=""
@@ -2101,7 +2101,7 @@ def pose_properties(DG):
     DG.nodes[158]["asanas 608 page"]=""
     DG.nodes[158]["asanas 608 english name"]=""
 
-    DG.add_node(159,english_name="")
+    DG.add_node(159,english_name="forearm stand, legs in eagle")
     DG.nodes[159]["two_sided"]=False
     DG.nodes[159]["description"]=""
     DG.nodes[159]["yogajournalurl"]=""
@@ -2114,7 +2114,7 @@ def pose_properties(DG):
     DG.nodes[159]["asanas 608 page"]=""
     DG.nodes[159]["asanas 608 english name"]=""
 
-    DG.add_node(160,english_name="")
+    DG.add_node(160,english_name="downward dog twist to grab one leg")
     DG.nodes[160]["two_sided"]=False
     DG.nodes[160]["description"]=""
     DG.nodes[160]["yogajournalurl"]=""
@@ -2127,12 +2127,12 @@ def pose_properties(DG):
     DG.nodes[160]["asanas 608 page"]=""
     DG.nodes[160]["asanas 608 english name"]=""
 
-    DG.add_node(161,english_name="")
+    DG.add_node(161,english_name="side plank, straight arm supporting, straight leg up")
     DG.nodes[161]["two_sided"]=False
     DG.nodes[161]["description"]=""
     DG.nodes[161]["yogajournalurl"]=""
     DG.nodes[161]["yogajournal_picture"]=""
-    DG.nodes[161]["hindi_name"]=""
+    DG.nodes[161]["hindi_name"]="Vasisthasana B"
     DG.nodes[161]["counter asana"] = None
     DG.nodes[161]["comment"]=""
     DG.nodes[161]["Dharma Mittra picture URL"]=""
@@ -2140,7 +2140,7 @@ def pose_properties(DG):
     DG.nodes[161]["asanas 608 page"]=""
     DG.nodes[161]["asanas 608 english name"]=""
 
-    DG.add_node(162,english_name="")
+    DG.add_node(162,english_name="side plank, forearm supporting, straight legs")
     DG.nodes[162]["two_sided"]=False
     DG.nodes[162]["description"]=""
     DG.nodes[162]["yogajournalurl"]=""
@@ -2153,16 +2153,16 @@ def pose_properties(DG):
     DG.nodes[162]["asanas 608 page"]=""
     DG.nodes[162]["asanas 608 english name"]=""
 
-    DG.add_node(163,english_name="")
+    DG.add_node(163,english_name="cowherd")
     DG.nodes[163]["two_sided"]=False
-    DG.nodes[163]["description"]=""
+    DG.nodes[163]["description"]="seated pose with the soles of the feet pressed together and the knees on the ground with the heels are under the body."
     DG.nodes[163]["yogajournalurl"]=""
     DG.nodes[163]["yogajournal_picture"]=""
-    DG.nodes[163]["hindi_name"]=""
+    DG.nodes[163]["hindi_name"]="Gorakshasana"
     DG.nodes[163]["counter asana"] = None
     DG.nodes[163]["comment"]=""
     DG.nodes[163]["Dharma Mittra picture URL"]=""
-    DG.nodes[163]["wikipedia"] = ""
+    DG.nodes[163]["wikipedia"] = "https://en.wikipedia.org/wiki/Gorakshasana"
     DG.nodes[163]["asanas 608 page"]=""
     DG.nodes[163]["asanas 608 english name"]=""
 

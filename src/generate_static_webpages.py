@@ -75,11 +75,15 @@ for this_indx in range(len(DG)):
         # lower left quadrant
         f.write('\t<TD valign="top">\n')
 
+        if "hindi_name" in dic_for_this_node.keys():
+            if dic_for_this_node["hindi_name"] != "":
+                f.write(dic_for_this_node["hindi_name"]+"<BR/>\n")
+
         if "two_sided" in dic_for_this_node.keys():
             if dic_for_this_node["two_sided"]:
-                f.write("Two sided")
+                f.write("Two sided\n")
             else:
-                f.write("left-right symmetric")
+                f.write("left-right symmetric\n")
 
         if "wikipedia" in dic_for_this_node.keys():
             if dic_for_this_node["wikipedia"] != "":
@@ -126,6 +130,10 @@ for this_indx in range(len(DG)):
                 + '">source:  <a href="http://www.dharmayogacenter.com/resources/yoga-poses/view-all-yoga-poses-by-category/">dharmayogacenter.com</a></font><BR>\n'
             )
         f.write("\n\t</TD>\n\t<TD>\n")
+
+        if "asanas 608 page" in dic_for_this_node.keys():
+            if dic_for_this_node["asanas 608 page"] != "":
+                f.write("page "+dic_for_this_node["asanas 608 page"]+" in 608 Asanas<BR/>\n")
 
         # lower right quadrant
         for neighbor_indx in list_of_edges_for_this_node:
