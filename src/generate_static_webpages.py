@@ -75,13 +75,24 @@ for this_indx in range(len(DG)):
         # lower left quadrant
         f.write('\t<TD valign="top">\n')
 
+        if "two_sided" in dic_for_this_node.keys():
+            if dic_for_this_node["two_sided"]:
+                f.write("Two sided")
+            else:
+                f.write("left-right symmetric")
+
+        if "wikipedia" in dic_for_this_node.keys():
+            if dic_for_this_node["wikipedia"] != "":
+                f.write("\t<a href=\""+dic_for_this_node["wikipedia"]+"\">"+
+                        dic_for_this_node["wikipedia"]+"</a>\n")
+
         list_all_images = []
         list_all_images += glob.glob("../site/pose_pictures/*.jpg")
         list_all_images += glob.glob("../site/pose_pictures/*.png")
         for img in list_all_images:
             filename = img.split("/")[-1]
             if filename.startswith(str(this_indx)+"__"):
-                f.write("<img src=\""+img.replace("/site","")+"\" width=\""+image_width*2+"\"><BR/>\n")
+                f.write("<img src=\""+img.replace("/site","")+"\" width=\""+image_width+"\"><BR/>\n")
 
         if dic_for_this_node["yogajournal_picture"] != "":
             f.write('\t<a href="' + dic_for_this_node["yogajournalurl"] + '">\n')

@@ -27,6 +27,7 @@ however, this page doesn't specify which poses are adjacent
 reference sites:
 https://commons.wikimedia.org/wiki/Category:Nina_Mel
 https://en.wiktionary.org/wiki/User:BD2412/yoga_poses
+https://en.wikipedia.org/wiki/List_of_asanas
 
 https://www.yogajournal.com/pose-finder/pose-finder/
 http://www.yogajournal.com/poses/finder/browse_categories
@@ -37,8 +38,6 @@ https://www.yogajournal.com/poses/types/
 
 
 https://www.dharmayogacenter.com/resources/yoga-poses/
-
-https://en.wikipedia.org/wiki/List_of_asanas
 
 http://www.theyogaposes.com/
 http://www.joythruyoga.com/list-of-yoga-poses.html
@@ -104,10 +103,10 @@ def pose_properties(DG):
     DG.nodes[3][
         "yogajournal_picture"
     ] = ""
-    DG.nodes[3]["hindi_name"] = ""
+    DG.nodes[3]["hindi_name"] = "Balasana"
     DG.nodes[3]["comment"] = ""
     DG.nodes[3]["Dharma Mittra picture URL"] = ""
-    DG.nodes[3]["wikipedia"] = ""
+    DG.nodes[3]["wikipedia"] = "https://en.wikipedia.org/wiki/Balasana"
     DG.nodes[3]["asanas 608 page"] = ""
     DG.nodes[3]["asanas 608 english name"] = ""
 
@@ -139,7 +138,7 @@ def pose_properties(DG):
     DG.nodes[5]["asanas 608 page"] = ""
     DG.nodes[5]["asanas 608 english name"] = ""
 
-    DG.add_node(6, english_name="lay on stomach")
+    DG.add_node(6, english_name="lay on stomach OR crocodile")
     DG.nodes[6]["two_sided"] = False
     DG.nodes[6]["description"] = "whole body in contact with ground, arms by side"
     DG.nodes[6]["yogajournalurl"] = ""
@@ -147,21 +146,21 @@ def pose_properties(DG):
     DG.nodes[6]["hindi_name"] = "Makarasana"
     DG.nodes[6]["comment"] = ""
     DG.nodes[6]["Dharma Mittra picture URL"] = ""
-    DG.nodes[6]["wikipedia"] = ""
+    DG.nodes[6]["wikipedia"] = "https://en.wikipedia.org/wiki/Makarasana"
     DG.nodes[6]["asanas 608 page"] = ""
     DG.nodes[6]["asanas 608 english name"] = ""
 
-    DG.add_node(7, english_name="bow pose")
+    DG.add_node(7, english_name="bow")
     DG.nodes[7]["two_sided"] = False
     DG.nodes[7]["description"] = ""
     DG.nodes[7]["yogajournalurl"] = "https://www.yogajournal.com/poses/types/backbends/bow-pose/"
     DG.nodes[7][
         "yogajournal_picture"
     ] = "https://www.yogajournal.com/wp-content/uploads/2007/08/3enneagram_289_1380_bjk.jpg?crop=535:301&width=1070&enable=upscale"
-    DG.nodes[7]["hindi_name"] = ""
+    DG.nodes[7]["hindi_name"] = "Dhanurasana"
     DG.nodes[7]["comment"] = ""
     DG.nodes[7]["Dharma Mittra picture URL"] = ""
-    DG.nodes[7]["wikipedia"] = ""
+    DG.nodes[7]["wikipedia"] = "https://en.wikipedia.org/wiki/Dhanurasana"
     DG.nodes[7]["asanas 608 page"] = ""
     DG.nodes[7]["asanas 608 english name"] = ""
 
@@ -211,7 +210,7 @@ def pose_properties(DG):
     DG.nodes[11]["hindi_name"] = "Halasana"
     DG.nodes[11]["comment"] = ""
     DG.nodes[11]["Dharma Mittra picture URL"] = ""
-    DG.nodes[11]["wikipedia"] = ""
+    DG.nodes[11]["wikipedia"] = "https://en.wikipedia.org/wiki/Halasana"
     DG.nodes[11]["asanas_608_page"] = "249"
     DG.nodes[11]["asanas_608_english"] = "Plough pose (variation)"
 
@@ -227,14 +226,14 @@ def pose_properties(DG):
     DG.nodes[12]["asanas 608 page"] = ""
     DG.nodes[12]["asanas 608 english name"] = ""
 
-    DG.add_node(13, english_name="plank")
+    DG.add_node(13, english_name="high plank")
     DG.nodes[13]["two_sided"] = False
     DG.nodes[13]["description"] = ""
-    DG.nodes[13]["yogajournalurl"] = "http://www.yogajournal.com/pose/plank-pose/"
+    DG.nodes[13]["yogajournalurl"] = "https://www.yogajournal.com/poses/types/strength/plank-pose/"
     DG.nodes[13][
         "yogajournal_picture"
     ] = "https://www.yogajournal.com/wp-content/uploads/2017/04/3editplankhp2_292_37428_cmyk.jpg?crop=535:301&width=1070&enable=upscale"
-    DG.nodes[13]["hindi_name"] = ""
+    DG.nodes[13]["hindi_name"] = "Kumbhakasana OR Phalakasana"
     DG.nodes[13]["comment"] = ""
     DG.nodes[13][
         "Dharma Mittra picture URL"
@@ -254,7 +253,7 @@ def pose_properties(DG):
     DG.nodes[14]["asanas 608 page"] = ""
     DG.nodes[14]["asanas 608 english name"] = ""
 
-    DG.add_node(15, english_name="low pushup")
+    DG.add_node(15, english_name="low plank")
     DG.nodes[15]["two_sided"] = False
     DG.nodes[15]["hindi_name"] = "chaturanga"
     DG.nodes[15]["description"] = ""
@@ -266,7 +265,7 @@ def pose_properties(DG):
     ] = "https://www.yogajournal.com/wp-content/uploads/2007/08/edit3chaturangahp2_292_37434_cmyk.jpg?crop=535:301&width=1070&enable=upscale"
     DG.nodes[15]["comment"] = ""
     DG.nodes[15]["Dharma Mittra picture URL"] = ""
-    DG.nodes[15]["wikipedia"] = ""
+    DG.nodes[15]["wikipedia"] = "https://en.wikipedia.org/wiki/Chaturanga_Dandasana"
     DG.nodes[15]["asanas 608 page"] = ""
     DG.nodes[15]["asanas 608 english name"] = ""
 
@@ -405,7 +404,7 @@ def pose_properties(DG):
     DG.add_node(26, english_name="standing splits")
     DG.nodes[26]["two_sided"] = True
     DG.nodes[26]["description"] = ""
-    DG.nodes[26]["yogajournalurl"] = "http://www.yogajournal.com/poses/2499"
+    DG.nodes[26]["yogajournalurl"] = ""
     DG.nodes[26]["yogajournal_picture"] = ""
     DG.nodes[26]["hindi_name"] = "Urdhva Prasarita Eka Padasana"
     DG.nodes[26]["comment"] = ""
@@ -473,14 +472,14 @@ def pose_properties(DG):
     DG.add_node(31, english_name="corpse pose")
     DG.nodes[31]["two_sided"] = False
     DG.nodes[31]["description"] = "laying on back"
-    DG.nodes[31]["yogajournalurl"] = "http://www.yogajournal.com/pose/corpse-pose/"
+    DG.nodes[31]["yogajournalurl"] = "https://www.yogajournal.com/practice/beginners/corpse-pose/"
     DG.nodes[31][
         "yogajournal_picture"
     ] = ""
-    DG.nodes[31]["hindi_name"] = "shabasana"
+    DG.nodes[31]["hindi_name"] = "Shavasana"
     DG.nodes[31]["comment"] = ""
     DG.nodes[31]["Dharma Mittra picture URL"] = ""
-    DG.nodes[31]["wikipedia"] = ""
+    DG.nodes[31]["wikipedia"] = "https://en.wikipedia.org/wiki/Shavasana"
     DG.nodes[31]["asanas 608 page"] = ""
     DG.nodes[31]["asanas 608 english name"] = ""
 
@@ -534,7 +533,7 @@ def pose_properties(DG):
     DG.nodes[35]["asanas 608 page"] = ""
     DG.nodes[35]["asanas 608 english name"] = ""
 
-    DG.add_node(36, english_name="staff pose")
+    DG.add_node(36, english_name="seated forward fold with straight legs")
     DG.nodes[36]["two_sided"] = False
     DG.nodes[36]["description"] = ""
     DG.nodes[36]["yogajournalurl"] = ""
@@ -543,8 +542,8 @@ def pose_properties(DG):
     DG.nodes[36]["comment"] = ""
     DG.nodes[36]["Dharma Mittra picture URL"] = ""
     DG.nodes[36]["wikipedia"] = ""
-    DG.nodes[36]["asanas_608_page"] = "278"
-    DG.nodes[36]["asanas_608_english"] = "back stretch pose (preparation)"
+    DG.nodes[36]["asanas_608_page"] = "279"
+    DG.nodes[36]["asanas_608_english"] = "back stretch pose"
 
     DG.add_node(37, english_name="pigeon pose")
     DG.nodes[37]["two_sided"] = True
@@ -594,15 +593,15 @@ def pose_properties(DG):
     DG.nodes[40]["asanas 608 page"] = ""
     DG.nodes[40]["asanas 608 english name"] = ""
 
-    DG.add_node(41, english_name="kneeling on shins")
+    DG.add_node(41, english_name="kneeling on shins OR thunderbolt OR Diamond")
     DG.nodes[41]["two_sided"] = False
     DG.nodes[41]["description"] = ""
     DG.nodes[41]["yogajournalurl"] = ""
     DG.nodes[41]["yogajournal_picture"] = ""
-    DG.nodes[41]["hindi_name"] = ""
+    DG.nodes[41]["hindi_name"] = "Vajrasana"
     DG.nodes[41]["comment"] = ""
     DG.nodes[41]["Dharma Mittra picture URL"] = ""
-    DG.nodes[41]["wikipedia"] = ""
+    DG.nodes[41]["wikipedia"] = "https://en.wikipedia.org/wiki/Vajrasana_(yoga)"
     DG.nodes[41]["asanas 608 page"] = ""
     DG.nodes[41]["asanas 608 english name"] = ""
 
@@ -686,19 +685,19 @@ def pose_properties(DG):
     DG.nodes[47]["asanas 608 page"] = ""
     DG.nodes[47]["asanas 608 english name"] = ""
 
-    DG.add_node(48, english_name="one leg forward with knee bent")
-    DG.nodes[48]["two_sided"] = False
+    DG.add_node(48, english_name="seated with one leg straight forward one knee bent on ground")
+    DG.nodes[48]["two_sided"] = True
     DG.nodes[48]["description"] = ""
     DG.nodes[48]["yogajournalurl"] = ""
     DG.nodes[48]["yogajournal_picture"] = ""
-    DG.nodes[48]["hindi_name"] = ""
+    DG.nodes[48]["hindi_name"] = "Janusirsasana"
     DG.nodes[48]["comment"] = ""
     DG.nodes[48]["Dharma Mittra picture URL"] = ""
-    DG.nodes[48]["wikipedia"] = ""
+    DG.nodes[48]["wikipedia"] = "https://en.wikipedia.org/wiki/Janusirsasana"
     DG.nodes[48]["asanas 608 page"] = ""
     DG.nodes[48]["asanas 608 english name"] = ""
 
-    DG.add_node(49, english_name="half lotus")
+    DG.add_node(49, english_name="half lotus OR accomplished")
     DG.nodes[49]["two_sided"] = True
     DG.nodes[49]["description"] = ""
     DG.nodes[49]["yogajournalurl"] = "http://www.yogajournal.com/pose/fire-log-pose/"
@@ -710,20 +709,21 @@ def pose_properties(DG):
     DG.nodes[49][
         "Dharma Mittra picture URL"
     ] = ""
+    DG.nodes[49]["wikipedia"] = "https://en.wikipedia.org/wiki/Siddhasana"
     DG.nodes[49]["asanas_608_page"] = "624"
     DG.nodes[49]["asanas_608_english"] = "accomplished pose"
 
     DG.add_node(50, english_name="full lotus")
     DG.nodes[50]["two_sided"] = True
     DG.nodes[50]["description"] = ""
-    DG.nodes[50]["yogajournalurl"] = "http://www.yogajournal.com/poses/488"
+    DG.nodes[50]["yogajournalurl"] = "https://www.yogajournal.com/poses/types/seated-twists/lotus-pose/"
     DG.nodes[50][
         "yogajournal_picture"
-    ] = ""
+    ] = "https://www.yogajournal.com/wp-content/uploads/2007/08/ccd04508.jpg?crop=535:301&width=1070&enable=upscale"
     DG.nodes[50]["hindi_name"] = "padmasana"
     DG.nodes[50]["comment"] = ""
     DG.nodes[50]["Dharma Mittra picture URL"] = ""
-    DG.nodes[50]["wikipedia"] = ""
+    DG.nodes[50]["wikipedia"] = "https://en.wikipedia.org/wiki/Lotus_position"
     DG.nodes[50]["asanas_608_page"] = "626"
     DG.nodes[50]["asanas_608_english"] = "lotus pose"
 
@@ -787,7 +787,8 @@ def pose_properties(DG):
     DG.nodes[55]["asanas 608 page"] = ""
     DG.nodes[55]["asanas 608 english name"] = ""
 
-    DG.add_node(56, english_name="wide legs, feet parallel")
+    DG.add_node(56, english_name="standing wide legs, feet parallel")
+    # TODO compare to 77
     DG.nodes[56]["two_sided"] = False
     DG.nodes[56]["description"] = ""
     DG.nodes[56]["yogajournalurl"] = ""
@@ -799,7 +800,7 @@ def pose_properties(DG):
     DG.nodes[56]["asanas 608 page"] = ""
     DG.nodes[56]["asanas 608 english name"] = ""
 
-    DG.add_node(57, english_name="bent over wide legs, parallel feet")
+    DG.add_node(57, english_name="standing wide legs, bent over, parallel feet")
     DG.nodes[57]["two_sided"] = False
     DG.nodes[57]["description"] = ""
     DG.nodes[57]["yogajournalurl"] = ""
@@ -1047,7 +1048,7 @@ def pose_properties(DG):
     DG.nodes[76]["asanas_608_page"] = "197"
     DG.nodes[76]["asanas_608_english"] = "Hands-free Head Stand Pose (Variation)"
 
-    DG.add_node(77, english_name="seated wide-leg")
+    DG.add_node(77, english_name="seated wide-leg, back perpendicular to floor")
     DG.nodes[77]["two_sided"] = False
     DG.nodes[77]["description"] = ""
     DG.nodes[77]["yogajournalurl"] = ""
@@ -1061,7 +1062,7 @@ def pose_properties(DG):
 
     DG.add_node(78, english_name="seated wide-leg, floating")
     DG.nodes[78]["two_sided"] = False
-    DG.nodes[78]["description"] = ""
+    DG.nodes[78]["description"] = "only hands are in contact with floor"
     DG.nodes[78]["yogajournalurl"] = ""
     DG.nodes[78]["yogajournal_picture"] = ""
     DG.nodes[78]["hindi_name"] = ""
@@ -1184,10 +1185,10 @@ def pose_properties(DG):
     DG.nodes[88]["description"] = ""
     DG.nodes[88]["yogajournalurl"] = ""
     DG.nodes[88]["yogajournal_picture"] = ""
-    DG.nodes[88]["hindi_name"] = ""
+    DG.nodes[88]["hindi_name"] = "Vrischikasana"
     DG.nodes[88]["comment"] = ""
     DG.nodes[88]["Dharma Mittra picture URL"] = ""
-    DG.nodes[88]["wikipedia"] = ""
+    DG.nodes[88]["wikipedia"] = "https://en.wikipedia.org/wiki/Vrischikasana"
     DG.nodes[88]["asanas 608 page"] = ""
     DG.nodes[88]["asanas 608 english name"] = ""
 
@@ -1215,15 +1216,15 @@ def pose_properties(DG):
     DG.nodes[90]["asanas 608 page"] = ""
     DG.nodes[90]["asanas 608 english name"] = ""
 
-    DG.add_node(91, english_name="butterfly")
+    DG.add_node(91, english_name="butterfly OR cobbler")
     DG.nodes[91]["two_sided"] = False
     DG.nodes[91]["description"] = ""
     DG.nodes[91]["yogajournalurl"] = "https://www.yogajournal.com/poses/types/seated-twists/bound-angle-pose-2/"
     DG.nodes[91]["yogajournal_picture"] = "https://www.yogajournal.com/wp-content/uploads/2007/08/bound-angle-pose-baddha-konasana.jpg?crop=535:301&width=1070&enable=upscale"
-    DG.nodes[91]["hindi_name"] = ""
+    DG.nodes[91]["hindi_name"] = "Baddha Konasana"
     DG.nodes[91]["comment"] = ""
     DG.nodes[91]["Dharma Mittra picture URL"] = ""
-    DG.nodes[91]["wikipedia"] = ""
+    DG.nodes[91]["wikipedia"] = "https://en.wikipedia.org/wiki/Baddha_Konasana"
     DG.nodes[91]["asanas 608 page"] = ""
     DG.nodes[91]["asanas 608 english name"] = ""
 
@@ -1249,7 +1250,7 @@ def pose_properties(DG):
     DG.nodes[93]["hindi_name"] = "Sethu Bandha Sarvangasana"
     DG.nodes[93]["comment"] = ""
     DG.nodes[93]["Dharma Mittra picture URL"] = ""
-    DG.nodes[93]["wikipedia"] = ""
+    DG.nodes[93]["wikipedia"] = "https://en.wikipedia.org/wiki/Setu_Bandha_Sarvangasana"
     DG.nodes[93]["asanas 608 page"] = ""
     DG.nodes[93]["asanas 608 english name"] = ""
 
@@ -1272,14 +1273,14 @@ def pose_properties(DG):
     DG.nodes[95]["description"] = ""
     DG.nodes[95][
         "yogajournalurl"
-    ] = "http://www.yogajournal.com/pose/seated-forward-bend/"
+    ] = "https://www.yogajournal.com/poses/seated-forward-bend/"
     DG.nodes[95][
         "yogajournal_picture"
-    ] = ""
-    DG.nodes[95]["hindi_name"] = ""
+    ] = "https://www.yogajournal.com/wp-content/uploads/2007/08/promoforwardfoldhp2_292_37503_cmyk.jpg?crop=535:301&width=1070&enable=upscale"
+    DG.nodes[95]["hindi_name"] = "Paschimottanasana"
     DG.nodes[95]["comment"] = ""
     DG.nodes[95]["Dharma Mittra picture URL"] = ""
-    DG.nodes[95]["wikipedia"] = ""
+    DG.nodes[95]["wikipedia"] = "https://en.wikipedia.org/wiki/Paschimottanasana"
     DG.nodes[95]["asanas 608 page"] = ""
     DG.nodes[95]["asanas 608 english name"] = ""
 
@@ -1300,10 +1301,11 @@ def pose_properties(DG):
     DG.nodes[97]["description"]=""
     DG.nodes[97]["yogajournalurl"]="https://www.yogajournal.com/poses/types/core/full-boat-pose-2/"
     DG.nodes[97]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/editedboathp_292_8_bjk.jpg?crop=535:301&width=1070&enable=upscale"
-    DG.nodes[97]["hindi_name"]=""
+    DG.nodes[97]["hindi_name"]="Navasana"
     DG.nodes[97]["counter asana"] = None
     DG.nodes[97]["comment"]=""
     DG.nodes[97]["Dharma Mittra picture URL"]=""
+    DG.nodes[97]["wikipedia"] = "https://en.wikipedia.org/wiki/Navasana"
     DG.nodes[97]["asanas 608 page"]=""
     DG.nodes[97]["asanas 608 english name"]=""
 
@@ -1349,10 +1351,11 @@ def pose_properties(DG):
     DG.nodes[101]["description"]=""
     DG.nodes[101]["yogajournalurl"]=""
     DG.nodes[101]["yogajournal_picture"]=""
-    DG.nodes[101]["hindi_name"]=""
+    DG.nodes[101]["hindi_name"]="Adho Mukha Vrikshasana"
     DG.nodes[101]["counter asana"] = None
     DG.nodes[101]["comment"]=""
     DG.nodes[101]["Dharma Mittra picture URL"]=""
+    DG.nodes[101]["wikipedia"] = "https://en.wikipedia.org/wiki/Handstand"
     DG.nodes[101]["asanas 608 page"]=""
     DG.nodes[101]["asanas 608 english name"]=""
 
@@ -1495,7 +1498,7 @@ def pose_properties(DG):
     DG.nodes[112]["counter asana"] = None
     DG.nodes[112]["comment"]=""
     DG.nodes[112]["Dharma Mittra picture URL"]=""
-    DG.nodes[112]["wikipedia"] = ""
+    DG.nodes[112]["wikipedia"] = "https://en.wikipedia.org/wiki/Gomukhasana"
     DG.nodes[112]["asanas 608 page"]=""
     DG.nodes[112]["asanas 608 english name"]=""
 
@@ -1592,7 +1595,7 @@ def pose_properties(DG):
 
     DG.add_node(120,english_name="peacock")
     DG.nodes[120]["two_sided"]=False
-    DG.nodes[120]["description"]=""
+    DG.nodes[120]["description"]="body is straight. Hands on floor"
     DG.nodes[120]["yogajournalurl"]=""
     DG.nodes[120]["yogajournal_picture"]=""
     DG.nodes[120]["hindi_name"]="Mayurasana"
@@ -1629,7 +1632,7 @@ def pose_properties(DG):
     DG.nodes[122]["asanas 608 page"]=""
     DG.nodes[122]["asanas 608 english name"]=""
 
-    DG.add_node(123,english_name="")
+    DG.add_node(123,english_name="one arm handstand")
     DG.nodes[123]["two_sided"]=False
     DG.nodes[123]["description"]=""
     DG.nodes[123]["yogajournalurl"]=""
@@ -1642,83 +1645,994 @@ def pose_properties(DG):
     DG.nodes[123]["asanas 608 page"]=""
     DG.nodes[123]["asanas 608 english name"]=""
 
-    DG.add_node(124,english_name="")
+    DG.add_node(124,english_name="forearm stand, legs straight up")
     DG.nodes[124]["two_sided"]=False
     DG.nodes[124]["description"]=""
     DG.nodes[124]["yogajournalurl"]=""
     DG.nodes[124]["yogajournal_picture"]=""
-    DG.nodes[124]["hindi_name"]=""
+    DG.nodes[124]["hindi_name"]="Shirshasana"
     DG.nodes[124]["counter asana"] = None
     DG.nodes[124]["comment"]=""
     DG.nodes[124]["Dharma Mittra picture URL"]=""
-    DG.nodes[124]["wikipedia"] = ""
+    DG.nodes[124]["wikipedia"] = "https://en.wikipedia.org/wiki/Shirshasana"
     DG.nodes[124]["asanas 608 page"]=""
     DG.nodes[124]["asanas 608 english name"]=""
 
-    DG.add_node(125,english_name="")
+    DG.add_node(125,english_name="legs up the wall pose")
     DG.nodes[125]["two_sided"]=False
-    DG.nodes[125]["description"]=""
+    DG.nodes[125]["description"]="commonly a fully supported pose using a wall and sometimes a pile of blankets."
     DG.nodes[125]["yogajournalurl"]=""
     DG.nodes[125]["yogajournal_picture"]=""
     DG.nodes[125]["hindi_name"]=""
     DG.nodes[125]["counter asana"] = None
     DG.nodes[125]["comment"]=""
     DG.nodes[125]["Dharma Mittra picture URL"]=""
-    DG.nodes[125]["wikipedia"] = ""
+    DG.nodes[125]["wikipedia"] = "https://en.wikipedia.org/wiki/Viparita_Karani"
     DG.nodes[125]["asanas 608 page"]=""
     DG.nodes[125]["asanas 608 english name"]=""
 
-    DG.add_node(126,english_name="")
-    DG.nodes[126]["two_sided"]=False
+    DG.add_node(126,english_name="Side-Reclining Leg Lift")
+    DG.nodes[126]["two_sided"]=True
     DG.nodes[126]["description"]=""
     DG.nodes[126]["yogajournalurl"]=""
     DG.nodes[126]["yogajournal_picture"]=""
-    DG.nodes[126]["hindi_name"]=""
+    DG.nodes[126]["hindi_name"]="Anantasana"
     DG.nodes[126]["counter asana"] = None
     DG.nodes[126]["comment"]=""
     DG.nodes[126]["Dharma Mittra picture URL"]=""
-    DG.nodes[126]["wikipedia"] = ""
+    DG.nodes[126]["wikipedia"] = "https://en.wikipedia.org/wiki/Anantasana"
     DG.nodes[126]["asanas 608 page"]=""
     DG.nodes[126]["asanas 608 english name"]=""
 
-    DG.add_node(127,english_name="")
+    DG.add_node(127,english_name="caterpillar")
     DG.nodes[127]["two_sided"]=False
     DG.nodes[127]["description"]=""
     DG.nodes[127]["yogajournalurl"]=""
     DG.nodes[127]["yogajournal_picture"]=""
-    DG.nodes[127]["hindi_name"]=""
+    DG.nodes[127]["hindi_name"]="Ashtanga Namaskara"
     DG.nodes[127]["counter asana"] = None
     DG.nodes[127]["comment"]=""
     DG.nodes[127]["Dharma Mittra picture URL"]=""
-    DG.nodes[127]["wikipedia"] = ""
+    DG.nodes[127]["wikipedia"] = "https://en.wikipedia.org/wiki/Ashtanga_Namaskara"
     DG.nodes[127]["asanas 608 page"]=""
     DG.nodes[127]["asanas 608 english name"]=""
 
-    DG.add_node(128,english_name="")
-    DG.nodes[128]["two_sided"]=False
+    DG.add_node(128,english_name="formidable")
+    DG.nodes[128]["two_sided"]=True
     DG.nodes[128]["description"]=""
     DG.nodes[128]["yogajournalurl"]=""
     DG.nodes[128]["yogajournal_picture"]=""
-    DG.nodes[128]["hindi_name"]=""
+    DG.nodes[128]["hindi_name"]="Bhairavasana"
     DG.nodes[128]["counter asana"] = None
     DG.nodes[128]["comment"]=""
     DG.nodes[128]["Dharma Mittra picture URL"]=""
-    DG.nodes[128]["wikipedia"] = ""
+    DG.nodes[128]["wikipedia"] = "https://en.wikipedia.org/wiki/Bhairavasana"
     DG.nodes[128]["asanas 608 page"]=""
     DG.nodes[128]["asanas 608 english name"]=""
 
-    DG.add_node(129,english_name="")
+    DG.add_node(129,english_name="frog")
     DG.nodes[129]["two_sided"]=False
     DG.nodes[129]["description"]=""
     DG.nodes[129]["yogajournalurl"]=""
     DG.nodes[129]["yogajournal_picture"]=""
-    DG.nodes[129]["hindi_name"]=""
+    DG.nodes[129]["hindi_name"]="Bhekasana"
     DG.nodes[129]["counter asana"] = None
     DG.nodes[129]["comment"]=""
     DG.nodes[129]["Dharma Mittra picture URL"]=""
-    DG.nodes[129]["wikipedia"] = ""
+    DG.nodes[129]["wikipedia"] = "https://en.wikipedia.org/wiki/Bhekasana"
     DG.nodes[129]["asanas 608 page"]=""
     DG.nodes[129]["asanas 608 english name"]=""
+
+    DG.add_node(130,english_name="Feathered Peacock Pose, legs straight")
+    DG.nodes[130]["two_sided"]=False
+    DG.nodes[130]["description"]="forearm balance similar to Vrischikasana, but the legs are straight, stretched up over the head, with the back less extremely arched"
+    DG.nodes[130]["yogajournalurl"]=""
+    DG.nodes[130]["yogajournal_picture"]=""
+    DG.nodes[130]["hindi_name"]="Pincha Mayurasana"
+    DG.nodes[130]["counter asana"] = None
+    DG.nodes[130]["comment"]=""
+    DG.nodes[130]["Dharma Mittra picture URL"]=""
+    DG.nodes[130]["wikipedia"] = ""
+    DG.nodes[130]["asanas 608 page"]=""
+    DG.nodes[130]["asanas 608 english name"]=""
+
+    DG.add_node(131,english_name="Formidable Face pose")
+    DG.nodes[131]["two_sided"]=False
+    DG.nodes[131]["description"]="similar to Pincha Mayurasana but with bent arms and only the hands on the ground; the back is lightly arched and the legs and feet point vertically upwards. It may be practised with a block under the shoulders"
+    DG.nodes[131]["yogajournalurl"]=""
+    DG.nodes[131]["yogajournal_picture"]=""
+    DG.nodes[131]["hindi_name"]="Ganda Bherundasana"
+    DG.nodes[131]["counter asana"] = None
+    DG.nodes[131]["comment"]=""
+    DG.nodes[131]["Dharma Mittra picture URL"]=""
+    DG.nodes[131]["wikipedia"] = ""
+    DG.nodes[131]["asanas 608 page"]=""
+    DG.nodes[131]["asanas 608 english name"]=""
+
+    DG.add_node(132,english_name="Feathered Peacock Pose, legs in lotus")
+    DG.nodes[132]["two_sided"]=False
+    DG.nodes[132]["description"]=""
+    DG.nodes[132]["yogajournalurl"]=""
+    DG.nodes[132]["yogajournal_picture"]=""
+    DG.nodes[132]["hindi_name"]="Pincha Mayurasana"
+    DG.nodes[132]["counter asana"] = None
+    DG.nodes[132]["comment"]=""
+    DG.nodes[132]["Dharma Mittra picture URL"]=""
+    DG.nodes[132]["wikipedia"] = ""
+    DG.nodes[132]["asanas 608 page"]=""
+    DG.nodes[132]["asanas 608 english name"]=""
+
+    DG.add_node(133,english_name="Posture of Repose")
+    DG.nodes[133]["two_sided"]=False
+    DG.nodes[133]["description"]="same as Pincha Mayurasana, but with only the elbows on the ground, the hands cradling the face, making it a difficult balance."
+    DG.nodes[133]["yogajournalurl"]=""
+    DG.nodes[133]["yogajournal_picture"]=""
+    DG.nodes[133]["hindi_name"]="Sayanasana"
+    DG.nodes[133]["counter asana"] = None
+    DG.nodes[133]["comment"]=""
+    DG.nodes[133]["Dharma Mittra picture URL"]=""
+    DG.nodes[133]["wikipedia"] = ""
+    DG.nodes[133]["yogapedia"] = "https://www.yogapedia.com/definition/9944/sayanasana"
+    DG.nodes[133]["asanas 608 page"]=""
+    DG.nodes[133]["asanas 608 english name"]=""
+
+    DG.add_node(134,english_name="Yogic Sleep Pose")
+    DG.nodes[134]["two_sided"]=False
+    DG.nodes[134]["description"]=""
+    DG.nodes[134]["yogajournalurl"]=""
+    DG.nodes[134]["yogajournal_picture"]=""
+    DG.nodes[134]["hindi_name"]="Yoganidrasana"
+    DG.nodes[134]["counter asana"] = None
+    DG.nodes[134]["comment"]=""
+    DG.nodes[134]["Dharma Mittra picture URL"]=""
+    DG.nodes[134]["wikipedia"] = "https://en.wikipedia.org/wiki/Yoganidrasana"
+    DG.nodes[134]["asanas 608 page"]=""
+    DG.nodes[134]["asanas 608 english name"]=""
+
+    DG.add_node(135,english_name="locust or grasshopper")
+    DG.nodes[135]["two_sided"]=False
+    DG.nodes[135]["description"]=""
+    DG.nodes[135]["yogajournalurl"]=""
+    DG.nodes[135]["yogajournal_picture"]=""
+    DG.nodes[135]["hindi_name"]="Salabhasana"
+    DG.nodes[135]["counter asana"] = None
+    DG.nodes[135]["comment"]=""
+    DG.nodes[135]["Dharma Mittra picture URL"]=""
+    DG.nodes[135]["wikipedia"] = "https://en.wikipedia.org/wiki/Salabhasana"
+    DG.nodes[135]["asanas 608 page"]=""
+    DG.nodes[135]["asanas 608 english name"]=""
+
+    DG.add_node(136,english_name="Wind-Relieving pose")
+    DG.nodes[136]["two_sided"]=False
+    DG.nodes[136]["description"]=""
+    DG.nodes[136]["yogajournalurl"]=""
+    DG.nodes[136]["yogajournal_picture"]=""
+    DG.nodes[136]["hindi_name"]="Pavanamuktasana"
+    DG.nodes[136]["counter asana"] = None
+    DG.nodes[136]["comment"]=""
+    DG.nodes[136]["Dharma Mittra picture URL"]=""
+    DG.nodes[136]["wikipedia"] = "https://en.wikipedia.org/wiki/Pavanamuktasana"
+    DG.nodes[136]["asanas 608 page"]=""
+    DG.nodes[136]["asanas 608 english name"]=""
+
+    DG.add_node(137,english_name="Revolved Abdomen pose OR Belly twist OR Spinal twist")
+    DG.nodes[137]["two_sided"]=False
+    DG.nodes[137]["description"]=""
+    DG.nodes[137]["yogajournalurl"]=""
+    DG.nodes[137]["yogajournal_picture"]=""
+    DG.nodes[137]["hindi_name"]="Jathara Parivartanasana"
+    DG.nodes[137]["counter asana"] = None
+    DG.nodes[137]["comment"]=""
+    DG.nodes[137]["Dharma Mittra picture URL"]=""
+    DG.nodes[137]["wikipedia"] = "https://en.wikipedia.org/wiki/Jathara_Parivartanasana"
+    DG.nodes[137]["asanas 608 page"]=""
+    DG.nodes[137]["asanas 608 english name"]=""
+
+    DG.add_node(138,english_name="Bharadvaja's twist 1")
+    DG.nodes[138]["two_sided"]=True
+    DG.nodes[138]["description"]="basic form, with the legs as in Virasana (hero pose), one foot on the floor and the other ankle cradled in the arch of the foot below."
+    DG.nodes[138]["yogajournalurl"]=""
+    DG.nodes[138]["yogajournal_picture"]=""
+    DG.nodes[138]["hindi_name"]="Bharadvajasana I"
+    DG.nodes[138]["counter asana"] = None
+    DG.nodes[138]["comment"]=""
+    DG.nodes[138]["Dharma Mittra picture URL"]=""
+    DG.nodes[138]["wikipedia"] = "https://en.wikipedia.org/wiki/Bharadvajasana"
+    DG.nodes[138]["asanas 608 page"]=""
+    DG.nodes[138]["asanas 608 english name"]=""
+
+    DG.add_node(139,english_name="Bharadvaja's twist 2")
+    DG.nodes[139]["two_sided"]=True
+    DG.nodes[139]["description"]="advanced form requiring high hip mobility; one leg is bent as in Padmasana (lotus position), while the other leg is bent as in Virasana."
+    DG.nodes[139]["yogajournalurl"]=""
+    DG.nodes[139]["yogajournal_picture"]=""
+    DG.nodes[139]["hindi_name"]="Bharadvajasana II"
+    DG.nodes[139]["counter asana"] = None
+    DG.nodes[139]["comment"]=""
+    DG.nodes[139]["Dharma Mittra picture URL"]=""
+    DG.nodes[139]["wikipedia"] = "https://en.wikipedia.org/wiki/Bharadvajasana"
+    DG.nodes[139]["asanas 608 page"]=""
+    DG.nodes[139]["asanas 608 english name"]=""
+
+    DG.add_node(140,english_name="pose of the sage Marichi")
+    DG.nodes[140]["two_sided"]=False
+    DG.nodes[140]["description"]="one leg is stretched out straight ahead of the body, the other is bent with the sole of the foot on the floor and the knee up beside the body. The body is twisted towards the side with the straight leg, and the arms are clasped behind the back and around the raised knee. The body may then lean forwards until the nose and chin touch the straight leg"
+    DG.nodes[140]["yogajournalurl"]=""
+    DG.nodes[140]["yogajournal_picture"]=""
+    DG.nodes[140]["hindi_name"]="Marichyasana"
+    DG.nodes[140]["counter asana"] = None
+    DG.nodes[140]["comment"]=""
+    DG.nodes[140]["Dharma Mittra picture URL"]=""
+    DG.nodes[140]["wikipedia"] = "https://en.wikipedia.org/wiki/Marichyasana"
+    DG.nodes[140]["asanas 608 page"]=""
+    DG.nodes[140]["asanas 608 english name"]=""
+
+    DG.add_node(141,english_name="Marichyasana III")
+    DG.nodes[141]["two_sided"]=False
+    DG.nodes[141]["description"]="the leg on the ground is stretched out straight. The body is twisted towards the side with the bent leg, and again the arms are clasped behind the back and around the raised knee"
+    DG.nodes[141]["yogajournalurl"]=""
+    DG.nodes[141]["yogajournal_picture"]=""
+    DG.nodes[141]["hindi_name"]="Marichyasana III"
+    DG.nodes[141]["counter asana"] = None
+    DG.nodes[141]["comment"]=""
+    DG.nodes[141]["Dharma Mittra picture URL"]=""
+    DG.nodes[141]["wikipedia"] = "https://en.wikipedia.org/wiki/Marichyasana"
+    DG.nodes[141]["asanas 608 page"]=""
+    DG.nodes[141]["asanas 608 english name"]=""
+
+    DG.add_node(142,english_name="Lord of the Fishes Pose")
+    DG.nodes[142]["two_sided"]=False
+    DG.nodes[142]["description"]=""
+    DG.nodes[142]["yogajournalurl"]=""
+    DG.nodes[142]["yogajournal_picture"]=""
+    DG.nodes[142]["hindi_name"]="Matsyendrasana"
+    DG.nodes[142]["counter asana"] = None
+    DG.nodes[142]["comment"]=""
+    DG.nodes[142]["Dharma Mittra picture URL"]=""
+    DG.nodes[142]["wikipedia"] = "https://en.wikipedia.org/wiki/Matsyendrasana"
+    DG.nodes[142]["asanas 608 page"]=""
+    DG.nodes[142]["asanas 608 english name"]=""
+
+    DG.add_node(143,english_name="noose")
+    DG.nodes[143]["two_sided"]=True
+    DG.nodes[143]["description"]=""
+    DG.nodes[143]["yogajournalurl"]=""
+    DG.nodes[143]["yogajournal_picture"]=""
+    DG.nodes[143]["hindi_name"]="Pasasana"
+    DG.nodes[143]["counter asana"] = None
+    DG.nodes[143]["comment"]=""
+    DG.nodes[143]["Dharma Mittra picture URL"]=""
+    DG.nodes[143]["wikipedia"] = "https://en.wikipedia.org/wiki/Pasasana"
+    DG.nodes[143]["asanas 608 page"]=""
+    DG.nodes[143]["asanas 608 english name"]=""
+
+    DG.add_node(144,english_name="easy")
+    DG.nodes[144]["two_sided"]=True
+    DG.nodes[144]["description"]=""
+    DG.nodes[144]["yogajournalurl"]=""
+    DG.nodes[144]["yogajournal_picture"]=""
+    DG.nodes[144]["hindi_name"]="Sukhasana"
+    DG.nodes[144]["counter asana"] = None
+    DG.nodes[144]["comment"]=""
+    DG.nodes[144]["Dharma Mittra picture URL"]=""
+    DG.nodes[144]["wikipedia"] = "https://en.wikipedia.org/wiki/Sukhasana"
+    DG.nodes[144]["asanas 608 page"]=""
+    DG.nodes[144]["asanas 608 english name"]=""
+
+    DG.add_node(145,english_name="lion")
+    DG.nodes[145]["two_sided"]=False
+    DG.nodes[145]["description"]=""
+    DG.nodes[145]["yogajournalurl"]=""
+    DG.nodes[145]["yogajournal_picture"]=""
+    DG.nodes[145]["hindi_name"]="Simhasana"
+    DG.nodes[145]["counter asana"] = None
+    DG.nodes[145]["comment"]=""
+    DG.nodes[145]["Dharma Mittra picture URL"]=""
+    DG.nodes[145]["wikipedia"] = "https://en.wikipedia.org/wiki/Simhasana"
+    DG.nodes[145]["asanas 608 page"]=""
+    DG.nodes[145]["asanas 608 english name"]=""
+
+    DG.add_node(146,english_name="Archer OR Bow and Arrow OR Shooting Bow")
+    DG.nodes[146]["two_sided"]=False
+    DG.nodes[146]["description"]="pulling the foot towards the ear from a seated position with the legs outstretched."
+    DG.nodes[146]["yogajournalurl"]=""
+    DG.nodes[146]["yogajournal_picture"]=""
+    DG.nodes[146]["hindi_name"]="Akarna Dhanurasana"
+    DG.nodes[146]["counter asana"] = None
+    DG.nodes[146]["comment"]=""
+    DG.nodes[146]["Dharma Mittra picture URL"]=""
+    DG.nodes[146]["wikipedia"] = "https://en.wikipedia.org/wiki/Akarna_Dhanurasana"
+    DG.nodes[146]["asanas 608 page"]=""
+    DG.nodes[146]["asanas 608 english name"]=""
+
+    DG.add_node(147,english_name="rabbit")
+    DG.nodes[147]["two_sided"]=False
+    DG.nodes[147]["description"]=""
+    DG.nodes[147]["yogajournalurl"]=""
+    DG.nodes[147]["yogajournal_picture"]=""
+    DG.nodes[147]["hindi_name"]="Shasangasana"
+    DG.nodes[147]["counter asana"] = None
+    DG.nodes[147]["comment"]=""
+    DG.nodes[147]["Dharma Mittra picture URL"]=""
+    DG.nodes[147]["wikipedia"] = "https://en.wikipedia.org/wiki/Balasana"
+    DG.nodes[147]["asanas 608 page"]=""
+    DG.nodes[147]["asanas 608 english name"]=""
+
+    DG.add_node(148,english_name="staff pose OR back stretch pose")
+    DG.nodes[148]["two_sided"]=False
+    DG.nodes[148]["description"]="legs straight, back upright"
+    DG.nodes[148]["yogajournalurl"]=""
+    DG.nodes[148]["yogajournal_picture"]=""
+    DG.nodes[148]["hindi_name"]="Dandasana"
+    DG.nodes[148]["counter asana"] = None
+    DG.nodes[148]["comment"]=""
+    DG.nodes[148]["Dharma Mittra picture URL"]=""
+    DG.nodes[148]["wikipedia"] = "https://en.wikipedia.org/wiki/Dandasana"
+    DG.nodes[148]["asanas 608 page"]="278"
+    DG.nodes[148]["asanas 608 english name"]="back stretch pose"
+
+    DG.add_node(149,english_name="monkey OR seated front splits")
+    DG.nodes[149]["two_sided"]=True
+    DG.nodes[149]["description"]=""
+    DG.nodes[149]["yogajournalurl"]=""
+    DG.nodes[149]["yogajournal_picture"]=""
+    DG.nodes[149]["hindi_name"]="Hanumanasana"
+    DG.nodes[149]["counter asana"] = None
+    DG.nodes[149]["comment"]=""
+    DG.nodes[149]["Dharma Mittra picture URL"]=""
+    DG.nodes[149]["wikipedia"] = "https://en.wikipedia.org/wiki/Hanumanasana"
+    DG.nodes[149]["asanas 608 page"]=""
+    DG.nodes[149]["asanas 608 english name"]=""
+
+    DG.add_node(150,english_name="tortoise or turtle")
+    DG.nodes[150]["two_sided"]=False
+    DG.nodes[150]["description"]=""
+    DG.nodes[150]["yogajournalurl"]=""
+    DG.nodes[150]["yogajournal_picture"]=""
+    DG.nodes[150]["hindi_name"]="Kurmasana"
+    DG.nodes[150]["counter asana"] = None
+    DG.nodes[150]["comment"]=""
+    DG.nodes[150]["Dharma Mittra picture URL"]=""
+    DG.nodes[150]["wikipedia"] = "https://en.wikipedia.org/wiki/Kurmasana"
+    DG.nodes[150]["asanas 608 page"]=""
+    DG.nodes[150]["asanas 608 english name"]=""
+
+    DG.add_node(151,english_name="Upside-Down Tortoise")
+    DG.nodes[151]["two_sided"]=False
+    DG.nodes[151]["description"]=""
+    DG.nodes[151]["yogajournalurl"]=""
+    DG.nodes[151]["yogajournal_picture"]=""
+    DG.nodes[151]["hindi_name"]="Uttana Kurmasana"
+    DG.nodes[151]["counter asana"] = None
+    DG.nodes[151]["comment"]=""
+    DG.nodes[151]["Dharma Mittra picture URL"]=""
+    DG.nodes[151]["wikipedia"] = "https://en.wikipedia.org/wiki/Kurmasana"
+    DG.nodes[151]["asanas 608 page"]=""
+    DG.nodes[151]["asanas 608 english name"]=""
+
+    DG.add_node(152,english_name="seated side split")
+    DG.nodes[152]["two_sided"]=False
+    DG.nodes[152]["description"]=""
+    DG.nodes[152]["yogajournalurl"]=""
+    DG.nodes[152]["yogajournal_picture"]=""
+    DG.nodes[152]["hindi_name"]="Samakonasana"
+    DG.nodes[152]["counter asana"] = None
+    DG.nodes[152]["comment"]=""
+    DG.nodes[152]["Dharma Mittra picture URL"]=""
+    DG.nodes[152]["wikipedia"] = "https://en.wikipedia.org/wiki/Split_(gymnastics)"
+    DG.nodes[152]["asanas 608 page"]=""
+    DG.nodes[152]["asanas 608 english name"]=""
+
+    DG.add_node(153,english_name="forearm stand, legs in full lotus")
+    DG.nodes[153]["two_sided"]=True
+    DG.nodes[153]["description"]=""
+    DG.nodes[153]["yogajournalurl"]=""
+    DG.nodes[153]["yogajournal_picture"]=""
+    DG.nodes[153]["hindi_name"]=""
+    DG.nodes[153]["counter asana"] = None
+    DG.nodes[153]["comment"]=""
+    DG.nodes[153]["Dharma Mittra picture URL"]=""
+    DG.nodes[153]["wikipedia"] = ""
+    DG.nodes[153]["asanas 608 page"]=""
+    DG.nodes[153]["asanas 608 english name"]=""
+
+    DG.add_node(154,english_name="hero")
+    DG.nodes[154]["two_sided"]=False
+    DG.nodes[154]["description"]=""
+    DG.nodes[154]["yogajournalurl"]=""
+    DG.nodes[154]["yogajournal_picture"]=""
+    DG.nodes[154]["hindi_name"]="Virasana"
+    DG.nodes[154]["counter asana"] = None
+    DG.nodes[154]["comment"]=""
+    DG.nodes[154]["Dharma Mittra picture URL"]=""
+    DG.nodes[154]["wikipedia"] = "https://en.wikipedia.org/wiki/Virasana"
+    DG.nodes[154]["asanas 608 page"]=""
+    DG.nodes[154]["asanas 608 english name"]=""
+
+    DG.add_node(155,english_name="seated wide angle forward bend")
+    DG.nodes[155]["two_sided"]=False
+    DG.nodes[155]["description"]=""
+    DG.nodes[155]["yogajournalurl"]=""
+    DG.nodes[155]["yogajournal_picture"]=""
+    DG.nodes[155]["hindi_name"]="Upavista Konasana"
+    DG.nodes[155]["counter asana"] = None
+    DG.nodes[155]["comment"]=""
+    DG.nodes[155]["Dharma Mittra picture URL"]=""
+    DG.nodes[155]["wikipedia"] = "https://en.wikipedia.org/wiki/Upavi%E1%B9%A3%E1%B9%ADa_Ko%E1%B9%87%C4%81sana"
+    DG.nodes[155]["asanas 608 page"]=""
+    DG.nodes[155]["asanas 608 english name"]=""
+
+    DG.add_node(156,english_name="")
+    DG.nodes[156]["two_sided"]=False
+    DG.nodes[156]["description"]=""
+    DG.nodes[156]["yogajournalurl"]=""
+    DG.nodes[156]["yogajournal_picture"]=""
+    DG.nodes[156]["hindi_name"]=""
+    DG.nodes[156]["counter asana"] = None
+    DG.nodes[156]["comment"]=""
+    DG.nodes[156]["Dharma Mittra picture URL"]=""
+    DG.nodes[156]["wikipedia"] = ""
+    DG.nodes[156]["asanas 608 page"]=""
+    DG.nodes[156]["asanas 608 english name"]=""
+
+    DG.add_node(157,english_name="")
+    DG.nodes[157]["two_sided"]=False
+    DG.nodes[157]["description"]=""
+    DG.nodes[157]["yogajournalurl"]=""
+    DG.nodes[157]["yogajournal_picture"]=""
+    DG.nodes[157]["hindi_name"]=""
+    DG.nodes[157]["counter asana"] = None
+    DG.nodes[157]["comment"]=""
+    DG.nodes[157]["Dharma Mittra picture URL"]=""
+    DG.nodes[157]["wikipedia"] = ""
+    DG.nodes[157]["asanas 608 page"]=""
+    DG.nodes[157]["asanas 608 english name"]=""
+
+    DG.add_node(158,english_name="")
+    DG.nodes[158]["two_sided"]=False
+    DG.nodes[158]["description"]=""
+    DG.nodes[158]["yogajournalurl"]=""
+    DG.nodes[158]["yogajournal_picture"]=""
+    DG.nodes[158]["hindi_name"]=""
+    DG.nodes[158]["counter asana"] = None
+    DG.nodes[158]["comment"]=""
+    DG.nodes[158]["Dharma Mittra picture URL"]=""
+    DG.nodes[158]["wikipedia"] = ""
+    DG.nodes[158]["asanas 608 page"]=""
+    DG.nodes[158]["asanas 608 english name"]=""
+
+    DG.add_node(159,english_name="")
+    DG.nodes[159]["two_sided"]=False
+    DG.nodes[159]["description"]=""
+    DG.nodes[159]["yogajournalurl"]=""
+    DG.nodes[159]["yogajournal_picture"]=""
+    DG.nodes[159]["hindi_name"]=""
+    DG.nodes[159]["counter asana"] = None
+    DG.nodes[159]["comment"]=""
+    DG.nodes[159]["Dharma Mittra picture URL"]=""
+    DG.nodes[159]["wikipedia"] = ""
+    DG.nodes[159]["asanas 608 page"]=""
+    DG.nodes[159]["asanas 608 english name"]=""
+
+    DG.add_node(160,english_name="")
+    DG.nodes[160]["two_sided"]=False
+    DG.nodes[160]["description"]=""
+    DG.nodes[160]["yogajournalurl"]=""
+    DG.nodes[160]["yogajournal_picture"]=""
+    DG.nodes[160]["hindi_name"]=""
+    DG.nodes[160]["counter asana"] = None
+    DG.nodes[160]["comment"]=""
+    DG.nodes[160]["Dharma Mittra picture URL"]=""
+    DG.nodes[160]["wikipedia"] = ""
+    DG.nodes[160]["asanas 608 page"]=""
+    DG.nodes[160]["asanas 608 english name"]=""
+
+    DG.add_node(161,english_name="")
+    DG.nodes[161]["two_sided"]=False
+    DG.nodes[161]["description"]=""
+    DG.nodes[161]["yogajournalurl"]=""
+    DG.nodes[161]["yogajournal_picture"]=""
+    DG.nodes[161]["hindi_name"]=""
+    DG.nodes[161]["counter asana"] = None
+    DG.nodes[161]["comment"]=""
+    DG.nodes[161]["Dharma Mittra picture URL"]=""
+    DG.nodes[161]["wikipedia"] = ""
+    DG.nodes[161]["asanas 608 page"]=""
+    DG.nodes[161]["asanas 608 english name"]=""
+
+    DG.add_node(162,english_name="")
+    DG.nodes[162]["two_sided"]=False
+    DG.nodes[162]["description"]=""
+    DG.nodes[162]["yogajournalurl"]=""
+    DG.nodes[162]["yogajournal_picture"]=""
+    DG.nodes[162]["hindi_name"]=""
+    DG.nodes[162]["counter asana"] = None
+    DG.nodes[162]["comment"]=""
+    DG.nodes[162]["Dharma Mittra picture URL"]=""
+    DG.nodes[162]["wikipedia"] = ""
+    DG.nodes[162]["asanas 608 page"]=""
+    DG.nodes[162]["asanas 608 english name"]=""
+
+    DG.add_node(163,english_name="")
+    DG.nodes[163]["two_sided"]=False
+    DG.nodes[163]["description"]=""
+    DG.nodes[163]["yogajournalurl"]=""
+    DG.nodes[163]["yogajournal_picture"]=""
+    DG.nodes[163]["hindi_name"]=""
+    DG.nodes[163]["counter asana"] = None
+    DG.nodes[163]["comment"]=""
+    DG.nodes[163]["Dharma Mittra picture URL"]=""
+    DG.nodes[163]["wikipedia"] = ""
+    DG.nodes[163]["asanas 608 page"]=""
+    DG.nodes[163]["asanas 608 english name"]=""
+
+    DG.add_node(164,english_name="")
+    DG.nodes[164]["two_sided"]=False
+    DG.nodes[164]["description"]=""
+    DG.nodes[164]["yogajournalurl"]=""
+    DG.nodes[164]["yogajournal_picture"]=""
+    DG.nodes[164]["hindi_name"]=""
+    DG.nodes[164]["counter asana"] = None
+    DG.nodes[164]["comment"]=""
+    DG.nodes[164]["Dharma Mittra picture URL"]=""
+    DG.nodes[164]["wikipedia"] = ""
+    DG.nodes[164]["asanas 608 page"]=""
+    DG.nodes[164]["asanas 608 english name"]=""
+
+    DG.add_node(165,english_name="")
+    DG.nodes[165]["two_sided"]=False
+    DG.nodes[165]["description"]=""
+    DG.nodes[165]["yogajournalurl"]=""
+    DG.nodes[165]["yogajournal_picture"]=""
+    DG.nodes[165]["hindi_name"]=""
+    DG.nodes[165]["counter asana"] = None
+    DG.nodes[165]["comment"]=""
+    DG.nodes[165]["Dharma Mittra picture URL"]=""
+    DG.nodes[165]["wikipedia"] = ""
+    DG.nodes[165]["asanas 608 page"]=""
+    DG.nodes[165]["asanas 608 english name"]=""
+
+    DG.add_node(166,english_name="")
+    DG.nodes[166]["two_sided"]=False
+    DG.nodes[166]["description"]=""
+    DG.nodes[166]["yogajournalurl"]=""
+    DG.nodes[166]["yogajournal_picture"]=""
+    DG.nodes[166]["hindi_name"]=""
+    DG.nodes[166]["counter asana"] = None
+    DG.nodes[166]["comment"]=""
+    DG.nodes[166]["Dharma Mittra picture URL"]=""
+    DG.nodes[166]["wikipedia"] = ""
+    DG.nodes[166]["asanas 608 page"]=""
+    DG.nodes[166]["asanas 608 english name"]=""
+
+    DG.add_node(167,english_name="")
+    DG.nodes[167]["two_sided"]=False
+    DG.nodes[167]["description"]=""
+    DG.nodes[167]["yogajournalurl"]=""
+    DG.nodes[167]["yogajournal_picture"]=""
+    DG.nodes[167]["hindi_name"]=""
+    DG.nodes[167]["counter asana"] = None
+    DG.nodes[167]["comment"]=""
+    DG.nodes[167]["Dharma Mittra picture URL"]=""
+    DG.nodes[167]["wikipedia"] = ""
+    DG.nodes[167]["asanas 608 page"]=""
+    DG.nodes[167]["asanas 608 english name"]=""
+
+    DG.add_node(168,english_name="")
+    DG.nodes[168]["two_sided"]=False
+    DG.nodes[168]["description"]=""
+    DG.nodes[168]["yogajournalurl"]=""
+    DG.nodes[168]["yogajournal_picture"]=""
+    DG.nodes[168]["hindi_name"]=""
+    DG.nodes[168]["counter asana"] = None
+    DG.nodes[168]["comment"]=""
+    DG.nodes[168]["Dharma Mittra picture URL"]=""
+    DG.nodes[168]["wikipedia"] = ""
+    DG.nodes[168]["asanas 608 page"]=""
+    DG.nodes[168]["asanas 608 english name"]=""
+
+    DG.add_node(169,english_name="")
+    DG.nodes[169]["two_sided"]=False
+    DG.nodes[169]["description"]=""
+    DG.nodes[169]["yogajournalurl"]=""
+    DG.nodes[169]["yogajournal_picture"]=""
+    DG.nodes[169]["hindi_name"]=""
+    DG.nodes[169]["counter asana"] = None
+    DG.nodes[169]["comment"]=""
+    DG.nodes[169]["Dharma Mittra picture URL"]=""
+    DG.nodes[169]["wikipedia"] = ""
+    DG.nodes[169]["asanas 608 page"]=""
+    DG.nodes[169]["asanas 608 english name"]=""
+
+    DG.add_node(170,english_name="")
+    DG.nodes[170]["two_sided"]=False
+    DG.nodes[170]["description"]=""
+    DG.nodes[170]["yogajournalurl"]=""
+    DG.nodes[170]["yogajournal_picture"]=""
+    DG.nodes[170]["hindi_name"]=""
+    DG.nodes[170]["counter asana"] = None
+    DG.nodes[170]["comment"]=""
+    DG.nodes[170]["Dharma Mittra picture URL"]=""
+    DG.nodes[170]["wikipedia"] = ""
+    DG.nodes[170]["asanas 608 page"]=""
+    DG.nodes[170]["asanas 608 english name"]=""
+
+    DG.add_node(171,english_name="")
+    DG.nodes[171]["two_sided"]=False
+    DG.nodes[171]["description"]=""
+    DG.nodes[171]["yogajournalurl"]=""
+    DG.nodes[171]["yogajournal_picture"]=""
+    DG.nodes[171]["hindi_name"]=""
+    DG.nodes[171]["counter asana"] = None
+    DG.nodes[171]["comment"]=""
+    DG.nodes[171]["Dharma Mittra picture URL"]=""
+    DG.nodes[171]["wikipedia"] = ""
+    DG.nodes[171]["asanas 608 page"]=""
+    DG.nodes[171]["asanas 608 english name"]=""
+
+    DG.add_node(172,english_name="")
+    DG.nodes[172]["two_sided"]=False
+    DG.nodes[172]["description"]=""
+    DG.nodes[172]["yogajournalurl"]=""
+    DG.nodes[172]["yogajournal_picture"]=""
+    DG.nodes[172]["hindi_name"]=""
+    DG.nodes[172]["counter asana"] = None
+    DG.nodes[172]["comment"]=""
+    DG.nodes[172]["Dharma Mittra picture URL"]=""
+    DG.nodes[172]["wikipedia"] = ""
+    DG.nodes[172]["asanas 608 page"]=""
+    DG.nodes[172]["asanas 608 english name"]=""
+
+    DG.add_node(173,english_name="")
+    DG.nodes[173]["two_sided"]=False
+    DG.nodes[173]["description"]=""
+    DG.nodes[173]["yogajournalurl"]=""
+    DG.nodes[173]["yogajournal_picture"]=""
+    DG.nodes[173]["hindi_name"]=""
+    DG.nodes[173]["counter asana"] = None
+    DG.nodes[173]["comment"]=""
+    DG.nodes[173]["Dharma Mittra picture URL"]=""
+    DG.nodes[173]["wikipedia"] = ""
+    DG.nodes[173]["asanas 608 page"]=""
+    DG.nodes[173]["asanas 608 english name"]=""
+
+    DG.add_node(174,english_name="")
+    DG.nodes[174]["two_sided"]=False
+    DG.nodes[174]["description"]=""
+    DG.nodes[174]["yogajournalurl"]=""
+    DG.nodes[174]["yogajournal_picture"]=""
+    DG.nodes[174]["hindi_name"]=""
+    DG.nodes[174]["counter asana"] = None
+    DG.nodes[174]["comment"]=""
+    DG.nodes[174]["Dharma Mittra picture URL"]=""
+    DG.nodes[174]["wikipedia"] = ""
+    DG.nodes[174]["asanas 608 page"]=""
+    DG.nodes[174]["asanas 608 english name"]=""
+
+    DG.add_node(175,english_name="")
+    DG.nodes[175]["two_sided"]=False
+    DG.nodes[175]["description"]=""
+    DG.nodes[175]["yogajournalurl"]=""
+    DG.nodes[175]["yogajournal_picture"]=""
+    DG.nodes[175]["hindi_name"]=""
+    DG.nodes[175]["counter asana"] = None
+    DG.nodes[175]["comment"]=""
+    DG.nodes[175]["Dharma Mittra picture URL"]=""
+    DG.nodes[175]["wikipedia"] = ""
+    DG.nodes[175]["asanas 608 page"]=""
+    DG.nodes[175]["asanas 608 english name"]=""
+
+    DG.add_node(176,english_name="")
+    DG.nodes[176]["two_sided"]=False
+    DG.nodes[176]["description"]=""
+    DG.nodes[176]["yogajournalurl"]=""
+    DG.nodes[176]["yogajournal_picture"]=""
+    DG.nodes[176]["hindi_name"]=""
+    DG.nodes[176]["counter asana"] = None
+    DG.nodes[176]["comment"]=""
+    DG.nodes[176]["Dharma Mittra picture URL"]=""
+    DG.nodes[176]["wikipedia"] = ""
+    DG.nodes[176]["asanas 608 page"]=""
+    DG.nodes[176]["asanas 608 english name"]=""
+
+    DG.add_node(177,english_name="")
+    DG.nodes[177]["two_sided"]=False
+    DG.nodes[177]["description"]=""
+    DG.nodes[177]["yogajournalurl"]=""
+    DG.nodes[177]["yogajournal_picture"]=""
+    DG.nodes[177]["hindi_name"]=""
+    DG.nodes[177]["counter asana"] = None
+    DG.nodes[177]["comment"]=""
+    DG.nodes[177]["Dharma Mittra picture URL"]=""
+    DG.nodes[177]["wikipedia"] = ""
+    DG.nodes[177]["asanas 608 page"]=""
+    DG.nodes[177]["asanas 608 english name"]=""
+
+    DG.add_node(178,english_name="")
+    DG.nodes[178]["two_sided"]=False
+    DG.nodes[178]["description"]=""
+    DG.nodes[178]["yogajournalurl"]=""
+    DG.nodes[178]["yogajournal_picture"]=""
+    DG.nodes[178]["hindi_name"]=""
+    DG.nodes[178]["counter asana"] = None
+    DG.nodes[178]["comment"]=""
+    DG.nodes[178]["Dharma Mittra picture URL"]=""
+    DG.nodes[178]["wikipedia"] = ""
+    DG.nodes[178]["asanas 608 page"]=""
+    DG.nodes[178]["asanas 608 english name"]=""
+
+    DG.add_node(179,english_name="")
+    DG.nodes[179]["two_sided"]=False
+    DG.nodes[179]["description"]=""
+    DG.nodes[179]["yogajournalurl"]=""
+    DG.nodes[179]["yogajournal_picture"]=""
+    DG.nodes[179]["hindi_name"]=""
+    DG.nodes[179]["counter asana"] = None
+    DG.nodes[179]["comment"]=""
+    DG.nodes[179]["Dharma Mittra picture URL"]=""
+    DG.nodes[179]["wikipedia"] = ""
+    DG.nodes[179]["asanas 608 page"]=""
+    DG.nodes[179]["asanas 608 english name"]=""
+
+    DG.add_node(180,english_name="")
+    DG.nodes[180]["two_sided"]=False
+    DG.nodes[180]["description"]=""
+    DG.nodes[180]["yogajournalurl"]=""
+    DG.nodes[180]["yogajournal_picture"]=""
+    DG.nodes[180]["hindi_name"]=""
+    DG.nodes[180]["counter asana"] = None
+    DG.nodes[180]["comment"]=""
+    DG.nodes[180]["Dharma Mittra picture URL"]=""
+    DG.nodes[180]["wikipedia"] = ""
+    DG.nodes[180]["asanas 608 page"]=""
+    DG.nodes[180]["asanas 608 english name"]=""
+
+    DG.add_node(181,english_name="")
+    DG.nodes[181]["two_sided"]=False
+    DG.nodes[181]["description"]=""
+    DG.nodes[181]["yogajournalurl"]=""
+    DG.nodes[181]["yogajournal_picture"]=""
+    DG.nodes[181]["hindi_name"]=""
+    DG.nodes[181]["counter asana"] = None
+    DG.nodes[181]["comment"]=""
+    DG.nodes[181]["Dharma Mittra picture URL"]=""
+    DG.nodes[181]["wikipedia"] = ""
+    DG.nodes[181]["asanas 608 page"]=""
+    DG.nodes[181]["asanas 608 english name"]=""
+
+    DG.add_node(182,english_name="")
+    DG.nodes[182]["two_sided"]=False
+    DG.nodes[182]["description"]=""
+    DG.nodes[182]["yogajournalurl"]=""
+    DG.nodes[182]["yogajournal_picture"]=""
+    DG.nodes[182]["hindi_name"]=""
+    DG.nodes[182]["counter asana"] = None
+    DG.nodes[182]["comment"]=""
+    DG.nodes[182]["Dharma Mittra picture URL"]=""
+    DG.nodes[182]["wikipedia"] = ""
+    DG.nodes[182]["asanas 608 page"]=""
+    DG.nodes[182]["asanas 608 english name"]=""
+
+    DG.add_node(183,english_name="")
+    DG.nodes[183]["two_sided"]=False
+    DG.nodes[183]["description"]=""
+    DG.nodes[183]["yogajournalurl"]=""
+    DG.nodes[183]["yogajournal_picture"]=""
+    DG.nodes[183]["hindi_name"]=""
+    DG.nodes[183]["counter asana"] = None
+    DG.nodes[183]["comment"]=""
+    DG.nodes[183]["Dharma Mittra picture URL"]=""
+    DG.nodes[183]["wikipedia"] = ""
+    DG.nodes[183]["asanas 608 page"]=""
+    DG.nodes[183]["asanas 608 english name"]=""
+
+    DG.add_node(184,english_name="")
+    DG.nodes[184]["two_sided"]=False
+    DG.nodes[184]["description"]=""
+    DG.nodes[184]["yogajournalurl"]=""
+    DG.nodes[184]["yogajournal_picture"]=""
+    DG.nodes[184]["hindi_name"]=""
+    DG.nodes[184]["counter asana"] = None
+    DG.nodes[184]["comment"]=""
+    DG.nodes[184]["Dharma Mittra picture URL"]=""
+    DG.nodes[184]["wikipedia"] = ""
+    DG.nodes[184]["asanas 608 page"]=""
+    DG.nodes[184]["asanas 608 english name"]=""
+
+    DG.add_node(185,english_name="")
+    DG.nodes[185]["two_sided"]=False
+    DG.nodes[185]["description"]=""
+    DG.nodes[185]["yogajournalurl"]=""
+    DG.nodes[185]["yogajournal_picture"]=""
+    DG.nodes[185]["hindi_name"]=""
+    DG.nodes[185]["counter asana"] = None
+    DG.nodes[185]["comment"]=""
+    DG.nodes[185]["Dharma Mittra picture URL"]=""
+    DG.nodes[185]["wikipedia"] = ""
+    DG.nodes[185]["asanas 608 page"]=""
+    DG.nodes[185]["asanas 608 english name"]=""
+
+    DG.add_node(186,english_name="")
+    DG.nodes[186]["two_sided"]=False
+    DG.nodes[186]["description"]=""
+    DG.nodes[186]["yogajournalurl"]=""
+    DG.nodes[186]["yogajournal_picture"]=""
+    DG.nodes[186]["hindi_name"]=""
+    DG.nodes[186]["counter asana"] = None
+    DG.nodes[186]["comment"]=""
+    DG.nodes[186]["Dharma Mittra picture URL"]=""
+    DG.nodes[186]["wikipedia"] = ""
+    DG.nodes[186]["asanas 608 page"]=""
+    DG.nodes[186]["asanas 608 english name"]=""
+
+    DG.add_node(187,english_name="")
+    DG.nodes[187]["two_sided"]=False
+    DG.nodes[187]["description"]=""
+    DG.nodes[187]["yogajournalurl"]=""
+    DG.nodes[187]["yogajournal_picture"]=""
+    DG.nodes[187]["hindi_name"]=""
+    DG.nodes[187]["counter asana"] = None
+    DG.nodes[187]["comment"]=""
+    DG.nodes[187]["Dharma Mittra picture URL"]=""
+    DG.nodes[187]["wikipedia"] = ""
+    DG.nodes[187]["asanas 608 page"]=""
+    DG.nodes[187]["asanas 608 english name"]=""
+
+    DG.add_node(188,english_name="")
+    DG.nodes[188]["two_sided"]=False
+    DG.nodes[188]["description"]=""
+    DG.nodes[188]["yogajournalurl"]=""
+    DG.nodes[188]["yogajournal_picture"]=""
+    DG.nodes[188]["hindi_name"]=""
+    DG.nodes[188]["counter asana"] = None
+    DG.nodes[188]["comment"]=""
+    DG.nodes[188]["Dharma Mittra picture URL"]=""
+    DG.nodes[188]["wikipedia"] = ""
+    DG.nodes[188]["asanas 608 page"]=""
+    DG.nodes[188]["asanas 608 english name"]=""
+
+    DG.add_node(189,english_name="")
+    DG.nodes[189]["two_sided"]=False
+    DG.nodes[189]["description"]=""
+    DG.nodes[189]["yogajournalurl"]=""
+    DG.nodes[189]["yogajournal_picture"]=""
+    DG.nodes[189]["hindi_name"]=""
+    DG.nodes[189]["counter asana"] = None
+    DG.nodes[189]["comment"]=""
+    DG.nodes[189]["Dharma Mittra picture URL"]=""
+    DG.nodes[189]["wikipedia"] = ""
+    DG.nodes[189]["asanas 608 page"]=""
+    DG.nodes[189]["asanas 608 english name"]=""
+
+    DG.add_node(190,english_name="")
+    DG.nodes[190]["two_sided"]=False
+    DG.nodes[190]["description"]=""
+    DG.nodes[190]["yogajournalurl"]=""
+    DG.nodes[190]["yogajournal_picture"]=""
+    DG.nodes[190]["hindi_name"]=""
+    DG.nodes[190]["counter asana"] = None
+    DG.nodes[190]["comment"]=""
+    DG.nodes[190]["Dharma Mittra picture URL"]=""
+    DG.nodes[190]["wikipedia"] = ""
+    DG.nodes[190]["asanas 608 page"]=""
+    DG.nodes[190]["asanas 608 english name"]=""
+
+    DG.add_node(191,english_name="")
+    DG.nodes[191]["two_sided"]=False
+    DG.nodes[191]["description"]=""
+    DG.nodes[191]["yogajournalurl"]=""
+    DG.nodes[191]["yogajournal_picture"]=""
+    DG.nodes[191]["hindi_name"]=""
+    DG.nodes[191]["counter asana"] = None
+    DG.nodes[191]["comment"]=""
+    DG.nodes[191]["Dharma Mittra picture URL"]=""
+    DG.nodes[191]["wikipedia"] = ""
+    DG.nodes[191]["asanas 608 page"]=""
+    DG.nodes[191]["asanas 608 english name"]=""
+
+    DG.add_node(192,english_name="")
+    DG.nodes[192]["two_sided"]=False
+    DG.nodes[192]["description"]=""
+    DG.nodes[192]["yogajournalurl"]=""
+    DG.nodes[192]["yogajournal_picture"]=""
+    DG.nodes[192]["hindi_name"]=""
+    DG.nodes[192]["counter asana"] = None
+    DG.nodes[192]["comment"]=""
+    DG.nodes[192]["Dharma Mittra picture URL"]=""
+    DG.nodes[192]["wikipedia"] = ""
+    DG.nodes[192]["asanas 608 page"]=""
+    DG.nodes[192]["asanas 608 english name"]=""
+
+    DG.add_node(193,english_name="")
+    DG.nodes[193]["two_sided"]=False
+    DG.nodes[193]["description"]=""
+    DG.nodes[193]["yogajournalurl"]=""
+    DG.nodes[193]["yogajournal_picture"]=""
+    DG.nodes[193]["hindi_name"]=""
+    DG.nodes[193]["counter asana"] = None
+    DG.nodes[193]["comment"]=""
+    DG.nodes[193]["Dharma Mittra picture URL"]=""
+    DG.nodes[193]["wikipedia"] = ""
+    DG.nodes[193]["asanas 608 page"]=""
+    DG.nodes[193]["asanas 608 english name"]=""
+
+    DG.add_node(194,english_name="")
+    DG.nodes[194]["two_sided"]=False
+    DG.nodes[194]["description"]=""
+    DG.nodes[194]["yogajournalurl"]=""
+    DG.nodes[194]["yogajournal_picture"]=""
+    DG.nodes[194]["hindi_name"]=""
+    DG.nodes[194]["counter asana"] = None
+    DG.nodes[194]["comment"]=""
+    DG.nodes[194]["Dharma Mittra picture URL"]=""
+    DG.nodes[194]["wikipedia"] = ""
+    DG.nodes[194]["asanas 608 page"]=""
+    DG.nodes[194]["asanas 608 english name"]=""
+
+    DG.add_node(195,english_name="")
+    DG.nodes[195]["two_sided"]=False
+    DG.nodes[195]["description"]=""
+    DG.nodes[195]["yogajournalurl"]=""
+    DG.nodes[195]["yogajournal_picture"]=""
+    DG.nodes[195]["hindi_name"]=""
+    DG.nodes[195]["counter asana"] = None
+    DG.nodes[195]["comment"]=""
+    DG.nodes[195]["Dharma Mittra picture URL"]=""
+    DG.nodes[195]["wikipedia"] = ""
+    DG.nodes[195]["asanas 608 page"]=""
+    DG.nodes[195]["asanas 608 english name"]=""
+
+    DG.add_node(196,english_name="")
+    DG.nodes[196]["two_sided"]=False
+    DG.nodes[196]["description"]=""
+    DG.nodes[196]["yogajournalurl"]=""
+    DG.nodes[196]["yogajournal_picture"]=""
+    DG.nodes[196]["hindi_name"]=""
+    DG.nodes[196]["counter asana"] = None
+    DG.nodes[196]["comment"]=""
+    DG.nodes[196]["Dharma Mittra picture URL"]=""
+    DG.nodes[196]["wikipedia"] = ""
+    DG.nodes[196]["asanas 608 page"]=""
+    DG.nodes[196]["asanas 608 english name"]=""
+
+    DG.add_node(197,english_name="")
+    DG.nodes[197]["two_sided"]=False
+    DG.nodes[197]["description"]=""
+    DG.nodes[197]["yogajournalurl"]=""
+    DG.nodes[197]["yogajournal_picture"]=""
+    DG.nodes[197]["hindi_name"]=""
+    DG.nodes[197]["counter asana"] = None
+    DG.nodes[197]["comment"]=""
+    DG.nodes[197]["Dharma Mittra picture URL"]=""
+    DG.nodes[197]["wikipedia"] = ""
+    DG.nodes[197]["asanas 608 page"]=""
+    DG.nodes[197]["asanas 608 english name"]=""
+
+    DG.add_node(198,english_name="")
+    DG.nodes[198]["two_sided"]=False
+    DG.nodes[198]["description"]=""
+    DG.nodes[198]["yogajournalurl"]=""
+    DG.nodes[198]["yogajournal_picture"]=""
+    DG.nodes[198]["hindi_name"]=""
+    DG.nodes[198]["counter asana"] = None
+    DG.nodes[198]["comment"]=""
+    DG.nodes[198]["Dharma Mittra picture URL"]=""
+    DG.nodes[198]["wikipedia"] = ""
+    DG.nodes[198]["asanas 608 page"]=""
+    DG.nodes[198]["asanas 608 english name"]=""
+
+    DG.add_node(199,english_name="")
+    DG.nodes[199]["two_sided"]=False
+    DG.nodes[199]["description"]=""
+    DG.nodes[199]["yogajournalurl"]=""
+    DG.nodes[199]["yogajournal_picture"]=""
+    DG.nodes[199]["hindi_name"]=""
+    DG.nodes[199]["counter asana"] = None
+    DG.nodes[199]["comment"]=""
+    DG.nodes[199]["Dharma Mittra picture URL"]=""
+    DG.nodes[199]["wikipedia"] = ""
+    DG.nodes[199]["asanas 608 page"]=""
+    DG.nodes[199]["asanas 608 english name"]=""
 
     return DG
 
