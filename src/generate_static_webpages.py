@@ -61,7 +61,10 @@ def local_images(pose_index_int: int, image_width):
 for pose_index_int in range(len(DG)):
 
     dic_for_this_node = DG.nodes(data=True)[pose_index_int]
-    print("index: " + str(pose_index_int) + "; " + dic_for_this_node["english_name"])
+    if dic_for_this_node["english_name"] == "":
+        break
+
+    print("        <LI><a href=\"site/generated_pages/" + str(pose_index_int) + ".html\">" + dic_for_this_node["english_name"]+"</a></LI>")
     with open(write_to_path + str(pose_index_int) + ".html", "w") as f:
         f.write("<HTML>\n<HEAD>\n")
         f.write('<!-- defines the default zoom for mobile devices -->\n')
@@ -110,6 +113,10 @@ for pose_index_int in range(len(DG)):
                 f.write("Two sided\n")
             else:
                 f.write("left-right symmetric<BR/>\n")
+
+        if "description" in dic_for_this_node.keys():
+            if dic_for_this_node["description"] != "":
+                f.write("<P>"+dic_for_this_node["description"]+"</P>\n")
 
         if "wikipedia" in dic_for_this_node.keys():
             if dic_for_this_node["wikipedia"] != "":

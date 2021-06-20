@@ -66,6 +66,7 @@ def pose_properties(DG):
 
     DG.add_node(1, english_name="cow")
     DG.nodes[1]["two_sided"] = False
+    DG.nodes[1]["body areas"] = []
     DG.nodes[1]["description"] = "on all fours, pull chest to floor and head up"
     DG.nodes[1]["yogajournalurl"] = "https://www.yogajournal.com/poses/types/backbends/cow-pose/"
     DG.nodes[1][
@@ -82,6 +83,7 @@ def pose_properties(DG):
 
     DG.add_node(2, english_name="cat")
     DG.nodes[2]["two_sided"] = False
+    DG.nodes[2]["body areas"] = []
     DG.nodes[2]["description"] = "on all fours, pull chest to ceiling and head down"
     DG.nodes[2]["yogajournalurl"] = "https://www.yogajournal.com/poses/cat-pose/"
     DG.nodes[2][
@@ -98,6 +100,7 @@ def pose_properties(DG):
 
     DG.add_node(3, english_name="child's pose")
     DG.nodes[3]["two_sided"] = False
+    DG.nodes[3]["body areas"] = []
     DG.nodes[3]["description"] = "arms stretched above head, face to ground. On shins"
     DG.nodes[3]["yogajournalurl"] = "https://www.yogajournal.com/poses/child-s-pose/"
     DG.nodes[3][
@@ -119,6 +122,7 @@ def pose_properties(DG):
     ] = ""
     DG.nodes[4]["hindi_name"] = "Adho Mukha Svanasana"
     DG.nodes[4]["Dharma Mittra picture URL"] = ""
+    DG.nodes[4]["body areas"] = []
     DG.nodes[4]["description"] = "feet and hands on floor, both shoulder width apart"
     DG.nodes[4]["wikipedia"] = "https://en.wikipedia.org/wiki/Downward_Dog_Pose"
     DG.nodes[4]["asanas_608_page"] = ""
@@ -126,6 +130,7 @@ def pose_properties(DG):
 
     DG.add_node(5, english_name="dolphin")
     DG.nodes[5]["two_sided"] = False
+    DG.nodes[5]["body areas"] = []
     DG.nodes[5]["description"] = "feet and forearms on floor"
     DG.nodes[5]["yogajournalurl"] = "https://www.yogajournal.com/practice/beginners/how-to/dolphin-pose/"
     DG.nodes[5][
@@ -140,6 +145,7 @@ def pose_properties(DG):
 
     DG.add_node(6, english_name="lay on stomach OR crocodile")
     DG.nodes[6]["two_sided"] = False
+    DG.nodes[6]["body areas"] = []
     DG.nodes[6]["description"] = "whole body in contact with ground, arms by side"
     DG.nodes[6]["yogajournalurl"] = ""
     DG.nodes[6]["yogajournal_picture"] = ""
@@ -152,6 +158,7 @@ def pose_properties(DG):
 
     DG.add_node(7, english_name="bow")
     DG.nodes[7]["two_sided"] = False
+    DG.nodes[7]["body areas"] = []
     DG.nodes[7]["description"] = ""
     DG.nodes[7]["yogajournalurl"] = "https://www.yogajournal.com/poses/types/backbends/bow-pose/"
     DG.nodes[7][
@@ -166,6 +173,7 @@ def pose_properties(DG):
 
     DG.add_node(8, english_name="laying on back, one leg extended up")
     DG.nodes[8]["two_sided"] = True
+    DG.nodes[8]["body areas"] = []
     DG.nodes[8]["description"] = ""
     DG.nodes[8]["yogajournalurl"] = ""
     DG.nodes[8]["yogajournal_picture"] = ""
@@ -178,6 +186,7 @@ def pose_properties(DG):
 
     DG.add_node(9, english_name="lying on back, both legs extended up")
     DG.nodes[9]["two_sided"] = False
+    DG.nodes[9]["body areas"] = []
     DG.nodes[9]["description"] = ""
     DG.nodes[9]["yogajournalurl"] = ""
     DG.nodes[9]["yogajournal_picture"] = ""
@@ -190,6 +199,7 @@ def pose_properties(DG):
 
     DG.add_node(10, english_name="supported shoulder stand")
     DG.nodes[10]["two_sided"] = False
+    DG.nodes[10]["body areas"] = []
     DG.nodes[10]["description"] = ""
     DG.nodes[10]["yogajournalurl"] = "https://www.yogajournal.com/poses/supported-shoulderstand/"
     DG.nodes[10]["yogajournal_picture"] = "https://www.yogajournal.com/wp-content/uploads/2007/08/2anatomy_284_05_fnl.jpg?crop=535:301&width=1070&enable=upscale"
@@ -202,6 +212,7 @@ def pose_properties(DG):
 
     DG.add_node(11, english_name="plow pose")
     DG.nodes[11]["two_sided"] = False
+    DG.nodes[11]["body areas"] = []
     DG.nodes[11]["description"] = ""
     DG.nodes[11]["yogajournalurl"] = "https://www.yogajournal.com/poses/types/inversions/plow-pose/"
     DG.nodes[11][
@@ -216,6 +227,7 @@ def pose_properties(DG):
 
     DG.add_node(12, english_name="ear pressure pose")
     DG.nodes[12]["two_sided"] = False
+    DG.nodes[12]["body areas"] = []
     DG.nodes[12]["description"] = ""
     DG.nodes[12]["yogajournalurl"] = ""
     DG.nodes[12]["yogajournal_picture"] = ""
@@ -228,6 +240,7 @@ def pose_properties(DG):
 
     DG.add_node(13, english_name="high plank")
     DG.nodes[13]["two_sided"] = False
+    DG.nodes[13]["body areas"] = []
     DG.nodes[13]["description"] = ""
     DG.nodes[13]["yogajournalurl"] = "https://www.yogajournal.com/poses/types/strength/plank-pose/"
     DG.nodes[13][
@@ -243,10 +256,11 @@ def pose_properties(DG):
 
     DG.add_node(14, english_name="wild thing")
     DG.nodes[14]["two_sided"] = True
+    DG.nodes[14]["body areas"] = []
     DG.nodes[14]["description"] = ""
-    DG.nodes[14]["yogajournalurl"] = ""
-    DG.nodes[14]["yogajournal_picture"] = ""
-    DG.nodes[14]["hindi_name"] = ""
+    DG.nodes[14]["yogajournalurl"] = "https://www.yogajournal.com/poses/wild-thing/"
+    DG.nodes[14]["yogajournal_picture"] = "https://www.yogajournal.com/wp-content/uploads/2009/08/2yp_283_0205_fnl.jpg?crop=535:301&width=1070&enable=upscale"
+    DG.nodes[14]["hindi_name"] = "Camatkarasana"
     DG.nodes[14]["comment"] = ""
     DG.nodes[14]["Dharma Mittra picture URL"] = ""
     DG.nodes[14]["wikipedia"] = ""
@@ -256,6 +270,7 @@ def pose_properties(DG):
     DG.add_node(15, english_name="low plank")
     DG.nodes[15]["two_sided"] = False
     DG.nodes[15]["hindi_name"] = "chaturanga"
+    DG.nodes[15]["body areas"] = []
     DG.nodes[15]["description"] = ""
     DG.nodes[15][
         "yogajournalurl"
@@ -271,6 +286,7 @@ def pose_properties(DG):
 
     DG.add_node(16, english_name="side plank, straight arm support, straight legs")
     DG.nodes[16]["two_sided"] = True
+    DG.nodes[16]["body areas"] = []
     DG.nodes[16]["description"] = ""
     DG.nodes[16]["yogajournalurl"] = "https://www.yogajournal.com/poses/side-plank-pose/"
     DG.nodes[16][
@@ -285,6 +301,7 @@ def pose_properties(DG):
 
     DG.add_node(17, english_name="standing bend, legs together")
     DG.nodes[17]["two_sided"] = False
+    DG.nodes[17]["body areas"] = []
     DG.nodes[17]["description"] = "legs together, face to knees"
     DG.nodes[17]["yogajournalurl"] = ""
     DG.nodes[17]["yogajournal_picture"] = ""
@@ -297,6 +314,7 @@ def pose_properties(DG):
 
     DG.add_node(18, english_name="down dog, one leg raised")
     DG.nodes[18]["two_sided"] = True
+    DG.nodes[18]["body areas"] = []
     DG.nodes[18]["description"] = ""
     DG.nodes[18][
         "yogajournalurl"
@@ -313,6 +331,7 @@ def pose_properties(DG):
 
     DG.add_node(19, english_name="flipped dog")
     DG.nodes[19]["two_sided"] = True
+    DG.nodes[19]["body areas"] = []
     DG.nodes[19]["description"] = ""
     DG.nodes[19]["yogajournalurl"] = ""
     DG.nodes[19]["yogajournal_picture"] = ""
@@ -330,6 +349,7 @@ def pose_properties(DG):
         "yogajournal_picture"
     ] = ""
     DG.nodes[20]["hindi_name"] = "Tadasana"
+    DG.nodes[20]["body areas"] = []
     DG.nodes[20]["description"] = "legs together, hands at side"
     DG.nodes[20]["comment"] = ""
     DG.nodes[20]["Dharma Mittra picture URL"] = ""
@@ -339,6 +359,7 @@ def pose_properties(DG):
 
     DG.add_node(21, english_name="happy camper")
     DG.nodes[21]["two_sided"] = True
+    DG.nodes[21]["body areas"] = []
     DG.nodes[21]["description"] = ""
     DG.nodes[21]["yogajournalurl"] = ""
     DG.nodes[21]["yogajournal_picture"] = ""
@@ -351,6 +372,7 @@ def pose_properties(DG):
 
     DG.add_node(22, english_name="tree pose")
     DG.nodes[22]["two_sided"] = True
+    DG.nodes[22]["body areas"] = ["foot balance"]
     DG.nodes[22]["description"] = "arms up and straight, one leg bent with foot to thigh"
     DG.nodes[22]["yogajournalurl"] = "http://www.yogajournal.com/poses/496"
     DG.nodes[22][
@@ -365,6 +387,7 @@ def pose_properties(DG):
 
     DG.add_node(23, english_name="warrior 3")
     DG.nodes[23]["two_sided"] = True
+    DG.nodes[23]["body areas"] = []
     DG.nodes[23]["description"] = "bent forward on one leg, arms extended forward"
     DG.nodes[23]["yogajournalurl"] = "http://www.yogajournal.com/poses/941"
     DG.nodes[23]["hindi_name"] = "Virabhadrasana III"
@@ -379,6 +402,7 @@ def pose_properties(DG):
 
     DG.add_node(24, english_name="warrior 1")
     DG.nodes[24]["two_sided"] = True
+    DG.nodes[24]["body areas"] = []
     DG.nodes[24]["description"] = "arms up"
     DG.nodes[24]["yogajournalurl"] = "https://www.yogajournal.com/poses/warrior-i-pose/"
     DG.nodes[24]["yogajournal_picture"] = "https://www.yogajournal.com/wp-content/uploads/2017/04/warrior-i-carrie-owerko.jpg?crop=535:301&width=1070&enable=upscale"
@@ -391,6 +415,7 @@ def pose_properties(DG):
 
     DG.add_node(25, english_name="dancer pose")
     DG.nodes[25]["two_sided"] = True
+    DG.nodes[25]["body areas"] = []
     DG.nodes[25]["description"] = ""
     DG.nodes[25]["yogajournalurl"] = ""
     DG.nodes[25]["yogajournal_picture"] = ""
@@ -401,8 +426,9 @@ def pose_properties(DG):
     DG.nodes[25]["asanas 608 page"] = ""
     DG.nodes[25]["asanas 608 english name"] = ""
 
-    DG.add_node(26, english_name="standing splits")
+    DG.add_node(26, english_name="standing splits, inverted")
     DG.nodes[26]["two_sided"] = True
+    DG.nodes[26]["body areas"] = ["foot balance"]
     DG.nodes[26]["description"] = ""
     DG.nodes[26]["yogajournalurl"] = ""
     DG.nodes[26]["yogajournal_picture"] = ""
@@ -415,6 +441,7 @@ def pose_properties(DG):
 
     DG.add_node(27, english_name="chair pose")
     DG.nodes[27]["two_sided"] = False
+    DG.nodes[27]["body areas"] = []
     DG.nodes[27]["description"] = ""
     DG.nodes[27]["yogajournalurl"] = "http://www.yogajournal.com/poses/493"
     DG.nodes[27][
@@ -429,6 +456,7 @@ def pose_properties(DG):
 
     DG.add_node(28, english_name="wheel")
     DG.nodes[28]["two_sided"] = False
+    DG.nodes[28]["body areas"] = []
     DG.nodes[28]["description"] = ""
     DG.nodes[28]["yogajournalurl"] = ""
     DG.nodes[28][
@@ -445,6 +473,7 @@ def pose_properties(DG):
 
     DG.add_node(29, english_name="warrior 2")
     DG.nodes[29]["two_sided"] = True
+    DG.nodes[29]["body areas"] = []
     DG.nodes[29]["description"] = "arms out"
     DG.nodes[29]["yogajournalurl"] = "https://www.yogajournal.com/poses/warrior-ii-pose/"
     DG.nodes[29][
@@ -459,6 +488,7 @@ def pose_properties(DG):
 
     DG.add_node(30, english_name="peaceful warrior")
     DG.nodes[30]["two_sided"] = True
+    DG.nodes[30]["body areas"] = []
     DG.nodes[30]["description"] = ""
     DG.nodes[30]["yogajournalurl"] = ""
     DG.nodes[30]["yogajournal_picture"] = ""
@@ -471,6 +501,7 @@ def pose_properties(DG):
 
     DG.add_node(31, english_name="corpse pose")
     DG.nodes[31]["two_sided"] = False
+    DG.nodes[31]["body areas"] = []
     DG.nodes[31]["description"] = "laying on back"
     DG.nodes[31]["yogajournalurl"] = "https://www.yogajournal.com/practice/beginners/corpse-pose/"
     DG.nodes[31][
@@ -485,6 +516,7 @@ def pose_properties(DG):
 
     DG.add_node(32, english_name="happy baby, rock side to side")
     DG.nodes[32]["two_sided"] = False
+    DG.nodes[32]["body areas"] = []
     DG.nodes[32]["description"] = "on back, feet up"
     DG.nodes[32]["yogajournalurl"] = "http://www.yogajournal.com/poses/2497"
     DG.nodes[32][
@@ -499,6 +531,7 @@ def pose_properties(DG):
 
     DG.add_node(33, english_name="on back, knees bent, feet on ground")
     DG.nodes[33]["two_sided"] = False
+    DG.nodes[33]["body areas"] = []
     DG.nodes[33]["description"] = ""
     DG.nodes[33]["yogajournalurl"] = ""
     DG.nodes[33]["yogajournal_picture"] = ""
@@ -511,6 +544,7 @@ def pose_properties(DG):
 
     DG.add_node(34, english_name="on back, knees bent, feet in air")
     DG.nodes[34]["two_sided"] = False
+    DG.nodes[34]["body areas"] = []
     DG.nodes[34]["description"] = ""
     DG.nodes[34]["yogajournalurl"] = ""
     DG.nodes[34]["yogajournal_picture"] = ""
@@ -523,6 +557,7 @@ def pose_properties(DG):
 
     DG.add_node(35, english_name="knees to one side, head to other")
     DG.nodes[35]["two_sided"] = True
+    DG.nodes[35]["body areas"] = []
     DG.nodes[35]["description"] = ""
     DG.nodes[35]["yogajournalurl"] = ""
     DG.nodes[35]["yogajournal_picture"] = ""
@@ -535,6 +570,7 @@ def pose_properties(DG):
 
     DG.add_node(36, english_name="seated forward fold with straight legs")
     DG.nodes[36]["two_sided"] = False
+    DG.nodes[36]["body areas"] = []
     DG.nodes[36]["description"] = ""
     DG.nodes[36]["yogajournalurl"] = ""
     DG.nodes[36]["yogajournal_picture"] = ""
@@ -547,6 +583,7 @@ def pose_properties(DG):
 
     DG.add_node(37, english_name="pigeon pose")
     DG.nodes[37]["two_sided"] = True
+    DG.nodes[37]["body areas"] = []
     DG.nodes[37]["description"] = ""
     DG.nodes[37]["yogajournalurl"] = ""
     DG.nodes[37]["yogajournal_picture"] = ""
@@ -559,6 +596,7 @@ def pose_properties(DG):
 
     DG.add_node(38, english_name="one leg straight, one leg in")
     DG.nodes[38]["two_sided"] = True
+    DG.nodes[38]["body areas"] = []
     DG.nodes[38]["description"] = ""
     DG.nodes[38]["yogajournalurl"] = ""
     DG.nodes[38]["yogajournal_picture"] = ""
@@ -571,6 +609,7 @@ def pose_properties(DG):
 
     DG.add_node(39, english_name="compass pose")
     DG.nodes[39]["two_sided"] = True
+    DG.nodes[39]["body areas"] = []
     DG.nodes[39]["description"] = ""
     DG.nodes[39]["yogajournalurl"] = ""
     DG.nodes[39]["yogajournal_picture"] = ""
@@ -583,6 +622,7 @@ def pose_properties(DG):
 
     DG.add_node(40, english_name="rock bent leg")
     DG.nodes[40]["two_sided"] = True
+    DG.nodes[40]["body areas"] = []
     DG.nodes[40]["description"] = ""
     DG.nodes[40]["yogajournalurl"] = ""
     DG.nodes[40]["yogajournal_picture"] = ""
@@ -595,6 +635,7 @@ def pose_properties(DG):
 
     DG.add_node(41, english_name="kneeling on shins OR thunderbolt OR Diamond")
     DG.nodes[41]["two_sided"] = False
+    DG.nodes[41]["body areas"] = []
     DG.nodes[41]["description"] = ""
     DG.nodes[41]["yogajournalurl"] = ""
     DG.nodes[41]["yogajournal_picture"] = ""
@@ -607,6 +648,7 @@ def pose_properties(DG):
 
     DG.add_node(42, english_name="standing on shins")
     DG.nodes[42]["two_sided"] = False
+    DG.nodes[42]["body areas"] = []
     DG.nodes[42]["description"] = ""
     DG.nodes[42]["yogajournalurl"] = ""
     DG.nodes[42]["yogajournal_picture"] = ""
@@ -619,6 +661,7 @@ def pose_properties(DG):
 
     DG.add_node(43, english_name="camel pose")
     DG.nodes[43]["two_sided"] = False
+    DG.nodes[43]["body areas"] = []
     DG.nodes[43]["description"] = ""
     DG.nodes[43]["yogajournalurl"] = "http://www.yogajournal.com/poses/types/backbends/camel-pose/"
     DG.nodes[43][
@@ -633,6 +676,7 @@ def pose_properties(DG):
 
     DG.add_node(44, english_name="crow")
     DG.nodes[44]["two_sided"] = False
+    DG.nodes[44]["body areas"] = []
     DG.nodes[44]["description"] = ""
     DG.nodes[44]["yogajournalurl"] = ""
     DG.nodes[44][
@@ -647,6 +691,7 @@ def pose_properties(DG):
 
     DG.add_node(45, english_name="squat, knees wide OR garland")
     DG.nodes[45]["two_sided"] = False
+    DG.nodes[45]["body areas"] = []
     DG.nodes[45]["description"] = ""
     DG.nodes[45]["yogajournalurl"] = "https://www.yogajournal.com/poses/types/standing/garland-pose/"
     DG.nodes[45]["yogajournal_picture"] = ""
@@ -659,6 +704,7 @@ def pose_properties(DG):
 
     DG.add_node(46, english_name="standing, legs apart")
     DG.nodes[46]["two_sided"] = False
+    DG.nodes[46]["body areas"] = []
     DG.nodes[46]["description"] = ""
     DG.nodes[46]["yogajournalurl"] = ""
     DG.nodes[46]["yogajournal_picture"] = ""
@@ -671,6 +717,7 @@ def pose_properties(DG):
 
     DG.add_node(47, english_name="upward dog")
     DG.nodes[47]["two_sided"] = False
+    DG.nodes[47]["body areas"] = []
     DG.nodes[47]["description"] = ""
     DG.nodes[47]["yogajournalurl"] = ""
     DG.nodes[47][
@@ -687,6 +734,7 @@ def pose_properties(DG):
 
     DG.add_node(48, english_name="seated with one leg straight forward one knee bent on ground")
     DG.nodes[48]["two_sided"] = True
+    DG.nodes[48]["body areas"] = []
     DG.nodes[48]["description"] = ""
     DG.nodes[48]["yogajournalurl"] = ""
     DG.nodes[48]["yogajournal_picture"] = ""
@@ -699,6 +747,7 @@ def pose_properties(DG):
 
     DG.add_node(49, english_name="half lotus OR accomplished")
     DG.nodes[49]["two_sided"] = True
+    DG.nodes[49]["body areas"] = []
     DG.nodes[49]["description"] = ""
     DG.nodes[49]["yogajournalurl"] = "https://www.yogajournal.com/poses/fire-log-pose/"
     DG.nodes[49][
@@ -713,8 +762,9 @@ def pose_properties(DG):
     DG.nodes[49]["asanas_608_page"] = "624"
     DG.nodes[49]["asanas_608_english"] = "accomplished pose"
 
-    DG.add_node(50, english_name="full lotus")
+    DG.add_node(50, english_name="seated full lotus")
     DG.nodes[50]["two_sided"] = True
+    DG.nodes[50]["body areas"] = []
     DG.nodes[50]["description"] = ""
     DG.nodes[50]["yogajournalurl"] = "https://www.yogajournal.com/poses/types/seated-twists/lotus-pose/"
     DG.nodes[50][
@@ -729,6 +779,7 @@ def pose_properties(DG):
 
     DG.add_node(51, english_name="embryo pose")
     DG.nodes[51]["two_sided"] = True
+    DG.nodes[51]["body areas"] = []
     DG.nodes[51]["description"] = ""
     DG.nodes[51]["yogajournalurl"] = ""
     DG.nodes[51]["yogajournal_picture"] = ""
@@ -741,6 +792,7 @@ def pose_properties(DG):
 
     DG.add_node(52, english_name="flying lotus OR Lotus peacock")
     DG.nodes[52]["two_sided"] = True
+    DG.nodes[52]["body areas"] = []
     DG.nodes[52]["description"] = "only hands on ground"
     DG.nodes[52]["yogajournalurl"] = ""
     DG.nodes[52]["yogajournal_picture"] = ""
@@ -753,6 +805,7 @@ def pose_properties(DG):
 
     DG.add_node(53, english_name="floating staff pose")
     DG.nodes[53]["two_sided"] = False
+    DG.nodes[53]["body areas"] = []
     DG.nodes[53]["description"] = ""
     DG.nodes[53]["yogajournalurl"] = ""
     DG.nodes[53]["yogajournal_picture"] = ""
@@ -765,6 +818,7 @@ def pose_properties(DG):
 
     DG.add_node(54, english_name="crane")
     DG.nodes[54]["two_sided"] = False
+    DG.nodes[54]["body areas"] = []
     DG.nodes[54]["description"] = ""
     DG.nodes[54]["yogajournalurl"] = "https://www.yogajournal.com/poses/types/crane-pose/"
     DG.nodes[54]["yogajournal_picture"] = "https://www.yogajournal.com/wp-content/uploads/2007/08/editcrowhp_292_9_bjk.jpg?crop=535:301&width=1070&enable=upscale"
@@ -777,6 +831,7 @@ def pose_properties(DG):
 
     DG.add_node(55, english_name="one-legged crane")
     DG.nodes[55]["two_sided"] = True
+    DG.nodes[55]["body areas"] = []
     DG.nodes[55]["description"] = ""
     DG.nodes[55]["yogajournalurl"] = ""
     DG.nodes[55]["yogajournal_picture"] = ""
@@ -789,6 +844,7 @@ def pose_properties(DG):
 
     DG.add_node(56, english_name="standing wide legs, feet parallel, torso upright")
     DG.nodes[56]["two_sided"] = False
+    DG.nodes[56]["body areas"] = []
     DG.nodes[56]["description"] = ""
     DG.nodes[56]["yogajournalurl"] = ""
     DG.nodes[56]["yogajournal_picture"] = ""
@@ -801,6 +857,7 @@ def pose_properties(DG):
 
     DG.add_node(57, english_name="standing wide legs, torso bent over, parallel feet")
     DG.nodes[57]["two_sided"] = False
+    DG.nodes[57]["body areas"] = []
     DG.nodes[57]["description"] = ""
     DG.nodes[57]["yogajournalurl"] = "https://www.yogajournal.com/poses/wide-legged-forward-bend/"
     DG.nodes[57]["yogajournal_picture"] = "https://www.yogajournal.com/wp-content/uploads/2007/08/3hp_289_6573_bjk.jpg?crop=535:301&width=1070&enable=upscale"
@@ -815,6 +872,7 @@ def pose_properties(DG):
         58, english_name="tripod head stand, legs extended straight up, arms at 90deg"
     )
     DG.nodes[58]["two_sided"] = False
+    DG.nodes[58]["body areas"] = []
     DG.nodes[58]["description"] = "arms at 90deg"
     DG.nodes[58]["yogajournalurl"] = ""
     DG.nodes[58]["yogajournal_picture"] = ""
@@ -827,6 +885,7 @@ def pose_properties(DG):
 
     DG.add_node(59, english_name="arms to side")
     DG.nodes[59]["two_sided"] = True
+    DG.nodes[59]["body areas"] = []
     DG.nodes[59]["description"] = ""
     DG.nodes[59]["yogajournalurl"] = ""
     DG.nodes[59]["yogajournal_picture"] = ""
@@ -842,6 +901,7 @@ def pose_properties(DG):
         english_name="both legs straight, front foot point forward, back foot flat at 45deg",
     )
     DG.nodes[60]["two_sided"] = True
+    DG.nodes[60]["body areas"] = []
     DG.nodes[60]["description"] = ""
     DG.nodes[60]["yogajournalurl"] = ""
     DG.nodes[60]["yogajournal_picture"] = ""
@@ -854,6 +914,7 @@ def pose_properties(DG):
 
     DG.add_node(61, english_name="standing hinged forward at hips")
     DG.nodes[61]["two_sided"] = True
+    DG.nodes[61]["body areas"] = []
     DG.nodes[61]["description"] = ""
     DG.nodes[61]["yogajournalurl"] = ""
     DG.nodes[61]["yogajournal_picture"] = ""
@@ -868,6 +929,7 @@ def pose_properties(DG):
     DG.add_node(62, english_name="revolved triangle pose")
     DG.nodes[62]["hindi_name"] = "Parivrtta Trikonasana"
     DG.nodes[62]["two_sided"] = True
+    DG.nodes[62]["body areas"] = []
     DG.nodes[62]["description"] = ""
     DG.nodes[62]["yogajournalurl"] = "https://www.yogajournal.com/poses/revolved-triangle-pose-2/"
     DG.nodes[62]["yogajournal_picture"] = "https://www.yogajournal.com/wp-content/uploads/2007/08/revolved-triangle-pose.jpg?crop=535:301&width=1070&enable=upscale"
@@ -887,12 +949,14 @@ def pose_properties(DG):
     DG.nodes[63]["comment"] = ""
     DG.nodes[63]["Dharma Mittra picture URL"] = ""
     DG.nodes[63]["wikipedia"] = "https://en.wikipedia.org/wiki/Utthita_Parsvakonasana"
+    DG.nodes[63]["body areas"] = []
     DG.nodes[63]["description"] = ""
     DG.nodes[63]["asanas_608_page"] = ""
     DG.nodes[63]["asanas_608_english"] = ""
 
     DG.add_node(64, english_name="bind")
     DG.nodes[64]["two_sided"] = True
+    DG.nodes[64]["body areas"] = []
     DG.nodes[64]["description"] = ""
     DG.nodes[64]["yogajournalurl"] = ""
     DG.nodes[64]["yogajournal_picture"] = ""
@@ -905,6 +969,7 @@ def pose_properties(DG):
 
     DG.add_node(65, english_name="bird of paradise")
     DG.nodes[65]["two_sided"] = True
+    DG.nodes[65]["body areas"] = []
     DG.nodes[65]["description"] = ""
     DG.nodes[65]["yogajournalurl"] = ""
     DG.nodes[65]["yogajournal_picture"] = ""
@@ -917,6 +982,7 @@ def pose_properties(DG):
 
     DG.add_node(66, english_name="funky bird of paradise")
     DG.nodes[66]["two_sided"] = True
+    DG.nodes[66]["body areas"] = []
     DG.nodes[66]["description"] = ""
     DG.nodes[66]["yogajournalurl"] = ""
     DG.nodes[66]["yogajournal_picture"] = ""
@@ -929,6 +995,7 @@ def pose_properties(DG):
 
     DG.add_node(67, english_name="standing bend bound twist")
     DG.nodes[67]["two_sided"] = True
+    DG.nodes[67]["body areas"] = []
     DG.nodes[67]["description"] = ""
     DG.nodes[67]["yogajournalurl"] = ""
     DG.nodes[67]["yogajournal_picture"] = ""
@@ -941,6 +1008,7 @@ def pose_properties(DG):
 
     DG.add_node(68, english_name="standing bend, legs apart")
     DG.nodes[68]["two_sided"] = False
+    DG.nodes[68]["body areas"] = []
     DG.nodes[68]["description"] = ""
     DG.nodes[68]["yogajournalurl"] = ""
     DG.nodes[68]["yogajournal_picture"] = ""
@@ -953,6 +1021,7 @@ def pose_properties(DG):
 
     DG.add_node(69, english_name="tripod head stand, legs bent, arms at 90deg")
     DG.nodes[69]["two_sided"] = False
+    DG.nodes[69]["body areas"] = []
     DG.nodes[69]["description"] = "arms at 90deg"
     DG.nodes[69]["yogajournalurl"] = ""
     DG.nodes[69]["yogajournal_picture"] = ""
@@ -965,6 +1034,7 @@ def pose_properties(DG):
 
     DG.add_node(70, english_name="floating elephant trunk; one leg over arm")
     DG.nodes[70]["two_sided"] = True
+    DG.nodes[70]["body areas"] = []
     DG.nodes[70]["description"] = ""
     DG.nodes[70]["yogajournalurl"] = ""
     DG.nodes[70]["yogajournal_picture"] = ""
@@ -977,6 +1047,7 @@ def pose_properties(DG):
 
     DG.add_node(71, english_name="eight angle pose")
     DG.nodes[71]["two_sided"] = True
+    DG.nodes[71]["body areas"] = []
     DG.nodes[71]["description"] = ""
     DG.nodes[71]["yogajournalurl"] = ""
     DG.nodes[71]["yogajournal_picture"] = ""
@@ -987,9 +1058,10 @@ def pose_properties(DG):
     DG.nodes[71]["asanas 608 page"] = ""
     DG.nodes[71]["asanas 608 english name"] = ""
 
-    DG.add_node(72, english_name="flying pigeon")
+    DG.add_node(72, english_name="flying pigeon, leg extended")
     DG.nodes[72]["two_sided"] = True
-    DG.nodes[72]["description"] = "shin on back triceps"
+    DG.nodes[72]["body areas"] = []
+    DG.nodes[72]["description"] = "hand balance; shin or knee on back triceps"
     DG.nodes[72]["yogajournalurl"] = ""
     DG.nodes[72]["yogajournal_picture"] = ""
     DG.nodes[72]["hindi_name"] = ""
@@ -1001,6 +1073,7 @@ def pose_properties(DG):
 
     DG.add_node(73, english_name="peddle feet")
     DG.nodes[73]["two_sided"] = True
+    DG.nodes[73]["body areas"] = []
     DG.nodes[73]["description"] = ""
     DG.nodes[73]["yogajournalurl"] = ""
     DG.nodes[73]["yogajournal_picture"] = ""
@@ -1013,6 +1086,7 @@ def pose_properties(DG):
 
     DG.add_node(74, english_name="tripod head stand, legs extended out, arms at 90deg")
     DG.nodes[74]["two_sided"] = False
+    DG.nodes[74]["body areas"] = []
     DG.nodes[74]["description"] = "arms at 90deg"
     DG.nodes[74]["yogajournalurl"] = ""
     DG.nodes[74]["yogajournal_picture"] = ""
@@ -1025,6 +1099,7 @@ def pose_properties(DG):
 
     DG.add_node(75, english_name="no-handed head stand")
     DG.nodes[75]["two_sided"] = False
+    DG.nodes[75]["body areas"] = []
     DG.nodes[75]["description"] = ""
     DG.nodes[75]["yogajournalurl"] = ""
     DG.nodes[75]["yogajournal_picture"] = ""
@@ -1037,6 +1112,7 @@ def pose_properties(DG):
 
     DG.add_node(76, english_name="inverted tripod")
     DG.nodes[76]["two_sided"] = False
+    DG.nodes[76]["body areas"] = []
     DG.nodes[76]["description"] = ""
     DG.nodes[76]["yogajournalurl"] = ""
     DG.nodes[76]["yogajournal_picture"] = ""
@@ -1049,6 +1125,7 @@ def pose_properties(DG):
 
     DG.add_node(77, english_name="seated wide-leg, back perpendicular to floor")
     DG.nodes[77]["two_sided"] = False
+    DG.nodes[77]["body areas"] = []
     DG.nodes[77]["description"] = ""
     DG.nodes[77]["yogajournalurl"] = ""
     DG.nodes[77]["yogajournal_picture"] = ""
@@ -1061,6 +1138,7 @@ def pose_properties(DG):
 
     DG.add_node(78, english_name="seated wide-leg, floating")
     DG.nodes[78]["two_sided"] = False
+    DG.nodes[78]["body areas"] = []
     DG.nodes[78]["description"] = "only hands are in contact with floor"
     DG.nodes[78]["yogajournalurl"] = ""
     DG.nodes[78]["yogajournal_picture"] = ""
@@ -1073,6 +1151,7 @@ def pose_properties(DG):
 
     DG.add_node(79, english_name="seated wide-leg, flying")
     DG.nodes[79]["two_sided"] = False
+    DG.nodes[79]["body areas"] = []
     DG.nodes[79]["description"] = ""
     DG.nodes[79]["yogajournalurl"] = ""
     DG.nodes[79]["yogajournal_picture"] = ""
@@ -1085,6 +1164,7 @@ def pose_properties(DG):
 
     DG.add_node(80, english_name="all fours, one arm extended")
     DG.nodes[80]["two_sided"] = True
+    DG.nodes[80]["body areas"] = []
     DG.nodes[80]["description"] = ""
     DG.nodes[80]["yogajournalurl"] = ""
     DG.nodes[80]["yogajournal_picture"] = ""
@@ -1097,6 +1177,7 @@ def pose_properties(DG):
 
     DG.add_node(81, english_name="all fours, one leg extended")
     DG.nodes[81]["two_sided"] = True
+    DG.nodes[81]["body areas"] = []
     DG.nodes[81]["description"] = ""
     DG.nodes[81]["yogajournalurl"] = ""
     DG.nodes[81]["yogajournal_picture"] = ""
@@ -1109,6 +1190,7 @@ def pose_properties(DG):
 
     DG.add_node(82, english_name="all fours, one arm extended, oppposite leg extended")
     DG.nodes[82]["two_sided"] = True
+    DG.nodes[82]["body areas"] = []
     DG.nodes[82]["description"] = ""
     DG.nodes[82]["yogajournalurl"] = ""
     DG.nodes[82]["yogajournal_picture"] = ""
@@ -1121,6 +1203,7 @@ def pose_properties(DG):
 
     DG.add_node(83, english_name="all fours, one arm extended, same side leg extended")
     DG.nodes[83]["two_sided"] = True
+    DG.nodes[83]["body areas"] = []
     DG.nodes[83]["description"] = ""
     DG.nodes[83]["yogajournalurl"] = ""
     DG.nodes[83]["yogajournal_picture"] = ""
@@ -1133,6 +1216,7 @@ def pose_properties(DG):
 
     DG.add_node(84, english_name="all fours, hips to one side")
     DG.nodes[84]["two_sided"] = True
+    DG.nodes[84]["body areas"] = []
     DG.nodes[84]["description"] = ""
     DG.nodes[84]["yogajournalurl"] = ""
     DG.nodes[84]["yogajournal_picture"] = ""
@@ -1145,6 +1229,7 @@ def pose_properties(DG):
 
     DG.add_node(85, english_name="forearm plank")
     DG.nodes[85]["two_sided"] = False
+    DG.nodes[85]["body areas"] = []
     DG.nodes[85]["description"] = ""
     DG.nodes[85]["yogajournalurl"] = ""
     DG.nodes[85]["yogajournal_picture"] = ""
@@ -1157,6 +1242,7 @@ def pose_properties(DG):
 
     DG.add_node(86, english_name="tripod head stand, legs bent, arms straight")
     DG.nodes[86]["two_sided"] = False
+    DG.nodes[86]["body areas"] = []
     DG.nodes[86]["description"] = ""
     DG.nodes[86]["yogajournalurl"] = ""
     DG.nodes[86]["yogajournal_picture"] = ""
@@ -1169,6 +1255,7 @@ def pose_properties(DG):
 
     DG.add_node(87, english_name="standing back bend")
     DG.nodes[87]["two_sided"] = False
+    DG.nodes[87]["body areas"] = []
     DG.nodes[87]["description"] = "feet together"
     DG.nodes[87]["yogajournalurl"] = ""
     DG.nodes[87]["yogajournal_picture"] = ""
@@ -1181,6 +1268,7 @@ def pose_properties(DG):
 
     DG.add_node(88, english_name="scorpion")
     DG.nodes[88]["two_sided"] = False
+    DG.nodes[88]["body areas"] = []
     DG.nodes[88]["description"] = ""
     DG.nodes[88]["yogajournalurl"] = ""
     DG.nodes[88]["yogajournal_picture"] = ""
@@ -1193,6 +1281,7 @@ def pose_properties(DG):
 
     DG.add_node(89, english_name="bird of paradise, bent forward, leg to side")
     DG.nodes[89]["two_sided"] = False
+    DG.nodes[89]["body areas"] = []
     DG.nodes[89]["description"] = ""
     DG.nodes[89]["yogajournalurl"] = ""
     DG.nodes[89]["yogajournal_picture"] = ""
@@ -1205,6 +1294,7 @@ def pose_properties(DG):
 
     DG.add_node(90, english_name="tripod head stand, legs straight, arms straight")
     DG.nodes[90]["two_sided"] = False
+    DG.nodes[90]["body areas"] = []
     DG.nodes[90]["description"] = ""
     DG.nodes[90]["yogajournalurl"] = ""
     DG.nodes[90]["yogajournal_picture"] = ""
@@ -1217,6 +1307,7 @@ def pose_properties(DG):
 
     DG.add_node(91, english_name="butterfly OR cobbler")
     DG.nodes[91]["two_sided"] = False
+    DG.nodes[91]["body areas"] = []
     DG.nodes[91]["description"] = ""
     DG.nodes[91]["yogajournalurl"] = "https://www.yogajournal.com/poses/types/seated-twists/bound-angle-pose-2/"
     DG.nodes[91]["yogajournal_picture"] = "https://www.yogajournal.com/wp-content/uploads/2007/08/bound-angle-pose-baddha-konasana.jpg?crop=535:301&width=1070&enable=upscale"
@@ -1229,6 +1320,7 @@ def pose_properties(DG):
 
     DG.add_node(92, english_name="hurdler")
     DG.nodes[92]["two_sided"] = False
+    DG.nodes[92]["body areas"] = []
     DG.nodes[92]["description"] = ""
     DG.nodes[92]["yogajournalurl"] = ""
     DG.nodes[92]["yogajournal_picture"] = ""
@@ -1241,6 +1333,7 @@ def pose_properties(DG):
 
     DG.add_node(93, english_name="bridge")
     DG.nodes[93]["two_sided"] = False
+    DG.nodes[93]["body areas"] = []
     DG.nodes[93]["description"] = ""
     DG.nodes[93]["yogajournalurl"] = "https://www.yogajournal.com/poses/bridge-pose/"
     DG.nodes[93][
@@ -1255,6 +1348,7 @@ def pose_properties(DG):
 
     DG.add_node(94, english_name="standing eagle")
     DG.nodes[94]["two_sided"] = False
+    DG.nodes[94]["body areas"] = []
     DG.nodes[94]["description"] = ""
     DG.nodes[94]["yogajournalurl"] = "http://www.yogajournal.com/poses/eagle-pose/"
     DG.nodes[94][
@@ -1269,6 +1363,7 @@ def pose_properties(DG):
 
     DG.add_node(95, english_name="seated forward fold")
     DG.nodes[95]["two_sided"] = False
+    DG.nodes[95]["body areas"] = []
     DG.nodes[95]["description"] = ""
     DG.nodes[95][
         "yogajournalurl"
@@ -1285,6 +1380,7 @@ def pose_properties(DG):
 
     DG.add_node(96,english_name="extended puppy pose")
     DG.nodes[96]["two_sided"]=False
+    DG.nodes[96]["body areas"] = []
     DG.nodes[96]["description"]=""
     DG.nodes[96]["yogajournalurl"]="https://www.yogajournal.com/poses/extended-puppy-pose/"
     DG.nodes[96]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/3yp_287_6641_gn_bjk.jpg"
@@ -1297,6 +1393,7 @@ def pose_properties(DG):
 
     DG.add_node(97,english_name="boat")
     DG.nodes[97]["two_sided"]=False
+    DG.nodes[97]["body areas"] = []
     DG.nodes[97]["description"]=""
     DG.nodes[97]["yogajournalurl"]="https://www.yogajournal.com/poses/types/core/full-boat-pose-2/"
     DG.nodes[97]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/editedboathp_292_8_bjk.jpg?crop=535:301&width=1070&enable=upscale"
@@ -1310,6 +1407,7 @@ def pose_properties(DG):
 
     DG.add_node(98,english_name="standing forward fold")
     DG.nodes[98]["two_sided"]=False
+    DG.nodes[98]["body areas"] = []
     DG.nodes[98]["description"]=""
     DG.nodes[98]["yogajournalurl"]="https://www.yogajournal.com/poses/big-toe-pose/"
     DG.nodes[98]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/big-toe-pose.jpg?crop=535:301&width=1070&enable=upscale"
@@ -1323,6 +1421,7 @@ def pose_properties(DG):
 
     DG.add_node(99,english_name="standing forward fold with straight back")
     DG.nodes[99]["two_sided"]=False
+    DG.nodes[99]["body areas"] = []
     DG.nodes[99]["description"]=""
     DG.nodes[99]["yogajournalurl"]="https://www.yogajournal.com/poses/standing-half-forward-bend/"
     DG.nodes[99]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2008/02/2hp_281_0176_bjk.jpg?crop=535:301&width=1070&enable=upscale"
@@ -1335,6 +1434,7 @@ def pose_properties(DG):
 
     DG.add_node(100,english_name="forearm wheel")
     DG.nodes[100]["two_sided"]=False
+    DG.nodes[100]["body areas"] = []
     DG.nodes[100]["description"]=""
     DG.nodes[100]["yogajournalurl"]=""
     DG.nodes[100]["yogajournal_picture"]=""
@@ -1347,6 +1447,7 @@ def pose_properties(DG):
 
     DG.add_node(101,english_name="handstand, legs straight")
     DG.nodes[101]["two_sided"]=False
+    DG.nodes[101]["body areas"] = []
     DG.nodes[101]["description"]=""
     DG.nodes[101]["yogajournalurl"]="https://www.yogajournal.com/poses/types/handstand/"
     DG.nodes[101]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/201506-yjmag-handstand-final.jpg?crop=535:301&width=1070&enable=upscale"
@@ -1360,6 +1461,7 @@ def pose_properties(DG):
 
     DG.add_node(102,english_name="extended triangle")
     DG.nodes[102]["two_sided"]=True
+    DG.nodes[102]["body areas"] = []
     DG.nodes[102]["description"]=""
     DG.nodes[102]["yogajournalurl"]="https://www.yogajournal.com/poses/extended-triangle-pose/"
     DG.nodes[102]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/2yp_285_1643_prf.jpg?crop=535:301&width=1070&enable=upscale"
@@ -1373,6 +1475,7 @@ def pose_properties(DG):
 
     DG.add_node(103,english_name="half moon")
     DG.nodes[103]["two_sided"]=True
+    DG.nodes[103]["body areas"] = []
     DG.nodes[103]["description"]=""
     DG.nodes[103]["yogajournalurl"]="https://www.yogajournal.com/poses/types/balancing/half-moon-pose-3/"
     DG.nodes[103]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/2hp_291_1860_gn_bjk.jpg?crop=535:301&width=1070&enable=upscale"
@@ -1386,6 +1489,7 @@ def pose_properties(DG):
 
     DG.add_node(104,english_name="Standing Big Toe Hold")
     DG.nodes[104]["two_sided"]=True
+    DG.nodes[104]["body areas"] = []
     DG.nodes[104]["description"]=""
     DG.nodes[104]["yogajournalurl"]="https://www.yogajournal.com/poses/extended-hand-to-big-toe-pose/"
     DG.nodes[104]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/2yp_285_1542_prf.jpg?crop=535:301&width=1070&enable=upscale"
@@ -1399,6 +1503,7 @@ def pose_properties(DG):
 
     DG.add_node(105,english_name="Crescent Moon OR low lunge")
     DG.nodes[105]["two_sided"]=False
+    DG.nodes[105]["body areas"] = []
     DG.nodes[105]["description"]=""
     DG.nodes[105]["yogajournalurl"]="https://www.yogajournal.com/poses/types/standing/low-lunge/"
     DG.nodes[105]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2008/05/3yp_287_6671_gn_bjk.jpg?crop=535:301&width=1070&enable=upscale"
@@ -1412,6 +1517,7 @@ def pose_properties(DG):
 
     DG.add_node(106,english_name="tiger")
     DG.nodes[106]["two_sided"]=True
+    DG.nodes[106]["body areas"] = []
     DG.nodes[106]["description"]="one leg is stretched out straight, and the knee of the stretched out leg may then be bent so the foot points straight up; the opposite hand may also be stretched out"
     DG.nodes[106]["yogajournalurl"]=""
     DG.nodes[106]["yogajournal_picture"]=""
@@ -1425,6 +1531,7 @@ def pose_properties(DG):
 
     DG.add_node(107,english_name="cobra")
     DG.nodes[107]["two_sided"]=False
+    DG.nodes[107]["body areas"] = []
     DG.nodes[107]["description"]=""
     DG.nodes[107]["yogajournalurl"]=""
     DG.nodes[107]["yogajournal_picture"]=""
@@ -1438,6 +1545,7 @@ def pose_properties(DG):
 
     DG.add_node(108,english_name="One legged wheel")
     DG.nodes[108]["two_sided"]=True
+    DG.nodes[108]["body areas"] = []
     DG.nodes[108]["description"]=""
     DG.nodes[108]["yogajournalurl"]=""
     DG.nodes[108]["yogajournal_picture"]=""
@@ -1451,6 +1559,7 @@ def pose_properties(DG):
 
     DG.add_node(109,english_name="Inverted Staff")
     DG.nodes[109]["two_sided"]=False
+    DG.nodes[109]["body areas"] = []
     DG.nodes[109]["description"]=""
     DG.nodes[109]["yogajournalurl"]=""
     DG.nodes[109]["yogajournal_picture"]=""
@@ -1462,11 +1571,12 @@ def pose_properties(DG):
     DG.nodes[109]["asanas 608 page"]=""
     DG.nodes[109]["asanas 608 english name"]=""
 
-    DG.add_node(110,english_name="One-legged King Pigeon")
+    DG.add_node(110,english_name="seated One-legged King Pigeon")
     DG.nodes[110]["two_sided"]=False
+    DG.nodes[110]["body areas"] = []
     DG.nodes[110]["description"]=""
-    DG.nodes[110]["yogajournalurl"]=""
-    DG.nodes[110]["yogajournal_picture"]=""
+    DG.nodes[110]["yogajournalurl"]="https://www.yogajournal.com/poses/one-legged-king-pigeon-pose/"
+    DG.nodes[110]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/king-pigeon.jpg?crop=535:301&width=1070&enable=upscale"
     DG.nodes[110]["hindi_name"]=""
     DG.nodes[110]["counter asana"] = None
     DG.nodes[110]["comment"]=""
@@ -1477,6 +1587,7 @@ def pose_properties(DG):
 
     DG.add_node(111,english_name="Eight-Angle Pose")
     DG.nodes[111]["two_sided"]=False
+    DG.nodes[111]["body areas"] = []
     DG.nodes[111]["description"]=""
     DG.nodes[111]["yogajournalurl"]=""
     DG.nodes[111]["yogajournal_picture"]=""
@@ -1490,6 +1601,7 @@ def pose_properties(DG):
 
     DG.add_node(112,english_name="cow face")
     DG.nodes[112]["two_sided"]=False
+    DG.nodes[112]["body areas"] = []
     DG.nodes[112]["description"]=""
     DG.nodes[112]["yogajournalurl"]="https://www.yogajournal.com/poses/cow-face-pose/"
     DG.nodes[112]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/gomukhasana.jpg?crop=535:301&width=1070&enable=upscale"
@@ -1503,6 +1615,7 @@ def pose_properties(DG):
 
     DG.add_node(113,english_name="rooster")
     DG.nodes[113]["two_sided"]=False
+    DG.nodes[113]["body areas"] = []
     DG.nodes[113]["description"]=""
     DG.nodes[113]["yogajournalurl"]=""
     DG.nodes[113]["yogajournal_picture"]=""
@@ -1516,8 +1629,9 @@ def pose_properties(DG):
 
     DG.add_node(114,english_name="fish")
     DG.nodes[114]["two_sided"]=False
-    DG.nodes[114]["description"]=""
-    DG.nodes[114]["yogajournalurl"]=""
+    DG.nodes[114]["body areas"] = []
+    DG.nodes[114]["description"]="https://www.yogajournal.com/poses/types/backbends/fish-pose/"
+    DG.nodes[114]["yogajournalurl"]="https://www.yogajournal.com/wp-content/uploads/2007/08/32enneagram_289_1419_bjk.jpg?crop=535:301&width=1070&enable=upscale"
     DG.nodes[114]["yogajournal_picture"]=""
     DG.nodes[114]["hindi_name"]="Matsyasana"
     DG.nodes[114]["counter asana"] = 10
@@ -1529,6 +1643,7 @@ def pose_properties(DG):
 
     DG.add_node(115,english_name="Shoulder pressing posture")
     DG.nodes[115]["two_sided"]=False
+    DG.nodes[115]["body areas"] = []
     DG.nodes[115]["description"]=""
     DG.nodes[115]["yogajournalurl"]=""
     DG.nodes[115]["yogajournal_picture"]=""
@@ -1542,6 +1657,7 @@ def pose_properties(DG):
 
     DG.add_node(116,english_name="Embryo in Womb Pose")
     DG.nodes[116]["two_sided"]=True
+    DG.nodes[116]["body areas"] = []
     DG.nodes[116]["description"]=""
     DG.nodes[116]["yogajournalurl"]=""
     DG.nodes[116]["yogajournal_picture"]=""
@@ -1555,6 +1671,7 @@ def pose_properties(DG):
 
     DG.add_node(117,english_name="Eka Pada Koundinyasana I")
     DG.nodes[117]["two_sided"]=True
+    DG.nodes[117]["body areas"] = []
     DG.nodes[117]["description"]="lower leg on arm"
     DG.nodes[117]["yogajournalurl"]="https://www.yogajournal.com/poses/pose-dedicated-to-the-sage-koundinya-i/"
     DG.nodes[117]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/nov-14-yogapedia-eka-pada-koundinyasana-1.jpg?crop=535:301&width=1070&enable=upscale"
@@ -1568,6 +1685,7 @@ def pose_properties(DG):
 
     DG.add_node(118,english_name="Eka Pada Koundinyasana II")
     DG.nodes[118]["two_sided"]=True
+    DG.nodes[118]["body areas"] = []
     DG.nodes[118]["description"]="upper leg on arm"
     DG.nodes[118]["yogajournalurl"]=""
     DG.nodes[118]["yogajournal_picture"]=""
@@ -1581,6 +1699,7 @@ def pose_properties(DG):
 
     DG.add_node(119,english_name="Eka Pada Galavasana")
     DG.nodes[119]["two_sided"]=False
+    DG.nodes[119]["body areas"] = []
     DG.nodes[119]["description"]="foot hooked over elbow"
     DG.nodes[119]["yogajournalurl"]=""
     DG.nodes[119]["yogajournal_picture"]=""
@@ -1594,6 +1713,7 @@ def pose_properties(DG):
 
     DG.add_node(120,english_name="peacock")
     DG.nodes[120]["two_sided"]=False
+    DG.nodes[120]["body areas"] = []
     DG.nodes[120]["description"]="body is straight. Hands on floor"
     DG.nodes[120]["yogajournalurl"]=""
     DG.nodes[120]["yogajournal_picture"]=""
@@ -1607,6 +1727,7 @@ def pose_properties(DG):
 
     DG.add_node(121,english_name="firefly")
     DG.nodes[121]["two_sided"]=False
+    DG.nodes[121]["body areas"] = []
     DG.nodes[121]["description"]=""
     DG.nodes[121]["yogajournalurl"]=""
     DG.nodes[121]["yogajournal_picture"]=""
@@ -1620,6 +1741,7 @@ def pose_properties(DG):
 
     DG.add_node(122,english_name="Raised Lotus pose")
     DG.nodes[122]["two_sided"]=False
+    DG.nodes[122]["body areas"] = []
     DG.nodes[122]["description"]=""
     DG.nodes[122]["yogajournalurl"]="https://www.yogajournal.com/poses/scale-pose/"
     DG.nodes[122]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/scale-pose.jpg?crop=535:301&width=1070&enable=upscale"
@@ -1633,6 +1755,7 @@ def pose_properties(DG):
 
     DG.add_node(123,english_name="one arm handstand, legs straight")
     DG.nodes[123]["two_sided"]=False
+    DG.nodes[123]["body areas"] = []
     DG.nodes[123]["description"]=""
     DG.nodes[123]["yogajournalurl"]=""
     DG.nodes[123]["yogajournal_picture"]=""
@@ -1646,6 +1769,7 @@ def pose_properties(DG):
 
     DG.add_node(124,english_name="forearm headstand, legs straight up")
     DG.nodes[124]["two_sided"]=False
+    DG.nodes[124]["body areas"] = []
     DG.nodes[124]["description"]=""
     DG.nodes[124]["yogajournalurl"]="https://www.yogajournal.com/poses/supported-headstand/"
     DG.nodes[124]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/rina_headstand-2.jpg?crop=535:301&width=1070&enable=upscale"
@@ -1659,6 +1783,7 @@ def pose_properties(DG):
 
     DG.add_node(125,english_name="legs up the wall pose")
     DG.nodes[125]["two_sided"]=False
+    DG.nodes[125]["body areas"] = []
     DG.nodes[125]["description"]="commonly a fully supported pose using a wall and sometimes a pile of blankets."
     DG.nodes[125]["yogajournalurl"]="https://www.yogajournal.com/poses/legs-up-the-wall-pose-2/"
     DG.nodes[125]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/leah-cullis-performs-legs-up-the-wall-pose.jpg?crop=535:301&width=1070&enable=upscale"
@@ -1672,6 +1797,7 @@ def pose_properties(DG):
 
     DG.add_node(126,english_name="Side-Reclining Leg Lift")
     DG.nodes[126]["two_sided"]=True
+    DG.nodes[126]["body areas"] = []
     DG.nodes[126]["description"]=""
     DG.nodes[126]["yogajournalurl"]=""
     DG.nodes[126]["yogajournal_picture"]=""
@@ -1685,6 +1811,7 @@ def pose_properties(DG):
 
     DG.add_node(127,english_name="caterpillar")
     DG.nodes[127]["two_sided"]=False
+    DG.nodes[127]["body areas"] = []
     DG.nodes[127]["description"]=""
     DG.nodes[127]["yogajournalurl"]=""
     DG.nodes[127]["yogajournal_picture"]=""
@@ -1698,6 +1825,7 @@ def pose_properties(DG):
 
     DG.add_node(128,english_name="formidable")
     DG.nodes[128]["two_sided"]=True
+    DG.nodes[128]["body areas"] = []
     DG.nodes[128]["description"]=""
     DG.nodes[128]["yogajournalurl"]=""
     DG.nodes[128]["yogajournal_picture"]=""
@@ -1711,6 +1839,7 @@ def pose_properties(DG):
 
     DG.add_node(129,english_name="frog")
     DG.nodes[129]["two_sided"]=False
+    DG.nodes[129]["body areas"] = []
     DG.nodes[129]["description"]=""
     DG.nodes[129]["yogajournalurl"]=""
     DG.nodes[129]["yogajournal_picture"]=""
@@ -1724,6 +1853,7 @@ def pose_properties(DG):
 
     DG.add_node(130,english_name="Feathered Peacock Pose, legs straight")
     DG.nodes[130]["two_sided"]=False
+    DG.nodes[130]["body areas"] = []
     DG.nodes[130]["description"]="forearm balance similar to Vrischikasana, but the legs are straight, stretched up over the head, with the back less extremely arched"
     DG.nodes[130]["yogajournalurl"]="https://www.yogajournal.com/poses/feathered-peacock-pose/"
     DG.nodes[130]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/forearm-balance-clio-manuelian.jpg?crop=535:301&width=1070&enable=upscale"
@@ -1737,6 +1867,7 @@ def pose_properties(DG):
 
     DG.add_node(131,english_name="Formidable Face pose")
     DG.nodes[131]["two_sided"]=False
+    DG.nodes[131]["body areas"] = []
     DG.nodes[131]["description"]="similar to Pincha Mayurasana but with bent arms and only the hands on the ground; the back is lightly arched and the legs and feet point vertically upwards. It may be practised with a block under the shoulders"
     DG.nodes[131]["yogajournalurl"]=""
     DG.nodes[131]["yogajournal_picture"]=""
@@ -1750,6 +1881,7 @@ def pose_properties(DG):
 
     DG.add_node(132,english_name="Feathered Peacock Pose, legs in lotus")
     DG.nodes[132]["two_sided"]=False
+    DG.nodes[132]["body areas"] = []
     DG.nodes[132]["description"]=""
     DG.nodes[132]["yogajournalurl"]=""
     DG.nodes[132]["yogajournal_picture"]=""
@@ -1763,6 +1895,7 @@ def pose_properties(DG):
 
     DG.add_node(133,english_name="Posture of Repose")
     DG.nodes[133]["two_sided"]=False
+    DG.nodes[133]["body areas"] = []
     DG.nodes[133]["description"]="same as Pincha Mayurasana, but with only the elbows on the ground, the hands cradling the face, making it a difficult balance."
     DG.nodes[133]["yogajournalurl"]=""
     DG.nodes[133]["yogajournal_picture"]=""
@@ -1777,6 +1910,7 @@ def pose_properties(DG):
 
     DG.add_node(134,english_name="Yogic Sleep Pose")
     DG.nodes[134]["two_sided"]=False
+    DG.nodes[134]["body areas"] = []
     DG.nodes[134]["description"]=""
     DG.nodes[134]["yogajournalurl"]=""
     DG.nodes[134]["yogajournal_picture"]=""
@@ -1790,9 +1924,10 @@ def pose_properties(DG):
 
     DG.add_node(135,english_name="locust or grasshopper")
     DG.nodes[135]["two_sided"]=False
+    DG.nodes[135]["body areas"] = ["lower back"]
     DG.nodes[135]["description"]=""
-    DG.nodes[135]["yogajournalurl"]=""
-    DG.nodes[135]["yogajournal_picture"]=""
+    DG.nodes[135]["yogajournalurl"]="https://www.yogajournal.com/poses/locust-pose/"
+    DG.nodes[135]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/2anatomy_278_01_fnl.jpg?crop=535:301&width=1070&enable=upscale"
     DG.nodes[135]["hindi_name"]="Salabhasana"
     DG.nodes[135]["counter asana"] = None
     DG.nodes[135]["comment"]=""
@@ -1803,6 +1938,7 @@ def pose_properties(DG):
 
     DG.add_node(136,english_name="Wind-Relieving pose")
     DG.nodes[136]["two_sided"]=False
+    DG.nodes[136]["body areas"] = []
     DG.nodes[136]["description"]=""
     DG.nodes[136]["yogajournalurl"]=""
     DG.nodes[136]["yogajournal_picture"]=""
@@ -1816,6 +1952,7 @@ def pose_properties(DG):
 
     DG.add_node(137,english_name="Revolved Abdomen pose OR Belly twist OR Spinal twist")
     DG.nodes[137]["two_sided"]=False
+    DG.nodes[137]["body areas"] = []
     DG.nodes[137]["description"]=""
     DG.nodes[137]["yogajournalurl"]=""
     DG.nodes[137]["yogajournal_picture"]=""
@@ -1829,6 +1966,7 @@ def pose_properties(DG):
 
     DG.add_node(138,english_name="Bharadvaja's twist 1")
     DG.nodes[138]["two_sided"]=True
+    DG.nodes[138]["body areas"] = []
     DG.nodes[138]["description"]="basic form, with the legs as in Virasana (hero pose), one foot on the floor and the other ankle cradled in the arch of the foot below."
     DG.nodes[138]["yogajournalurl"]=""
     DG.nodes[138]["yogajournal_picture"]=""
@@ -1842,6 +1980,7 @@ def pose_properties(DG):
 
     DG.add_node(139,english_name="Bharadvaja's twist 2")
     DG.nodes[139]["two_sided"]=True
+    DG.nodes[139]["body areas"] = []
     DG.nodes[139]["description"]="advanced form requiring high hip mobility; one leg is bent as in Padmasana (lotus position), while the other leg is bent as in Virasana."
     DG.nodes[139]["yogajournalurl"]=""
     DG.nodes[139]["yogajournal_picture"]=""
@@ -1854,8 +1993,9 @@ def pose_properties(DG):
     DG.nodes[139]["asanas 608 english name"]=""
 
     DG.add_node(140,english_name="pose of the sage Marichi")
-    DG.nodes[140]["two_sided"]=False
-    DG.nodes[140]["description"]="one leg is stretched out straight ahead of the body, the other is bent with the sole of the foot on the floor and the knee up beside the body. The body is twisted towards the side with the straight leg, and the arms are clasped behind the back and around the raised knee. The body may then lean forwards until the nose and chin touch the straight leg"
+    DG.nodes[140]["two_sided"]=True
+    DG.nodes[140]["body areas"] = []
+    DG.nodes[140]["description"]="A twist. One leg is stretched out straight ahead of the body, the other is bent with the sole of the foot on the floor and the knee up beside the body. The body is twisted towards the side with the straight leg, and the arms are clasped behind the back and around the raised knee. The body may then lean forwards until the nose and chin touch the straight leg"
     DG.nodes[140]["yogajournalurl"]="https://www.yogajournal.com/poses/marichi-s-pose/"
     DG.nodes[140]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/anat_276_01_fnl-marichyasana.jpg?crop=535:301&width=1070&enable=upscale"
     DG.nodes[140]["hindi_name"]="Marichyasana"
@@ -1868,9 +2008,10 @@ def pose_properties(DG):
 
     DG.add_node(141,english_name="Marichyasana III")
     DG.nodes[141]["two_sided"]=False
+    DG.nodes[141]["body areas"] = []
     DG.nodes[141]["description"]="the leg on the ground is stretched out straight. The body is twisted towards the side with the bent leg, and again the arms are clasped behind the back and around the raised knee"
-    DG.nodes[141]["yogajournalurl"]=""
-    DG.nodes[141]["yogajournal_picture"]=""
+    DG.nodes[141]["yogajournalurl"]="https://www.yogajournal.com/poses/pose-dedicated-to-the-sage-marichi-i/"
+    DG.nodes[141]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/mc_225_05-credit-marichyasana-i.jpg?crop=535:301&width=1070&enable=upscale"
     DG.nodes[141]["hindi_name"]="Marichyasana III"
     DG.nodes[141]["counter asana"] = None
     DG.nodes[141]["comment"]=""
@@ -1881,6 +2022,7 @@ def pose_properties(DG):
 
     DG.add_node(142,english_name="Lord of the Fishes Pose")
     DG.nodes[142]["two_sided"]=False
+    DG.nodes[142]["body areas"] = []
     DG.nodes[142]["description"]=""
     DG.nodes[142]["yogajournalurl"]=""
     DG.nodes[142]["yogajournal_picture"]=""
@@ -1894,6 +2036,7 @@ def pose_properties(DG):
 
     DG.add_node(143,english_name="noose")
     DG.nodes[143]["two_sided"]=True
+    DG.nodes[143]["body areas"] = []
     DG.nodes[143]["description"]=""
     DG.nodes[143]["yogajournalurl"]="https://www.yogajournal.com/poses/noose-pose/"
     DG.nodes[143]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/noose-pose-pasasana.jpg?crop=535:301&width=1070&enable=upscale"
@@ -1907,6 +2050,7 @@ def pose_properties(DG):
 
     DG.add_node(144,english_name="easy")
     DG.nodes[144]["two_sided"]=True
+    DG.nodes[144]["body areas"] = []
     DG.nodes[144]["description"]=""
     DG.nodes[144]["yogajournalurl"]="https://www.yogajournal.com/poses/types/seated-twists/easy-pose-3/"
     DG.nodes[144]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/2hp_286_0507_bjk.jpg?crop=535:301&width=1070&enable=upscale"
@@ -1920,6 +2064,7 @@ def pose_properties(DG):
 
     DG.add_node(145,english_name="lion")
     DG.nodes[145]["two_sided"]=False
+    DG.nodes[145]["body areas"] = []
     DG.nodes[145]["description"]=""
     DG.nodes[145]["yogajournalurl"]=""
     DG.nodes[145]["yogajournal_picture"]=""
@@ -1933,6 +2078,7 @@ def pose_properties(DG):
 
     DG.add_node(146,english_name="Archer OR Bow and Arrow OR Shooting Bow")
     DG.nodes[146]["two_sided"]=False
+    DG.nodes[146]["body areas"] = []
     DG.nodes[146]["description"]="pulling the foot towards the ear from a seated position with the legs outstretched."
     DG.nodes[146]["yogajournalurl"]=""
     DG.nodes[146]["yogajournal_picture"]=""
@@ -1946,6 +2092,7 @@ def pose_properties(DG):
 
     DG.add_node(147,english_name="rabbit")
     DG.nodes[147]["two_sided"]=False
+    DG.nodes[147]["body areas"] = []
     DG.nodes[147]["description"]=""
     DG.nodes[147]["yogajournalurl"]=""
     DG.nodes[147]["yogajournal_picture"]=""
@@ -1959,6 +2106,7 @@ def pose_properties(DG):
 
     DG.add_node(148,english_name="staff pose OR back stretch pose")
     DG.nodes[148]["two_sided"]=False
+    DG.nodes[148]["body areas"] = []
     DG.nodes[148]["description"]="legs straight, back upright"
     DG.nodes[148]["yogajournalurl"]=""
     DG.nodes[148]["yogajournal_picture"]=""
@@ -1972,9 +2120,10 @@ def pose_properties(DG):
 
     DG.add_node(149,english_name="monkey OR seated front splits")
     DG.nodes[149]["two_sided"]=True
+    DG.nodes[149]["body areas"] = []
     DG.nodes[149]["description"]=""
-    DG.nodes[149]["yogajournalurl"]=""
-    DG.nodes[149]["yogajournal_picture"]=""
+    DG.nodes[149]["yogajournalurl"]="https://www.yogajournal.com/poses/monkey-pose/"
+    DG.nodes[149]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/2compass-4.jpg?crop=535:301&width=1070&enable=upscale"
     DG.nodes[149]["hindi_name"]="Hanumanasana"
     DG.nodes[149]["counter asana"] = None
     DG.nodes[149]["comment"]=""
@@ -1985,6 +2134,7 @@ def pose_properties(DG):
 
     DG.add_node(150,english_name="tortoise or turtle")
     DG.nodes[150]["two_sided"]=False
+    DG.nodes[150]["body areas"] = []
     DG.nodes[150]["description"]=""
     DG.nodes[150]["yogajournalurl"]=""
     DG.nodes[150]["yogajournal_picture"]=""
@@ -1998,6 +2148,7 @@ def pose_properties(DG):
 
     DG.add_node(151,english_name="Upside-Down Tortoise")
     DG.nodes[151]["two_sided"]=False
+    DG.nodes[151]["body areas"] = []
     DG.nodes[151]["description"]=""
     DG.nodes[151]["yogajournalurl"]=""
     DG.nodes[151]["yogajournal_picture"]=""
@@ -2011,6 +2162,7 @@ def pose_properties(DG):
 
     DG.add_node(152,english_name="seated side split")
     DG.nodes[152]["two_sided"]=False
+    DG.nodes[152]["body areas"] = []
     DG.nodes[152]["description"]=""
     DG.nodes[152]["yogajournalurl"]=""
     DG.nodes[152]["yogajournal_picture"]=""
@@ -2024,6 +2176,7 @@ def pose_properties(DG):
 
     DG.add_node(153,english_name="forearm stand, legs in full lotus")
     DG.nodes[153]["two_sided"]=True
+    DG.nodes[153]["body areas"] = []
     DG.nodes[153]["description"]=""
     DG.nodes[153]["yogajournalurl"]=""
     DG.nodes[153]["yogajournal_picture"]=""
@@ -2037,6 +2190,7 @@ def pose_properties(DG):
 
     DG.add_node(154,english_name="hero")
     DG.nodes[154]["two_sided"]=False
+    DG.nodes[154]["body areas"] = []
     DG.nodes[154]["description"]=""
     DG.nodes[154]["yogajournalurl"]=""
     DG.nodes[154]["yogajournal_picture"]=""
@@ -2050,6 +2204,7 @@ def pose_properties(DG):
 
     DG.add_node(155,english_name="seated wide-leg, torso forward bend")
     DG.nodes[155]["two_sided"]=False
+    DG.nodes[155]["body areas"] = []
     DG.nodes[155]["description"]=""
     DG.nodes[155]["yogajournalurl"]=""
     DG.nodes[155]["yogajournal_picture"]=""
@@ -2063,6 +2218,7 @@ def pose_properties(DG):
 
     DG.add_node(156,english_name="hand stand, legs in eagle")
     DG.nodes[156]["two_sided"]=True
+    DG.nodes[156]["body areas"] = []
     DG.nodes[156]["description"]=""
     DG.nodes[156]["yogajournalurl"]=""
     DG.nodes[156]["yogajournal_picture"]=""
@@ -2076,6 +2232,7 @@ def pose_properties(DG):
 
     DG.add_node(157,english_name="hand stand, legs in lotus")
     DG.nodes[157]["two_sided"]=False
+    DG.nodes[157]["body areas"] = []
     DG.nodes[157]["description"]=""
     DG.nodes[157]["yogajournalurl"]=""
     DG.nodes[157]["yogajournal_picture"]=""
@@ -2089,6 +2246,7 @@ def pose_properties(DG):
 
     DG.add_node(158,english_name="forearm stand, legs in side splits")
     DG.nodes[158]["two_sided"]=False
+    DG.nodes[158]["body areas"] = []
     DG.nodes[158]["description"]=""
     DG.nodes[158]["yogajournalurl"]=""
     DG.nodes[158]["yogajournal_picture"]=""
@@ -2102,6 +2260,7 @@ def pose_properties(DG):
 
     DG.add_node(159,english_name="forearm stand, legs in eagle")
     DG.nodes[159]["two_sided"]=False
+    DG.nodes[159]["body areas"] = []
     DG.nodes[159]["description"]=""
     DG.nodes[159]["yogajournalurl"]=""
     DG.nodes[159]["yogajournal_picture"]=""
@@ -2115,6 +2274,7 @@ def pose_properties(DG):
 
     DG.add_node(160,english_name="downward dog twist to grab one leg")
     DG.nodes[160]["two_sided"]=False
+    DG.nodes[160]["body areas"] = []
     DG.nodes[160]["description"]=""
     DG.nodes[160]["yogajournalurl"]=""
     DG.nodes[160]["yogajournal_picture"]=""
@@ -2128,6 +2288,7 @@ def pose_properties(DG):
 
     DG.add_node(161,english_name="side plank, straight arm supporting, straight leg up")
     DG.nodes[161]["two_sided"]=False
+    DG.nodes[161]["body areas"] = []
     DG.nodes[161]["description"]=""
     DG.nodes[161]["yogajournalurl"]=""
     DG.nodes[161]["yogajournal_picture"]=""
@@ -2141,6 +2302,7 @@ def pose_properties(DG):
 
     DG.add_node(162,english_name="side plank, forearm supporting, straight legs")
     DG.nodes[162]["two_sided"]=False
+    DG.nodes[162]["body areas"] = []
     DG.nodes[162]["description"]=""
     DG.nodes[162]["yogajournalurl"]=""
     DG.nodes[162]["yogajournal_picture"]=""
@@ -2154,6 +2316,7 @@ def pose_properties(DG):
 
     DG.add_node(163,english_name="cowherd")
     DG.nodes[163]["two_sided"]=False
+    DG.nodes[163]["body areas"] = []
     DG.nodes[163]["description"]="seated pose with the soles of the feet pressed together and the knees on the ground with the heels are under the body."
     DG.nodes[163]["yogajournalurl"]=""
     DG.nodes[163]["yogajournal_picture"]=""
@@ -2167,6 +2330,7 @@ def pose_properties(DG):
 
     DG.add_node(164,english_name="gate")
     DG.nodes[164]["two_sided"]=False
+    DG.nodes[164]["body areas"] = []
     DG.nodes[164]["description"]=""
     DG.nodes[164]["yogajournalurl"]="https://www.yogajournal.com/poses/gate-pose-2/"
     DG.nodes[164]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/3hp_288_03_bjk2.jpg?crop=535:301&width=1070&enable=upscale"
@@ -2180,6 +2344,7 @@ def pose_properties(DG):
 
     DG.add_node(165,english_name="high lunge")
     DG.nodes[165]["two_sided"]=False
+    DG.nodes[165]["body areas"] = []
     DG.nodes[165]["description"]=""
     DG.nodes[165]["yogajournalurl"]="https://www.yogajournal.com/poses/high-lunge-variation/"
     DG.nodes[165]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2008/04/3hp_288_07_bjk2.jpg?crop=535:301&width=1070&enable=upscale"
@@ -2193,6 +2358,7 @@ def pose_properties(DG):
 
     DG.add_node(166,english_name="lord of the dance")
     DG.nodes[166]["two_sided"]=False
+    DG.nodes[166]["body areas"] = []
     DG.nodes[166]["description"]=""
     DG.nodes[166]["yogajournalurl"]="https://www.yogajournal.com/poses/types/backbends/lord-of-the-dance-pose/"
     DG.nodes[166]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/3enneagram_289_1454_bjk.jpg?crop=535:301&width=1070&enable=upscale"
@@ -2206,6 +2372,7 @@ def pose_properties(DG):
 
     DG.add_node(167,english_name="side stretch")
     DG.nodes[167]["two_sided"]=False
+    DG.nodes[167]["body areas"] = []
     DG.nodes[167]["description"]=""
     DG.nodes[167]["yogajournalurl"]="https://www.yogajournal.com/poses/types/intense-side-stretch-pose/"
     DG.nodes[167]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/ccd04294.jpg?crop=535:301&width=1070&enable=upscale"
@@ -2219,6 +2386,7 @@ def pose_properties(DG):
 
     DG.add_node(168,english_name="revolved side angle")
     DG.nodes[168]["two_sided"]=False
+    DG.nodes[168]["body areas"] = []
     DG.nodes[168]["description"]=""
     DG.nodes[168]["yogajournalurl"]="https://www.yogajournal.com/poses/types/twists/revolved-side-angle-pose/"
     DG.nodes[168]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/revolved-side-angle-pose.jpg?crop=535:301&width=1070&enable=upscale"
@@ -2232,6 +2400,7 @@ def pose_properties(DG):
 
     DG.add_node(169,english_name="heron")
     DG.nodes[169]["two_sided"]=False
+    DG.nodes[169]["body areas"] = []
     DG.nodes[169]["description"]=""
     DG.nodes[169]["yogajournalurl"]="https://www.yogajournal.com/poses/heron-pose/"
     DG.nodes[169]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/heron-pose-instructions.jpg?crop=535:301&width=1070&enable=upscale"
@@ -2243,11 +2412,12 @@ def pose_properties(DG):
     DG.nodes[169]["asanas 608 page"]=""
     DG.nodes[169]["asanas 608 english name"]=""
 
-    DG.add_node(170,english_name="")
+    DG.add_node(170,english_name="King Pigeon")
     DG.nodes[170]["two_sided"]=False
-    DG.nodes[170]["description"]=""
-    DG.nodes[170]["yogajournalurl"]=""
-    DG.nodes[170]["yogajournal_picture"]=""
+    DG.nodes[170]["body areas"] = []
+    DG.nodes[170]["description"]="elbows and shins on floor"
+    DG.nodes[170]["yogajournalurl"]="https://www.yogajournal.com/poses/king-pigeon-pose/"
+    DG.nodes[170]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/2yogapedia_273_13_fnl.jpg?crop=535:301&width=1070&enable=upscale"
     DG.nodes[170]["hindi_name"]=""
     DG.nodes[170]["counter asana"] = None
     DG.nodes[170]["comment"]=""
@@ -2256,11 +2426,12 @@ def pose_properties(DG):
     DG.nodes[170]["asanas 608 page"]=""
     DG.nodes[170]["asanas 608 english name"]=""
 
-    DG.add_node(171,english_name="")
+    DG.add_node(171,english_name="One-Legged King Pigeon Pose II")
     DG.nodes[171]["two_sided"]=False
-    DG.nodes[171]["description"]=""
-    DG.nodes[171]["yogajournalurl"]=""
-    DG.nodes[171]["yogajournal_picture"]=""
+    DG.nodes[171]["body areas"] = []
+    DG.nodes[171]["description"]="foot and knee on ground"
+    DG.nodes[171]["yogajournalurl"]="https://www.yogajournal.com/poses/one-legged-king-pigeon-pose-ii/"
+    DG.nodes[171]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2008/05/carrie-owerko-one-legged-king-pigeon-pose-carrie-owerko.jpg?crop=535:301&width=1070&enable=upscale"
     DG.nodes[171]["hindi_name"]=""
     DG.nodes[171]["counter asana"] = None
     DG.nodes[171]["comment"]=""
@@ -2269,11 +2440,12 @@ def pose_properties(DG):
     DG.nodes[171]["asanas 608 page"]=""
     DG.nodes[171]["asanas 608 english name"]=""
 
-    DG.add_node(172,english_name="")
+    DG.add_node(172,english_name="sphinx")
     DG.nodes[172]["two_sided"]=False
+    DG.nodes[172]["body areas"] = ["lower back"]
     DG.nodes[172]["description"]=""
-    DG.nodes[172]["yogajournalurl"]=""
-    DG.nodes[172]["yogajournal_picture"]=""
+    DG.nodes[172]["yogajournalurl"]="https://www.yogajournal.com/poses/sphinx-pose/"
+    DG.nodes[172]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2007/08/32anatomy_290_5169_bjk.jpg?crop=535:301&width=1070&enable=upscale"
     DG.nodes[172]["hindi_name"]=""
     DG.nodes[172]["counter asana"] = None
     DG.nodes[172]["comment"]=""
@@ -2282,12 +2454,13 @@ def pose_properties(DG):
     DG.nodes[172]["asanas 608 page"]=""
     DG.nodes[172]["asanas 608 english name"]=""
 
-    DG.add_node(173,english_name="")
+    DG.add_node(173,english_name="Marichyasana II")
     DG.nodes[173]["two_sided"]=False
+    DG.nodes[173]["body areas"] = []
     DG.nodes[173]["description"]=""
     DG.nodes[173]["yogajournalurl"]=""
-    DG.nodes[173]["yogajournal_picture"]=""
-    DG.nodes[173]["hindi_name"]=""
+    DG.nodes[173]["yogajournal_picture"]="https://www.yogajournal.com/wp-content/uploads/2013/08/image-placeholder-title-6.jpg?width=730"
+    DG.nodes[173]["hindi_name"]="Marichyasana II"
     DG.nodes[173]["counter asana"] = None
     DG.nodes[173]["comment"]=""
     DG.nodes[173]["Dharma Mittra picture URL"]=""
@@ -2295,8 +2468,9 @@ def pose_properties(DG):
     DG.nodes[173]["asanas 608 page"]=""
     DG.nodes[173]["asanas 608 english name"]=""
 
-    DG.add_node(174,english_name="")
+    DG.add_node(174,english_name="standing splits, upright")
     DG.nodes[174]["two_sided"]=False
+    DG.nodes[174]["body areas"] = ["foot balance"]
     DG.nodes[174]["description"]=""
     DG.nodes[174]["yogajournalurl"]=""
     DG.nodes[174]["yogajournal_picture"]=""
@@ -2308,9 +2482,10 @@ def pose_properties(DG):
     DG.nodes[174]["asanas 608 page"]=""
     DG.nodes[174]["asanas 608 english name"]=""
 
-    DG.add_node(175,english_name="")
-    DG.nodes[175]["two_sided"]=False
-    DG.nodes[175]["description"]=""
+    DG.add_node(175,english_name="side crow")
+    DG.nodes[175]["two_sided"]=True
+    DG.nodes[175]["body areas"] = ["hand balance"]
+    DG.nodes[175]["description"]="both legs bent; one leg is on opposite tricep"
     DG.nodes[175]["yogajournalurl"]=""
     DG.nodes[175]["yogajournal_picture"]=""
     DG.nodes[175]["hindi_name"]=""
@@ -2321,9 +2496,10 @@ def pose_properties(DG):
     DG.nodes[175]["asanas 608 page"]=""
     DG.nodes[175]["asanas 608 english name"]=""
 
-    DG.add_node(176,english_name="")
-    DG.nodes[176]["two_sided"]=False
-    DG.nodes[176]["description"]=""
+    DG.add_node(176,english_name="lotus corpse")
+    DG.nodes[176]["two_sided"]=True
+    DG.nodes[176]["body areas"] = []
+    DG.nodes[176]["description"]="back is on ground, legs in lotus"
     DG.nodes[176]["yogajournalurl"]=""
     DG.nodes[176]["yogajournal_picture"]=""
     DG.nodes[176]["hindi_name"]=""
@@ -2336,6 +2512,7 @@ def pose_properties(DG):
 
     DG.add_node(177,english_name="")
     DG.nodes[177]["two_sided"]=False
+    DG.nodes[177]["body areas"] = []
     DG.nodes[177]["description"]=""
     DG.nodes[177]["yogajournalurl"]=""
     DG.nodes[177]["yogajournal_picture"]=""
@@ -2349,6 +2526,7 @@ def pose_properties(DG):
 
     DG.add_node(178,english_name="")
     DG.nodes[178]["two_sided"]=False
+    DG.nodes[178]["body areas"] = []
     DG.nodes[178]["description"]=""
     DG.nodes[178]["yogajournalurl"]=""
     DG.nodes[178]["yogajournal_picture"]=""
@@ -2362,6 +2540,7 @@ def pose_properties(DG):
 
     DG.add_node(179,english_name="")
     DG.nodes[179]["two_sided"]=False
+    DG.nodes[179]["body areas"] = []
     DG.nodes[179]["description"]=""
     DG.nodes[179]["yogajournalurl"]=""
     DG.nodes[179]["yogajournal_picture"]=""
@@ -2375,6 +2554,7 @@ def pose_properties(DG):
 
     DG.add_node(180,english_name="")
     DG.nodes[180]["two_sided"]=False
+    DG.nodes[180]["body areas"] = []
     DG.nodes[180]["description"]=""
     DG.nodes[180]["yogajournalurl"]=""
     DG.nodes[180]["yogajournal_picture"]=""
@@ -2388,6 +2568,7 @@ def pose_properties(DG):
 
     DG.add_node(181,english_name="")
     DG.nodes[181]["two_sided"]=False
+    DG.nodes[181]["body areas"] = []
     DG.nodes[181]["description"]=""
     DG.nodes[181]["yogajournalurl"]=""
     DG.nodes[181]["yogajournal_picture"]=""
@@ -2401,6 +2582,7 @@ def pose_properties(DG):
 
     DG.add_node(182,english_name="")
     DG.nodes[182]["two_sided"]=False
+    DG.nodes[182]["body areas"] = []
     DG.nodes[182]["description"]=""
     DG.nodes[182]["yogajournalurl"]=""
     DG.nodes[182]["yogajournal_picture"]=""
@@ -2414,6 +2596,7 @@ def pose_properties(DG):
 
     DG.add_node(183,english_name="")
     DG.nodes[183]["two_sided"]=False
+    DG.nodes[183]["body areas"] = []
     DG.nodes[183]["description"]=""
     DG.nodes[183]["yogajournalurl"]=""
     DG.nodes[183]["yogajournal_picture"]=""
@@ -2427,6 +2610,7 @@ def pose_properties(DG):
 
     DG.add_node(184,english_name="")
     DG.nodes[184]["two_sided"]=False
+    DG.nodes[184]["body areas"] = []
     DG.nodes[184]["description"]=""
     DG.nodes[184]["yogajournalurl"]=""
     DG.nodes[184]["yogajournal_picture"]=""
@@ -2440,6 +2624,7 @@ def pose_properties(DG):
 
     DG.add_node(185,english_name="")
     DG.nodes[185]["two_sided"]=False
+    DG.nodes[185]["body areas"] = []
     DG.nodes[185]["description"]=""
     DG.nodes[185]["yogajournalurl"]=""
     DG.nodes[185]["yogajournal_picture"]=""
@@ -2453,6 +2638,7 @@ def pose_properties(DG):
 
     DG.add_node(186,english_name="")
     DG.nodes[186]["two_sided"]=False
+    DG.nodes[186]["body areas"] = []
     DG.nodes[186]["description"]=""
     DG.nodes[186]["yogajournalurl"]=""
     DG.nodes[186]["yogajournal_picture"]=""
@@ -2466,6 +2652,7 @@ def pose_properties(DG):
 
     DG.add_node(187,english_name="")
     DG.nodes[187]["two_sided"]=False
+    DG.nodes[187]["body areas"] = []
     DG.nodes[187]["description"]=""
     DG.nodes[187]["yogajournalurl"]=""
     DG.nodes[187]["yogajournal_picture"]=""
@@ -2479,6 +2666,7 @@ def pose_properties(DG):
 
     DG.add_node(188,english_name="")
     DG.nodes[188]["two_sided"]=False
+    DG.nodes[188]["body areas"] = []
     DG.nodes[188]["description"]=""
     DG.nodes[188]["yogajournalurl"]=""
     DG.nodes[188]["yogajournal_picture"]=""
@@ -2492,6 +2680,7 @@ def pose_properties(DG):
 
     DG.add_node(189,english_name="")
     DG.nodes[189]["two_sided"]=False
+    DG.nodes[189]["body areas"] = []
     DG.nodes[189]["description"]=""
     DG.nodes[189]["yogajournalurl"]=""
     DG.nodes[189]["yogajournal_picture"]=""
@@ -2505,6 +2694,7 @@ def pose_properties(DG):
 
     DG.add_node(190,english_name="")
     DG.nodes[190]["two_sided"]=False
+    DG.nodes[190]["body areas"] = []
     DG.nodes[190]["description"]=""
     DG.nodes[190]["yogajournalurl"]=""
     DG.nodes[190]["yogajournal_picture"]=""
@@ -2518,6 +2708,7 @@ def pose_properties(DG):
 
     DG.add_node(191,english_name="")
     DG.nodes[191]["two_sided"]=False
+    DG.nodes[191]["body areas"] = []
     DG.nodes[191]["description"]=""
     DG.nodes[191]["yogajournalurl"]=""
     DG.nodes[191]["yogajournal_picture"]=""
@@ -2531,6 +2722,7 @@ def pose_properties(DG):
 
     DG.add_node(192,english_name="")
     DG.nodes[192]["two_sided"]=False
+    DG.nodes[192]["body areas"] = []
     DG.nodes[192]["description"]=""
     DG.nodes[192]["yogajournalurl"]=""
     DG.nodes[192]["yogajournal_picture"]=""
@@ -2544,6 +2736,7 @@ def pose_properties(DG):
 
     DG.add_node(193,english_name="")
     DG.nodes[193]["two_sided"]=False
+    DG.nodes[193]["body areas"] = []
     DG.nodes[193]["description"]=""
     DG.nodes[193]["yogajournalurl"]=""
     DG.nodes[193]["yogajournal_picture"]=""
@@ -2557,6 +2750,7 @@ def pose_properties(DG):
 
     DG.add_node(194,english_name="")
     DG.nodes[194]["two_sided"]=False
+    DG.nodes[194]["body areas"] = []
     DG.nodes[194]["description"]=""
     DG.nodes[194]["yogajournalurl"]=""
     DG.nodes[194]["yogajournal_picture"]=""
@@ -2570,6 +2764,7 @@ def pose_properties(DG):
 
     DG.add_node(195,english_name="")
     DG.nodes[195]["two_sided"]=False
+    DG.nodes[195]["body areas"] = []
     DG.nodes[195]["description"]=""
     DG.nodes[195]["yogajournalurl"]=""
     DG.nodes[195]["yogajournal_picture"]=""
@@ -2583,6 +2778,7 @@ def pose_properties(DG):
 
     DG.add_node(196,english_name="")
     DG.nodes[196]["two_sided"]=False
+    DG.nodes[196]["body areas"] = []
     DG.nodes[196]["description"]=""
     DG.nodes[196]["yogajournalurl"]=""
     DG.nodes[196]["yogajournal_picture"]=""
@@ -2596,6 +2792,7 @@ def pose_properties(DG):
 
     DG.add_node(197,english_name="")
     DG.nodes[197]["two_sided"]=False
+    DG.nodes[197]["body areas"] = []
     DG.nodes[197]["description"]=""
     DG.nodes[197]["yogajournalurl"]=""
     DG.nodes[197]["yogajournal_picture"]=""
@@ -2609,6 +2806,7 @@ def pose_properties(DG):
 
     DG.add_node(198,english_name="")
     DG.nodes[198]["two_sided"]=False
+    DG.nodes[198]["body areas"] = []
     DG.nodes[198]["description"]=""
     DG.nodes[198]["yogajournalurl"]=""
     DG.nodes[198]["yogajournal_picture"]=""
@@ -2622,6 +2820,7 @@ def pose_properties(DG):
 
     DG.add_node(199,english_name="")
     DG.nodes[199]["two_sided"]=False
+    DG.nodes[199]["body areas"] = []
     DG.nodes[199]["description"]=""
     DG.nodes[199]["yogajournalurl"]=""
     DG.nodes[199]["yogajournal_picture"]=""
@@ -2639,6 +2838,7 @@ def pose_properties(DG):
 """
     DG.add_node(0,english_name="")
     DG.nodes[0]["two_sided"]=False
+    DG.nodes[0]["body areas"] = []
     DG.nodes[0]["description"]=""
     DG.nodes[0]["yogajournalurl"]=""
     DG.nodes[0]["yogajournal_picture"]=""
@@ -2652,6 +2852,7 @@ def pose_properties(DG):
 
     DG.add_node(1,english_name="")
     DG.nodes[1]["two_sided"]=False
+    DG.nodes[1]["body areas"] = []
     DG.nodes[1]["description"]=""
     DG.nodes[1]["yogajournalurl"]=""
     DG.nodes[1]["yogajournal_picture"]=""
@@ -2665,6 +2866,7 @@ def pose_properties(DG):
 
     DG.add_node(2,english_name="")
     DG.nodes[2]["two_sided"]=False
+    DG.nodes[2]["body areas"] = []
     DG.nodes[2]["description"]=""
     DG.nodes[2]["yogajournalurl"]=""
     DG.nodes[2]["yogajournal_picture"]=""
@@ -2678,6 +2880,7 @@ def pose_properties(DG):
 
     DG.add_node(3,english_name="")
     DG.nodes[3]["two_sided"]=False
+    DG.nodes[3]["body areas"] = []
     DG.nodes[3]["description"]=""
     DG.nodes[3]["yogajournalurl"]=""
     DG.nodes[3]["yogajournal_picture"]=""
@@ -2691,6 +2894,7 @@ def pose_properties(DG):
 
     DG.add_node(4,english_name="")
     DG.nodes[4]["two_sided"]=False
+    DG.nodes[4]["body areas"] = []
     DG.nodes[4]["description"]=""
     DG.nodes[4]["yogajournalurl"]=""
     DG.nodes[4]["yogajournal_picture"]=""
@@ -2704,6 +2908,7 @@ def pose_properties(DG):
 
     DG.add_node(5,english_name="")
     DG.nodes[5]["two_sided"]=False
+    DG.nodes[5]["body areas"] = []
     DG.nodes[5]["description"]=""
     DG.nodes[5]["yogajournalurl"]=""
     DG.nodes[5]["yogajournal_picture"]=""
@@ -2717,6 +2922,7 @@ def pose_properties(DG):
 
     DG.add_node(6,english_name="")
     DG.nodes[6]["two_sided"]=False
+    DG.nodes[6]["body areas"] = []
     DG.nodes[6]["description"]=""
     DG.nodes[6]["yogajournalurl"]=""
     DG.nodes[6]["yogajournal_picture"]=""
@@ -2730,6 +2936,7 @@ def pose_properties(DG):
 
     DG.add_node(7,english_name="")
     DG.nodes[7]["two_sided"]=False
+    DG.nodes[7]["body areas"] = []
     DG.nodes[7]["description"]=""
     DG.nodes[7]["yogajournalurl"]=""
     DG.nodes[7]["yogajournal_picture"]=""
@@ -2743,6 +2950,7 @@ def pose_properties(DG):
 
     DG.add_node(8,english_name="")
     DG.nodes[8]["two_sided"]=False
+    DG.nodes[8]["body areas"] = []
     DG.nodes[8]["description"]=""
     DG.nodes[8]["yogajournalurl"]=""
     DG.nodes[8]["yogajournal_picture"]=""
@@ -2756,6 +2964,7 @@ def pose_properties(DG):
 
     DG.add_node(9,english_name="")
     DG.nodes[9]["two_sided"]=False
+    DG.nodes[9]["body areas"] = []
     DG.nodes[9]["description"]=""
     DG.nodes[9]["yogajournalurl"]=""
     DG.nodes[9]["yogajournal_picture"]=""
@@ -3020,6 +3229,7 @@ def pose_transitions(DG):
     DG.add_weighted_edges_from([(31, 136, 1)])  # 31 = corpse;
     DG.add_weighted_edges_from([(31, 137, 1)])  # 31 = corpse;
     DG.add_weighted_edges_from([(31, 148, 1)])  # 31 = corpse;
+    DG.add_weighted_edges_from([(31, 172, 1)])  # 31 = corpse; 172 = sphinx
 
     DG.add_weighted_edges_from(
         [(32, 9, 1)]
@@ -3394,7 +3604,7 @@ def pose_transitions(DG):
     #DG.add_weighted_edges_from([(132,,1)]) # 132 = ;
     #DG.add_weighted_edges_from([(133,,1)]) # 133 = ;
     #DG.add_weighted_edges_from([(134,,1)]) # 134 = ;
-    #DG.add_weighted_edges_from([(135,,1)]) # 135 = ;
+    DG.add_weighted_edges_from([(135,172,1)]) # 135 = ;
     DG.add_weighted_edges_from([(136,31,1)]) # 136 = ;
     #DG.add_weighted_edges_from([(136,,1)]) # 136 = ;
     #DG.add_weighted_edges_from([(137,,1)]) # 137 = ;
@@ -3442,7 +3652,8 @@ def pose_transitions(DG):
     #DG.add_weighted_edges_from([(169,,1)]) # 169 = ;
     #DG.add_weighted_edges_from([(170,,1)]) # 170 = ;
     #DG.add_weighted_edges_from([(171,,1)]) # 171 = ;
-    #DG.add_weighted_edges_from([(172,,1)]) # 172 = ;
+    DG.add_weighted_edges_from([(172,31,1)]) # 172 = ;
+    DG.add_weighted_edges_from([(172,135,1)]) # 172 = ;
     #DG.add_weighted_edges_from([(173,,1)]) # 173 = ;
     #DG.add_weighted_edges_from([(174,,1)]) # 174 = ;
     #DG.add_weighted_edges_from([(175,,1)]) # 175 = ;
