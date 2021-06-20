@@ -38,6 +38,8 @@ for this_indx in range(len(DG)):
     print("index: " + str(this_indx) + "; " + dic_for_this_node["english_name"])
     with open(write_to_path + str(this_indx) + ".html", "w") as f:
         f.write("<HTML>\n<HEAD>\n")
+        f.write('<!-- defines the default zoom for mobile devices -->\n')
+        f.write('<meta name="viewport" content="width=device-width, initial-scale=1" />\n')
         f.write("<TITLE>yoga graph: " + dic_for_this_node["english_name"] + "</TITLE>")
         f.write(
             "</head>\n<BODY>\n\n<table border=\"1\" style='table-layout:fixed;width:100%'>\n"
