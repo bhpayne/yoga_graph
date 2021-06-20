@@ -427,7 +427,7 @@ def pose_properties(DG):
     DG.nodes[27]["asanas 608 page"] = ""
     DG.nodes[27]["asanas 608 english name"] = ""
 
-    DG.add_node(28, english_name="wheel pose")
+    DG.add_node(28, english_name="wheel")
     DG.nodes[28]["two_sided"] = False
     DG.nodes[28]["description"] = ""
     DG.nodes[28]["yogajournalurl"] = ""
@@ -788,7 +788,6 @@ def pose_properties(DG):
     DG.nodes[55]["asanas 608 english name"] = ""
 
     DG.add_node(56, english_name="standing wide legs, feet parallel")
-    # TODO compare to 77
     DG.nodes[56]["two_sided"] = False
     DG.nodes[56]["description"] = ""
     DG.nodes[56]["yogajournalurl"] = ""
@@ -2049,7 +2048,7 @@ def pose_properties(DG):
     DG.nodes[154]["asanas 608 page"]=""
     DG.nodes[154]["asanas 608 english name"]=""
 
-    DG.add_node(155,english_name="seated wide angle forward bend")
+    DG.add_node(155,english_name="seated wide-leg, torso forward bend")
     DG.nodes[155]["two_sided"]=False
     DG.nodes[155]["description"]=""
     DG.nodes[155]["yogajournalurl"]=""
@@ -2832,6 +2831,7 @@ def pose_transitions(DG):
     DG.add_weighted_edges_from([(5, 4, 1)])  # 5 = dolphin; 4 = downward dog
     DG.add_weighted_edges_from([(5, 6, 1)])  # 5 = dolphin; 6 = lay on stomach
     DG.add_weighted_edges_from([(5, 85, 1)])  # 5 = dolphin; 13 = forearm plank
+    DG.add_weighted_edges_from([(5, 124, 1)])  # 5 = dolphin; 13 = forearm plank
 
     DG.add_weighted_edges_from([(6, 0, 1)])  # 6 = lay on stomach; 0 = all fours
     DG.add_weighted_edges_from([(6, 3, 1)])  # 6 = lay on stomach; 3 = child's pose
@@ -2937,11 +2937,21 @@ def pose_transitions(DG):
         [(20, 27, 1)]
     )  # 20 = stand straight (mountain); 27 = chair
     DG.add_weighted_edges_from(
+        [(20, 28, 1)]
+    )  # 20 = stand straight (mountain); 28 = wheel
+    DG.add_weighted_edges_from(
         [(20, 87, 1)]
     )  # 20 = stand straight (mountain); 87 = standing back bend
     DG.add_weighted_edges_from(
         [(20, 46, 1)]
     )  # 20 = stand straight (mountain); 46 = standing, legs apart
+    DG.add_weighted_edges_from(
+        [(20, 94, 1)]
+    )  # 20 = stand straight (mountain); 94 =
+    DG.add_weighted_edges_from(
+        [(20, 98, 1)]
+    )  # 20 = stand straight (mountain); 98 =
+
 
     DG.add_weighted_edges_from(
         [(21, 20, 1)]
@@ -2986,6 +2996,8 @@ def pose_transitions(DG):
         [(28, 20, 1)]
     )  # 28 = wheel; 20 = stand straight (mountain)
     DG.add_weighted_edges_from([(28, 31, 1)])  # 28 = wheel; 31 = corpse
+    DG.add_weighted_edges_from([(28, 100, 1)])  # 28 = wheel;
+    DG.add_weighted_edges_from([(28, 108, 1)])  # 28 = wheel;
 
     DG.add_weighted_edges_from([(29, 24, 1)])  # 29 = warrior 2; 24 = warrior 1
     DG.add_weighted_edges_from([(29, 30, 1)])  # 29 = warrior 2; 30 =
@@ -2996,12 +3008,17 @@ def pose_transitions(DG):
 
     DG.add_weighted_edges_from([(31, 8, 1)])  # 31 = corpse; 8 = one leg extended up
     DG.add_weighted_edges_from([(31, 9, 1)])  # 31 = corpse; 9 = both legs extended up
+    DG.add_weighted_edges_from([(31, 28, 1)])  # 31 = corpse; 28 = wheel
     DG.add_weighted_edges_from([(31, 32, 1)])  # 31 = corpse; 32 = happy baby
     DG.add_weighted_edges_from(
         [(31, 34, 1)]
     )  # 31 = corpse; 34 = on back, knees bent, feet in air
     DG.add_weighted_edges_from([(31, 36, 1)])  # 31 = corpse; 36 = staff
     DG.add_weighted_edges_from([(31, 45, 1)])  # 31 = corpse; 45 = squat, knees wide
+    DG.add_weighted_edges_from([(31, 97, 1)])  # 31 = corpse; 97 = boat
+    DG.add_weighted_edges_from([(31, 136, 1)])  # 31 = corpse;
+    DG.add_weighted_edges_from([(31, 137, 1)])  # 31 = corpse;
+    DG.add_weighted_edges_from([(31, 148, 1)])  # 31 = corpse;
 
     DG.add_weighted_edges_from(
         [(32, 9, 1)]
@@ -3118,6 +3135,7 @@ def pose_transitions(DG):
     DG.add_weighted_edges_from([(50, 49, 1)])  # 50 = full lotus; 49 = half lotus
     DG.add_weighted_edges_from([(50, 51, 1)])  # 50 = full lotus; 51 = embryo pose
     DG.add_weighted_edges_from([(50, 52, 1)])  # 50 = full lotus; 52 = flying lotus
+    DG.add_weighted_edges_from([(50, 122, 1)])  # 50 = full lotus;
 
     DG.add_weighted_edges_from([(51, 50, 1)])  # 51 = embryo pose; 50 = full lotus
 
@@ -3272,6 +3290,12 @@ def pose_transitions(DG):
     DG.add_weighted_edges_from(
         [(77, 79, 1)]
     )  # 77 = seated wide-leg; 79 = seated wide-leg, flying
+    DG.add_weighted_edges_from(
+        [(77, 155, 1)])
+    DG.add_weighted_edges_from(
+        [(77, 91, 1)]) # 91 = "butterfly OR cobbler"
+    DG.add_weighted_edges_from(
+        [(77, 148, 1)])
 
     DG.add_weighted_edges_from(
         [(78, 77, 1)]
@@ -3324,8 +3348,128 @@ def pose_transitions(DG):
         [(90, 86, 1)]
     )  # 90 = tripod head stand, legs straight, arms straight; 86 = tripod head stand, legs bent, arms straight
 
-    #     DG.add_weighted_edges_from([(91,,1)])   # 91 = butterfly
+    #DG.add_weighted_edges_from([(91,,1)])   # 91 = butterfly
+    DG.add_weighted_edges_from([(91,148,1)])   # 91 = butterfly
+    #DG.add_weighted_edges_from([(92,,1)])  # 92 = hurdler
+    DG.add_weighted_edges_from([(98,99,1)])  #
+    DG.add_weighted_edges_from([(99,98,1)])  #
 
-    #     DG.add_weighted_edges_from([(92,,1)])  # 92 = hurdler
+    #DG.add_weighted_edges_from([(100,,1)]) # 100 = ;
+    #DG.add_weighted_edges_from([(101,,1)]) # 101 = ;
+    #DG.add_weighted_edges_from([(102,,1)]) # 102 = ;
+    #DG.add_weighted_edges_from([(103,,1)]) # 103 = ;
+    #DG.add_weighted_edges_from([(104,,1)]) # 104 = ;
+    #DG.add_weighted_edges_from([(105,,1)]) # 105 = ;
+    #DG.add_weighted_edges_from([(106,,1)]) # 106 = ;
+    #DG.add_weighted_edges_from([(107,,1)]) # 107 = ;
+    #DG.add_weighted_edges_from([(108,,1)]) # 108 = ;
+    #DG.add_weighted_edges_from([(109,,1)]) # 109 = ;
+    #DG.add_weighted_edges_from([(110,,1)]) # 110 = ;
+    #DG.add_weighted_edges_from([(111,,1)]) # 111 = ;
+    #DG.add_weighted_edges_from([(112,,1)]) # 112 = ;
+    #DG.add_weighted_edges_from([(113,,1)]) # 113 = ;
+    #DG.add_weighted_edges_from([(114,,1)]) # 114 = ;
+    #DG.add_weighted_edges_from([(115,,1)]) # 115 = ;
+    #DG.add_weighted_edges_from([(116,,1)]) # 116 = ;
+    #DG.add_weighted_edges_from([(117,,1)]) # 117 = ;
+    #DG.add_weighted_edges_from([(118,,1)]) # 118 = ;
+    #DG.add_weighted_edges_from([(119,,1)]) # 119 = ;
+    #DG.add_weighted_edges_from([(120,,1)]) # 120 = ;
+    #DG.add_weighted_edges_from([(121,,1)]) # 121 = ;
+    #DG.add_weighted_edges_from([(122,,1)]) # 122 = ;
+    DG.add_weighted_edges_from([(122,50,1)]) # 122 = ;
+    #DG.add_weighted_edges_from([(123,,1)]) # 123 = ;
+    DG.add_weighted_edges_from([(124,5,1)]) # 124 = ;
+    DG.add_weighted_edges_from([(124,153,1)]) # 124 = ;
+    DG.add_weighted_edges_from([(124,158,1)]) # 124 = ;
+    DG.add_weighted_edges_from([(124,159,1)]) # 124 = ;
+    #DG.add_weighted_edges_from([(125,,1)]) # 125 = ;
+    #DG.add_weighted_edges_from([(126,,1)]) # 126 = ;
+    #DG.add_weighted_edges_from([(127,,1)]) # 127 = ;
+    #DG.add_weighted_edges_from([(128,,1)]) # 128 = ;
+    #DG.add_weighted_edges_from([(129,,1)]) # 129 = ;
+    #DG.add_weighted_edges_from([(130,,1)]) # 130 = ;
+    #DG.add_weighted_edges_from([(131,,1)]) # 131 = ;
+    #DG.add_weighted_edges_from([(132,,1)]) # 132 = ;
+    #DG.add_weighted_edges_from([(133,,1)]) # 133 = ;
+    #DG.add_weighted_edges_from([(134,,1)]) # 134 = ;
+    #DG.add_weighted_edges_from([(135,,1)]) # 135 = ;
+    DG.add_weighted_edges_from([(136,31,1)]) # 136 = ;
+    #DG.add_weighted_edges_from([(136,,1)]) # 136 = ;
+    #DG.add_weighted_edges_from([(137,,1)]) # 137 = ;
+    DG.add_weighted_edges_from([(137,31,1)]) # 137 = ;
+    #DG.add_weighted_edges_from([(138,,1)]) # 138 = ;
+    #DG.add_weighted_edges_from([(139,,1)]) # 139 = ;
+    #DG.add_weighted_edges_from([(140,,1)]) # 140 = ;
+    #DG.add_weighted_edges_from([(141,,1)]) # 141 = ;
+    #DG.add_weighted_edges_from([(142,,1)]) # 142 = ;
+    #DG.add_weighted_edges_from([(143,,1)]) # 143 = ;
+    #DG.add_weighted_edges_from([(144,,1)]) # 144 = ;
+    #DG.add_weighted_edges_from([(145,,1)]) # 145 = ;
+    #DG.add_weighted_edges_from([(146,,1)]) # 146 = ;
+    #DG.add_weighted_edges_from([(147,,1)]) # 147 = ;
+    DG.add_weighted_edges_from([(148,31,1)]) # 148 = ;
+    DG.add_weighted_edges_from([(148,77,1)]) # 148 = ;
+    DG.add_weighted_edges_from([(148,91,1)]) # 148 = ;
+    #DG.add_weighted_edges_from([(149,,1)]) # 149 = ;
+    #DG.add_weighted_edges_from([(150,,1)]) # 150 = ;
+    #DG.add_weighted_edges_from([(151,,1)]) # 151 = ;
+    #DG.add_weighted_edges_from([(152,,1)]) # 152 = ;
+    DG.add_weighted_edges_from([(153,124,1)]) # 153 = ;
+    DG.add_weighted_edges_from([(153,158,1)]) # 153 = ;
+    DG.add_weighted_edges_from([(153,159,1)]) # 153 = ;
+    #DG.add_weighted_edges_from([(154,,1)]) # 154 = ;
+    DG.add_weighted_edges_from([(155,77,1)])
+    #DG.add_weighted_edges_from([(155,,1)]) # 155 = ;
+    #DG.add_weighted_edges_from([(156,,1)]) # 156 = ;
+    #DG.add_weighted_edges_from([(157,,1)]) # 157 = ;
+    DG.add_weighted_edges_from([(158,124,1)]) # 158 = ;
+    DG.add_weighted_edges_from([(158,153,1)]) # 158 = ;
+    DG.add_weighted_edges_from([(158,159,1)]) # 158 = ;
+    DG.add_weighted_edges_from([(159,124,1)]) # 159 = ;
+    DG.add_weighted_edges_from([(159,153,1)]) # 159 = ;
+    DG.add_weighted_edges_from([(159,158,1)]) # 159 = ;
+    #DG.add_weighted_edges_from([(160,,1)]) # 160 = ;
+    #DG.add_weighted_edges_from([(161,,1)]) # 161 = ;
+    #DG.add_weighted_edges_from([(162,,1)]) # 162 = ;
+    #DG.add_weighted_edges_from([(163,,1)]) # 163 = ;
+    #DG.add_weighted_edges_from([(164,,1)]) # 164 = ;
+    #DG.add_weighted_edges_from([(165,,1)]) # 165 = ;
+    #DG.add_weighted_edges_from([(166,,1)]) # 166 = ;
+    #DG.add_weighted_edges_from([(167,,1)]) # 167 = ;
+    #DG.add_weighted_edges_from([(168,,1)]) # 168 = ;
+    #DG.add_weighted_edges_from([(169,,1)]) # 169 = ;
+    #DG.add_weighted_edges_from([(170,,1)]) # 170 = ;
+    #DG.add_weighted_edges_from([(171,,1)]) # 171 = ;
+    #DG.add_weighted_edges_from([(172,,1)]) # 172 = ;
+    #DG.add_weighted_edges_from([(173,,1)]) # 173 = ;
+    #DG.add_weighted_edges_from([(174,,1)]) # 174 = ;
+    #DG.add_weighted_edges_from([(175,,1)]) # 175 = ;
+    #DG.add_weighted_edges_from([(176,,1)]) # 176 = ;
+    #DG.add_weighted_edges_from([(177,,1)]) # 177 = ;
+    #DG.add_weighted_edges_from([(178,,1)]) # 178 = ;
+    #DG.add_weighted_edges_from([(179,,1)]) # 179 = ;
+    #DG.add_weighted_edges_from([(180,,1)]) # 180 = ;
+    #DG.add_weighted_edges_from([(181,,1)]) # 181 = ;
+    #DG.add_weighted_edges_from([(182,,1)]) # 182 = ;
+    #DG.add_weighted_edges_from([(183,,1)]) # 183 = ;
+    #DG.add_weighted_edges_from([(184,,1)]) # 184 = ;
+    #DG.add_weighted_edges_from([(185,,1)]) # 185 = ;
+    #DG.add_weighted_edges_from([(186,,1)]) # 186 = ;
+    #DG.add_weighted_edges_from([(187,,1)]) # 187 = ;
+    #DG.add_weighted_edges_from([(188,,1)]) # 188 = ;
+    #DG.add_weighted_edges_from([(189,,1)]) # 189 = ;
+    #DG.add_weighted_edges_from([(190,,1)]) # 190 = ;
+    #DG.add_weighted_edges_from([(191,,1)]) # 191 = ;
+    #DG.add_weighted_edges_from([(192,,1)]) # 192 = ;
+    #DG.add_weighted_edges_from([(193,,1)]) # 193 = ;
+    #DG.add_weighted_edges_from([(194,,1)]) # 194 = ;
+    #DG.add_weighted_edges_from([(195,,1)]) # 195 = ;
+    #DG.add_weighted_edges_from([(196,,1)]) # 196 = ;
+    #DG.add_weighted_edges_from([(197,,1)]) # 197 = ;
+    #DG.add_weighted_edges_from([(198,,1)]) # 198 = ;
+    #DG.add_weighted_edges_from([(199,,1)]) # 199 = ;
+    #DG.add_weighted_edges_from([(200,,1)]) # 200 = ;
+
 
     return DG

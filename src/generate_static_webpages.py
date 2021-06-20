@@ -32,11 +32,37 @@ write_to_path = "../site/generated_pages/"
 # edges associated with node 0:
 # DG[0]
 
-for this_indx in range(len(DG)):
+def yoga_journal(dictionary, image_width, small_font_size):
+    str_to_write = ""
+    if dictionary["yogajournal_picture"] != "":
+        str_to_write+='\t<a href="' + dictionary["yogajournalurl"] + '">\n'
+        str_to_write+='\t<img src="'        + dictionary["yogajournal_picture"]        + '" width="'        + image_width    + '"></a><BR>\n'
+        str_to_write += '\t<font size="'+ small_font_size            + '">source:  <a href="'            + dictionary["yogajournalurl"]            + '">Yoga Journal</a></font><BR>\n'
+    return str_to_write
 
-    dic_for_this_node = DG.nodes(data=True)[this_indx]
-    print("index: " + str(this_indx) + "; " + dic_for_this_node["english_name"])
-    with open(write_to_path + str(this_indx) + ".html", "w") as f:
+def dharma_mittra(dictionary, image_width, small_font_size):
+    str_to_write = ""
+    if dictionary["Dharma Mittra picture URL"] != "":
+        str_to_write += '\t<BR>\n\t<img src="'+ dictionary["Dharma Mittra picture URL"]+ '" width="'+ image_width+ '"><BR>\n'
+        str_to_write += '\t<font size="'+ small_font_size            + '">source:  <a href="http://www.dharmayogacenter.com/resources/yoga-poses/view-all-yoga-poses-by-category/">dharmayogacenter.com</a></font><BR>\n'
+    return str_to_write
+
+def local_images(pose_index_int: int, image_width):
+    str_to_write = ""
+    list_all_images = []
+    list_all_images += glob.glob("../site/pose_pictures/*.jpg")
+    list_all_images += glob.glob("../site/pose_pictures/*.png")
+    for img in list_all_images:
+        filename = img.split("/")[-1]
+        if filename.startswith(str(pose_index_int)+"__"):
+            str_to_write += "<img src=\""+img.replace("/site","")+"\" width=\""+image_width+"\"><BR/>\n"
+    return str_to_write
+
+for pose_index_int in range(len(DG)):
+
+    dic_for_this_node = DG.nodes(data=True)[pose_index_int]
+    print("index: " + str(pose_index_int) + "; " + dic_for_this_node["english_name"])
+    with open(write_to_path + str(pose_index_int) + ".html", "w") as f:
         f.write("<HTML>\n<HEAD>\n")
         f.write('<!-- defines the default zoom for mobile devices -->\n')
         f.write('<meta name="viewport" content="width=device-width, initial-scale=1" />\n')
@@ -55,15 +81,15 @@ for this_indx in range(len(DG)):
         )
         f.write("\t<TD>Adjacent poses: \n")
 
-        list_of_edges_for_this_node = list(DG[this_indx].keys())
+        list_of_edges_for_this_node = list(DG[pose_index_int].keys())
         list_of_edges_for_this_node.sort() # same order each time
 
         # text list in upper right quadrant
-        for neighbor_indx in list_of_edges_for_this_node:
-            dic_for_adjacent_node = DG.nodes(data=True)[neighbor_indx]
+        for adjacent_pose_indx in list_of_edges_for_this_node:
+            dic_for_adjacent_node = DG.nodes(data=True)[adjacent_pose_indx]
             f.write(
                 '<a href="'
-                + str(neighbor_indx)
+                + str(adjacent_pose_indx)
                 + '.html">'
                 + dic_for_adjacent_node["english_name"]
                 + "</a> | \n"
@@ -90,45 +116,15 @@ for this_indx in range(len(DG)):
                 f.write("\t<a href=\""+dic_for_this_node["wikipedia"]+"\">"+
                         dic_for_this_node["wikipedia"]+"</a><BR/>\n")
 
-        list_all_images = []
-        list_all_images += glob.glob("../site/pose_pictures/*.jpg")
-        list_all_images += glob.glob("../site/pose_pictures/*.png")
-        for img in list_all_images:
-            filename = img.split("/")[-1]
-            if filename.startswith(str(this_indx)+"__"):
-                f.write("<img src=\""+img.replace("/site","")+"\" width=\""+image_width+"\"><BR/>\n")
+        str_to_write = local_images(pose_index_int, image_width)
+        f.write(str_to_write)
 
-        if dic_for_this_node["yogajournal_picture"] != "":
-            f.write('\t<a href="' + dic_for_this_node["yogajournalurl"] + '">\n')
-            f.write(
-                '\t<img src="'
-                + dic_for_this_node["yogajournal_picture"]
-                + '" width="'
-                + image_width
-                + '"></a><BR>\n'
-            )
-            # f.write("\timage source: <a href=\""+dic_for_this_node['yogajournal_picture']+"\">"+dic_for_this_node['yogajournal_picture']+"</a><BR>\n")
-            f.write(
-                '\t<font size="'
-                + small_font_size
-                + '">source:  <a href="'
-                + dic_for_this_node["yogajournalurl"]
-                + '">Yoga Journal</a></font><BR>\n'
-            )
-        if dic_for_this_node["Dharma Mittra picture URL"] != "":
-            f.write(
-                '\t<BR>\n\t<img src="'
-                + dic_for_this_node["Dharma Mittra picture URL"]
-                + '" width="'
-                + image_width
-                + '"><BR>\n'
-            )
-            # f.write("\timage source: <a href=\""+dic_for_this_node['Dharma Mittra picture URL']+"\">"+dic_for_this_node['Dharma Mittra picture URL']+"</a><BR>\n")
-            f.write(
-                '\t<font size="'
-                + small_font_size
-                + '">source:  <a href="http://www.dharmayogacenter.com/resources/yoga-poses/view-all-yoga-poses-by-category/">dharmayogacenter.com</a></font><BR>\n'
-            )
+        str_to_write = yoga_journal(dic_for_this_node, image_width, small_font_size)
+        f.write(str_to_write)
+
+        str_to_write = dharma_mittra(dic_for_this_node, image_width, small_font_size)
+        f.write(str_to_write)
+
         f.write("\n\t</TD>\n\t<TD>\n")
 
         if "asanas 608 page" in dic_for_this_node.keys():
@@ -136,50 +132,28 @@ for this_indx in range(len(DG)):
                 f.write("page "+dic_for_this_node["asanas 608 page"]+" in 608 Asanas<BR/>\n")
 
         # lower right quadrant
-        for neighbor_indx in list_of_edges_for_this_node:
-            dic_for_adjacent_node = DG.nodes(data=True)[neighbor_indx]
+        for adjacent_pose_indx in list_of_edges_for_this_node:
+            dic_for_adjacent_node = DG.nodes(data=True)[adjacent_pose_indx]
             f.write("\t<P>\n")
             f.write(
                 '\t<font size="'
                 + large_font_size
                 + '"><a href="'
-                + str(neighbor_indx)
+                + str(adjacent_pose_indx)
                 + '.html">'
                 + dic_for_adjacent_node["english_name"]
                 + "</a></font><BR>\n"
             )
-            if dic_for_adjacent_node["yogajournal_picture"] != "":
-                f.write('\t<a href="' + str(neighbor_indx) + '.html">\n')
-                f.write(
-                    '\t<img src="'
-                    + dic_for_adjacent_node["yogajournal_picture"]
-                    + '" width="'
-                    + image_width
-                    + '"></a><BR>\n'
-                )
-                # f.write("\timage source: <a href=\""+dic_for_adjacent_node['yogajournal_picture']+"\">"+dic_for_adjacent_node['yogajournal_picture']+"</a><BR>\n")
-                f.write(
-                    '\t<font size="'
-                    + small_font_size
-                    + '">source:  <a href="'
-                    + dic_for_adjacent_node["yogajournalurl"]
-                    + '">Yoga Journal</a></font><BR>\n'
-                )
-            if dic_for_adjacent_node["Dharma Mittra picture URL"] != "":
-                f.write('\t<a href="' + str(neighbor_indx) + '.html">\n')
-                f.write(
-                    '\t<BR>\n\t<img src="'
-                    + dic_for_adjacent_node["Dharma Mittra picture URL"]
-                    + '" width="'
-                    + image_width
-                    + '"></a><BR>\n'
-                )
-                # f.write("\timage source: <a href=\""+dic_for_adjacent_node['Dharma Mittra picture URL']+"\">"+dic_for_adjacent_node['Dharma Mittra picture URL']+"</a><BR>\n")
-                f.write(
-                    '\t<font size="'
-                    + small_font_size
-                    + '">source:  <a href="http://www.dharmayogacenter.com/resources/yoga-poses/view-all-yoga-poses-by-category/">dharmayogacenter.com</a></font><BR>\n'
-                )
+
+            local_images(adjacent_pose_indx, image_width)
+            f.write(str_to_write)
+
+            str_to_write = yoga_journal(dic_for_adjacent_node, image_width, small_font_size)
+            f.write(str_to_write)
+
+            str_to_write = dharma_mittra(dic_for_this_node, image_width, small_font_size)
+            f.write(str_to_write)
+
             f.write("\t</P>\n\t<HR>\n")
 
         f.write("\t</TD>\n</TR>\n</table>\n")
