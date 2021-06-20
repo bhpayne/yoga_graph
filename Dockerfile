@@ -10,9 +10,11 @@ CMD ["/sbin/my_init"]
 RUN apt update && apt -y upgrade && apt -y install \
     graphviz \
     python3-dev \
-    python3-pip
+    python3-pip \
+    libgraphviz-dev \
+    graphviz-dev
 
-RUN pip3 install black networkx matplotlib pyyaml
+RUN pip3 install black networkx matplotlib pyyaml pygraphviz
 # pip3 freeze reports
 # black==21.6b0
 # networkx==2.5.1

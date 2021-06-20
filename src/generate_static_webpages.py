@@ -79,7 +79,7 @@ for this_indx in range(len(DG)):
         for img in list_all_images:
             filename = img.split("/")[-1]
             if filename.startswith(str(this_indx)+"__"):
-                f.write("<img src=\""+img.replace("/site","")+"\" width=\""+image_width+"\"><BR/>\n")
+                f.write("<img src=\""+img.replace("/site","")+"\" width=\""+image_width*2+"\"><BR/>\n")
 
         if dic_for_this_node["yogajournal_picture"] != "":
             f.write('\t<a href="' + dic_for_this_node["yogajournalurl"] + '">\n')
