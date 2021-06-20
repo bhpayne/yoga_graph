@@ -83,12 +83,12 @@ for this_indx in range(len(DG)):
             if dic_for_this_node["two_sided"]:
                 f.write("Two sided\n")
             else:
-                f.write("left-right symmetric\n")
+                f.write("left-right symmetric<BR/>\n")
 
         if "wikipedia" in dic_for_this_node.keys():
             if dic_for_this_node["wikipedia"] != "":
                 f.write("\t<a href=\""+dic_for_this_node["wikipedia"]+"\">"+
-                        dic_for_this_node["wikipedia"]+"</a>\n")
+                        dic_for_this_node["wikipedia"]+"</a><BR/>\n")
 
         list_all_images = []
         list_all_images += glob.glob("../site/pose_pictures/*.jpg")
